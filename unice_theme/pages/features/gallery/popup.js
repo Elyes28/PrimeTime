@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react';
+import React, { Fragment, useEffect, useState } from 'react';
 import { Button, Modal, ModalHeader, ModalBody, TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap';
 import {Container,Row,Col,Form,FormGroup,Label,Input} from 'reactstrap'
 import axios from 'axios';
@@ -33,12 +33,44 @@ const Popup = () => {
 
     const handleSubmit = (e)=>{
         console.log("testing");    
-        e.preventDefault();
-        forgetpass(log);    
+       // e.preventDefault();
+ console.log(sign_forget)
+       // forgetpass(log);    
     }
-
-
     
+    const [user, setUser] = useState({ email: '', password: '', token:''});
+    const [signinerr,SetSigninerr]=useState({status:'',message:''});
+     
+    const signin =()=> {
+        console.log("implement sign in here")
+     
+      
+
+        axios.post("http://localhost:5000/user/signin",{email:log,password:postData.password}).then( res => {
+            setUser({...user,email:res.data.result.email,password:res.data.result.password,token:res.data.token});
+            SetSigninerr({...signinerr,status:error.response.data.message,message:error.response.data.message})
+        })
+        .catch(function (error) {
+            console.log(error.response.data);
+            SetSigninerr({...signinerr,status:error.response.status,message:error.response.data.message})
+            console.log(signinerr)
+        })
+            
+        
+        
+        
+        
+    }
+    useEffect(() => {
+        
+        localStorage.setItem('user',JSON.stringify(user))
+        const current_user= JSON.parse(localStorage.getItem('user'))
+        console.log(current_user.email);
+      }, [user]);
+
+
+    const [sign_forget, setSignOrForget] = useState("");
+
     //
 
     return (
@@ -79,7 +111,7 @@ const Popup = () => {
                             <TabPane tabId="1" aria-labelledby="pills-home-tab" className=""
                                 role="tabpanel">
                                 {/* <!-- login-form --> */}
-                                <Form onSubmit={handleSubmit}>
+                                
                                     <div className="form-row">
                                         <FormGroup className="col-md-12">
                                             <Label for="inputEmail">Email</Label>
@@ -91,11 +123,13 @@ const Popup = () => {
                                             <Input className="form-control" id="inputPassword05" placeholder="Password"
                                                 type="password" value={postData.password} onChange={(e)=>setPostData({...postData,password: e.target.value})} />
                                         </FormGroup>
+                                        <Label style={{color : 'red'}} for="inputEmail"  >{signinerr.message}</Label>
+
                                     </div>
-                                    <button className="btn primary-btn btn-default text-uppercase" >Login</button>
-                                    <button className="btn primary-btn btn-default text-uppercase" type='submit' >Forget password</button>
+                                    <button className="btn primary-btn btn-default text-uppercase"  onClick={()=>signin()} >Login</button>
+                                    <button className="btn primary-btn btn-default text-uppercase" type='submit'  >Forget password</button>
                                     
-                                </Form>
+                               
                                 {/* <!-- end login form --> */}
                             </TabPane>
                             <TabPane tabId="2" aria-labelledby="pills-profile-tab" className="" 
