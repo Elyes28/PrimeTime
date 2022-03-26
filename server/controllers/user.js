@@ -3,6 +3,7 @@ import jwt from "jsonwebtoken";
 import nodemailer from "nodemailer";
 import user from "../models/user.js";
 import  logger  from "./../helpers/logger.js"
+
 import UserModal from "../models/user.js";
 
 const secret = process.env.secret;
@@ -21,11 +22,11 @@ export const signin = async (req, res) => {
 
     if (!isPasswordCorrect)
       return res.status(400).json({ message: "Invalid credentials" });
-    
-    const token = jwt.sign({ email: oldUser.email, id: oldUser._id }, process.env.secret, {
+
+    const token = jwt.sign({ email: oldUser.email, id: oldUser._id }, secret, {
       expiresIn: "1h",
     });
-    
+
     res.status(200).json({ result: oldUser, token });
   } catch (err) {
     res.status(500).json({ message: "Something went wrong" });
@@ -46,8 +47,7 @@ export const signup = async (req, res) => {
     const result = await UserModal.create({
       email,
       password: hashedPassword,
-      firstname: `${firstName}`,
-      lastname:`${lastName}`,
+      name: `${firstName} ${lastName}`,
     });
 
     const token = jwt.sign({ email: result.email, id: result._id }, secret, {
@@ -56,7 +56,7 @@ export const signup = async (req, res) => {
 
     res.status(201).json({ result, token });
   } catch (error) {
-    res.status(500).json({ message: error });
+    res.status(500).json({ message: "Something went wrong" });
 
     console.log(error);
   }
