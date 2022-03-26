@@ -39,12 +39,34 @@ const Popup = () => {
     }
     
     const [user, setUser] = useState({ email: '', password: '', token:''});
+    const [newUser, setNewUser] = useState({ email: '', password: '',ConfirmPass:'', name:'', lastName:''});
     const [signinerr,SetSigninerr]=useState({status:'',message:''});
+    const [badPass,setError]=useState({message:''});
      
+    const signup =(e)=> {
+        e.preventDefault();
+        console.log("implement sign up here")
+     
+   
+if(newUser.password == newUser.ConfirmPass)
+        axios.post("http://localhost:5000/user/signup",{email:newUser.email,
+        password:newUser.password,name:newUser.name,lastName:newUser.lastName}).then( res => {
+            setError({...badPass,message:"aaa"})
+
+        })
+        .catch(function (error) {
+            console.log(error.response.data);
+           
+        })
+        else
+        setError({...badPass,message:"Password confirmation doesnt match !"})
+
+ 
+    }
+
+
     const signin =()=> {
         console.log("implement sign in here")
-     
-      
 
         axios.post("http://localhost:5000/user/signin",{email:log,password:postData.password}).then( res => {
             setUser({...user,email:res.data.result.email,password:res.data.result.password,token:res.data.token});
@@ -55,11 +77,7 @@ const Popup = () => {
             SetSigninerr({...signinerr,status:error.response.status,message:error.response.data.message})
             console.log(signinerr)
         })
-            
-        
-        
-        
-        
+   
     }
     useEffect(() => {
         
@@ -139,16 +157,17 @@ const Popup = () => {
                                     <div className="form-row">
                                         <FormGroup className="col-md-12">
                                             <Label for="inputEmail05">Email</Label>
-                                            <Input className="form-control" id="inputEmail05" placeholder="Email" type="email" />
+                                            <Input className="form-control" id="inputEmail05" placeholder="Email" type="email" value={newUser.email} onChange={(e)=>setNewUser({...newUser,email: e.target.value})}/>
                                         </FormGroup>
                                         <FormGroup className="col-md-6">
                                             <Label for="inputPassword04">Password</Label>
-                                            <Input className="form-control" id="inputPassword04" placeholder="Password"
+                                            <Input className="form-control" id="inputPassword04" placeholder="Password" value={newUser.password} onChange={(e)=>setNewUser({...newUser,password: e.target.value})}
                                                 type="password" />
                                         </FormGroup>
                                         <FormGroup className="col-md-6">
                                             <Label for="inputPassword4">Confirm Password</Label>
-                                            <Input className="form-control" id="inputPassword4" placeholder="Password"
+                                            <Label style={{color : 'red'}} for="errorMessage" >{badPass.message}</Label>
+                                            <Input className="form-control" id="inputPasswordConfirmation" placeholder="Password" value={newUser.ConfirmPass} onChange={(e)=>setNewUser({...newUser,ConfirmPass: e.target.value})}
                                                 type="password" />
                                         </FormGroup>
                                     </div>
@@ -156,9 +175,15 @@ const Popup = () => {
                                         <Label for="inputAddress">Address</Label>
                                         <Input className="form-control" id="inputAddress" placeholder="1234 Main St"
                                             type="text" />
+                                            <Label for="inputAddress">Name</Label>
+                                        <Input className="form-control" id="inputNAme" placeholder="John" value={newUser.name} onChange={(e)=>setNewUser({...newUser,name: e.target.value})}
+                                            type="text" />
+                                            <Label for="inputAddress">Last name</Label>
+                                        <Input className="form-control" id="inputLastName" placeholder="Doe" value={newUser.lastName} onChange={(e)=>setNewUser({...newUser,lastName: e.target.value})}
+                                            type="text" />
                                     </FormGroup>
 
-                                    <button className="btn btn-default primary-btn text-uppercase">Sign Up</button>
+                                    <button className="btn btn-default primary-btn text-uppercase" onClick={(e)=>signup(e)} >Sign Up</button>
                                 </Form>
                                 {/* <!-- end sign up form --> */}
                             </TabPane>
