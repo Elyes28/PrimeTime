@@ -13,6 +13,7 @@ const Banner = () => {
             document.querySelector('.side-section').classList.remove('d-block')
         }
     }
+    
 
     return (
         <section className="music header" id="header">
@@ -21,7 +22,7 @@ const Banner = () => {
                     <Tilt perspective="20000" transitionSpeed="3000">
                         <div className="text-center w-100">
                             <div className="img-height">
-                                <img alt="" className="img-fluid" src="/assets/images/music/man.png" />
+                                <img alt="" className="img-fluid" src="/assets/images/music/microSm.png" />
                             </div>
                         </div>
                     </Tilt>

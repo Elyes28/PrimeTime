@@ -47,7 +47,9 @@ export const signup = async (req, res) => {
     const result = await UserModal.create({
       email,
       password: hashedPassword,
-      name: `${firstName} ${lastName}`,
+      firstname: `${firstName}`,
+      lastname : `${lastName}`,
+
     });
 
     const token = jwt.sign({ email: result.email, id: result._id }, secret, {

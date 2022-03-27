@@ -30,18 +30,12 @@ const Popup = () => {
     }
   )
 
-
-    const handleSubmit = (e)=>{
-        console.log("testing");    
-       // e.preventDefault();
- console.log(sign_forget)
-       // forgetpass(log);    
-    }
     
     const [user, setUser] = useState({ email: '', password: '', token:''});
-    const [newUser, setNewUser] = useState({ email: '', password: '',ConfirmPass:'', name:'', lastName:''});
+    const [newUser, setNewUser] = useState({ email: '', password: '',ConfirmPass:'', firstname:'', lastName:''});
     const [signinerr,SetSigninerr]=useState({status:'',message:''});
     const [badPass,setError]=useState({message:''});
+    const [sign_forget, setSignOrForget] = useState("");
      
     const signup =(e)=> {
         e.preventDefault();
@@ -50,7 +44,7 @@ const Popup = () => {
    
 if(newUser.password == newUser.ConfirmPass)
         axios.post("http://localhost:5000/user/signup",{email:newUser.email,
-        password:newUser.password,name:newUser.name,lastName:newUser.lastName}).then( res => {
+        password:newUser.password,firstName:newUser.firstName,lastName:newUser.lastName}).then( res => {
             setError({...badPass,message:"aaa"})
 
         })
@@ -87,7 +81,7 @@ if(newUser.password == newUser.ConfirmPass)
       }, [user]);
 
 
-    const [sign_forget, setSignOrForget] = useState("");
+    
 
     //
 
@@ -101,6 +95,7 @@ if(newUser.password == newUser.ConfirmPass)
                             <div className="text-center">
                                 
                                 <Button className="popup-with-form btn btn-default primary-btn" onClick={() => { toggle(); }} >Login</Button>
+                                
                             </div>
                         </Col>
                     </Row>
@@ -134,7 +129,7 @@ if(newUser.password == newUser.ConfirmPass)
                                         <FormGroup className="col-md-12">
                                             <Label for="inputEmail">Email</Label>
                                             <Input className="form-control" id="inputEmail" placeholder="Email" type="email" value={postData.email} onChange={(e)=>setPostData({...postData,email: e.target.value})} />
-                                            <Label style={{color : 'red'}} for="inputEmail" >Email does not exist !</Label>
+                                            
                                         </FormGroup>
                                         <FormGroup className="col-md-12">
                                             <Label for="inputPassword05">Password</Label>
@@ -166,9 +161,10 @@ if(newUser.password == newUser.ConfirmPass)
                                         </FormGroup>
                                         <FormGroup className="col-md-6">
                                             <Label for="inputPassword4">Confirm Password</Label>
-                                            <Label style={{color : 'red'}} for="errorMessage" >{badPass.message}</Label>
+                                            
                                             <Input className="form-control" id="inputPasswordConfirmation" placeholder="Password" value={newUser.ConfirmPass} onChange={(e)=>setNewUser({...newUser,ConfirmPass: e.target.value})}
                                                 type="password" />
+                                                <Label style={{color : 'red'}} for="errorMessage" >{badPass.message}</Label>
                                         </FormGroup>
                                     </div>
                                     <FormGroup>
@@ -176,7 +172,7 @@ if(newUser.password == newUser.ConfirmPass)
                                         <Input className="form-control" id="inputAddress" placeholder="1234 Main St"
                                             type="text" />
                                             <Label for="inputAddress">Name</Label>
-                                        <Input className="form-control" id="inputNAme" placeholder="John" value={newUser.name} onChange={(e)=>setNewUser({...newUser,name: e.target.value})}
+                                        <Input className="form-control" id="inputNAme" placeholder="John" value={newUser.firstName} onChange={(e)=>setNewUser({...newUser,firstName: e.target.value})}
                                             type="text" />
                                             <Label for="inputAddress">Last name</Label>
                                         <Input className="form-control" id="inputLastName" placeholder="Doe" value={newUser.lastName} onChange={(e)=>setNewUser({...newUser,lastName: e.target.value})}
