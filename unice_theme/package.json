@@ -7,6 +7,8 @@
     "prod:build": "next build"
   },
   "dependencies": {
+    "@videosdk.live/react-sdk": "^0.1.21",
+    "@videosdk.live/rtc-js-prebuilt": "^0.3.1",
     "@zeit/next-sass": "^1.0.1",
     "aos": "^2.3.4",
     "axios": "^0.26.1",

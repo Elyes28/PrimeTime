@@ -20,11 +20,13 @@ const Popup = () => {
 
      const log= postData.email;
 
-     const forgetpass = (log) => axios.post(url,{email:log}).then(res => {
+     const forgetpass = () => axios.post(url,{email:postData.email}).then(res => {
+        console.log(log);
     console.log(res);
     console.log(res.data);
   }).catch(
     function (error) {
+        console.log(postData.email);
       console.log('Show error notification!')
       return Promise.reject(error)
     }
@@ -43,6 +45,7 @@ const Popup = () => {
      
    
 if(newUser.password == newUser.ConfirmPass)
+
         axios.post("http://localhost:5000/user/signup",{email:newUser.email,
         password:newUser.password,firstName:newUser.firstName,lastName:newUser.lastName}).then( res => {
             setError({...badPass,message:"aaa"})
@@ -61,25 +64,26 @@ if(newUser.password == newUser.ConfirmPass)
 
     const signin =()=> {
         console.log("implement sign in here")
+        
+
 
         axios.post("http://localhost:5000/user/signin",{email:log,password:postData.password}).then( res => {
             setUser({...user,email:res.data.result.email,password:res.data.result.password,token:res.data.token});
+            const current_user={email:'aa',
+                                token:res.data.token}
+                        console.log(res.data.token)        
+                               // current_user.bro=res.data.result.token;
+                             
+                                localStorage.setItem('user',JSON.stringify(current_user))
             SetSigninerr({...signinerr,status:error.response.data.message,message:error.response.data.message})
         })
         .catch(function (error) {
-            console.log(error.response.data);
-            SetSigninerr({...signinerr,status:error.response.status,message:error.response.data.message})
-            console.log(signinerr)
+           // console.log(error.response.data);
+            //SetSigninerr({...signinerr,status:error.response.status,message:error.response.data.message})
+           // console.log(signinerr)
         })
-   
     }
-    useEffect(() => {
-        
-        localStorage.setItem('user',JSON.stringify(user))
-        const current_user= JSON.parse(localStorage.getItem('user'))
-        console.log(current_user.email);
-      }, [user]);
-
+ 
 
     
 
@@ -140,7 +144,7 @@ if(newUser.password == newUser.ConfirmPass)
 
                                     </div>
                                     <button className="btn primary-btn btn-default text-uppercase"  onClick={()=>signin()} >Login</button>
-                                    <button className="btn primary-btn btn-default text-uppercase" type='submit'  >Forget password</button>
+                                    <button className="btn primary-btn btn-default text-uppercase" type='submit' onClick={()=>forgetpass()} >Forget password</button>
                                     
                                
                                 {/* <!-- end login form --> */}

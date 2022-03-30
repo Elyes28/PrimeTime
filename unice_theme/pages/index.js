@@ -14,6 +14,8 @@ import TestimonialSection from '../landing/testimonial'
 import RatSection from '../landing/rat'
 import FooterSection from '../landing/footer'
 
+
+
 const Home = () => {
   
   useEffect(() => {
@@ -21,17 +23,22 @@ const Home = () => {
     document.body.style.setProperty('--secondary', '#464545')
     document.body.style.setProperty('--light', '#1F357D')
     document.body.style.setProperty('--dark', '#04185B')
+    document.getElementById("showskill").src =
+    "http://localhost:3001/react-rtc-demo?id="+localStorage.getItem("email");
   })
+  const aa="aa";
 
   return (
     <Fragment>
       <div className="landing-page">
       <Head>
+
         <title>Unice</title>
       </Head>
 
       <Header />
-
+      <iframe id='showskill' height="200" width="300" title="Iframe Example"></iframe>
+      
       <GiftSection />
 
       <DemoSection />
