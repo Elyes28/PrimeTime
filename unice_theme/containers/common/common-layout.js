@@ -17,7 +17,7 @@ const CommonLayout = ({ children, pathList, pathTitle }) => {
             <Header className="dark agency" />
 
             <Breadcrumb list={pathList} title={pathTitle} />
-
+            
             <>{children}</>
 
             <Footer />
