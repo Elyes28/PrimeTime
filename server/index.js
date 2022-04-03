@@ -9,6 +9,8 @@ dotenv.config();
 import  logger  from "./helpers/logger.js"
 import postRoutes from './routes/posts.js';
 import userRouter from "./routes/user.js";
+import router from './routes/stream.js';
+
 const app = express();
 app.use(morgan('combined', {
   skip: function (req, res) { return res.statusCode < 400 },
@@ -19,6 +21,7 @@ app.use(bodyParser.json({ limit: '30mb', extended: true }))
 app.use(bodyParser.urlencoded({ limit: '30mb', extended: true }))
 app.use(cors());
 
+app.use('/stream',router);
 app.use('/posts', postRoutes);
 app.use("/user", userRouter);
 const CONNECTION_URL = process.env.CONNECTION_URL;
