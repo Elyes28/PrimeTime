@@ -24,9 +24,11 @@ const Home = () => {
     document.body.style.setProperty('--light', '#1F357D')
     document.body.style.setProperty('--dark', '#04185B')
     document.getElementById("showskill").src =
-    "http://localhost:3001/react-rtc-demo?id="+localStorage.getItem("email");
-  })
-  const aa="aa";
+    "http://localhost:3001/react-rtc-demo?streamerName="+JSON.parse(localStorage.getItem('user')).firstName+" "+
+    JSON.parse(localStorage.getItem('user')).lastName;
+    
+  }
+ )
 
   return (
     <Fragment>

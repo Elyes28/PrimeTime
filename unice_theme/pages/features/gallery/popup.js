@@ -69,9 +69,11 @@ if(newUser.password == newUser.ConfirmPass)
 
         axios.post("http://localhost:5000/user/signin",{email:log,password:postData.password}).then( res => {
             setUser({...user,email:res.data.result.email,password:res.data.result.password,token:res.data.token});
-            const current_user={email:'aa',
-                                token:res.data.token}
-                        console.log(res.data.token)        
+            const current_user={email:res.data.result.email,
+                                token:res.data.token,
+                                firstName:res.data.result.firstname,
+                                lastName:res.data.result.lastname}
+                       // console.log(res.data)        
                                // current_user.bro=res.data.result.token;
                              
                                 localStorage.setItem('user',JSON.stringify(current_user))
