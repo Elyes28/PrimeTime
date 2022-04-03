@@ -61,7 +61,7 @@ const StreamCard = ({ className, title, subTitle, fluid }) => {
         const response = await a
     }
 
-    const getStreams = () =>
+    const getStreams = async() =>
     axios.get("http://localhost:5000/stream/allStreams")
             .then(res => {
                 setStreams(res.data);
@@ -69,13 +69,14 @@ const StreamCard = ({ className, title, subTitle, fluid }) => {
              }) .catch(function (error) {
                 console.log(error.response.data);              
             })        
-          
+            
+            
             useEffect(() => {
                 getStreams();
-                console.log(streams);
-              },[streams]);
+                
+              },[]);
    
-           
+              console.log(streams);
 
              
 
@@ -121,7 +122,7 @@ return (
             <div className={fluid || 'container'}>
                 <TabContent className="isotopeContainer row" activeTab={activeTab}>
                     <TabPane tabId="1">
-                        {AllImgData.map((imgItem, i) => {
+                        {streams.map((stream, i) => {
                             return (
                                 <div className={className} key={i}>
                                     <div className="overlay">
@@ -134,7 +135,7 @@ return (
                                                     <i aria-hidden="true" className="fa fa-plus"></i>
                                                 </div>
                                                 <img alt="" className="img-fluid blur-up lazyload"
-                                                    src={imgItem.img} />
+                                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/640px-Image_created_with_a_mobile_phone.png" />
                                                 {photoIndex.isOpen && (
                                                     <Lightbox
                                                         mainSrc={AllImg[photoIndex.index]}
@@ -154,7 +155,7 @@ return (
                                     {title &&
                                         <div className="portfolio-text">
                                             <h3 className="head-text">
-                                                {title}
+                                                {stream["streamerName"]}
                                             </h3>
                                             <h6 className="head-sub-text">
                                                 {subTitle}
