@@ -47,36 +47,17 @@ const AllImg = [
     require('../../public/assets/images/portfolio/12.png'),
 ]
 
-const StreamCard = ({ className, title, subTitle, fluid }) => {
+const StreamCard = ({ className, title, subTitle, fluid ,streams }) => {
     
     const initilindex = { index: 0 }
-
+    
+   // const currentStreams=streams.slice(indexOfFirstStream,indexOfLastStream);
 
     const [photoIndex, setPhotoIndex] = useState(initilindex)
 
     const [activeTab, setActiveTab] = useState('1');
-    const [streams, setStreams] = useState([]);
-  
-    const allStreams = async()=>{
-        const response = await a
-    }
-
-    const getStreams = async() =>
-    axios.get("http://localhost:5000/stream/allStreams")
-            .then(res => {
-                setStreams(res.data);
-             
-             }) .catch(function (error) {
-                console.log(error.response.data);              
-            })        
-            
-            
-            useEffect(() => {
-                getStreams();
-                
-              },[]);
    
-              console.log(streams);
+            
 
              
 
@@ -172,19 +153,7 @@ return (
                 </TabContent>
             </div>
 
-            {/* <!-- pagination Start --> */}
-            <div className="pagination_sec">
-                <div className="content_detail__pagination cdp">
-                    <ul>
-                        <li><a className="prev" href="#"><i aria-hidden="true" className="fa fa-angle-double-left"></i></a></li>
-                        <li><a className="active cdp_i" href="#">1</a></li>
-                        <li><a className="cdp_i" href="#">2</a></li>
-                        <li><a className="cdp_i" href="#">3</a></li>
-                        <li><a className="next" href="#"><i aria-hidden="true" className="fa fa-angle-double-right"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            {/* <!-- pagination End --> */}
+           
         </section>
     </Fragment>
 );
