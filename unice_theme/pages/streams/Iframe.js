@@ -22,7 +22,7 @@ const JoinScreen = ({ className, title, subTitle, fluid }) => {
 
 return (
     
-    <iframe id='showskill' height="720" width="1400" title="Iframe Example"></iframe>
+    <iframe id='showskill' height="720" width="1400" title="Iframe Example" allow="camera; microphone;display-capture;autoplay; clipboard-write;"></iframe>
       
 );
 
