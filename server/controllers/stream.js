@@ -16,6 +16,19 @@ export const createStream = async (req, res) => {
         res.status(409).json({ message: error.message });
     }
 }
+export const getStreamById = async (req, res) => { 
+        
+    
+    try {
+        logger.info("tesst");
+        const post = await stream.findById(req.params.id);
+        
+        res.status(200).json(post);
+    } catch (error) {
+        logger.error("errr");
+        res.status(404).json({ message: error.message });
+    }
+}
 
     export const getStreams = async (req, res) => { 
         
@@ -30,3 +43,5 @@ export const createStream = async (req, res) => {
             res.status(404).json({ message: error.message });
         }
     }
+
+    

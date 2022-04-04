@@ -111,7 +111,8 @@ if(newUser.password == newUser.ConfirmPass)
 
             {/* // <!-- Login-modal section start --> */}
             <Modal isOpen={modal} toggle={toggle}>
-                <ModalHeader toggle={toggle} className="modal-no-header close-right"></ModalHeader>
+                <a onClick={toggle} className="modal-no-header mt-3" style={{ width:"50px", left:"95%",fontSize:"1rem"}}>X</a>
+                
                 <ModalBody>
                     <div className="modal-body login-modal">
                         <Nav tabs className="nav nav-pills mb-5">

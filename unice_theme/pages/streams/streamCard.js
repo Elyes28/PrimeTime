@@ -58,7 +58,9 @@ const StreamCard = ({ className, title, subTitle, fluid ,streams }) => {
     const [activeTab, setActiveTab] = useState('1');
    
             
-
+const getUrl=(id) => {
+    return ("/streams/channel?id="+id)
+}
              
 
 return (
@@ -105,6 +107,7 @@ return (
                     <TabPane tabId="1">
                         {streams.map((stream, i) => {
                             return (
+                                <a href={getUrl(stream["_id"])}>
                                 <div className={className} key={i}>
                                     <div className="overlay">
                                         <div className="border-portfolio">
@@ -143,6 +146,7 @@ return (
                                             </h6>
                                         </div>}
                                 </div>
+                                </a>
                             )
                         })}
                     </TabPane>
