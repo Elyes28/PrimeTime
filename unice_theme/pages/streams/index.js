@@ -2,7 +2,7 @@ import React , { useEffect,useState }  from 'react';
 import Layout from '../../containers/common/common-layout'
 import StreamCard from './streamCard';
 import axios from 'axios';
-import Pagination from './pagination';
+import Pagination from '../../utils/Pagination';
 
 
 const PortfolioTitle4Col = () => {
