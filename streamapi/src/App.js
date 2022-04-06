@@ -10,7 +10,6 @@ import { getToken } from "./api";
 import { confirmAlert } from "react-confirm-alert"; // Import
 import "react-confirm-alert/src/react-confirm-alert.css"; // Import css
 import { JoiningScreen } from "./components/JoiningScreen";
-import axios from 'axios';
 
 const primary = "#3E84F6";
 

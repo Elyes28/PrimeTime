@@ -2,7 +2,7 @@ import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import nodemailer from "nodemailer";
 import user from "../models/user.js";
-import  logger  from "./../helpers/logger.js"
+import logger  from "./../helpers/logger.js"
 
 import UserModal from "../models/user.js";
 
@@ -16,16 +16,18 @@ export const signin = async (req, res) => {
     const oldUser = await UserModal.findOne({ email });
 
     if (!oldUser)
-      return res.status(404).json({ message: "User doesn't exist" });
+      return res.status(404).json({ message: "Email adress doesn't exist !" });
 
     const isPasswordCorrect = await bcrypt.compare(password, oldUser.password);
 
     if (!isPasswordCorrect)
-      return res.status(400).json({ message: "Invalid credentials" });
+      return res.status(400).json({ message: "Invalid password !" });
 
     const token = jwt.sign({ email: oldUser.email, id: oldUser._id }, process.env.secret, {
       expiresIn: "1h",
     });
+
+    console.log(oldUser)
 
     res.status(200).json({ result: oldUser, token });
   } catch (err) {

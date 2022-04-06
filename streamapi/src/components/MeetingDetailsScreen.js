@@ -7,7 +7,8 @@ export function MeetingDetailsScreen({
   onClickJoin,
   onClickCreateMeeting,
 }){
-  const [meetingId, setMeetingId] =useState("");
+  const queryParams = new URLSearchParams(window.location.search);
+  const [meetingId, setMeetingId] =useState(queryParams.get("meetId"));
   const [meetingIdError, setMeetingIdError] = useState(false);
   const padding = useResponsiveSize({
     xl: 6,
@@ -16,7 +17,11 @@ export function MeetingDetailsScreen({
     sm: 4,
     xs: 1.5,
   });
-
+  const visib=() =>{
+    
+    if(meetingId=="create") return false ;return true}
+    const [buttonvisib,setButtonvisib]=useState(visib);
+    
   return (
         <Box
           m={6}
@@ -29,8 +34,9 @@ export function MeetingDetailsScreen({
             justifyContent: "center",
             padding: padding,
           }}>
-
+            <div  hidden={buttonvisib}>
           <Button
+           
             style={{
                 marginBottom:"1rem"
             }}
@@ -41,10 +47,14 @@ export function MeetingDetailsScreen({
             }}>
             Create Meeting
           </Button>
+          </div>
 
+          <div hidden={buttonvisib}>
           <Chip label = "OR"/>
+          </div>
 
           <TextField
+          disabled
             fullwidth
             style={{
               marginTop: "1rem",

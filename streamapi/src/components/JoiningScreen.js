@@ -124,7 +124,7 @@ export function JoiningScreen({
   const addStream=()=>{
     const queryParams = new URLSearchParams(window.location.search);
     axios.post("http://localhost:5000/stream",{meetingId:localStorage.getItem("meetid"),
-    streamerName:queryParams.get('streamerName'),viewerCount:"0",streamTitle:"Stream 1"}).then( res => {
+    streamerName:queryParams.get('streamerName'),viewerCount:"0",streamTitle:"Stream 1",streamImg:"https://imageio.forbes.com/specials-images/imageserve/602d72cd73a5a10b2fa2046a/0x0.jpg?format=jpg&crop=960,640,x0,y0,safe&width=1200"}).then( res => {
         
       
   

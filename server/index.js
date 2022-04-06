@@ -10,6 +10,7 @@ import  logger  from "./helpers/logger.js"
 import postRoutes from './routes/posts.js';
 import userRouter from "./routes/user.js";
 import router from './routes/stream.js';
+import  courseRouter  from "./routes/courses.js"
 
 const app = express();
 app.use(morgan('combined', {
@@ -24,6 +25,18 @@ app.use(cors());
 app.use('/stream',router);
 app.use('/posts', postRoutes);
 app.use("/user", userRouter);
+
+
+import  productRouter  from "./routes/products.js"
+app.use('/products',productRouter)
+
+
+
+
+
+app.use('/courses',courseRouter)
+
+
 
 const CONNECTION_URL = process.env.CONNECTION_URL;
 const PORT = process.env.PORT|| 5000;
