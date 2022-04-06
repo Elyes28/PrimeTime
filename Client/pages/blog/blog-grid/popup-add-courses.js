@@ -1,0 +1,112 @@
+import React, { Fragment, useState } from "react";
+import Axios, * as others from "axios";
+import {
+  Button,
+  Modal,
+  ModalHeader,
+  ModalBody,
+  TabContent,
+  TabPane,
+  Nav,
+  NavItem,
+  NavLink,
+} from "reactstrap";
+import { Container, Row, Col, Form, FormGroup, Label, Input } from "reactstrap";
+const PopupCourses = () => {
+  const [modal, setModal] = useState();
+  const [activeTab, setActiveTab] = useState("1");
+
+  const toggle = () => {
+    setModal(!modal);
+  };
+  const [name, setName] = useState("");
+  const [type, setType] = useState("");
+  const [user, setUser] = useState("");
+  const addCourses = () => {
+    //{object}
+
+    Axios.post("http://localhost:2895/courses", {
+      name: name,
+      type: type,
+    }).then(() => {
+      console.log("success");
+    });
+  };
+  return (
+    <Fragment>
+      <Button
+        className="btn btn-default primary-btn radius-0"
+        style={{ borderRadius: "5%" }}
+        onClick={toggle}
+      >
+        Add Courses
+      </Button>
+
+      <Modal isOpen={modal} toggle={toggle}>
+        <ModalHeader
+          toggle={toggle}
+          className="modal-no-header close-right"
+        ></ModalHeader>
+        <ModalBody>
+          <div className="modal-body login-modal">
+            <Nav tabs className="nav nav-pills mb-5">
+              <NavItem>
+                <NavLink
+                  className={activeTab == "1" ? "active" : ""}
+                  onClick={() => setActiveTab("1")}
+                >
+                  Add Courses
+                </NavLink>
+              </NavItem>
+            </Nav>
+            <TabContent className="tab-content" activeTab={activeTab}>
+              <TabPane
+                tabId="1"
+                aria-labelledby="pills-home-tab"
+                className=""
+                role="tabpanel"
+              >
+                <div className="form-row">
+                  <FormGroup className="col-md-12">
+                    <Label>Name</Label>
+                    <Input
+                      type="text"
+                      name="name"
+                      onChange={(event) => {
+                        setName(event.target.value);
+                      }}
+                    ></Input>
+                  </FormGroup>
+                  <FormGroup className="col-md-12">
+                    <Label>Type</Label>
+                    <Input
+                      type="text"
+                      name="type"
+                      onChange={(event) => {
+                        setType(event.target.value);
+                      }}
+                    ></Input>
+                  </FormGroup>
+                </div>
+                <button
+                  className="btn primary-btn btn-default text-uppercase"
+                  onClick={addCourses}
+                >
+                  Add Course
+                </button>
+              </TabPane>
+              <TabPane
+                tabId="2"
+                aria-labelledby="pills-profile-tab"
+                className=""
+                role="tabpanel"
+              ></TabPane>
+            </TabContent>
+          </div>
+        </ModalBody>
+      </Modal>
+    </Fragment>
+  );
+};
+
+export default PopupCourses;
