@@ -1,6 +1,9 @@
 import React, { Fragment, useEffect,useState } from 'react';
 import Layout from '../containers/common/common-layout'
 import { Container, Row, Col } from 'reactstrap'
+import axios from 'axios';
+import '../public/assets/person.css'
+import StreamCard from '../components/StreamCard';
 
 const PortfolioDetail7 = () => {
 
@@ -10,72 +13,108 @@ const PortfolioDetail7 = () => {
         setUser(JSON.parse(localStorage.getItem("user")))       
       }, []);
 
+      const[imgsrc,setImgsrc]=useState("");
+
+
+      useEffect(()=>{
+        
+          if (user)
+        setImgsrc("images/users/"+user["firstName"]+user["lastName"]+".jpg");
+      },[user])
+    
+    const onInputChange = (e)=>{
+        const formData= new FormData()
+        formData.append('username',user["firstName"]+user["lastName"]);
+    formData.append('photo',e.target.files[0]);
+    const config ={
+        headers:{
+            'content-type':'multipart/form-data',
+        }
+    }
+    axios.post("http://localhost:5000/user/uploadProfileImg",formData,config).then(window.location.reload());
+
+    }
+    const imgClicked=(e)=>{e.preventDefault();document.getElementById('file-input').click()}
+    
+
     return(
     <Fragment>
         <Layout pathList={['portfolio details', 'left side image portfolio']} pathTitle="left side image portfolio">
             <section>
-                <div className="collection-wrapper agency">
-                    <Container>
-                        <Row className="data-sticky_parent">
-                            <Col lg="12" sm="12" xs="12">
-                                <Container fluid={true}>
-                                    <Row>
-                                        <Col lg="6">
-                                            <Row>
-                                                <Col xs="12" className="product_img_scroll image-scroll" data-sticky_column>
-                                                    <div>
-                                                        <div><img alt="" className="img-fluid rounded-circle w-50   " src="../assets/images/portfolio/1.jpg" />
-                                                        </div>
-                                                    
-                                                       
-                                                    </div>
-                                                </Col>
-                                            </Row>
-                                        </Col>
-                                        <Col lg="8" className="rtl-text">
-                                            <div className="product-right pro_sticky_info " style={{"margin-right":"50%"}}  data-sticky_column>
+                <div className='d-flex' style={{"height":"1080px"}}>
+                    <div className='isar w-25 pl-3'>
+                        <div className='d-block'>
+                    
+                        <div className="product-right pro_sticky_info w-100" style={{"margin-right":"50%"}}  data-sticky_column>
                                                 <div className="portfolio-detail m-b-20">
                                                     <h3 className="detail-head">Profile detail</h3>
-                                                    <div className="detail-container d-flex p-t-0">
+                                                    <input type="file" id="file-input" style={{"overflow":"hidden","height":"0px","width":"0px"}} accept="image/*" onChange={onInputChange}></input>
+                                                   <a onClick={imgClicked} className="file-upload"> <img  id="profileimg" alt="" className="img-fluid rounded-circle w-50 " src={imgsrc} style={{"margin-left":"5rem","margin-bottom":"15%"}} /> </a>
+                                                    <div className="detail-container d-flex ">
                                                         <div className="portfolio-left">
-                                                            <h5 className="text-left">Name :</h5>
+                                                            <h5 className="text-left">First Name: </h5>
                                                         </div>
                                                         <div className="portfolio-right">
                                                             <h5>{user["firstName"]}</h5>    
                                                         </div>
                                                     </div>
-                                                    <div className="detail-container d-flex">
+
+                                                    <div className="detail-container d-flex ">
                                                         <div className="portfolio-left">
-                                                            <h5 className="text-left">Last name :</h5>
+                                                            <h5 className="text-left">Last Name: </h5>
                                                         </div>
                                                         <div className="portfolio-right">
-                                                            <h5>22 Nov 2019</h5>
+                                                            <h5>{user["firstName"]}</h5>    
                                                         </div>
                                                     </div>
-                                                    <div className="detail-container d-flex">
+                                                    <div className="detail-container d-flex ">
                                                         <div className="portfolio-left">
-                                                            <h5 className="text-left">Role :</h5>
+                                                            <h5 className="text-left">Birthday: </h5>
                                                         </div>
                                                         <div className="portfolio-right">
-                                                            <h5>22 Nov 2019</h5>
+                                                            <h5>00/00/0000</h5>    
                                                         </div>
                                                     </div>
-                                                    <div className="detail-container d-flex">
+
+                                                    <div className="detail-container d-flex ">
                                                         <div className="portfolio-left">
-                                                            <h5 className="text-left">email :</h5>
+                                                            <h5 className="text-left">Phone: </h5>
                                                         </div>
                                                         <div className="portfolio-right">
-                                                            <h5>www.abcd.com</h5>
+                                                            <h5>+216 00000000</h5>    
                                                         </div>
                                                     </div>
-                                                    <div className="detail-container d-flex">
+
+                                                    <div className="detail-container d-flex ">
                                                         <div className="portfolio-left">
-                                                            <h5 className="text-left">Birthday :</h5>
+                                                            <h5 className="text-left">Email: </h5>
                                                         </div>
                                                         <div className="portfolio-right">
-                                                            <h5>www.abcd.com</h5>
+                                                            <h5>{user["email"]}</h5>    
                                                         </div>
                                                     </div>
+
+                                                    <div className="detail-container d-flex ">
+                                                        <div className="portfolio-left">
+                                                            <h5 className="text-left">Role:</h5>
+                                                        </div>
+                                                        <div className="portfolio-right">
+                                                            <h5>Teacher</h5>    
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div className="detail-container d-flex ">
+                                                        <div className="portfolio-left">
+                                                            <h5 className="text-left">expiration:</h5>
+                                                        </div>
+                                                        <div className="portfolio-right">
+                                                            <h5>00/00/0000</h5>    
+                                                        </div>
+                                                    </div>
+                                                   
+                                                    
+                                                    
                                                 </div>
                                                 <div className="portfolio-detail">
                                                     <h3 className="detail-head">about project</h3>
@@ -91,12 +130,30 @@ const PortfolioDetail7 = () => {
                                                 </div>
 
                                             </div>
-                                        </Col>
-                                    </Row>
-                                </Container>
-                            </Col>
-                        </Row>
-                    </Container>
+                        </div>
+                            
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                    <div className='imin' style={{"width":"75%","margin-left":"2%" }} >
+                    <div className='d-flex' style={{"overflow":"scroll","height":"50%","width":"100%","flex-wrap":"wrap"}}>
+                    <StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard />
+                    <StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard />
+                    <StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard />
+                        
+                    </div>
+
+                        <div style={{"overflow":"scroll","height":"50%","width":"100%"}}>test<br></br><br></br><br></br><br></br>tessst</div>
+                    </div>
+
                 </div>
             </section>
         </Layout>
