@@ -3,7 +3,7 @@ import jwt from "jsonwebtoken";
 import nodemailer from "nodemailer";
 import user from "../models/user.js";
 import logger  from "./../helpers/logger.js"
-
+import multer from "multer";
 import UserModal from "../models/user.js";
 
 const secret = process.env.secret;
@@ -136,3 +136,28 @@ export const recoverPass = async (req, res) => {
     
   }
 };
+// image upload start here
+const multerConfig = multer.diskStorage({
+  destination : (req,file,callback)=>{
+    callback(null,'../client/public/images/users')
+  },
+  filename:(req,file,callback)=>{
+   // const ext= file.mimetype.split('/')[1];
+    console.log(req);
+    callback(null,`${req.body.username}.jpg`);
+  }
+})
+const uploadd =multer({
+  storage:multerConfig,
+})
+export const uploadImage = uploadd.single('photo')
+
+export const upload = (req,res)=>{
+  res.status(200).json({
+    succes:'success',
+  })
+}
+
+// image upload ends here
+
+
