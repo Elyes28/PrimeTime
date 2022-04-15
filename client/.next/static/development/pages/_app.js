@@ -12,7 +12,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\containers\\customizer.js";
+    _jsxFileName = "C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\client\\containers\\customizer.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -14780,7 +14780,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _containers_customizer__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../containers/customizer */ "./containers/customizer.js");
 /* harmony import */ var _utils_Store__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../utils/Store */ "./utils/Store.js");
 
-var _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\pages\\_app.js";
+var _jsxFileName = "C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\client\\pages\\_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -15071,7 +15071,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\utils\\Store.js";
+var _jsxFileName = "C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\client\\utils\\Store.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement;
 
