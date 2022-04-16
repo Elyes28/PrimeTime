@@ -9,7 +9,6 @@ import { Keyboard } from "@material-ui/icons";
 import React, { useEffect, useState } from "react";
 import useResponsiveSize from "../utils/useResponsiveSize";
 import axios from "axios";
-import img from "./prebuilt.jpg";
 
 export function MeetingDetailsScreen({ onClickJoin, onClickCreateMeeting }) {
   const queryParams = new URLSearchParams(window.location.search);
