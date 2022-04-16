@@ -137,7 +137,7 @@ const PortfolioDetail7 = () => {
 
 
 
-
+                 
 
 
 
@@ -145,9 +145,8 @@ const PortfolioDetail7 = () => {
 
                     <div className='imin' style={{"width":"75%","margin-left":"2%" }} >
                     <div className='d-flex' style={{"overflow":"scroll","height":"50%","width":"100%","flex-wrap":"wrap"}}>
-                    <StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard />
-                    <StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard />
-                    <StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard />
+                   <StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard /><StreamCard />
+                    
                         
                     </div>
 

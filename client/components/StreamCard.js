@@ -1,38 +1,23 @@
+import "./stylez.css"
 function StreamCard(props){
 
 
     return( 
-    <a href="#">
-    <div className="col-lg-3 col-md-4 col-sm-6 isotopeSelector" key="1">
-        <div className="overlay">
-            <div className="border-portfolio">
-                <div className="zoom_gallery" 
-                    title="aaa">
-                    <div className="overlay-background"
-                    >
-                        <i aria-hidden="true" className="fa fa-play"></i>
-                        
-                    </div>
-                    <img alt="" className=" blur-up lazyload"
-                        src="images/users/testzztestz.jpg"
-                        style={{width:"100%",height:"170px"}}/>
-                    
-
-                </div>
-            </div>
-
-        </div>
         
-            <div className="portfolio-text">
-                <h3 className="head-text">
-                    "ilyes"
-                </h3>
-                <h6 className="head-sub-text">
-                   Live
-                </h6>
-            </div>
-    </div>
-    </a>)
+
+        <div className="card m-2 ">
+
+        <div className="imgBox">
+          <img src="https://wac-cdn.atlassian.com/fr/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=309" alt="mouse corsair" class="mouse"/>
+        </div>
+      
+        <div className="contentBox">
+          <h3>Streamer</h3>
+          <h2 className="price">61.<small>98</small> €</h2>
+          <a href="#" className="buy">Buy Now</a>
+        </div>
+      
+      </div>)
 }
 
 export default StreamCard;
