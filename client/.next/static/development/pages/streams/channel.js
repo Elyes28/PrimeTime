@@ -648,7 +648,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\bachq\\Downloads\\backup all integrated\\backup all integrated\\client\\containers\\common\\breadcrumb.js";
+    _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\containers\\common\\breadcrumb.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -725,7 +725,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _breadcrumb__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./breadcrumb */ "./containers/common/breadcrumb.js");
 /* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer */ "./containers/common/footer.js");
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\bachq\\Downloads\\backup all integrated\\backup all integrated\\client\\containers\\common\\common-layout.js";
+    _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\containers\\common\\common-layout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -787,7 +787,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\bachq\\Downloads\\backup all integrated\\backup all integrated\\client\\containers\\common\\footer.js";
+    _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\containers\\common\\footer.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1226,7 +1226,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\bachq\\Downloads\\backup all integrated\\backup all integrated\\client\\containers\\common\\header.js";
+    _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\containers\\common\\header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1608,7 +1608,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
 /* harmony import */ var _pages_features_gallery_popup__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../../pages/features/gallery/popup */ "./pages/features/gallery/popup.js");
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\bachq\\Downloads\\backup all integrated\\backup all integrated\\client\\containers\\common\\nav.js";
+    _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\containers\\common\\nav.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -13020,10 +13020,10 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fstreams%2Fchannel&absolutePagePath=C%3A%5CUsers%5Cbachq%5CDownloads%5Cbackup%20all%20integrated%5Cbackup%20all%20integrated%5Cclient%5Cpages%5Cstreams%5Cchannel.js!./":
-/*!**************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fstreams%2Fchannel&absolutePagePath=C%3A%5CUsers%5Cbachq%5CDownloads%5Cbackup%20all%20integrated%5Cbackup%20all%20integrated%5Cclient%5Cpages%5Cstreams%5Cchannel.js ***!
-  \**************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fstreams%2Fchannel&absolutePagePath=C%3A%5CUsers%5CWissem%5CDesktop%5CPrimeTime%5Cclient%5Cpages%5Cstreams%5Cchannel.js!./":
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fstreams%2Fchannel&absolutePagePath=C%3A%5CUsers%5CWissem%5CDesktop%5CPrimeTime%5Cclient%5Cpages%5Cstreams%5Cchannel.js ***!
+  \*****************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -39087,7 +39087,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\bachq\\Downloads\\backup all integrated\\backup all integrated\\client\\pages\\features\\gallery\\popup.js";
+    _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\pages\\features\\gallery\\popup.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement;
 
@@ -39804,7 +39804,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\bachq\\Downloads\\backup all integrated\\backup all integrated\\client\\pages\\streams\\channel.js";
+    _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\pages\\streams\\channel.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement;
 
@@ -40580,14 +40580,14 @@ module.exports = "/_next/static/images/5-c2d0ef6c7afa49de701ac295ed1bbec0.jpg";
 
 /***/ }),
 
-/***/ 9:
-/*!******************************************************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fstreams%2Fchannel&absolutePagePath=C%3A%5CUsers%5Cbachq%5CDownloads%5Cbackup%20all%20integrated%5Cbackup%20all%20integrated%5Cclient%5Cpages%5Cstreams%5Cchannel.js ***!
-  \******************************************************************************************************************************************************************************************************************/
+/***/ 13:
+/*!*********************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fstreams%2Fchannel&absolutePagePath=C%3A%5CUsers%5CWissem%5CDesktop%5CPrimeTime%5Cclient%5Cpages%5Cstreams%5Cchannel.js ***!
+  \*********************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fstreams%2Fchannel&absolutePagePath=C%3A%5CUsers%5Cbachq%5CDownloads%5Cbackup%20all%20integrated%5Cbackup%20all%20integrated%5Cclient%5Cpages%5Cstreams%5Cchannel.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fstreams%2Fchannel&absolutePagePath=C%3A%5CUsers%5Cbachq%5CDownloads%5Cbackup%20all%20integrated%5Cbackup%20all%20integrated%5Cclient%5Cpages%5Cstreams%5Cchannel.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fstreams%2Fchannel&absolutePagePath=C%3A%5CUsers%5CWissem%5CDesktop%5CPrimeTime%5Cclient%5Cpages%5Cstreams%5Cchannel.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fstreams%2Fchannel&absolutePagePath=C%3A%5CUsers%5CWissem%5CDesktop%5CPrimeTime%5Cclient%5Cpages%5Cstreams%5Cchannel.js!./");
 
 
 /***/ }),
@@ -40603,5 +40603,5 @@ module.exports = dll_b0ae7f9d5a2cb9eeeb96;
 
 /***/ })
 
-},[[9,"static/runtime/webpack.js"]]]);
+},[[13,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=channel.js.map

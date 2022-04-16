@@ -18,11 +18,11 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/streams": [
+    "/streams/channel": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/streams/channel": [
+    "/streams/launchStream": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
