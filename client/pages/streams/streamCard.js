@@ -141,10 +141,10 @@ return (
                                     {title &&
                                         <div className="portfolio-text">
                                             <h3 className="head-text">
-                                                {stream["streamerName"]}
+                                                {stream["streamTitle"]}
                                             </h3>
                                             <h6 className="head-sub-text">
-                                               Live
+                                            {stream["streamerName"]}
                                             </h6>
                                         </div>}
                                 </div>

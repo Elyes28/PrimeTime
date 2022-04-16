@@ -1716,5 +1716,4095 @@
 {
   message: 'Server Running on Port: http://localhost:5000',
   level: 'info',
+<<<<<<< HEAD
   timestamp: '4/17/2022, 12:54:25 AM GMT+2'
+=======
+  timestamp: '4/15/2022, 2:03:43 AM GMT+2'
+}
+{
+  error: TypeError: Cannot read properties of undefined (reading 'length')
+      at pathtoRegexp (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\path-to-regexp\index.js:63:49)
+      at new Layer (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\layer.js:45:17)
+      at Function.route (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:494:15)
+      at Function.proto.<computed> [as post] (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:509:22)
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:37:8
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of undefined (reading 'length')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'length')\n" +
+    '    at pathtoRegexp (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\path-to-regexp\\index.js:63:49)\n' +
+    '    at new Layer (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:45:17)\n' +
+    '    at Function.route (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:494:15)\n' +
+    '    at Function.proto.<computed> [as post] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:509:22)\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:37:8\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'length')\n" +
+    '    at pathtoRegexp (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\path-to-regexp\\index.js:63:49)\n' +
+    '    at new Layer (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:45:17)\n' +
+    '    at Function.route (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:494:15)\n' +
+    '    at Function.proto.<computed> [as post] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:509:22)\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:37:8\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Fri Apr 15 2022 01:04:50 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 31964,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 64983040,
+      heapTotal: 36421632,
+      heapUsed: 23991776,
+      external: 24663815,
+      arrayBuffers: 18822379
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 387039 },
+  trace: [
+    {
+      column: 49,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\path-to-regexp\\index.js',
+      function: 'pathtoRegexp',
+      line: 63,
+      method: null,
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'new Layer',
+      line: 45,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.route',
+      line: 494,
+      method: 'route',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.proto.<computed> [as post]',
+      line: 509,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js',
+      function: null,
+      line: 37,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/15/2022, 2:04:50 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:04:52 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:05:01 AM GMT+2'
+}
+{
+  error: ReferenceError: req is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:140:23
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:140:23\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:140:23\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Fri Apr 15 2022 01:06:29 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 2896,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 64827392,
+      heapTotal: 36421632,
+      heapUsed: 23904248,
+      external: 24663965,
+      arrayBuffers: 18822379
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 387139 },
+  trace: [
+    {
+      column: 23,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: null,
+      line: 140,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/15/2022, 2:06:29 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:06:35 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:06:47 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:06:53 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:06:55 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:07:16 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:07:20 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:07:35 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:07:37 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:08:06 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:08:13 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:08:51 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:09:46 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:11:34 AM GMT+2'
+}
+{
+  error: ReferenceError: Cannot access 'upload' before initialization
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:143:28
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: "uncaughtException: Cannot access 'upload' before initialization\n" +
+    "ReferenceError: Cannot access 'upload' before initialization\n" +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:143:28\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: "ReferenceError: Cannot access 'upload' before initialization\n" +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:143:28\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Fri Apr 15 2022 01:15:47 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 6116,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 67198976,
+      heapTotal: 38539264,
+      heapUsed: 24076552,
+      external: 25330079,
+      arrayBuffers: 18963189
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 387697 },
+  trace: [
+    {
+      column: 28,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: null,
+      line: 143,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/15/2022, 2:15:47 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:16:32 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:17:21 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:17:25 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:17:29 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:19:56 AM GMT+2'
+}
+{
+  message: '::1 - - [15/Apr/2022:00:20:16 +0000] "POST /user/uploadeProfileImg HTTP/1.1" 404 162 "-" "PostmanRuntime/7.28.0"\n',
+  level: 'info',
+  timestamp: '4/15/2022, 2:20:16 AM GMT+2'
+}
+{
+  message: '::1 - - [15/Apr/2022:00:22:25 +0000] "POST /user/uploadProfileImg HTTP/1.1" 500 264 "-" "PostmanRuntime/7.28.0"\n',
+  level: 'info',
+  timestamp: '4/15/2022, 2:22:25 AM GMT+2'
+}
+{
+  message: '::1 - - [15/Apr/2022:00:24:15 +0000] "POST /user/uploadProfileImg HTTP/1.1" 400 1023 "-" "PostmanRuntime/7.28.0"\n',
+  level: 'info',
+  timestamp: '4/15/2022, 2:24:15 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:26:23 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:26:38 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:27:27 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:27:33 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:27:44 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:27:57 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:28:04 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:28:11 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:30:01 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:30:04 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:30:28 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:38:38 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:38:41 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:38:56 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:38:59 AM GMT+2'
+}
+{
+  error: ReferenceError: m is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:140:22
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: m is not defined\n' +
+    'ReferenceError: m is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:140:22\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: m is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:140:22\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Fri Apr 15 2022 01:39:08 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 25532,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 67305472,
+      heapTotal: 38539264,
+      heapUsed: 24150712,
+      external: 25363082,
+      arrayBuffers: 18963189
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 389098 },
+  trace: [
+    {
+      column: 22,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: null,
+      line: 140,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/15/2022, 2:39:09 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:39:13 AM GMT+2'
+}
+{
+  error: TypeError: Cannot read properties of undefined (reading 'filename')
+      at new DiskStorage (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\multer\storage\disk.js:18:28)
+      at Function.module.exports [as diskStorage] (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\multer\storage\disk.js:65:10)
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:140:29
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of undefined (reading 'filename')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'filename')\n" +
+    '    at new DiskStorage (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\multer\\storage\\disk.js:18:28)\n' +
+    '    at Function.module.exports [as diskStorage] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\multer\\storage\\disk.js:65:10)\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:140:29\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'filename')\n" +
+    '    at new DiskStorage (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\multer\\storage\\disk.js:18:28)\n' +
+    '    at Function.module.exports [as diskStorage] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\multer\\storage\\disk.js:65:10)\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:140:29\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Fri Apr 15 2022 01:39:15 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 28340,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 67489792,
+      heapTotal: 38539264,
+      heapUsed: 24115752,
+      external: 25363139,
+      arrayBuffers: 18976723
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 389105 },
+  trace: [
+    {
+      column: 28,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\multer\\storage\\disk.js',
+      function: 'new DiskStorage',
+      line: 18,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\multer\\storage\\disk.js',
+      function: 'Function.module.exports [as diskStorage]',
+      line: 65,
+      method: 'exports [as diskStorage]',
+      native: false
+    },
+    {
+      column: 29,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: null,
+      line: 140,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/15/2022, 2:39:15 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:39:19 AM GMT+2'
+}
+{
+  error: ReferenceError: req is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Fri Apr 15 2022 01:39:50 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 16232,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 67244032,
+      heapTotal: 37752832,
+      heapUsed: 26783096,
+      external: 25363247,
+      arrayBuffers: 19524244
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 389139 },
+  trace: [
+    {
+      column: 18,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: null,
+      line: 141,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/15/2022, 2:39:50 AM GMT+2'
+}
+{
+  error: ReferenceError: req is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Fri Apr 15 2022 01:39:55 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 2520,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 67317760,
+      heapTotal: 38014976,
+      heapUsed: 26937032,
+      external: 25363271,
+      arrayBuffers: 19524244
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 389145 },
+  trace: [
+    {
+      column: 18,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: null,
+      line: 141,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/15/2022, 2:39:55 AM GMT+2'
+}
+{
+  error: ReferenceError: req is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Fri Apr 15 2022 01:40:01 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 23028,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 67457024,
+      heapTotal: 38539264,
+      heapUsed: 24276448,
+      external: 25363289,
+      arrayBuffers: 18976723
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 389151 },
+  trace: [
+    {
+      column: 18,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: null,
+      line: 141,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/15/2022, 2:40:02 AM GMT+2'
+}
+{
+  error: ReferenceError: req is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Fri Apr 15 2022 01:40:04 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 12716,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 67440640,
+      heapTotal: 39063552,
+      heapUsed: 24330600,
+      external: 25318454,
+      arrayBuffers: 18976723
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 389153 },
+  trace: [
+    {
+      column: 18,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: null,
+      line: 141,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/15/2022, 2:40:04 AM GMT+2'
+}
+{
+  error: ReferenceError: req is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Fri Apr 15 2022 01:40:08 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 30092,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 67379200,
+      heapTotal: 38539264,
+      heapUsed: 24322144,
+      external: 25334719,
+      arrayBuffers: 18976723
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 389158 },
+  trace: [
+    {
+      column: 18,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: null,
+      line: 141,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/15/2022, 2:40:08 AM GMT+2'
+}
+{
+  error: ReferenceError: req is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Fri Apr 15 2022 01:40:12 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 34460,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 67235840,
+      heapTotal: 38801408,
+      heapUsed: 24225352,
+      external: 25363271,
+      arrayBuffers: 18971381
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 389162 },
+  trace: [
+    {
+      column: 18,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: null,
+      line: 141,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/15/2022, 2:40:12 AM GMT+2'
+}
+{
+  error: ReferenceError: req is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Fri Apr 15 2022 01:40:14 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 21816,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 66433024,
+      heapTotal: 38014976,
+      heapUsed: 26974360,
+      external: 25363307,
+      arrayBuffers: 19532436
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 389164 },
+  trace: [
+    {
+      column: 18,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: null,
+      line: 141,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/15/2022, 2:40:15 AM GMT+2'
+}
+{
+  error: ReferenceError: req is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Fri Apr 15 2022 01:40:23 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 32752,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 66908160,
+      heapTotal: 37752832,
+      heapUsed: 26822696,
+      external: 25363367,
+      arrayBuffers: 19538937
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 389173 },
+  trace: [
+    {
+      column: 18,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: null,
+      line: 141,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/15/2022, 2:40:23 AM GMT+2'
+}
+{
+  error: ReferenceError: req is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Fri Apr 15 2022 01:40:29 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 22676,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 67317760,
+      heapTotal: 38539264,
+      heapUsed: 24336608,
+      external: 25363391,
+      arrayBuffers: 18987736
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 389179 },
+  trace: [
+    {
+      column: 18,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: null,
+      line: 141,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/15/2022, 2:40:30 AM GMT+2'
+}
+{
+  error: ReferenceError: req is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Fri Apr 15 2022 01:40:34 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 20448,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 67547136,
+      heapTotal: 38539264,
+      heapUsed: 24262624,
+      external: 25363394,
+      arrayBuffers: 18971381
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 389184 },
+  trace: [
+    {
+      column: 18,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: null,
+      line: 141,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/15/2022, 2:40:34 AM GMT+2'
+}
+{
+  error: ReferenceError: req is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Fri Apr 15 2022 01:40:44 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 33684,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 67215360,
+      heapTotal: 38539264,
+      heapUsed: 24348200,
+      external: 25363247,
+      arrayBuffers: 18987736
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 389194 },
+  trace: [
+    {
+      column: 18,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: null,
+      line: 141,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/15/2022, 2:40:44 AM GMT+2'
+}
+{
+  error: ReferenceError: req is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:141:18\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Fri Apr 15 2022 01:40:51 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 30788,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 66899968,
+      heapTotal: 38801408,
+      heapUsed: 24226136,
+      external: 25318421,
+      arrayBuffers: 18976723
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 389201 },
+  trace: [
+    {
+      column: 18,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: null,
+      line: 141,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/15/2022, 2:40:51 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:40:58 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:41:11 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:41:23 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:41:30 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:41:33 AM GMT+2'
+}
+{
+  error: ReferenceError: file is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:144:3
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: file is not defined\n' +
+    'ReferenceError: file is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:144:3\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: file is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:144:3\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Fri Apr 15 2022 01:41:43 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 21984,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 67497984,
+      heapTotal: 38801408,
+      heapUsed: 24209752,
+      external: 25363400,
+      arrayBuffers: 18976723
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 389253 },
+  trace: [
+    {
+      column: 3,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: null,
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/15/2022, 2:41:43 AM GMT+2'
+}
+{
+  error: ReferenceError: filename is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:144:3
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: filename is not defined\n' +
+    'ReferenceError: filename is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:144:3\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: filename is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:144:3\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Fri Apr 15 2022 01:41:44 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 25220,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 67149824,
+      heapTotal: 37752832,
+      heapUsed: 26818528,
+      external: 25363412,
+      arrayBuffers: 19538937
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 389254 },
+  trace: [
+    {
+      column: 3,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: null,
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/15/2022, 2:41:44 AM GMT+2'
+}
+{
+  error: ReferenceError: req is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:144:13
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:144:13\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:144:13\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Fri Apr 15 2022 01:42:00 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 14800,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 67174400,
+      heapTotal: 38801408,
+      heapUsed: 24332688,
+      external: 25334839,
+      arrayBuffers: 18987736
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 389270 },
+  trace: [
+    {
+      column: 13,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: null,
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/15/2022, 2:42:00 AM GMT+2'
+}
+{
+  error: ReferenceError: req is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:144:13
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:144:13\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:144:13\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Fri Apr 15 2022 01:42:04 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 31640,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 66998272,
+      heapTotal: 37752832,
+      heapUsed: 26785032,
+      external: 25363472,
+      arrayBuffers: 19532436
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 389274 },
+  trace: [
+    {
+      column: 13,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: null,
+      line: 144,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/15/2022, 2:42:04 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:42:12 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:42:34 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:42:38 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:42:43 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:42:49 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:43:00 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:43:09 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:43:20 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:43:44 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:44:03 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:44:07 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:44:13 AM GMT+2'
+}
+{
+  error: ReferenceError: mult is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:150:11
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: mult is not defined\n' +
+    'ReferenceError: mult is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:150:11\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: mult is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:150:11\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Fri Apr 15 2022 01:44:33 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 31476,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 67268608,
+      heapTotal: 37752832,
+      heapUsed: 26824648,
+      external: 25363781,
+      arrayBuffers: 19532436
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 389422 },
+  trace: [
+    {
+      column: 11,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: null,
+      line: 150,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/15/2022, 2:44:33 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:44:35 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:44:40 AM GMT+2'
+}
+{
+  error: ReferenceError: res is not defined
+      at DiskStorage.filename [as getFilename] (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:146:22)
+      at C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\multer\storage\disk.js:34:10
+      at DiskStorage.destination [as getDestination] (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:142:5)
+      at DiskStorage._handleFile (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\multer\storage\disk.js:31:8)
+      at C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\multer\lib\make-middleware.js:145:17
+      at allowAll (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\multer\index.js:8:3)
+      at wrappedFileFilter (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\multer\index.js:44:7)
+      at Busboy.<anonymous> (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\multer\lib\make-middleware.js:115:7)
+      at Busboy.emit (node:events:520:28)
+      at Busboy.emit (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\busboy\lib\main.js:38:33)
+      at PartStream.<anonymous> (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\busboy\lib\types\multipart.js:213:13)
+      at PartStream.emit (node:events:520:28)
+      at HeaderParser.<anonymous> (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\dicer\lib\Dicer.js:51:16)
+      at HeaderParser.emit (node:events:520:28)
+      at HeaderParser._finish (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\dicer\lib\HeaderParser.js:68:8)
+      at SBMH.<anonymous> (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\dicer\lib\HeaderParser.js:40:12),
+  level: 'error',
+  message: 'uncaughtException: res is not defined\n' +
+    'ReferenceError: res is not defined\n' +
+    '    at DiskStorage.filename [as getFilename] (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:146:22)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\multer\\storage\\disk.js:34:10\n' +
+    '    at DiskStorage.destination [as getDestination] (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:142:5)\n' +
+    '    at DiskStorage._handleFile (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\multer\\storage\\disk.js:31:8)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\multer\\lib\\make-middleware.js:145:17\n' +
+    '    at allowAll (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\multer\\index.js:8:3)\n' +
+    '    at wrappedFileFilter (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\multer\\index.js:44:7)\n' +
+    '    at Busboy.<anonymous> (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\multer\\lib\\make-middleware.js:115:7)\n' +
+    '    at Busboy.emit (node:events:520:28)\n' +
+    '    at Busboy.emit (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\busboy\\lib\\main.js:38:33)\n' +
+    '    at PartStream.<anonymous> (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n' +
+    '    at PartStream.emit (node:events:520:28)\n' +
+    '    at HeaderParser.<anonymous> (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n' +
+    '    at HeaderParser.emit (node:events:520:28)\n' +
+    '    at HeaderParser._finish (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n' +
+    '    at SBMH.<anonymous> (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)',
+  stack: 'ReferenceError: res is not defined\n' +
+    '    at DiskStorage.filename [as getFilename] (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:146:22)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\multer\\storage\\disk.js:34:10\n' +
+    '    at DiskStorage.destination [as getDestination] (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:142:5)\n' +
+    '    at DiskStorage._handleFile (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\multer\\storage\\disk.js:31:8)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\multer\\lib\\make-middleware.js:145:17\n' +
+    '    at allowAll (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\multer\\index.js:8:3)\n' +
+    '    at wrappedFileFilter (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\multer\\index.js:44:7)\n' +
+    '    at Busboy.<anonymous> (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\multer\\lib\\make-middleware.js:115:7)\n' +
+    '    at Busboy.emit (node:events:520:28)\n' +
+    '    at Busboy.emit (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\busboy\\lib\\main.js:38:33)\n' +
+    '    at PartStream.<anonymous> (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n' +
+    '    at PartStream.emit (node:events:520:28)\n' +
+    '    at HeaderParser.<anonymous> (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n' +
+    '    at HeaderParser.emit (node:events:520:28)\n' +
+    '    at HeaderParser._finish (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n' +
+    '    at SBMH.<anonymous> (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)',
+  exception: true,
+  date: 'Fri Apr 15 2022 01:44:46 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 23512,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 74727424,
+      heapTotal: 58724352,
+      heapUsed: 23869384,
+      external: 25424005,
+      arrayBuffers: 18321465
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 389435 },
+  trace: [
+    {
+      column: 22,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: 'DiskStorage.filename [as getFilename]',
+      line: 146,
+      method: 'filename [as getFilename]',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\multer\\storage\\disk.js',
+      function: null,
+      line: 34,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: 'DiskStorage.destination [as getDestination]',
+      line: 142,
+      method: 'destination [as getDestination]',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\multer\\storage\\disk.js',
+      function: 'DiskStorage._handleFile',
+      line: 31,
+      method: '_handleFile',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\multer\\lib\\make-middleware.js',
+      function: null,
+      line: 145,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\multer\\index.js',
+      function: 'allowAll',
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\multer\\index.js',
+      function: 'wrappedFileFilter',
+      line: 44,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\multer\\lib\\make-middleware.js',
+      function: null,
+      line: 115,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Busboy.emit',
+      line: 520,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 33,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\busboy\\lib\\main.js',
+      function: 'Busboy.emit',
+      line: 38,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\busboy\\lib\\types\\multipart.js',
+      function: null,
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'PartStream.emit',
+      line: 520,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\dicer\\lib\\Dicer.js',
+      function: null,
+      line: 51,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'HeaderParser.emit',
+      line: 520,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\dicer\\lib\\HeaderParser.js',
+      function: 'HeaderParser._finish',
+      line: 68,
+      method: '_finish',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\dicer\\lib\\HeaderParser.js',
+      function: null,
+      line: 40,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/15/2022, 2:44:46 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:45:13 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:45:42 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:46:10 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:46:13 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:46:41 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:48:46 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:49:32 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:52:25 AM GMT+2'
+}
+{
+  message: '::1 - - [15/Apr/2022:00:52:29 +0000] "POST /user/uploadProfileImg HTTP/1.1" 404 161 "-" "PostmanRuntime/7.28.0"\n',
+  level: 'info',
+  timestamp: '4/15/2022, 2:52:29 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:53:05 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:53:09 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 2:55:27 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 3:01:36 AM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/15/2022, 3:11:02 AM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/15/2022, 3:11:03 AM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/15/2022, 3:12:12 AM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/15/2022, 3:12:12 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 3:32:34 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 3:33:00 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 3:33:11 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 3:34:23 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 3:34:26 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 3:34:36 AM GMT+2'
+}
+{
+  message: '::1 - - [15/Apr/2022:01:34:40 +0000] "POST /user/uploadProfileImg HTTP/1.1" 500 252 "-" "PostmanRuntime/7.28.0"\n',
+  level: 'info',
+  timestamp: '4/15/2022, 3:34:40 AM GMT+2'
+}
+{
+  message: '::1 - - [15/Apr/2022:01:34:53 +0000] "POST /user/uploadProfileImg HTTP/1.1" 500 252 "-" "PostmanRuntime/7.28.0"\n',
+  level: 'info',
+  timestamp: '4/15/2022, 3:34:53 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 3:43:04 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 3:43:30 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 3:44:26 PM GMT+2'
+}
+{
+  error: Error: listen EADDRINUSE: address already in use :::5000
+      at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+      at listenInCluster (node:net:1378:12)
+      at Server.listen (node:net:1465:7)
+      at Function.listen (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\application.js:618:24)
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/index.js:45:19
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'EADDRINUSE',
+    errno: -4091,
+    syscall: 'listen',
+    address: '::',
+    port: 5000
+  },
+  level: 'error',
+  message: 'uncaughtException: listen EADDRINUSE: address already in use :::5000\n' +
+    'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1330:16)\n' +
+    '    at listenInCluster (node:net:1378:12)\n' +
+    '    at Server.listen (node:net:1465:7)\n' +
+    '    at Function.listen (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\application.js:618:24)\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/index.js:45:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: 'Error: listen EADDRINUSE: address already in use :::5000\n' +
+    '    at Server.setupListenHandle [as _listen2] (node:net:1330:16)\n' +
+    '    at listenInCluster (node:net:1378:12)\n' +
+    '    at Server.listen (node:net:1465:7)\n' +
+    '    at Function.listen (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\application.js:618:24)\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/index.js:45:19\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Fri Apr 15 2022 17:24:06 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 32784,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 74608640,
+      heapTotal: 58462208,
+      heapUsed: 23593688,
+      external: 19650459,
+      arrayBuffers: 18324698
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 445796 },
+  trace: [
+    {
+      column: 16,
+      file: 'node:net',
+      function: 'Server.setupListenHandle [as _listen2]',
+      line: 1330,
+      method: 'setupListenHandle [as _listen2]',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:net',
+      function: 'listenInCluster',
+      line: 1378,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:net',
+      function: 'Server.listen',
+      line: 1465,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\application.js',
+      function: 'Function.listen',
+      line: 618,
+      method: 'listen',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/index.js',
+      function: null,
+      line: 45,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/15/2022, 6:24:06 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/15/2022, 6:25:06 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/16/2022, 12:15:54 AM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/16/2022, 12:33:27 AM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/16/2022, 1:04:35 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/16/2022, 5:53:57 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/16/2022, 5:54:09 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/16/2022, 5:55:34 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/16/2022, 5:55:40 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/16/2022, 6:22:25 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/16/2022, 6:22:35 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/16/2022, 6:22:54 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/16/2022, 6:24:20 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/16/2022, 6:24:47 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/16/2022, 6:47:01 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/16/2022, 6:48:22 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:02:04 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:02:04 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:02:04 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:02:04 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:02:04 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:02:04 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:02:11 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:02:11 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:02:11 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:02:11 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:02:11 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:02:11 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:02:31 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:02:31 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:02:31 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:02:31 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:02:31 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:02:31 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:02:35 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:02:35 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:02:35 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:02:35 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:02:35 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:02:35 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:02:38 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:02:38 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:02:38 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:02:38 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:02:38 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:02:38 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:02:55 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:02:55 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:02:55 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:02:55 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:02:55 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:02:55 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:04:30 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:04:30 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:04:30 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:04:30 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:04:30 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:04:30 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:07:03 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:07:03 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:07:33 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:07:33 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:07:48 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:07:48 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:09:25 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:09:25 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:12:30 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:12:30 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:12:56 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:12:56 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:17:55 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:17:55 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:18:11 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:18:11 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:19:47 +0000] "GET /stream/getStreamBymeetId/chg7-z6h6-56lu HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:19:47 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:20:09 +0000] "GET /stream/getStreamBymeetId/b8gi-n5gm-qysy HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:20:09 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/16/2022, 7:20:33 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/16/2022, 7:21:41 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/16/2022, 7:21:55 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/16/2022, 7:22:11 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/16/2022, 7:24:20 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:24:22 +0000] "GET /stream/getStreamBymeetId/b8gi-n5gm-qysy HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:24:22 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:24:22 +0000] "GET /stream/getStreamBymeetId/b8gi-n5gm-qysy HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:24:22 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:24:28 +0000] "POST /stream HTTP/1.1" 409 84 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:24:28 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:24:31 +0000] "GET /stream/getStreamBymeetId/b8gi-n5gm-qysy HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:24:31 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:27:56 +0000] "GET /stream/getStreamBymeetId/b8gi-n5gm-qysy HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:27:56 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:29:26 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:29:26 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:31:50 +0000] "GET /stream/getStreamBymeetId/hkde-pl3i-l9qh HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:31:50 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:31:56 +0000] "GET /stream/getStreamBymeetId/hkde-pl3i-l9qh HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:31:56 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:41:02 +0000] "GET /stream/getStreamBymeetId/hkde-pl3i-l9qh HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:41:02 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:42:42 +0000] "GET /stream/getStreamBymeetId/hkde-pl3i-l9qh HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:42:42 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:45:04 +0000] "GET /stream/getStreamBymeetId/hkde-pl3i-l9qh HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:45:04 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:47:36 +0000] "GET /stream/getStreamBymeetId/hkde-pl3i-l9qh HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:47:36 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:49:23 +0000] "GET /stream/getStreamBymeetId/hkde-pl3i-l9qh HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:49:23 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:49:47 +0000] "GET /stream/getStreamBymeetId/hkde-pl3i-l9qh HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:49:47 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:50:04 +0000] "GET /stream/getStreamBymeetId/hkde-pl3i-l9qh HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:50:04 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:50:41 +0000] "GET /stream/getStreamBymeetId/hkde-pl3i-l9qh HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:50:41 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:53:13 +0000] "GET /stream/getStreamBymeetId/hkde-pl3i-l9qh HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:53:13 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:17:53:36 +0000] "GET /stream/getStreamBymeetId/hkde-pl3i-l9qh HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 7:53:36 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:21:47:40 +0000] "GET /stream/getStreamBymeetId/hkde-pl3i-l9qh HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 11:47:40 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:21:47:56 +0000] "GET /stream/getStreamBymeetId/hkde-pl3i-l9qh HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 11:47:56 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:21:48:07 +0000] "GET /stream/getStreamBymeetId/hkde-pl3i-l9qh HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 11:48:07 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:21:48:50 +0000] "GET /stream/getStreamBymeetId/hkde-pl3i-l9qh HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 11:48:50 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:21:49:09 +0000] "GET /stream/getStreamBymeetId/hkde-pl3i-l9qh HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 11:49:09 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:21:49:24 +0000] "GET /stream/getStreamBymeetId/hkde-pl3i-l9qh HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 11:49:24 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:21:50:37 +0000] "GET /stream/getStreamBymeetId/hkde-pl3i-l9qh HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 11:50:37 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:21:51:13 +0000] "GET /stream/getStreamBymeetId/hkde-pl3i-l9qh HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 11:51:13 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:21:52:00 +0000] "GET /stream/getStreamBymeetId/uxiu-qp46-kzx7 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 11:52:00 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:21:52:56 +0000] "GET /stream/getStreamBymeetId/xmio-xrua-ipvl HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 11:52:56 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:21:54:18 +0000] "GET /stream/getStreamBymeetId/xmio-xrua-ipvl HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 11:54:18 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:21:56:50 +0000] "GET /stream/getStreamBymeetId/xmio-xrua-ipvl HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 11:56:50 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:21:57:41 +0000] "GET /stream/getStreamBymeetId/f9y2-wxbx-b272 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 11:57:41 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:21:58:42 +0000] "GET /stream/getStreamBymeetId/90dv-tgj7-eq92 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 11:58:42 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:21:59:14 +0000] "GET /stream/getStreamBymeetId/90dv-tgj7-eq92 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 11:59:14 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:21:59:54 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/16/2022, 11:59:54 PM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:00:28 +0000] "GET /stream/getStreamBymeetId/jwdm-o3nf-0j0c HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:00:28 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:00:33 +0000] "GET /stream/getStreamBymeetId/jwdm-o3nf-0j0c HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:00:33 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:00:52 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:00:52 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:02:06 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:02:06 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:05:01 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:05:01 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:06:05 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:06:05 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:06:36 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:06:36 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:06:48 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:06:48 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:08:41 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:08:41 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:09:21 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:09:21 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:09:50 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:09:50 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:12:08 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:12:08 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:12:37 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:12:37 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:13:37 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:13:37 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:15:19 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:15:19 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:17:20 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:17:20 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:18:37 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:18:37 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:19:55 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:19:55 AM GMT+2'
+}
+{
+  error: ReferenceError: multer is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:48:22
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: multer is not defined\n' +
+    'ReferenceError: multer is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:48:22\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: multer is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:48:22\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Sat Apr 16 2022 23:22:07 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 22580,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72224768,
+      heapTotal: 38539264,
+      heapUsed: 24273664,
+      external: 25365674,
+      arrayBuffers: 18976723
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 82132 },
+  trace: [
+    {
+      column: 22,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js',
+      function: null,
+      line: 48,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/17/2022, 12:22:07 AM GMT+2'
+}
+{
+  error: ReferenceError: multer is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:49:22
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: multer is not defined\n' +
+    'ReferenceError: multer is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:49:22\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: multer is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:49:22\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Sat Apr 16 2022 23:22:31 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 23240,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72343552,
+      heapTotal: 38539264,
+      heapUsed: 24479208,
+      external: 25365680,
+      arrayBuffers: 18976723
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 82156 },
+  trace: [
+    {
+      column: 22,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js',
+      function: null,
+      line: 49,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/17/2022, 12:22:31 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/17/2022, 12:22:34 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/17/2022, 12:22:43 AM GMT+2'
+}
+{
+  error: ReferenceError: uploadImage is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:7:33
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: uploadImage is not defined\n' +
+    'ReferenceError: uploadImage is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:7:33\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: uploadImage is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:7:33\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Sat Apr 16 2022 23:23:34 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 14876,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72314880,
+      heapTotal: 38801408,
+      heapUsed: 24401048,
+      external: 25322204,
+      arrayBuffers: 18976723
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 82218 },
+  trace: [
+    {
+      column: 33,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/17/2022, 12:23:34 AM GMT+2'
+}
+{
+  error: ReferenceError: uploadImage is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:7:32
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: uploadImage is not defined\n' +
+    'ReferenceError: uploadImage is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:7:32\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: uploadImage is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:7:32\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Sat Apr 16 2022 23:23:40 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 5060,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72392704,
+      heapTotal: 38801408,
+      heapUsed: 24324184,
+      external: 25365920,
+      arrayBuffers: 18971381
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 82225 },
+  trace: [
+    {
+      column: 32,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/17/2022, 12:23:40 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/17/2022, 12:24:00 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/17/2022, 12:25:43 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:26:55 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:26:55 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:27:07 +0000] "POST /stream/uploadStreamImg HTTP/1.1" 500 268 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:27:07 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/17/2022, 12:27:42 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/17/2022, 12:27:49 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:27:51 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:27:51 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:28:02 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:28:02 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:29:20 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:29:20 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:29:29 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:29:29 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:30:22 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:30:22 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:31:37 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:31:37 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:32:23 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:32:23 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:32:52 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:32:52 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:33:02 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:33:02 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:33:26 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:33:26 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:34:02 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:34:02 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:34:29 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:34:29 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:34:57 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:34:57 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:35:12 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:35:12 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:35:13 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:35:13 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:35:28 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:35:28 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:36:04 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:36:04 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:36:42 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:36:42 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:36:55 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:36:55 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:38:22 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:38:22 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:38:44 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:38:44 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:41:04 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:41:04 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:42:56 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:42:56 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:43:36 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:43:36 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:44:36 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:44:36 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:45:14 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:45:14 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:45:23 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:45:23 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:46:10 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:46:10 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:46:48 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:46:48 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:46:52 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:46:52 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:47:04 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:47:04 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:47:37 +0000] "GET /stream/getStreamBymeetId/null HTTP/1.1" 404 168 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:47:37 AM GMT+2'
+}
+{
+  message: '::1 - - [16/Apr/2022:22:49:02 +0000] "GET /stream/getStreamBymeetId/aqtn-xkby-s7bl HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/17/2022, 12:49:02 AM GMT+2'
+>>>>>>> feat/add-profile-img
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/17/2022, 12:55:15 AM GMT+2'
 }

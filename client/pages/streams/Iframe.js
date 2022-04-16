@@ -15,7 +15,7 @@ const JoinScreen = ({ className, title, subTitle, fluid }) => {
                 document.body.style.setProperty('--dark', '#04185B')
                 document.getElementById("showskill").src =
                 "http://localhost:3001/react-rtc-demo?streamerName="+JSON.parse(localStorage.getItem('user')).firstName+" "+
-                JSON.parse(localStorage.getItem('user')).lastName+"&meetId=create";
+                JSON.parse(localStorage.getItem('user')).lastName+"&meetId=create&streamerId="+JSON.parse(localStorage.getItem('user'))._id;
                 
               }
              )
