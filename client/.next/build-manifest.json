@@ -21,14 +21,6 @@
     "/streams": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
-    ],
-    "/streams/channel": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/streams/launchStream": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
     ]
   }
 }
