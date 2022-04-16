@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -5904,7 +5904,7 @@ module.exports = "/_next/static/images/5-cdd017a1678448e08a33b684af6ef66f.jpg";
 
 /***/ }),
 
-/***/ 3:
+/***/ 6:
 /*!****************************************!*\
   !*** multi ./pages/streams/channel.js ***!
   \****************************************/

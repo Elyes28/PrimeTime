@@ -40580,7 +40580,7 @@ module.exports = "/_next/static/images/5-c2d0ef6c7afa49de701ac295ed1bbec0.jpg";
 
 /***/ }),
 
-/***/ 7:
+/***/ 9:
 /*!*******************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fstreams%2Fchannel&absolutePagePath=C%3A%5CUsers%5Cbachq%5CDocuments%5CGitHub%5CPrimeTime%5Cclient%5Cpages%5Cstreams%5Cchannel.js ***!
   \*******************************************************************************************************************************************************************************/
@@ -40603,5 +40603,5 @@ module.exports = dll_b0ae7f9d5a2cb9eeeb96;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js"]]]);
+},[[9,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=channel.js.map
