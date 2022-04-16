@@ -10,7 +10,6 @@ router.post("/forgetpass", forgetPass);
 router.post("/recoverpass", recoverPass);
 router.post('/uploadProfileImg',uploadImage,upload)
 
-
 router.get('/:id', async(req,res)=>{
     try{
         const user = await User.findById(req.params.id)

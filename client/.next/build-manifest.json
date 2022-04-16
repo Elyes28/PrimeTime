@@ -4,10 +4,6 @@
     "static/development/dll/dll_e9cfcd485b199ede4627.js.map"
   ],
   "pages": {
-    "/": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/_app": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
@@ -22,11 +18,11 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/index": [
+    "/streams/channel": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/streams/channel": [
+    "/streams/launchStream": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
