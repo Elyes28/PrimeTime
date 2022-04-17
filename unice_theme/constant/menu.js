@@ -16,6 +16,20 @@ export const MENUITEMS = [
       ],
    },
    {
+      title: 'Shop', type: 'sub', children: [
+         // { path: '/blog/blog-detail/detail-left-sidebar', title: ' ', type: 'link' },
+          { path: '/blog/blog-masonary/masonary-left-sidebar', title: 'Our Products', type: 'link' },
+          { path: '/cart',title: 'Cart', type: 'link' , icon: 'fa fa-'}
+         ]
+   },
+   {
+      title: 'Live shows', type: 'sub', children: [
+         // { path: '/blog/blog-detail/detail-left-sidebar', title: ' ', type: 'link' },
+          { path: '/streams/launchStream', title: 'Launch Stream', type: 'link' },
+          { path: '/streams',title: 'Watch Stream', type: 'link' , icon: 'fa fa-'}
+         ]
+   },
+   {
       title: 'Blog', type: 'sub', children: [
          {
             title: 'Blog Grid View', type: 'sub', children: [

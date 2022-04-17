@@ -14,10 +14,10 @@ const CommonLayout = ({ children, pathList, pathTitle }) => {
 
     return (
         <>
-            <Header className="dark agency" />
+            <Header className="light agency" />
 
             <Breadcrumb list={pathList} title={pathTitle} />
-
+            
             <>{children}</>
 
             <Footer />

@@ -1,40 +1,32 @@
-import React from 'react'
-import { BlogsList } from "../../../database/blog/database"
-import {Container,Row,Col} from 'reactstrap'
+import React, { useEffect } from "react";
+import { BlogsList } from "../../../database/blog/database";
+import { Container, Row, Col } from "reactstrap";
 // import Custom Components
-import CommonLayout from "../../../containers/common/common-layout"
-import CardWrapper from "../../../containers/blog/card/list-wrapper"
+import CommonLayout from "../../../containers/common/common-layout";
+import CardWrapper from "../../../containers/blog/card/list-wrapper";
 
-const ListNoSidebar = ({ }) => (
+const ListNoSidebar = () => {
+  useEffect(() => {
+    document.body.style.setProperty("--primary", "#10266b");
+    document.body.style.setProperty("--secondary", "#464545");
+    document.body.style.setProperty("--light", "#1F357D");
+    document.body.style.setProperty("--dark", "#04185B");
+    document.getElementById("violon").src = "http://localhost:3001";
+  });
+  return (
     <>
-        <CommonLayout pathList={['blog', 'blog list view', 'no sidebar']} pathTitle="BLOG WITH NO-SIDEBAR">
-            <section className="agency blog blog-sec blog-list blog-no-sidebar">
-                <Container>
-                    <Row>
-                        <Col xs="12">
-                            <div>
-                                {BlogsList.length > 0 ?
-                                    BlogsList.map((item, index) =>
-                                        <CardWrapper
-                                            key={`grid-no-sidebar-${index}`}
-                                            className="col-12 blog-sec blog-list"
-                                            image={item.image}
-                                            blogDate={item.createdAt}
-                                            place={item.place}
-                                            title={item.title}
-                                            description={item.description}
-                                            readUrl={item.readUrl}
-                                        />
-                                    ) :
-                                    '!! No Blogs Found'}
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
-        </CommonLayout>
+      <CommonLayout
+        pathList={["blog", "blog list view", "no sidebar"]}
+        pathTitle="BLOG WITH NO-SIDEBAR"
+      >
+        <section className="agency blog blog-sec blog-list blog-no-sidebar">
+          <Container>
+            <iframe id="violon" height="720" width="1400"></iframe>
+          </Container>
+        </section>
+      </CommonLayout>
     </>
-)
-
+  );
+};
 
 export default ListNoSidebar;

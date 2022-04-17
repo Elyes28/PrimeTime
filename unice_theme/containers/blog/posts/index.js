@@ -1,51 +1,48 @@
+
 import React from 'react';
+import {useEffect, useState} from 'react';
+import axios from 'axios';
+import Axios, * as others from "axios";
+import NextLink from 'next/link';
+
+
 
 const PopularPosts = ({}) => {
 
+
+
+    
+    const [newproduct, setnewproduct] = useState([]);
+
+    const getnewProducts = () => {
+     Axios.get("http://localhost:5000/products?new=true").then((response) => {
+        setnewproduct(response.data);
+       console.log(response.data);
+       
+     });
+   };
+   useEffect(() => {
+    getnewProducts();
+     },[]);
+
     return (
         <div>
-            <h5 className="blog-title">popular posts</h5>
+            <h5 className="blog-title">New Product</h5>
             <div className="sidebar-container">
                 <div className="post-container d-flex">
+                {
+                                    newproduct.map((product) => (
                     <div className="w-35 m-r-25">
-                        <img alt="" className="img-fluid" src="/assets/images/inner-page/side-img/1.jpg" />
-                        <div className="badge">2020</div>
+                        <NextLink href={`/product/${product.slug}`} passHref>
+                        <img alt="" className="img-fluid" src={product.image}/>
+                        </NextLink>
+                        <div className="badge">{product.productName}</div>
                     </div>
-                    <div>
-                        <h5 className="post-head">lorem ipsum</h5>
-                        <h6 className="date">nov 22, 2020</h6>
-                    </div>
+                   ) )}  
                 </div>
-                <div className="post-container d-flex">
-                    <div className="w-35 m-r-25">
-                        <img alt="" className="img-fluid" src="/assets/images/inner-page/side-img/2.jpg" />
-                        <div className="badge badge-red">2020</div>
-                    </div>
-                    <div>
-                        <h5 className="post-head">lorem ipsum</h5>
-                        <h6 className="date">nov 22, 2020</h6>
-                    </div>
-                </div>
-                <div className="post-container d-flex">
-                    <div className="w-35 m-r-25">
-                        <img alt="" className="img-fluid" src="/assets/images/inner-page/side-img/3.jpg" />
-                        <div className="badge badge-yellow">2020</div>
-                    </div>
-                    <div>
-                        <h5 className="post-head">lorem ipsum</h5>
-                        <h6 className="date">nov 22, 2020</h6>
-                    </div>
-                </div>
-                <div className="post-container d-flex">
-                    <div className="w-35 m-r-25">
-                        <img alt="" className="img-fluid" src="/assets/images/inner-page/side-img/4.jpg" />
-                        <div className="badge badge-blue">2020</div>
-                    </div>
-                    <div>
-                        <h5 className="post-head">lorem ipsum</h5>
-                        <h6 className="date">nov 22, 2020</h6>
-                    </div>
-                </div>
+                 
+                 
+                  
             </div>
         </div>
     );

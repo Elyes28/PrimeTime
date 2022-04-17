@@ -20,11 +20,13 @@ const Popup = () => {
 
      const log= postData.email;
 
-     const forgetpass = (log) => axios.post(url,{email:log}).then(res => {
+     const forgetpass = () => axios.post(url,{email:postData.email}).then(res => {
+        console.log(log);
     console.log(res);
     console.log(res.data);
   }).catch(
     function (error) {
+        console.log(postData.email);
       console.log('Show error notification!')
       return Promise.reject(error)
     }
@@ -36,13 +38,14 @@ const Popup = () => {
     const [signinerr,SetSigninerr]=useState({status:'',message:''});
     const [badPass,setError]=useState({message:''});
     const [sign_forget, setSignOrForget] = useState("");
-     
+    const [buttonValue,setButtonValue]=useState("");
     const signup =(e)=> {
         e.preventDefault();
         console.log("implement sign up here")
      
    
 if(newUser.password == newUser.ConfirmPass)
+
         axios.post("http://localhost:5000/user/signup",{email:newUser.email,
         password:newUser.password,firstName:newUser.firstName,lastName:newUser.lastName}).then( res => {
             setError({...badPass,message:"aaa"})
@@ -60,26 +63,40 @@ if(newUser.password == newUser.ConfirmPass)
 
 
     const signin =()=> {
-        console.log("implement sign in here")
-
+        
         axios.post("http://localhost:5000/user/signin",{email:log,password:postData.password}).then( res => {
             setUser({...user,email:res.data.result.email,password:res.data.result.password,token:res.data.token});
+            const current_user={email:res.data.result.email,
+                                token:res.data.token,
+                                firstName:res.data.result.firstname,
+                                _id:res.data.result._id,
+                                lastName:res.data.result.lastname}
+                        setButtonValue("log out");     
+                        toggle();   
+                               // current_user.bro=res.data.result.token;
+                             
+                                localStorage.setItem('user',JSON.stringify(current_user))
             SetSigninerr({...signinerr,status:error.response.data.message,message:error.response.data.message})
         })
         .catch(function (error) {
-            console.log(error.response.data);
+            if (error.response)
             SetSigninerr({...signinerr,status:error.response.status,message:error.response.data.message})
-            console.log(signinerr)
+           
         })
-   
     }
-    useEffect(() => {
-        
-        localStorage.setItem('user',JSON.stringify(user))
-        const current_user= JSON.parse(localStorage.getItem('user'))
-        console.log(current_user.email);
-      }, [user]);
 
+    useEffect(() => {
+        if (JSON.parse(localStorage.getItem("user")))
+         setButtonValue(true)
+         else
+         setButtonValue(false) 
+      },[]);
+
+      const logout=() =>{
+          localStorage.removeItem("user");
+          setButtonValue(!buttonValue);
+      }
+ 
 
     
 
@@ -94,8 +111,9 @@ if(newUser.password == newUser.ConfirmPass)
                         <Col md="6" className="offset-md-3">
                             <div className="text-center">
                                 
-                                <Button className="popup-with-form btn btn-default primary-btn" onClick={() => { toggle(); }} >Login</Button>
-                                
+                                <Button className="popup-with-form btn btn-default primary-btn" hidden={buttonValue} onClick={() => { toggle(); }} >Login</Button>
+                                <Button className="popup-with-form btn btn-default primary-btn"  hidden={!buttonValue} onClick={() => { logout(); }} >Logout</Button>
+
                             </div>
                         </Col>
                     </Row>
@@ -105,7 +123,8 @@ if(newUser.password == newUser.ConfirmPass)
 
             {/* // <!-- Login-modal section start --> */}
             <Modal isOpen={modal} toggle={toggle}>
-                <ModalHeader toggle={toggle} className="modal-no-header close-right"></ModalHeader>
+                <a onClick={toggle} className="modal-no-header mt-3" style={{ width:"50px", left:"95%",fontSize:"1rem"}}>X</a>
+                
                 <ModalBody>
                     <div className="modal-body login-modal">
                         <Nav tabs className="nav nav-pills mb-5">
@@ -140,7 +159,7 @@ if(newUser.password == newUser.ConfirmPass)
 
                                     </div>
                                     <button className="btn primary-btn btn-default text-uppercase"  onClick={()=>signin()} >Login</button>
-                                    <button className="btn primary-btn btn-default text-uppercase" type='submit'  >Forget password</button>
+                                    <button className="btn primary-btn btn-default text-uppercase" type='submit' onClick={()=>forgetpass()} >Forget password</button>
                                     
                                
                                 {/* <!-- end login form --> */}

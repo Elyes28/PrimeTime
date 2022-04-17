@@ -9,6 +9,9 @@ dotenv.config();
 import  logger  from "./helpers/logger.js"
 import postRoutes from './routes/posts.js';
 import userRouter from "./routes/user.js";
+import router from './routes/stream.js';
+import  courseRouter  from "./routes/courses.js"
+
 const app = express();
 app.use(morgan('combined', {
   skip: function (req, res) { return res.statusCode < 400 },
@@ -19,8 +22,22 @@ app.use(bodyParser.json({ limit: '30mb', extended: true }))
 app.use(bodyParser.urlencoded({ limit: '30mb', extended: true }))
 app.use(cors());
 
+app.use('/stream',router);
 app.use('/posts', postRoutes);
 app.use("/user", userRouter);
+
+
+import  productRouter  from "./routes/products.js"
+app.use('/products',productRouter)
+
+
+
+
+
+app.use('/courses',courseRouter)
+
+
+
 const CONNECTION_URL = process.env.CONNECTION_URL;
 const PORT = process.env.PORT|| 5000;
 

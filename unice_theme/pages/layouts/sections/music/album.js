@@ -8,7 +8,7 @@ const Album = () => (
                 <Col md="10" className="offset-md-1">
                     <div className="title title4">
                         <div className="main-title">
-                            <h2>album list</h2>
+                            <h2>Featured streamers</h2>
                         </div>
                         <div className="sub-title">
                             <p>Our Latest Album and details Song 2019</p>

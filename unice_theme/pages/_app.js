@@ -13,6 +13,7 @@ import '../public/assets/scss/themify.scss';
 import "../public/assets/scss/slick.scss";
 import "../public/assets/scss/slick-theme.scss";
 import Customizer from '../containers/customizer';
+import { StoreProvider } from '../utils/Store';
 
 
 const { publicRuntimeConfig = {} } = getConfig() || {};
@@ -92,7 +93,9 @@ export default function MyApp({ Component, pageProps, graphql }) {
   return (
     <div>
       <MyFunctionComponent>
+      <StoreProvider>
         <Component {...pageProps} />
+        </StoreProvider>
         <Customizer />
       </MyFunctionComponent>
       <ToastContainer />

@@ -1,59 +1,72 @@
-import React, { Fragment, useEffect } from 'react'
-import '../public/assets/scss/landing.scss'
+import React, { useEffect } from 'react'
 import Head from 'next/head'
+
 // import Custom Components
-import Header from '../landing/header'
-import GiftSection from '../landing/git-section'
-import DemoSection from '../landing/demo'
-import PortfolioSection from '../landing/portfolio'
-import WhatinsideSection from '../landing/whatinside'
-import BlogSection from '../landing/blog'
-import ElementSection from '../landing/elements'
-import FeaturesSection from '../landing/features'
-import TestimonialSection from '../landing/testimonial'
-import RatSection from '../landing/rat'
-import FooterSection from '../landing/footer'
+import Header from '../containers/common/header'
+import BannerSection from './layouts/sections/music/banner'
+import SideSection from './layouts/sections/music/sideSection'
+import ProfileSection from './layouts/sections/music/ProfileSection'
 
-const Home = () => {
-  
-  useEffect(() => {
-    document.body.style.setProperty('--primary', '#10266b')
-    document.body.style.setProperty('--secondary', '#464545')
-    document.body.style.setProperty('--light', '#1F357D')
-    document.body.style.setProperty('--dark', '#04185B')
-  })
+import AlbumSection from './layouts/sections/music/album';
+import ArtistSection from './layouts/sections/music/artist';
+import SponsorSection from './layouts/sections/music/sponsor';
+import GallerySection from './layouts/sections/music/gallery';
+import VideoSection from './layouts/sections/music/video';
+import BookingSection from './layouts/sections/music/booking';
+import BlogSection from './layouts/sections/music/blog';
+import SubscribeSection from './layouts/sections/music/subscribe';
+import TestimonialSection from './layouts/sections/music/testimonial';
+import FooterSection from './layouts/sections/music/footer';
+import CopyrightSection from './layouts/sections/music/copyright';
 
-  return (
-    <Fragment>
-      <div className="landing-page">
-      <Head>
-        <title>Unice</title>
-      </Head>
+const Music = () => {
 
-      <Header />
+    useEffect(() => {
+        document.body.style.setProperty('--primary', '#223b7b')
+        document.body.style.setProperty('--secondary', '#fff')
+        document.body.style.setProperty('--light', '#2245a0')
+        document.body.style.setProperty('--dark', '#213672')
+    })
 
-      <GiftSection />
+    return (
+        <div>
+            <Head>
+                <title>Music Layout </title>
+            </Head>
 
-      <DemoSection />
+            
+            <Header className="music loding-header"/>
+            
 
-      <PortfolioSection />
+            <BannerSection />
 
-      <WhatinsideSection />
+            <SideSection />
+            <ProfileSection/>
 
-      <BlogSection />
+            <AlbumSection />
 
-      <ElementSection />
+            <ArtistSection />
 
-      <FeaturesSection />
+            <SponsorSection />
 
-      <TestimonialSection />
+            <GallerySection />
 
-      <RatSection />
+            <VideoSection />
 
-      <FooterSection />
-      </div>
-    </Fragment>
-  )
+            <BookingSection />
+
+            <BlogSection />
+
+            <SubscribeSection />
+
+            <TestimonialSection />
+            
+            <FooterSection />
+
+            <CopyrightSection />
+
+        </div>
+    )
 }
 
-export default Home
+export default Music;
