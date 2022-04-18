@@ -12,7 +12,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\containers\\customizer.js";
+    _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\containers\\customizer.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -14780,7 +14780,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _containers_customizer__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../containers/customizer */ "./containers/customizer.js");
 /* harmony import */ var _utils_Store__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../utils/Store */ "./utils/Store.js");
 
-var _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\pages\\_app.js";
+var _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\pages\\_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -15071,8 +15071,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\utils\\Store.js";
-
+var _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\utils\\Store.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement;
 
 function ownKeys(object, enumerableOnly) { var keys = _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default()(object); if (_babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default.a) { var symbols = _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default()(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
@@ -15127,6 +15126,42 @@ function reducer(state, action) {
         });
       }
 
+    case 'USER_SIGNIN':
+      return _objectSpread({}, state, {
+        userInfo: action.payload
+      });
+
+    case 'USER_SIGNOUT':
+      return _objectSpread({}, state, {
+        userInfo: null,
+        cart: {
+          cartItems: [],
+          shippingAddress: {},
+          paymentMethod: ''
+        }
+      });
+
+    case 'SAVE_SHIPPING_ADDRESS':
+      return _objectSpread({}, state, {
+        cart: _objectSpread({}, state.cart, {
+          shippingAddress: action.payload
+        })
+      });
+
+    case 'SAVE_PAYMENT_METHOD':
+      return _objectSpread({}, state, {
+        cart: _objectSpread({}, state.cart, {
+          paymentMethod: action.payload
+        })
+      });
+
+    case 'CART_CLEAR':
+      return _objectSpread({}, state, {
+        cart: _objectSpread({}, state.cart, {
+          cartItems: []
+        })
+      });
+
     default:
       return state;
   }
@@ -15146,7 +15181,7 @@ function StoreProvider(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 81,
       columnNumber: 10
     }
   }, props.children, " ");

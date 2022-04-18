@@ -11,6 +11,9 @@ import postRoutes from './routes/posts.js';
 import userRouter from "./routes/user.js";
 import router from './routes/stream.js';
 import  courseRouter  from "./routes/courses.js"
+import  productRouter  from "./routes/products.js"
+import orderRouter from "./routes/order.js"
+
 
 const app = express();
 app.use(morgan('combined', {
@@ -25,10 +28,13 @@ app.use(cors());
 app.use('/stream',router);
 app.use('/posts', postRoutes);
 app.use("/user", userRouter);
+app.use("/orders",orderRouter);
 
 
-import  productRouter  from "./routes/products.js"
+
+
 app.use('/products',productRouter)
+
 
 
 

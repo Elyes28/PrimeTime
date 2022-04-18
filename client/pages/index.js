@@ -5,8 +5,6 @@ import Head from 'next/head'
 import Header from '../containers/common/header'
 import BannerSection from './layouts/sections/music/banner'
 import SideSection from './layouts/sections/music/sideSection'
-import ProfileSection from './layouts/sections/music/ProfileSection'
-
 import AlbumSection from './layouts/sections/music/album';
 import ArtistSection from './layouts/sections/music/artist';
 import SponsorSection from './layouts/sections/music/sponsor';
@@ -34,14 +32,12 @@ const Music = () => {
                 <title>Music Layout </title>
             </Head>
 
-            
+
             <Header className="music loding-header"/>
-            
 
             <BannerSection />
 
             <SideSection />
-            <ProfileSection/>
 
             <AlbumSection />
 
