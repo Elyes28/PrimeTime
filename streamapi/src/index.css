@@ -16,6 +16,8 @@ div .button {
   margin: 0 15px 15px 0;
 }
 
+
+
 .button {
   display: inline-block;
   background-color: #f5f5f5;
@@ -59,7 +61,7 @@ div .button {
 }
 
 /* blue */
-
+.hide{display: none;}
 .button.blue {
   background-color: #4d90fe;
   background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);

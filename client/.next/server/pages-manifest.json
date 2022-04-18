@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 {"/_app":"static/development/pages/_app.js","/_document":"static/development/pages/_document.js","/_error":"static/development/pages/_error.js","/streams/channel":"static/development/pages/streams/channel.js","/streams/launchStream":"static/development/pages/streams/launchStream.js"}
+=======
+{"/_app":"static/development/pages/_app.js","/_document":"static/development/pages/_document.js","/_error":"static/development/pages/_error.js","/profileDetails":"static/development/pages/profileDetails.js","/streams":"static/development/pages/streams.js"}
+>>>>>>> Stashed changes

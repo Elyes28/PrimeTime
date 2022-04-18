@@ -96,8 +96,8 @@ const [photoIndex, setPhotoIndex] = useState(initilindex)
 
             <div className="container-fluid blog-sec detail2 p-0">
         <Slider className="owl-carousel owl-theme portfolio-header" {...settings1}>
-            <div className="item ml-5">
-            <iframe id='showskill' height="900" width="1400" title="Iframe Example" allow="camera; microphone;display-capture;autoplay; clipboard-write;" src={iframeurl}></iframe>
+            <div className="item ">
+            <iframe id='showskill' height="900" width="100%" style={{"border":"white"}} title="Iframe Example"  src={iframeurl}></iframe>
                   </div>
             <div className="item">
                 <img alt="" className="img-fluid" src="../assets/images/inner-page/blogs/2.jpg" />

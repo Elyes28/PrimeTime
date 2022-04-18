@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 import logger from '../helpers/logger.js';
 import stream from '../models/stream.js';
 import multer from "multer";
+import fetch from 'node-fetch';
 
 
 export const createStream = async (req, res) => {
@@ -69,3 +70,18 @@ const multerConfig = multer.diskStorage({
   }
   
   // image upload ends here
+
+export const fetch_sessions = async(req,res)=>{
+  const options = {
+	method: "GET",
+	headers: {
+		"Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYjllMjE1Zi04NTFmLTQyZjQtOTljOS05MWJmMjE0ZDUwMTciLCJwZXJtaXNzaW9ucyI6WyJhbGxvd19qb2luIl0sImlhdCI6MTY1MDIwMTc5OSwiZXhwIjoxNjUwODA2NTk5fQ.6ZNK-yP6xJz9FZG9qG8pNyggYgfhottCAhiU48B86y4",
+		"Content-Type": "application/json",
+	},
+};
+const url= `https://api.videosdk.live/v2/sessions/`;
+const response = await fetch(url, options);
+const data = await response.json();
+console.log(data);
+res.status(200).json(data)
+}

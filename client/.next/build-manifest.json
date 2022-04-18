@@ -18,11 +18,21 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
+<<<<<<< Updated upstream
     "/streams/channel": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
     "/streams/launchStream": [
+=======
+    "/profileDetails": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
+    ],
+    "/streams": [
+>>>>>>> Stashed changes
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

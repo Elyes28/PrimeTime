@@ -1,13 +1,35 @@
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import nodemailer from "nodemailer";
-import user from "../models/user.js";
 import logger  from "./../helpers/logger.js"
 import multer from "multer";
 import UserModal from "../models/user.js";
+import licensekeyModal from "../models/licensekey.js";
 
 const secret = process.env.secret;
 const BASE_URL = process.env.BASE_URL;
+
+export const activateAccount= async (req,res)=>{
+  const {licensekey,userid}=req.body
+  const license_key= await licensekeyModal.findOne({license_key:licensekey})
+  if (!license_key.isActivated){
+  const user= await UserModal.findOne({_id:userid})
+  var today = new Date();
+  today.setDate(today.getDate()+license_key.duration)
+  user.active_until=today
+  user.role="musician"
+  user.save()
+  license_key.isActivated=true
+  license_key.save()
+  return res.status(200).json(user)
+}
+  else{
+    return res.status(400).json({message:'this license key is already used'})
+
+  }
+  
+
+}
 
 export const signin = async (req, res) => {
   const { email, password } = req.body;
@@ -157,6 +179,8 @@ export const upload = (req,res)=>{
     succes:'success',
   })
 }
+
+
 
 // image upload ends here
 
