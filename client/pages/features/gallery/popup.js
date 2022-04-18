@@ -70,7 +70,16 @@ if(newUser.password == newUser.ConfirmPass)
                                 token:res.data.token,
                                 firstName:res.data.result.firstname,
                                 _id:res.data.result._id,
-                                lastName:res.data.result.lastname}
+                                lastName:res.data.result.lastname,
+                                expiration:res.data.result.active_until,
+                                role:res.data.result.role,
+                                phone:res.data.result.phone,
+                                instagram:res.data.result.instagram,
+                                youtube:res.data.result.youtube,
+                                facebook:res.data.result.facebook,
+                                spotify:res.data.result.spotify
+
+                            }
                         setButtonValue("log out");     
                         toggle();   
                                // current_user.bro=res.data.result.token;

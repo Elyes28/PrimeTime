@@ -1,7 +1,7 @@
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import nodemailer from "nodemailer";
-import logger  from "./../helpers/logger.js"
+import logger from "./../helpers/logger.js";
 import multer from "multer";
 import UserModal from "../models/user.js";
 import licensekeyModal from "../models/licensekey.js";
@@ -9,27 +9,29 @@ import licensekeyModal from "../models/licensekey.js";
 const secret = process.env.secret;
 const BASE_URL = process.env.BASE_URL;
 
-export const activateAccount= async (req,res)=>{
-  const {licensekey,userid}=req.body
-  const license_key= await licensekeyModal.findOne({license_key:licensekey})
-  if (!license_key.isActivated){
-  const user= await UserModal.findOne({_id:userid})
-  var today = new Date();
-  today.setDate(today.getDate()+license_key.duration)
-  user.active_until=today
-  user.role="musician"
-  user.save()
-  license_key.isActivated=true
-  license_key.save()
-  return res.status(200).json(user)
-}
-  else{
-    return res.status(400).json({message:'this license key is already used'})
-
+export const activateAccount = async (req, res) => {
+  const { licensekey, userid } = req.body;
+  const license_key = await licensekeyModal.findOne({
+    license_key: licensekey,
+  });
+  if (!license_key)
+    return res.status(400).json({ message: "this license key is invalid" });
+  if (!license_key.isActivated) {
+    const user = await UserModal.findOne({ _id: userid });
+    var today = new Date();
+    today.setDate(today.getDate() + license_key.duration);
+    user.active_until = today;
+    user.role = license_key.type;
+    user.save();
+    license_key.isActivated = true;
+    license_key.save();
+    return res.status(200).json(user);
+  } else {
+    return res
+      .status(400)
+      .json({ message: "this license key is already used" });
   }
-  
-
-}
+};
 
 export const signin = async (req, res) => {
   const { email, password } = req.body;
@@ -45,11 +47,15 @@ export const signin = async (req, res) => {
     if (!isPasswordCorrect)
       return res.status(400).json({ message: "Invalid password !" });
 
-    const token = jwt.sign({ email: oldUser.email, id: oldUser._id }, process.env.secret, {
-      expiresIn: "1h",
-    });
+    const token = jwt.sign(
+      { email: oldUser.email, id: oldUser._id },
+      process.env.secret,
+      {
+        expiresIn: "1h",
+      }
+    );
 
-    console.log(oldUser)
+    console.log(oldUser);
 
     res.status(200).json({ result: oldUser, token });
   } catch (err) {
@@ -72,8 +78,7 @@ export const signup = async (req, res) => {
       email,
       password: hashedPassword,
       firstname: `${firstName}`,
-      lastname : `${lastName}`,
-
+      lastname: `${lastName}`,
     });
 
     const token = jwt.sign({ email: result.email, id: result._id }, secret, {
@@ -88,10 +93,10 @@ export const signup = async (req, res) => {
   }
 };
 export const forgetPass = async (req, res) => {
-  const {email} = req.body;
+  const { email } = req.body;
 
   try {
-    console.log("testing email")
+    console.log("testing email");
     console.log(req.body);
     const oldUser = await UserModal.findOne({ email });
     //if(oldUser)
@@ -122,7 +127,7 @@ export const forgetPass = async (req, res) => {
       html: "Hello " + oldUser.name + "<br>" + process.env.BASE_URL + token, // html body
     });
 
-    res.status(200).json({messgae :"Password recovery email sent !"});
+    res.status(200).json({ messgae: "Password recovery email sent !" });
   } catch (error) {
     res.status(500).json({ message: "Something went wrong" });
 
@@ -144,44 +149,52 @@ export const recoverPass = async (req, res) => {
     oldUser
       .save()
       .then((savedDoc) => {
-        res.status(200).json({message: "Password changed sucessfully"});
+        res.status(200).json({ message: "Password changed sucessfully" });
       })
       .catch((e) => {
         res.status(500).json({ message: "Something went wrong" });
       });
   } catch (error) {
     res.status(500).json({ message: "Something went wrong" });
-    
-    
 
-    logger.error(error)
-    
+    logger.error(error);
   }
 };
 // image upload start here
 const multerConfig = multer.diskStorage({
-  destination : (req,file,callback)=>{
-    callback(null,'../client/public/images/users')
+  destination: (req, file, callback) => {
+    callback(null, "../client/public/images/users");
   },
-  filename:(req,file,callback)=>{
-   // const ext= file.mimetype.split('/')[1];
+  filename: (req, file, callback) => {
+    // const ext= file.mimetype.split('/')[1];
     console.log(req);
-    callback(null,`${req.body.username}.jpg`);
-  }
-})
-const uploadd =multer({
-  storage:multerConfig,
-})
-export const uploadImage = uploadd.single('photo')
+    callback(null, `${req.body.username}.jpg`);
+  },
+});
+const uploadd = multer({
+  storage: multerConfig,
+});
+export const uploadImage = uploadd.single("photo");
 
-export const upload = (req,res)=>{
+export const upload = (req, res) => {
   res.status(200).json({
-    succes:'success',
-  })
-}
-
-
+    succes: "success",
+  });
+};
 
 // image upload ends here
 
-
+export const updateProfile= async (req,res)=>{
+  const {userid}=req.body
+  const user = await UserModal.findById(userid)
+  const{firstname,lastname,phonenumber,facebook,instagram,youtube,spotify}=req.body
+  user.firstname=firstname;
+  user.lastname=lastname;
+  user.phone=phonenumber;
+  user.facebook=facebook;
+  user.instagram=instagram;
+  user.youtube=youtube;
+  user.spotify=spotify;
+  user.save()
+  return res.status(200).json(user)
+}

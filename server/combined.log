@@ -11031,3 +11031,1344 @@
   level: 'info',
   timestamp: '4/18/2022, 2:36:28 AM GMT+2'
 }
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 2:56:25 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 2:56:30 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 2:56:35 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 2:56:53 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 2:57:00 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 2:57:07 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 2:57:09 AM GMT+2'
+}
+{
+  message: '::1 - - [18/Apr/2022:00:57:25 +0000] "POST /user/activateaccount HTTP/1.1" 400 46 "-" "PostmanRuntime/7.28.0"\n',
+  level: 'info',
+  timestamp: '4/18/2022, 2:57:25 AM GMT+2'
+}
+{
+  message: '::1 - - [18/Apr/2022:00:57:34 +0000] "POST /user/activateaccount HTTP/1.1" 400 33 "-" "PostmanRuntime/7.28.0"\n',
+  level: 'info',
+  timestamp: '4/18/2022, 2:57:34 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 2:59:54 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 3:00:00 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 3:00:02 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 3:00:04 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 3:02:09 AM GMT+2'
+}
+{
+  error: ReferenceError: activateAccount is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:12:32
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: activateAccount is not defined\n' +
+    'ReferenceError: activateAccount is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:12:32\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: activateAccount is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:12:32\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Mon Apr 18 2022 02:25:39 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 30660,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72802304,
+      heapTotal: 38539264,
+      heapUsed: 25465384,
+      external: 25419949,
+      arrayBuffers: 19186257
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 179543 },
+  trace: [
+    {
+      column: 32,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/18/2022, 3:25:39 AM GMT+2'
+}
+{
+  error: ReferenceError: activateAccount is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:12:32
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: activateAccount is not defined\n' +
+    'ReferenceError: activateAccount is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:12:32\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: activateAccount is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:12:32\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Mon Apr 18 2022 02:25:46 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 27876,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72318976,
+      heapTotal: 38014976,
+      heapUsed: 27528456,
+      external: 25419949,
+      arrayBuffers: 19547129
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 179550 },
+  trace: [
+    {
+      column: 32,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/18/2022, 3:25:46 AM GMT+2'
+}
+{
+  error: ReferenceError: activateAccount is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:12:33
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: activateAccount is not defined\n' +
+    'ReferenceError: activateAccount is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:12:33\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: activateAccount is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:12:33\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Mon Apr 18 2022 02:25:48 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 28492,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72761344,
+      heapTotal: 38014976,
+      heapUsed: 27162752,
+      external: 25414142,
+      arrayBuffers: 19547129
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 179552 },
+  trace: [
+    {
+      column: 33,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/18/2022, 3:25:48 AM GMT+2'
+}
+{
+  error: ReferenceError: activateAccount is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:12:40
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: activateAccount is not defined\n' +
+    'ReferenceError: activateAccount is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:12:40\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: activateAccount is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:12:40\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Mon Apr 18 2022 02:25:51 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 28864,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72638464,
+      heapTotal: 38539264,
+      heapUsed: 24638832,
+      external: 25419973,
+      arrayBuffers: 19002492
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 179556 },
+  trace: [
+    {
+      column: 40,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/18/2022, 3:25:51 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 3:25:57 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 3:26:09 AM GMT+2'
+}
+{
+  error: ReferenceError: validfor is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/models/licensekey.js:7:3
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: validfor is not defined\n' +
+    'ReferenceError: validfor is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/models/licensekey.js:7:3\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: validfor is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/models/licensekey.js:7:3\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Mon Apr 18 2022 02:27:05 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 19576,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72806400,
+      heapTotal: 38801408,
+      heapUsed: 24539040,
+      external: 24039942,
+      arrayBuffers: 18987736
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 179629 },
+  trace: [
+    {
+      column: 3,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/models/licensekey.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/18/2022, 3:27:05 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 3:27:09 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 3:27:16 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 3:27:20 AM GMT+2'
+}
+{
+  error: ReferenceError: re is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/models/licensekey.js:7:21
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: re is not defined\n' +
+    'ReferenceError: re is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/models/licensekey.js:7:21\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: re is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/models/licensekey.js:7:21\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Mon Apr 18 2022 02:27:21 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 28872,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72364032,
+      heapTotal: 38014976,
+      heapUsed: 27400120,
+      external: 23974254,
+      arrayBuffers: 19589436
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 179645 },
+  trace: [
+    {
+      column: 21,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/models/licensekey.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/18/2022, 3:27:21 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 3:27:26 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 3:28:48 AM GMT+2'
+}
+{
+  message: '::1 - - [18/Apr/2022:01:42:18 +0000] "POST /user/signin HTTP/1.1" 404 42 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/18/2022, 3:42:18 AM GMT+2'
+}
+{
+  message: '::1 - - [18/Apr/2022:01:43:00 +0000] "POST /user/signup HTTP/1.1" 500 34 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/18/2022, 3:43:00 AM GMT+2'
+}
+{
+  message: '::1 - - [18/Apr/2022:02:32:16 +0000] "GET /stream/getStreamBymeetId/kcny-yt5t-33tw HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/18/2022, 4:32:16 AM GMT+2'
+}
+{
+  message: '::1 - - [18/Apr/2022:02:32:29 +0000] "GET /stream/getStreamBymeetId/kcny-yt5t-33tw HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/18/2022, 4:32:29 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 6:23:43 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 6:23:49 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 6:23:54 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 6:23:59 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 6:24:06 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 6:24:10 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 6:24:16 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 6:24:20 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 6:24:23 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 6:24:26 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 6:24:30 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 6:28:15 PM GMT+2'
+}
+{
+  error: ReferenceError: req is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:187:28
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: req is not defined\n' +
+    'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:187:28\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: req is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:187:28\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Mon Apr 18 2022 17:56:56 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 27336,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 71970816,
+      heapTotal: 38014976,
+      heapUsed: 27270680,
+      external: 25420756,
+      arrayBuffers: 19538937
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 235421 },
+  trace: [
+    {
+      column: 28,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: null,
+      line: 187,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/18/2022, 6:56:56 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 6:57:05 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 6:58:23 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 6:58:25 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 6:59:53 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 6:59:59 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:00:27 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:00:32 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:00:34 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:00:49 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:00:58 PM GMT+2'
+}
+{
+  error: ReferenceError: upda is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:13:30
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: upda is not defined\n' +
+    'ReferenceError: upda is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:13:30\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: upda is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:13:30\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Mon Apr 18 2022 18:01:03 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 24000,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 71958528,
+      heapTotal: 38539264,
+      heapUsed: 24696616,
+      external: 20549967,
+      arrayBuffers: 19015546
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 235668 },
+  trace: [
+    {
+      column: 30,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js',
+      function: null,
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/18/2022, 7:01:03 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:01:05 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:02:38 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:02:46 PM GMT+2'
+}
+{
+  message: '::ffff:127.0.0.1 - - [18/Apr/2022:17:02:46 +0000] "POST /user/updateProfile HTTP/1.1" 500 2133 "-" "PostmanRuntime/7.28.0"\n',
+  level: 'info',
+  timestamp: '4/18/2022, 7:02:46 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:02:56 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:03:05 PM GMT+2'
+}
+{
+  message: '::1 - - [18/Apr/2022:17:03:07 +0000] "POST /user/updateProfile HTTP/1.1" 500 2133 "-" "PostmanRuntime/7.28.0"\n',
+  level: 'info',
+  timestamp: '4/18/2022, 7:03:07 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:03:09 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:03:15 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:03:28 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:03:43 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:03:59 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:08:06 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:09:11 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:09:15 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:09:38 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:10:09 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:10:15 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:12:25 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:12:32 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:12:38 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:12:42 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:12:50 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:13:01 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:13:12 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:13:52 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:13:57 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:14:01 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:14:07 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:14:11 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:14:18 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:14:22 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:14:28 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:14:33 PM GMT+2'
+}
+{
+  error: Error: User validation failed: firstname: Path `firstname` is required., lastname: Path `lastname` is required.
+      at ValidationError.inspect (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\error\validation.js:48:26)
+      at formatValue (node:internal/util/inspect:780:19)
+      at formatProperty (node:internal/util/inspect:1817:11)
+      at formatRaw (node:internal/util/inspect:1028:9)
+      at formatValue (node:internal/util/inspect:815:10)
+      at inspect (node:internal/util/inspect:345:10)
+      at Format.transform (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\logform\pretty-print.js:27:19)
+      at Format.transform (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\logform\combine.js:20:24)
+      at File._write (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\winston-transport\index.js:91:33)
+      at doWrite (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+      at writeOrBuffer (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+      at File.Writable.write (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+      at DerivedLogger.ondata (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+      at DerivedLogger.emit (node:events:532:35)
+      at addChunk (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+      at readableAddChunk (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:280:11) {
+    errors: {
+      firstname: ValidatorError: Path `firstname` is required.
+          at validate (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\schematype.js:1270:13)
+          at C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\schematype.js:1253:7
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\schematype.js:1198:14)
+          at C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\document.js:2567:18
+          at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Path `firstname` is required.',
+          type: 'required',
+          path: 'firstname',
+          value: undefined
+        },
+        kind: 'required',
+        path: 'firstname',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      },
+      lastname: ValidatorError: Path `lastname` is required.
+          at validate (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\schematype.js:1270:13)
+          at C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\schematype.js:1253:7
+          at Array.forEach (<anonymous>)
+          at SchemaString.SchemaType.doValidate (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\schematype.js:1198:14)
+          at C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\document.js:2567:18
+          at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Path `lastname` is required.',
+          type: 'required',
+          path: 'lastname',
+          value: undefined
+        },
+        kind: 'required',
+        path: 'lastname',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      }
+    },
+    _message: 'User validation failed'
+  },
+  level: 'error',
+  message: 'uncaughtException: User validation failed: firstname: Path `firstname` is required., lastname: Path `lastname` is required.\n' +
+    'ValidationError: User validation failed: firstname: Path `firstname` is required., lastname: Path `lastname` is required.\n' +
+    '    at model.Document.invalidate (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\document.js:2782:32)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\document.js:2574:17\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\schematype.js:1273:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:78:11)',
+  stack: 'ValidationError: User validation failed: firstname: Path `firstname` is required., lastname: Path `lastname` is required.\n' +
+    '    at model.Document.invalidate (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\document.js:2782:32)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\document.js:2574:17\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\schematype.js:1273:9\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:78:11)',
+  exception: true,
+  date: 'Mon Apr 18 2022 18:22:37 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 24200,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 64438272,
+      heapTotal: 28577792,
+      heapUsed: 26758920,
+      external: 20052715,
+      arrayBuffers: 18412948
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 236961 },
+  trace: [
+    {
+      column: 32,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\document.js',
+      function: 'model.Document.invalidate',
+      line: 2782,
+      method: 'invalidate',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\document.js',
+      function: null,
+      line: 2574,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\schematype.js',
+      function: null,
+      line: 1273,
+      method: null,
+      native: false
+    },
+    {
+      column: 11,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 78,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/18/2022, 7:22:37 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:29:01 PM GMT+2'
+}
+{
+  message: '::1 - - [18/Apr/2022:17:29:55 +0000] "POST /user/signup HTTP/1.1" 500 34 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/18/2022, 7:29:55 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:45:16 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/18/2022, 7:45:18 PM GMT+2'
+}

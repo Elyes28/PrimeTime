@@ -2,7 +2,7 @@ import express from "express";
 const router = express.Router();
 import User from '../models/user.js';
 
-import { signin, signup,forgetPass,recoverPass, upload,uploadImage, activateAccount } from "../controllers/user.js";
+import { signin, signup,forgetPass,recoverPass, upload,uploadImage, activateAccount, updateProfile } from "../controllers/user.js";
 
 router.post("/signin", signin);
 router.post("/signup", signup);
@@ -10,6 +10,7 @@ router.post("/forgetpass", forgetPass);
 router.post("/recoverpass", recoverPass);
 router.post('/uploadProfileImg',uploadImage,upload)
 router.post('/activateaccount',activateAccount)
+router.post('/updateProfile',updateProfile)
 
 router.get('/:id', async(req,res)=>{
     try{
