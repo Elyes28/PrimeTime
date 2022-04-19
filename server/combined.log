@@ -12372,3 +12372,359 @@
   level: 'info',
   timestamp: '4/18/2022, 7:45:18 PM GMT+2'
 }
+{
+  message: '::1 - - [18/Apr/2022:22:49:28 +0000] "GET /stream/getStreamBymeetId/kcny-yt5t-33tw HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/19/2022, 12:49:28 AM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/19/2022, 2:13:54 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 3:37:02 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 3:37:37 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 3:38:14 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 3:38:16 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 3:38:29 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 3:38:33 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 3:38:44 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 3:38:48 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 3:38:53 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 3:39:28 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 3:39:34 AM GMT+2'
+}
+{
+  error: ReferenceError: upda is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:14:41
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: upda is not defined\n' +
+    'ReferenceError: upda is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:14:41\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: upda is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:14:41\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Tue Apr 19 2022 02:39:37 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 30156,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72605696,
+      heapTotal: 38801408,
+      heapUsed: 24846592,
+      external: 25423240,
+      arrayBuffers: 19015546
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 266781 },
+  trace: [
+    {
+      column: 41,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js',
+      function: null,
+      line: 14,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/19/2022, 3:39:37 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 3:39:40 AM GMT+2'
+}
+{
+  error: CastError: Cast to ObjectId failed for value "" (type string) at path "_id" for model "User"
+      at model.Query.exec (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\query.js:4498:21)
+      at model.Query.Query.then (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\query.js:4592:15)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '""',
+    kind: 'ObjectId',
+    value: '',
+    path: '_id',
+    reason: Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+        at new ObjectID (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\bson\lib\bson\objectid.js:59:11)
+        at castObjectId (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\schematype.js:1123:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\schematype.js:1601:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\schematype.js:1591:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\schematype.js:1568:20)
+        at cast (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\cast.js:332:32)
+        at model.Query.Query.cast (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\query.js:4937:12)
+        at model.Query.Query._castConditions (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\query.js:1975:10)
+        at model.Query.<anonymous> (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\query.js:2232:8)
+        at model.Query._wrappedThunk [as _findOne] (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+        at C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\kareem\index.js:370:33
+        at processTicksAndRejections (node:internal/process/task_queues:78:11),
+    valueType: 'string'
+  },
+  level: 'error',
+  message: 'uncaughtException: Cast to ObjectId failed for value "" (type string) at path "_id" for model "User"\n' +
+    'CastError: Cast to ObjectId failed for value "" (type string) at path "_id" for model "User"\n' +
+    '    at model.Query.exec (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\query.js:4498:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\query.js:4592:15)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: 'CastError: Cast to ObjectId failed for value "" (type string) at path "_id" for model "User"\n' +
+    '    at model.Query.exec (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\query.js:4498:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\query.js:4592:15)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Apr 19 2022 03:09:34 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 32148,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 65642496,
+      heapTotal: 29626368,
+      heapUsed: 27485656,
+      external: 20059750,
+      arrayBuffers: 18420262
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 268578 },
+  trace: [
+    {
+      column: 21,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\query.js',
+      function: 'model.Query.exec',
+      line: 4498,
+      method: 'exec',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\query.js',
+      function: 'model.Query.Query.then',
+      line: 4592,
+      method: 'then',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'runMicrotasks',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/19/2022, 4:09:34 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 4:16:01 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 4:16:04 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 4:16:10 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 4:16:16 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 4:16:27 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 4:16:38 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 4:16:41 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 4:16:46 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 4:16:49 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 4:17:25 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 4:17:49 AM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/19/2022, 4:19:12 AM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/19/2022, 4:19:12 AM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/19/2022, 4:19:12 AM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/19/2022, 4:19:12 AM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/19/2022, 4:19:12 AM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/19/2022, 4:19:12 AM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/19/2022, 4:19:12 AM GMT+2'
+}

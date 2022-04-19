@@ -2763,31 +2763,6 @@ module.exports = _createClass;
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/arrayWithoutHoles.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/arrayWithoutHoles.js ***!
-  \******************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _arrayWithoutHoles; });
-/* harmony import */ var _core_js_array_is_array__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/array/is-array */ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js");
-/* harmony import */ var _core_js_array_is_array__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_array_is_array__WEBPACK_IMPORTED_MODULE_0__);
-
-function _arrayWithoutHoles(arr) {
-  if (_core_js_array_is_array__WEBPACK_IMPORTED_MODULE_0___default()(arr)) {
-    for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {
-      arr2[i] = arr[i];
-    }
-
-    return arr2;
-  }
-}
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js":
 /*!***************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js ***!
@@ -2814,66 +2789,6 @@ function _defineProperty(obj, key, value) {
   }
 
   return obj;
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/iterableToArray.js":
-/*!****************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/iterableToArray.js ***!
-  \****************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _iterableToArray; });
-/* harmony import */ var _core_js_array_from__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/array/from */ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js");
-/* harmony import */ var _core_js_array_from__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_array_from__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _core_js_is_iterable__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/is-iterable */ "./node_modules/@babel/runtime-corejs2/core-js/is-iterable.js");
-/* harmony import */ var _core_js_is_iterable__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_core_js_is_iterable__WEBPACK_IMPORTED_MODULE_1__);
-
-
-function _iterableToArray(iter) {
-  if (_core_js_is_iterable__WEBPACK_IMPORTED_MODULE_1___default()(Object(iter)) || Object.prototype.toString.call(iter) === "[object Arguments]") return _core_js_array_from__WEBPACK_IMPORTED_MODULE_0___default()(iter);
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/nonIterableSpread.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/nonIterableSpread.js ***!
-  \******************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _nonIterableSpread; });
-function _nonIterableSpread() {
-  throw new TypeError("Invalid attempt to spread non-iterable instance");
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/toConsumableArray.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/toConsumableArray.js ***!
-  \******************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _toConsumableArray; });
-/* harmony import */ var _arrayWithoutHoles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./arrayWithoutHoles */ "./node_modules/@babel/runtime-corejs2/helpers/esm/arrayWithoutHoles.js");
-/* harmony import */ var _iterableToArray__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./iterableToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/iterableToArray.js");
-/* harmony import */ var _nonIterableSpread__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./nonIterableSpread */ "./node_modules/@babel/runtime-corejs2/helpers/esm/nonIterableSpread.js");
-
-
-
-function _toConsumableArray(arr) {
-  return Object(_arrayWithoutHoles__WEBPACK_IMPORTED_MODULE_0__["default"])(arr) || Object(_iterableToArray__WEBPACK_IMPORTED_MODULE_1__["default"])(arr) || Object(_nonIterableSpread__WEBPACK_IMPORTED_MODULE_2__["default"])();
 }
 
 /***/ }),
@@ -31622,7 +31537,8 @@ var Popup = function Popup() {
         instagram: res.data.result.instagram,
         youtube: res.data.result.youtube,
         facebook: res.data.result.facebook,
-        spotify: res.data.result.spotify
+        spotify: res.data.result.spotify,
+        channelDescription: res.data.result.channel_description
       };
       setButtonValue("log out");
       toggle(); // current_user.bro=res.data.result.token;
@@ -31654,7 +31570,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115,
+      lineNumber: 116,
       columnNumber: 9
     }
   }, __jsx("section", {
@@ -31665,21 +31581,21 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117,
+      lineNumber: 118,
       columnNumber: 13
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Container"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118,
+      lineNumber: 119,
       columnNumber: 17
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119,
+      lineNumber: 120,
       columnNumber: 21
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Col"], {
@@ -31688,7 +31604,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120,
+      lineNumber: 121,
       columnNumber: 25
     }
   }, __jsx("div", {
@@ -31696,7 +31612,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121,
+      lineNumber: 122,
       columnNumber: 29
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Button"], {
@@ -31708,7 +31624,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123,
+      lineNumber: 124,
       columnNumber: 33
     }
   }, "Login"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Button"], {
@@ -31720,7 +31636,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124,
+      lineNumber: 125,
       columnNumber: 33
     }
   }, "Logout")))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Modal"], {
@@ -31729,7 +31645,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134,
+      lineNumber: 135,
       columnNumber: 13
     }
   }, __jsx("a", {
@@ -31743,14 +31659,14 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135,
+      lineNumber: 136,
       columnNumber: 17
     }
   }, "X"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["ModalBody"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137,
+      lineNumber: 138,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -31758,7 +31674,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138,
+      lineNumber: 139,
       columnNumber: 21
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Nav"], {
@@ -31767,14 +31683,14 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139,
+      lineNumber: 140,
       columnNumber: 25
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["NavItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140,
+      lineNumber: 141,
       columnNumber: 29
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["NavLink"], {
@@ -31785,14 +31701,14 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141,
+      lineNumber: 142,
       columnNumber: 33
     }
   }, "Login")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["NavItem"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145,
+      lineNumber: 146,
       columnNumber: 29
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["NavLink"], {
@@ -31803,7 +31719,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146,
+      lineNumber: 147,
       columnNumber: 33
     }
   }, "Sign Up"))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["TabContent"], {
@@ -31812,7 +31728,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151,
+      lineNumber: 152,
       columnNumber: 25
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["TabPane"], {
@@ -31823,7 +31739,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152,
+      lineNumber: 153,
       columnNumber: 29
     }
   }, __jsx("div", {
@@ -31831,7 +31747,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 156,
+      lineNumber: 157,
       columnNumber: 37
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["FormGroup"], {
@@ -31839,7 +31755,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 157,
+      lineNumber: 158,
       columnNumber: 41
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -31847,7 +31763,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 158,
+      lineNumber: 159,
       columnNumber: 45
     }
   }, "Email"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
@@ -31864,7 +31780,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 159,
+      lineNumber: 160,
       columnNumber: 45
     }
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["FormGroup"], {
@@ -31872,7 +31788,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 162,
+      lineNumber: 163,
       columnNumber: 41
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -31880,7 +31796,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 163,
+      lineNumber: 164,
       columnNumber: 45
     }
   }, "Password"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
@@ -31897,7 +31813,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164,
+      lineNumber: 165,
       columnNumber: 45
     }
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -31908,7 +31824,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 167,
+      lineNumber: 168,
       columnNumber: 41
     }
   }, signinerr.message)), __jsx("button", {
@@ -31919,7 +31835,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 170,
+      lineNumber: 171,
       columnNumber: 37
     }
   }, "Login"), __jsx("button", {
@@ -31931,7 +31847,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 171,
+      lineNumber: 172,
       columnNumber: 37
     }
   }, "Forget password")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["TabPane"], {
@@ -31942,14 +31858,14 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 176,
+      lineNumber: 177,
       columnNumber: 29
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Form"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179,
+      lineNumber: 180,
       columnNumber: 33
     }
   }, __jsx("div", {
@@ -31957,7 +31873,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 180,
+      lineNumber: 181,
       columnNumber: 37
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["FormGroup"], {
@@ -31965,7 +31881,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 181,
+      lineNumber: 182,
       columnNumber: 41
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -31973,7 +31889,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 182,
+      lineNumber: 183,
       columnNumber: 45
     }
   }, "Email"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
@@ -31990,7 +31906,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 183,
+      lineNumber: 184,
       columnNumber: 45
     }
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["FormGroup"], {
@@ -31998,7 +31914,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 185,
+      lineNumber: 186,
       columnNumber: 41
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -32006,7 +31922,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 186,
+      lineNumber: 187,
       columnNumber: 45
     }
   }, "Password"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
@@ -32023,7 +31939,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 187,
+      lineNumber: 188,
       columnNumber: 45
     }
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["FormGroup"], {
@@ -32031,7 +31947,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 190,
+      lineNumber: 191,
       columnNumber: 41
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -32039,7 +31955,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 191,
+      lineNumber: 192,
       columnNumber: 45
     }
   }, "Confirm Password"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
@@ -32056,7 +31972,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 193,
+      lineNumber: 194,
       columnNumber: 45
     }
   }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -32067,14 +31983,14 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 195,
+      lineNumber: 196,
       columnNumber: 49
     }
   }, badPass.message))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["FormGroup"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 198,
+      lineNumber: 199,
       columnNumber: 37
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -32082,7 +31998,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 199,
+      lineNumber: 200,
       columnNumber: 41
     }
   }, "Address"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
@@ -32093,7 +32009,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 200,
+      lineNumber: 201,
       columnNumber: 41
     }
   }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -32101,7 +32017,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 202,
+      lineNumber: 203,
       columnNumber: 45
     }
   }, "Name"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
@@ -32118,7 +32034,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 203,
+      lineNumber: 204,
       columnNumber: 41
     }
   }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -32126,7 +32042,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 205,
+      lineNumber: 206,
       columnNumber: 45
     }
   }, "Last name"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
@@ -32143,7 +32059,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 206,
+      lineNumber: 207,
       columnNumber: 41
     }
   })), __jsx("button", {
@@ -32154,7 +32070,7 @@ var Popup = function Popup() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 210,
+      lineNumber: 211,
       columnNumber: 37
     }
   }, "Sign Up"))))))));
@@ -32188,19 +32104,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
 /* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js");
 /* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/toConsumableArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/toConsumableArray.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _containers_common_common_layout__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../containers/common/common-layout */ "./containers/common/common-layout.js");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _public_assets_person_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../public/assets/person.css */ "./public/assets/person.css");
-/* harmony import */ var _public_assets_person_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_public_assets_person_css__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _components_StreamCard__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/StreamCard */ "./components/StreamCard.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_15__);
-
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _containers_common_common_layout__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../containers/common/common-layout */ "./containers/common/common-layout.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _public_assets_person_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../public/assets/person.css */ "./public/assets/person.css");
+/* harmony import */ var _public_assets_person_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_public_assets_person_css__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _components_StreamCard__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/StreamCard */ "./components/StreamCard.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_14__);
 
 
 
@@ -32213,7 +32127,7 @@ __webpack_require__.r(__webpack_exports__);
 var _this = undefined,
     _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\pages\\profileDetails.js";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
 
 function ownKeys(object, enumerableOnly) { var keys = _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default()(object); if (_babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default.a) { var symbols = _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default()(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
 
@@ -32228,26 +32142,33 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 
 var PortfolioDetail7 = function PortfolioDetail7() {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_9__["useState"])(""),
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])(""),
       expires = _useState[0],
       setExpires = _useState[1];
 
-  var _useState2 = Object(react__WEBPACK_IMPORTED_MODULE_9__["useState"])({
+  var _useState2 = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])({
     firstName: "",
     lastName: ""
   }),
       user = _useState2[0],
       setUser = _useState2[1];
 
-  Object(react__WEBPACK_IMPORTED_MODULE_9__["useEffect"])(function () {
+  Object(react__WEBPACK_IMPORTED_MODULE_8__["useEffect"])(function () {
     setUser(JSON.parse(localStorage.getItem("user")));
   }, []);
 
-  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_9__["useState"])(""),
-      imgsrc = _useState3[0],
-      setImgsrc = _useState3[1];
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])({
+    userid: "",
+    text: ""
+  }),
+      channeldescription = _useState3[0],
+      setChannelDescription = _useState3[1];
 
-  var _useState4 = Object(react__WEBPACK_IMPORTED_MODULE_9__["useState"])({
+  var _useState4 = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])(""),
+      imgsrc = _useState4[0],
+      setImgsrc = _useState4[1];
+
+  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])({
     userid: "",
     firstname: "",
     lastname: "",
@@ -32257,12 +32178,12 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     youtube: "",
     spotify: ""
   }),
-      userData = _useState4[0],
-      setUserData = _useState4[1];
+      userData = _useState5[0],
+      setUserData = _useState5[1];
 
-  Object(react__WEBPACK_IMPORTED_MODULE_9__["useEffect"])(function () {
+  Object(react__WEBPACK_IMPORTED_MODULE_8__["useEffect"])(function () {
     if (user) {
-      setImgsrc("images/users/" + user["firstName"] + user["lastName"] + ".jpg");
+      setImgsrc("images/users/" + user["_id"] + ".jpg");
       if (JSON.parse(localStorage.getItem("user"))["role"] != "user") setExpires(JSON.parse(localStorage.getItem("user"))["expiration"].split("T")[0]);
       setUserData({
         userid: user["_id"],
@@ -32274,19 +32195,23 @@ var PortfolioDetail7 = function PortfolioDetail7() {
         youtube: user["youtube"],
         spotify: user["spotify"]
       });
+      setChannelDescription({
+        userid: user["_id"],
+        text: user['channelDescription']
+      });
     }
   }, [user]);
 
   var onInputChange = function onInputChange(e) {
     var formData = new FormData();
-    formData.append("username", user["firstName"] + user["lastName"]);
+    formData.append("username", user['_id']);
     formData.append("photo", e.target.files[0]);
     var config = {
       headers: {
         "content-type": "multipart/form-data"
       }
     };
-    axios__WEBPACK_IMPORTED_MODULE_12___default.a.post("http://localhost:5000/user/uploadProfileImg", formData, config).then(window.location.reload());
+    axios__WEBPACK_IMPORTED_MODULE_11___default.a.post("http://localhost:5000/user/uploadProfileImg", formData, config).then(window.location.reload());
   };
 
   var imgClicked = function imgClicked(e) {
@@ -32294,47 +32219,72 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     document.getElementById("file-input").click();
   };
 
-  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_9__["useState"])(false),
-      editable = _useState5[0],
-      setEditable = _useState5[1];
+  var _useState6 = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])(false),
+      editabledesc = _useState6[0],
+      setEditabledesc = _useState6[1];
+
+  var onOffEditdesc = function onOffEditdesc() {
+    setEditabledesc(!editabledesc);
+  };
+
+  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])(false),
+      editable = _useState7[0],
+      setEditable = _useState7[1];
 
   var onOffEdit = function onOffEdit() {
     setEditable(!editable);
-    console.log(editable);
   };
 
   var sendUpdateRequest = function sendUpdateRequest() {
     console.log(userData);
-    axios__WEBPACK_IMPORTED_MODULE_12___default.a.post("localhost:5000/user/updateProfile", userData).then(function () {
-      console.log("update ysir");
-      setUser.apply(void 0, Object(_babel_runtime_corejs2_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_8__["default"])(user).concat([userData]));
+    axios__WEBPACK_IMPORTED_MODULE_11___default.a.post("http://localhost:5000/user/updateProfile", userData).then(function () {
+      user.firstName = userData.firstname;
+      user.lastName = userData.lastname;
+      user.phone = userData.phonenumber;
+      user.facebook = userData.facebook;
+      user.instagram = userData.instagram;
+      user.youtube = userData.youtube;
+      user.spotify = userData.spotify;
+      setEditable(!editable); // setUser(user)
+
       localStorage.setItem('user', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_7___default()(user));
     })["catch"](function (err) {
       console.log(err);
     });
   };
 
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_9__["Fragment"], {
+  var sendChannelDescription = function sendChannelDescription() {
+    console.log(channeldescription);
+    axios__WEBPACK_IMPORTED_MODULE_11___default.a.post("http://localhost:5000/user/updateChannelDescription", channeldescription).then(function () {
+      user.channelDescription = channeldescription.text;
+      setEditabledesc(!editabledesc);
+      localStorage.setItem('user', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_7___default()(user));
+    })["catch"](function (err) {
+      console.log(err);
+    });
+  };
+
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_8__["Fragment"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81,
+      lineNumber: 104,
       columnNumber: 5
     }
-  }, __jsx(_containers_common_common_layout__WEBPACK_IMPORTED_MODULE_10__["default"], {
+  }, __jsx(_containers_common_common_layout__WEBPACK_IMPORTED_MODULE_9__["default"], {
     pathList: ["portfolio details", "left side image portfolio"],
     pathTitle: "left side image portfolio",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82,
+      lineNumber: 105,
       columnNumber: 7
     }
   }, __jsx("section", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 109,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -32345,7 +32295,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87,
+      lineNumber: 110,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -32353,7 +32303,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88,
+      lineNumber: 111,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -32361,7 +32311,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89,
+      lineNumber: 112,
       columnNumber: 15
     }
   }, __jsx("div", {
@@ -32373,7 +32323,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90,
+      lineNumber: 113,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -32381,7 +32331,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 118,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -32389,7 +32339,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 119,
       columnNumber: 21
     }
   }, __jsx("h3", {
@@ -32397,7 +32347,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97,
+      lineNumber: 120,
       columnNumber: 23
     }
   }, "Profile detail"), __jsx("svg", {
@@ -32411,7 +32361,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 121,
       columnNumber: 23
     }
   }, __jsx("path", {
@@ -32419,7 +32369,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107,
+      lineNumber: 130,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -32428,7 +32378,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108,
+      lineNumber: 131,
       columnNumber: 25
     }
   }))), __jsx("div", {
@@ -32436,7 +32386,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114,
+      lineNumber: 137,
       columnNumber: 21
     }
   }, __jsx("input", {
@@ -32452,7 +32402,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115,
+      lineNumber: 138,
       columnNumber: 23
     }
   }), __jsx("a", {
@@ -32461,13 +32411,13 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126,
+      lineNumber: 149,
       columnNumber: 23
     }
   }, __jsx("img", {
     id: "profileimg",
     alt: "add profile image",
-    className: "rounded-circle w-50 mx-auto",
+    className: "rounded-circle w-50 mx-auto ",
     src: imgsrc,
     style: {
       display: "block"
@@ -32475,15 +32425,15 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127,
+      lineNumber: 151,
       columnNumber: 25
     }
-  }), " ")), editable ? __jsx(react__WEBPACK_IMPORTED_MODULE_9___default.a.Fragment, null, __jsx("div", {
+  }), " ")), editable ? __jsx(react__WEBPACK_IMPORTED_MODULE_8___default.a.Fragment, null, __jsx("div", {
     className: "detail-container d-flex mt-3 ",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137,
+      lineNumber: 161,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -32491,7 +32441,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138,
+      lineNumber: 162,
       columnNumber: 23
     }
   }, __jsx("h5", {
@@ -32499,7 +32449,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139,
+      lineNumber: 163,
       columnNumber: 25
     }
   }, "First Name: ")), __jsx("div", {
@@ -32507,7 +32457,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141,
+      lineNumber: 165,
       columnNumber: 23
     }
   }, __jsx("input", {
@@ -32521,7 +32471,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142,
+      lineNumber: 166,
       columnNumber: 25
     }
   }))), __jsx("div", {
@@ -32529,7 +32479,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 147,
+      lineNumber: 171,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -32537,7 +32487,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148,
+      lineNumber: 172,
       columnNumber: 23
     }
   }, __jsx("h5", {
@@ -32545,7 +32495,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149,
+      lineNumber: 173,
       columnNumber: 25
     }
   }, "Last Name: ")), __jsx("div", {
@@ -32553,7 +32503,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151,
+      lineNumber: 175,
       columnNumber: 23
     }
   }, __jsx("input", {
@@ -32567,7 +32517,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152,
+      lineNumber: 176,
       columnNumber: 23
     }
   }))), __jsx("div", {
@@ -32575,7 +32525,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 157,
+      lineNumber: 181,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -32583,7 +32533,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 158,
+      lineNumber: 182,
       columnNumber: 23
     }
   }, __jsx("h5", {
@@ -32591,7 +32541,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 159,
+      lineNumber: 183,
       columnNumber: 25
     }
   }, "Phone: ")), __jsx("div", {
@@ -32599,7 +32549,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 161,
+      lineNumber: 185,
       columnNumber: 23
     }
   }, __jsx("input", {
@@ -32614,7 +32564,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 162,
+      lineNumber: 186,
       columnNumber: 23
     }
   }))), __jsx("div", {
@@ -32622,7 +32572,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 167,
+      lineNumber: 191,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -32630,7 +32580,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 168,
+      lineNumber: 192,
       columnNumber: 23
     }
   }, __jsx("h5", {
@@ -32638,7 +32588,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 169,
+      lineNumber: 193,
       columnNumber: 25
     }
   }, "facebook: ")), __jsx("div", {
@@ -32646,7 +32596,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 171,
+      lineNumber: 195,
       columnNumber: 23
     }
   }, __jsx("input", {
@@ -32661,7 +32611,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172,
+      lineNumber: 196,
       columnNumber: 23
     }
   }))), __jsx("div", {
@@ -32669,7 +32619,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 177,
+      lineNumber: 201,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -32677,7 +32627,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 178,
+      lineNumber: 202,
       columnNumber: 23
     }
   }, __jsx("h5", {
@@ -32685,7 +32635,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179,
+      lineNumber: 203,
       columnNumber: 25
     }
   }, "instagram: ")), __jsx("div", {
@@ -32693,7 +32643,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 181,
+      lineNumber: 205,
       columnNumber: 23
     }
   }, __jsx("input", {
@@ -32708,7 +32658,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 182,
+      lineNumber: 206,
       columnNumber: 23
     }
   }))), __jsx("div", {
@@ -32716,7 +32666,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 189,
+      lineNumber: 213,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -32724,7 +32674,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 190,
+      lineNumber: 214,
       columnNumber: 23
     }
   }, __jsx("h5", {
@@ -32732,7 +32682,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 191,
+      lineNumber: 215,
       columnNumber: 25
     }
   }, "youtube: ")), __jsx("div", {
@@ -32740,7 +32690,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 193,
+      lineNumber: 217,
       columnNumber: 23
     }
   }, __jsx("input", {
@@ -32755,7 +32705,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 194,
+      lineNumber: 218,
       columnNumber: 23
     }
   }))), __jsx("div", {
@@ -32763,7 +32713,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 199,
+      lineNumber: 223,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -32771,7 +32721,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 200,
+      lineNumber: 224,
       columnNumber: 23
     }
   }, __jsx("h5", {
@@ -32779,7 +32729,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 201,
+      lineNumber: 225,
       columnNumber: 25
     }
   }, "Spotify: ")), __jsx("div", {
@@ -32787,7 +32737,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 203,
+      lineNumber: 227,
       columnNumber: 23
     }
   }, __jsx("input", {
@@ -32802,7 +32752,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 204,
+      lineNumber: 228,
       columnNumber: 23
     }
   }))), __jsx("div", {
@@ -32810,7 +32760,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 208,
+      lineNumber: 232,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -32819,15 +32769,15 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 209,
+      lineNumber: 233,
       columnNumber: 23
     }
-  }, "update"))) : __jsx(react__WEBPACK_IMPORTED_MODULE_9___default.a.Fragment, null, __jsx("div", {
+  }, "update"))) : __jsx(react__WEBPACK_IMPORTED_MODULE_8___default.a.Fragment, null, __jsx("div", {
     className: "detail-container d-flex mt-3 ",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 219,
+      lineNumber: 243,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -32835,7 +32785,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 220,
+      lineNumber: 244,
       columnNumber: 23
     }
   }, __jsx("h5", {
@@ -32843,7 +32793,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 221,
+      lineNumber: 245,
       columnNumber: 25
     }
   }, "First Name: ")), __jsx("div", {
@@ -32851,14 +32801,14 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 223,
+      lineNumber: 247,
       columnNumber: 23
     }
   }, __jsx("h5", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 224,
+      lineNumber: 248,
       columnNumber: 25
     }
   }, user["firstName"]))), __jsx("div", {
@@ -32866,7 +32816,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 228,
+      lineNumber: 252,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -32874,7 +32824,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 229,
+      lineNumber: 253,
       columnNumber: 23
     }
   }, __jsx("h5", {
@@ -32882,7 +32832,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 230,
+      lineNumber: 254,
       columnNumber: 25
     }
   }, "Last Name: ")), __jsx("div", {
@@ -32890,134 +32840,17 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 232,
-      columnNumber: 23
-    }
-  }, __jsx("h5", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 233,
-      columnNumber: 25
-    }
-  }, user["firstName"]))), __jsx("div", {
-    className: "detail-container d-flex ",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 236,
-      columnNumber: 21
-    }
-  }, __jsx("div", {
-    className: "portfolio-left",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 237,
-      columnNumber: 23
-    }
-  }, __jsx("h5", {
-    className: "text-left",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 238,
-      columnNumber: 25
-    }
-  }, "Birthday: ")), __jsx("div", {
-    className: "portfolio-right",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 240,
-      columnNumber: 23
-    }
-  }, __jsx("h5", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 241,
-      columnNumber: 25
-    }
-  }, "00/00/0000"))), __jsx("div", {
-    className: "detail-container d-flex ",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 245,
-      columnNumber: 21
-    }
-  }, __jsx("div", {
-    className: "portfolio-left",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 246,
-      columnNumber: 23
-    }
-  }, __jsx("h5", {
-    className: "text-left",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 247,
-      columnNumber: 25
-    }
-  }, "Phone: ")), __jsx("div", {
-    className: "portfolio-right",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 249,
-      columnNumber: 23
-    }
-  }, __jsx("h5", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 250,
-      columnNumber: 25
-    }
-  }, "+216 00000000"))), __jsx("div", {
-    className: "detail-container d-flex ",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 254,
-      columnNumber: 21
-    }
-  }, __jsx("div", {
-    className: "portfolio-left",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 255,
-      columnNumber: 23
-    }
-  }, __jsx("h5", {
-    className: "text-left",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 256,
-      columnNumber: 25
-    }
-  }, "Email: ")), __jsx("div", {
-    className: "portfolio-right",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 258,
       columnNumber: 23
     }
   }, __jsx("h5", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 259,
+      lineNumber: 257,
       columnNumber: 25
     }
-  }, user["email"]))), __jsx("div", {
+  }, user["lastName"]))), __jsx("div", {
     className: "detail-container d-flex ",
     __self: _this,
     __source: {
@@ -33041,7 +32874,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
       lineNumber: 264,
       columnNumber: 25
     }
-  }, "Role:")), __jsx("div", {
+  }, "Phone: ")), __jsx("div", {
     className: "portfolio-right",
     __self: _this,
     __source: {
@@ -33056,12 +32889,90 @@ var PortfolioDetail7 = function PortfolioDetail7() {
       lineNumber: 267,
       columnNumber: 25
     }
+  }, "+216 ", user['phone']))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 271,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 272,
+      columnNumber: 23
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 273,
+      columnNumber: 25
+    }
+  }, "Email: ")), __jsx("div", {
+    className: "portfolio-right",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 275,
+      columnNumber: 23
+    }
+  }, __jsx("h5", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 276,
+      columnNumber: 25
+    }
+  }, user["email"]))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 279,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 280,
+      columnNumber: 23
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 281,
+      columnNumber: 25
+    }
+  }, "Role:")), __jsx("div", {
+    className: "portfolio-right",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 283,
+      columnNumber: 23
+    }
+  }, __jsx("h5", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 284,
+      columnNumber: 25
+    }
   }, user["role"]))), user["role"] != "user" ? __jsx("div", {
     className: "detail-container d-flex ",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 272,
+      lineNumber: 289,
       columnNumber: 23
     }
   }, __jsx("div", {
@@ -33069,7 +32980,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 273,
+      lineNumber: 290,
       columnNumber: 25
     }
   }, __jsx("h5", {
@@ -33077,7 +32988,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 274,
+      lineNumber: 291,
       columnNumber: 27
     }
   }, "expiration:")), __jsx("div", {
@@ -33085,57 +32996,110 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 276,
+      lineNumber: 293,
       columnNumber: 25
     }
   }, __jsx("h5", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 277,
+      lineNumber: 294,
       columnNumber: 27
     }
-  }, expires))) : null)), __jsx("div", {
+  }, expires))) : null)), user["role"] == "musician" ? __jsx("div", {
     className: "portfolio-detail m-t-10",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 288,
+      lineNumber: 307,
       columnNumber: 19
+    }
+  }, __jsx("div", {
+    className: "d-flex w-100 justify-content-between",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 308,
+      columnNumber: 23
     }
   }, __jsx("h3", {
     className: "detail-head",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 289,
+      lineNumber: 309,
       columnNumber: 21
     }
-  }, "about project"), __jsx("p", {
+  }, "My Channel description"), __jsx("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "25",
+    height: "25",
+    fill: "currentColor",
+    "class": "bi bi-pencil-square",
+    viewBox: "0 0 16 16",
+    onClick: onOffEditdesc,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 290,
+      lineNumber: 310,
       columnNumber: 21
     }
-  }, "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."), __jsx("div", {
-    className: "text-right m-t-10",
+  }, __jsx("path", {
+    d: "M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 297,
+      lineNumber: 319,
+      columnNumber: 25
+    }
+  }), __jsx("path", {
+    "fill-rule": "evenodd",
+    d: "M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 320,
+      columnNumber: 25
+    }
+  }))), !editabledesc ? __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 327,
+      columnNumber: 21
+    }
+  }, user['channelDescription']) : __jsx(react__WEBPACK_IMPORTED_MODULE_8___default.a.Fragment, null, __jsx("textarea", {
+    className: "w-100",
+    value: channeldescription.text,
+    onChange: function onChange(e) {
+      return setChannelDescription(_objectSpread({}, channeldescription, {
+        text: e.target.value
+      }));
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 331,
+      columnNumber: 21
+    }
+  }), __jsx("div", {
+    className: "text-center m-t-10",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 334,
       columnNumber: 21
     }
   }, __jsx("a", {
     className: "btn btn-default primary-btn radius-0",
-    href: "#",
+    onClick: sendChannelDescription,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 298,
+      lineNumber: 335,
       columnNumber: 23
     }
-  }, "visit project")))))), __jsx("div", {
+  }, "update")))) : null))), __jsx("div", {
     className: "imin",
     style: {
       width: "75%",
@@ -33144,15 +33108,15 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 310,
+      lineNumber: 349,
       columnNumber: 13
     }
-  }, user["role"] == "musician" ? __jsx(next_link__WEBPACK_IMPORTED_MODULE_15___default.a, {
+  }, user["role"] == "musician" ? __jsx(next_link__WEBPACK_IMPORTED_MODULE_14___default.a, {
     href: "/streams/launchStream",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 312,
+      lineNumber: 351,
       columnNumber: 17
     }
   }, "Go live") : null, __jsx("div", {
@@ -33166,77 +33130,77 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 315,
+      lineNumber: 354,
       columnNumber: 15
     }
-  }, __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_14__["default"], {
+  }, __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_13__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 324,
+      lineNumber: 363,
       columnNumber: 17
     }
-  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_14__["default"], {
+  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_13__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 325,
+      lineNumber: 364,
       columnNumber: 17
     }
-  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_14__["default"], {
+  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_13__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 326,
+      lineNumber: 365,
       columnNumber: 17
     }
-  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_14__["default"], {
+  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_13__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 327,
+      lineNumber: 366,
       columnNumber: 17
     }
-  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_14__["default"], {
+  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_13__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 328,
+      lineNumber: 367,
       columnNumber: 17
     }
-  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_14__["default"], {
+  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_13__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 329,
+      lineNumber: 368,
       columnNumber: 17
     }
-  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_14__["default"], {
+  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_13__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 330,
+      lineNumber: 369,
       columnNumber: 17
     }
-  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_14__["default"], {
+  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_13__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 331,
+      lineNumber: 370,
       columnNumber: 17
     }
-  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_14__["default"], {
+  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_13__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 332,
+      lineNumber: 371,
       columnNumber: 17
     }
-  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_14__["default"], {
+  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_13__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 333,
+      lineNumber: 372,
       columnNumber: 17
     }
   })), __jsx("div", {
@@ -33248,35 +33212,35 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 336,
+      lineNumber: 375,
       columnNumber: 15
     }
   }, "test", __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 337,
+      lineNumber: 376,
       columnNumber: 21
     }
   }), __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 338,
+      lineNumber: 377,
       columnNumber: 17
     }
   }), __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 339,
+      lineNumber: 378,
       columnNumber: 17
     }
   }), __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 340,
+      lineNumber: 379,
       columnNumber: 17
     }
   }), "tessst"))))));

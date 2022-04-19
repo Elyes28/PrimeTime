@@ -198,3 +198,12 @@ export const updateProfile= async (req,res)=>{
   user.save()
   return res.status(200).json(user)
 }
+
+export const updateChannelDescription= async (req,res)=>{
+  const {userid}=req.body
+  const user = await UserModal.findById(userid)
+  const{text}=req.body
+  user.channel_description=text;
+  user.save()
+  return res.status(200).json(user)
+}

@@ -13,6 +13,7 @@ const userSchema = mongoose.Schema({
   id: { type: String },
   role: {type:String,required:true,default:"user"},
   active_until:{type:Date},
+  channel_description: {type:String,default:""},
 
   courses_teaching: [
     {

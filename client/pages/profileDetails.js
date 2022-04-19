@@ -12,7 +12,7 @@ const PortfolioDetail7 = () => {
   useEffect(() => {
     setUser(JSON.parse(localStorage.getItem("user")));
   }, []);
-
+  const [channeldescription,setChannelDescription]=useState({userid:"",text:""})
   const [imgsrc, setImgsrc] = useState("");
   const [userData,setUserData]=useState({
       userid:"",
@@ -28,7 +28,7 @@ const PortfolioDetail7 = () => {
   useEffect(() => {
     if (user) {
       setImgsrc(
-        "images/users/" + user["firstName"] + user["lastName"] + ".jpg"
+        "images/users/" + user["_id"] + ".jpg"
       );
       if (JSON.parse(localStorage.getItem("user"))["role"] != "user")
         setExpires(
@@ -42,13 +42,15 @@ const PortfolioDetail7 = () => {
                      instagram:user["instagram"],
                      youtube:user["youtube"],
                      spotify:user["spotify"]
-                    })
+                    });
+         setChannelDescription({userid:user["_id"],
+         text:user['channelDescription']});
     }
   }, [user]);
 
   const onInputChange = (e) => {
     const formData = new FormData();
-    formData.append("username", user["firstName"] + user["lastName"]);
+    formData.append("username", user['_id']);
     formData.append("photo", e.target.files[0]);
     const config = {
       headers: {
@@ -63,20 +65,41 @@ const PortfolioDetail7 = () => {
     e.preventDefault();
     document.getElementById("file-input").click();
   };
-
+  const [editabledesc,setEditabledesc]=useState(false);
+  const onOffEditdesc=()=>{setEditabledesc(!editabledesc);}
  const [editable,setEditable]=useState(false);
- const onOffEdit=()=>{setEditable(!editable); console.log(editable)}
+ const onOffEdit=()=>{setEditable(!editable);}
  const sendUpdateRequest=()=>{console.log(userData)
-    axios.post("localhost:5000/user/updateProfile",userData)
+    axios.post("http://localhost:5000/user/updateProfile",userData)
     .then(()=>{
-        console.log("update ysir")
-        setUser(...user,userData)
+        user.firstName=userData.firstname
+        user.lastName=userData.lastname
+        user.phone=userData.phonenumber
+        user.facebook=userData.facebook
+        user.instagram=userData.instagram
+        user.youtube=userData.youtube
+        user.spotify=userData.spotify
+        setEditable(!editable)
+       // setUser(user)
         localStorage.setItem('user',JSON.stringify(user))
+        
     }).catch((err)=>{console.log(err)})
+ }
+ const sendChannelDescription=()=>{
+     console.log(channeldescription)
+    axios.post("http://localhost:5000/user/updateChannelDescription",channeldescription)
+     .then(()=>{
+         user.channelDescription=channeldescription.text
+        
+         setEditabledesc(!editabledesc)
+         localStorage.setItem('user',JSON.stringify(user))
+        
+   }).catch((err)=>{console.log(err)})
+ }
+    
+    
+    
 
-    
-    
-}
   return (
     <Fragment>
       <Layout
@@ -124,10 +147,11 @@ const PortfolioDetail7 = () => {
                         onChange={onInputChange}
                       ></input>
                       <a onClick={imgClicked} className="w-100 pb-3">
+                     
                         <img
                           id="profileimg"
                           alt="add profile image"
-                          className="rounded-circle w-50 mx-auto"
+                          className="rounded-circle w-50 mx-auto "
                           src={imgsrc}
                           style={{ display: "block" }}
                         />{" "}
@@ -230,24 +254,17 @@ const PortfolioDetail7 = () => {
                         <h5 className="text-left">Last Name: </h5>
                       </div>
                       <div className="portfolio-right">
-                        <h5>{user["firstName"]}</h5>
+                        <h5>{user["lastName"]}</h5>
                       </div>
                     </div>
-                    <div className="detail-container d-flex ">
-                      <div className="portfolio-left">
-                        <h5 className="text-left">Birthday: </h5>
-                      </div>
-                      <div className="portfolio-right">
-                        <h5>00/00/0000</h5>
-                      </div>
-                    </div>
+                 
 
                     <div className="detail-container d-flex ">
                       <div className="portfolio-left">
                         <h5 className="text-left">Phone: </h5>
                       </div>
                       <div className="portfolio-right">
-                        <h5>+216 00000000</h5>
+                        <h5>+216 {user['phone']}</h5>
                       </div>
                     </div>
 
@@ -285,24 +302,46 @@ const PortfolioDetail7 = () => {
                     }
                     
                   </div>
+                  {user["role"]=="musician"?(
+                      
                   <div className="portfolio-detail m-t-10">
-                    <h3 className="detail-head">about project</h3>
+                      <div className="d-flex w-100 justify-content-between">
+                    <h3 className="detail-head">My Channel description</h3>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="25"
+                        height="25"
+                        fill="currentColor"
+                        class="bi bi-pencil-square"
+                        viewBox="0 0 16 16"
+                        onClick={onOffEditdesc}
+                      >
+                        <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                        <path
+                          fill-rule="evenodd"
+                          d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"
+                        />
+                      </svg>
+                      </div>
+                      {!editabledesc?(
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book.
-                    </p>
-                    <div className="text-right m-t-10">
+                       {user['channelDescription']}
+                    </p>):
+                    < >
+                    <textarea className="w-100"  value={channeldescription.text}
+                     onChange={(e)=>setChannelDescription({...channeldescription,text: e.target.value})}
+                    ></textarea>
+                    <div className="text-center m-t-10">
                       <a
                         className="btn btn-default primary-btn radius-0"
-                        href="#"
+                        
+                        onClick={sendChannelDescription}
                       >
-                        visit project
+                        update
                       </a>
-                    </div>
+                    </div></>}
                   </div>
+                  ):null}
                 </div>
               </div>
             </div>

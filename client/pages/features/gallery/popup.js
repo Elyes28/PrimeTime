@@ -77,7 +77,8 @@ if(newUser.password == newUser.ConfirmPass)
                                 instagram:res.data.result.instagram,
                                 youtube:res.data.result.youtube,
                                 facebook:res.data.result.facebook,
-                                spotify:res.data.result.spotify
+                                spotify:res.data.result.spotify,
+                                channelDescription:res.data.result.channel_description
 
                             }
                         setButtonValue("log out");     
