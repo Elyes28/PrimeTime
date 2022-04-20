@@ -33,6 +33,16 @@ router.post( '/',async(req, res) => {
     
   })
 
+
+  router.get( '/mine',async(req, res) => {
+    const orders = await Order.find();
+    if (orders) {
+      res.send(orders);
+    } else {
+      res.status(404).send({ message: 'Orders Not Found' });
+    }
+  })
+
   router.get( '/:id',async(req, res) => {
     const order = await Order.findById(req.params.id);
     if (order) {
@@ -41,6 +51,8 @@ router.post( '/',async(req, res) => {
       res.status(404).send({ message: 'Order Not Found' });
     }
   })
+
+
      
        
 export default router;

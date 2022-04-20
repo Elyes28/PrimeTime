@@ -19,7 +19,8 @@ export const MENUITEMS = [
       title: 'Shop', type: 'sub', children: [
          // { path: '/blog/blog-detail/detail-left-sidebar', title: ' ', type: 'link' },
           { path: '/blog/blog-masonary/masonary-left-sidebar', title: 'Our Products', type: 'link' },
-          { path: '/cart',title: 'Cart', type: 'link' , icon: 'fa fa-'}
+          { path: '/cart',title: 'Cart', type: 'link' , icon: 'fa fa-'},
+          { path: '/order/orderHistory',title: 'order History', type: 'link' , icon: 'fa fa-'}
          ]
    },
    {

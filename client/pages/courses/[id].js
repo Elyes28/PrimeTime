@@ -98,7 +98,7 @@ function CoursesDetails(props) {
     ).then((res) => {
       if (res.data.teachers) {
         setCoursesTeachers(res.data.teachers);
-        // console.log(res.data.teachers);
+         console.log(res.data.teachers);
       }
     });
   };

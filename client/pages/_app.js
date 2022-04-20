@@ -4,6 +4,7 @@ import Head from 'next/head';
 import NProgress from 'nprogress';
 import getConfig from 'next/config'
 import { ToastContainer } from 'react-toastify';
+import { PayPalScriptProvider } from '@paypal/react-paypal-js';
 
 import 'bootstrap-scss';
 import '../public/assets/scss/flaticon.scss';
@@ -94,7 +95,9 @@ export default function MyApp({ Component, pageProps, graphql }) {
     <div>
       <MyFunctionComponent>
       <StoreProvider>
+      <PayPalScriptProvider deferLoading={true}>
         <Component {...pageProps} />
+        </PayPalScriptProvider>
         </StoreProvider>
         <Customizer />
       </MyFunctionComponent>

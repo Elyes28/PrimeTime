@@ -130,6 +130,11 @@ var MENUITEMS = [{
     title: 'Cart',
     type: 'link',
     icon: 'fa fa-'
+  }, {
+    path: '/order/orderHistory',
+    title: 'order History',
+    type: 'link',
+    icon: 'fa fa-'
   }]
 }, {
   title: 'Live shows',

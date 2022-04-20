@@ -51,7 +51,7 @@ function MasonaryLeftSidebar() {
   };
   useEffect(() => {
     getProducts();
-    }, []);
+    },);
     
     return(
         

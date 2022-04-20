@@ -6,6 +6,7 @@ import { Card, CardBody, CardText, CardTitle, Col, ListGroup, Row, Table } from 
 import CheckoutSteps from '../../components/CheckoutSteps';
 import MessageBox from '../../components/MessageBox';
 import CommonLayout from '../../containers/common/common-layout';
+import { PayPalButtons, usePayPalScriptReducer } from '@paypal/react-paypal-js'
 
 import { Store } from '../../utils/Store';
 import NextLink from 'next/link';
@@ -15,46 +16,58 @@ import { Link } from 'react-router-dom';
 
 export default function OrderScreen() {
   const { state } = useContext(Store);
-  const { userInfo } = state;
+  const {cart: {cartItems}, userInfo } = state;
 
   const router = useRouter();
     const { id: orderId } = router.query
 
     
-    const {
+   /* const {
       cart: { shippingAddress },
       
-    } = state;
+    } = state;*/
 
-  const [ order,setOrder] = useState([{}]);
-
-  const {
+    const [ order,setOrder] = useState({});
+    const [taxPrice,SettaxPrice]=useState();
+    const [paymentMethod,SetpaymentMethod]=useState();
+    const [shippingAddress,SetshippingAddress]= useState({});
+    const [orderItems,SetorderItems]=useState([]);
+    const [totalPrice,SettotalPrice]=useState();
+    const [itemsPrice,SetitemsPrice]=useState();
+    const [shippingPrice,SetshippingPrice]=useState();
+    const [isPaid,SetisPaid]=useState();
+    const [isDelivered,SetisDelivered]=useState();
+    const [deliveredAt,SetdeliveredAt]=useState();
+    const [paidAt,SetpaidAt]=useState();
     
-    paymentMethod,
-    orderItems,
-    itemsPrice,
-    taxPrice,
-    shippingPrice,
-    totalPrice,
-    isPaid,
-    isDelivered,
-    deliveredAt,
-    paidAt,
-  } = order;
+    
+    
+    
+
 
 
 
   useEffect(() => {
+    
     const fetchOrder =  () => {
       try {
        
           Axios.get(`http://localhost:5000/orders/${orderId}`, {
           headers: { authorization: `Bearer ${userInfo.token}` },
         }).then( res => {
-          setOrder(res.data);
-          
-          
-         
+        
+          SettaxPrice(res.data.taxPrice);
+          SetpaymentMethod(res.data.paymentMethod);
+          SetshippingAddress(res.data.shippingAddress);
+          SetorderItems(res.data.orderItems);
+          console.log(res.data.orderItems);
+          SettotalPrice(res.data.totalPrice);
+          SetshippingPrice(res.data.shippingPrice)
+          SetitemsPrice(res.data.itemsPrice)
+          SetisPaid(res.data.isPaid);
+          SetisDelivered(res.data.isDelivered)
+          SetdeliveredAt(res.data.deliveredAt)
+          SetpaidAt(res.data.paidAt);
          });
         
       } catch (err) {
@@ -65,20 +78,22 @@ export default function OrderScreen() {
     if (!userInfo) {
       return alert("Go To Sign In")
     }
-    if (!order._id || (order._id && order._id !== orderId)) {
+    if (!order._id ||
+      successPay ||
+      successDeliver ||
+      (order._id && order._id !== orderId)) {
       fetchOrder();
     }
-  }, [order, userInfo, orderId]);
+  }, [userInfo, orderId]);
 
-  useEffect(() => {
-    console.log(order);
-  },[order])
+  
   return (
     <CommonLayout title={`Order ${orderId}`}>
       <CheckoutSteps activeStep={3}></CheckoutSteps>
       <Typography component="h5" variant="h5">
         Order {orderId}
       </Typography>
+      <div>
       <Grid container spacing={1}>
           <Grid item md={9} xs={12}>
            <Card>
@@ -121,54 +136,32 @@ export default function OrderScreen() {
                     Order Items
                   </Typography>
                 </ListItem>
-                <ListItem>
-                  <TableContainer>
-                    <Table>
-                      <TableHead>
-                        <TableRow>
-                          <TableCell>Image</TableCell>
-                          <TableCell>Name</TableCell>
-                          <TableCell align="right">Quantity</TableCell>
-                          <TableCell align="right">Price</TableCell>
-                        </TableRow>
-                      </TableHead>
-                      <TableBody>
-                        {orderItems?
-                         orderItems.map(item => {
-                          <TableRow key={item._id}>
-                            <TableCell>
-                              <NextLink href={`/product/${item.slug}`} passHref>
-                                <Link>
-                                  <Image
-                                    src={item.image}
-                                    alt={item.name}
-                                    width={50}
-                                    height={50}
-                                  ></Image>
-                                </Link>
-                              </NextLink>
-                            </TableCell>
-
-                            <TableCell>
-                              <NextLink href={`/product/${item.slug}`} passHref>
-                                <Link>
-                                  <Typography>{item.name}</Typography>
-                                </Link>
-                              </NextLink>
-                            </TableCell>
-                            <TableCell align="right">
-                              <Typography>{item.quantity}</Typography>
-                            </TableCell>
-                            <TableCell align="right">
-                              <Typography>${item.price}</Typography>
-                            </TableCell>
-                          </TableRow>
-                        })
-                        : "Loading..."}
-                      </TableBody>
-                    </Table>
-                  </TableContainer>
-                </ListItem>
+                <Card className="mb-3">
+            <CardBody>
+              <CardTitle>Items</CardTitle>
+              <ListGroup variant="flush">
+                {orderItems.map((item) => (
+                  <ListItem key={item._id}>
+                    <Row className="align-items-center">
+                      <Col md={6}>
+                        <img
+                          src={item.image}
+                          alt={item.name}
+                          className="img-fluid rounded img-thumbnail"
+                        ></img>{' '}
+                         
+                      </Col>
+                      <Col md={3}>
+                        <span>{item.quantity}</span>
+                      </Col>
+                      <Col md={3}>${item.price}</Col>
+                    </Row>
+                  </ListItem>
+                ))}
+              </ListGroup>
+               
+            </CardBody>
+          </Card>
               </List>
             </Card>
              
@@ -227,6 +220,7 @@ export default function OrderScreen() {
             </Card>
           </Grid>
             </Grid>
+            </div>
     
   </CommonLayout>
     

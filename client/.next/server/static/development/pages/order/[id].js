@@ -253,6 +253,11 @@ const MENUITEMS = [{
     title: 'Cart',
     type: 'link',
     icon: 'fa fa-'
+  }, {
+    path: '/order/orderHistory',
+    title: 'order History',
+    type: 'link',
+    icon: 'fa fa-'
   }]
 }, {
   title: 'Live shows',
@@ -5206,13 +5211,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_CheckoutSteps__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/CheckoutSteps */ "./components/CheckoutSteps.js");
 /* harmony import */ var _components_MessageBox__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/MessageBox */ "./components/MessageBox.js");
 /* harmony import */ var _containers_common_common_layout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../containers/common/common-layout */ "./containers/common/common-layout.js");
-/* harmony import */ var _utils_Store__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../utils/Store */ "./utils/Store.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-router-dom */ "react-router-dom");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_router_dom__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _paypal_react_paypal_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @paypal/react-paypal-js */ "@paypal/react-paypal-js");
+/* harmony import */ var _paypal_react_paypal_js__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_paypal_react_paypal_js__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _utils_Store__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../utils/Store */ "./utils/Store.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-router-dom */ "react-router-dom");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_router_dom__WEBPACK_IMPORTED_MODULE_11__);
 var _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\pages\\order\\[id].js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
+
 
 
 
@@ -5227,35 +5235,70 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
 function OrderScreen() {
   const {
     state
-  } = Object(react__WEBPACK_IMPORTED_MODULE_3__["useContext"])(_utils_Store__WEBPACK_IMPORTED_MODULE_8__["Store"]);
+  } = Object(react__WEBPACK_IMPORTED_MODULE_3__["useContext"])(_utils_Store__WEBPACK_IMPORTED_MODULE_9__["Store"]);
   const {
+    cart: {
+      cartItems
+    },
     userInfo
   } = state;
   const router = Object(next_router__WEBPACK_IMPORTED_MODULE_2__["useRouter"])();
   const {
     id: orderId
   } = router.query;
-  const {
-    cart: {
-      shippingAddress
-    }
-  } = state;
+  /* const {
+     cart: { shippingAddress },
+     
+   } = state;*/
+
   const {
     0: order,
     1: setOrder
-  } = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])([{}]);
+  } = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])({});
   const {
-    paymentMethod,
-    orderItems,
-    itemsPrice,
-    taxPrice,
-    shippingPrice,
-    totalPrice,
-    isPaid,
-    isDelivered,
-    deliveredAt,
-    paidAt
-  } = order;
+    0: taxPrice,
+    1: SettaxPrice
+  } = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])();
+  const {
+    0: paymentMethod,
+    1: SetpaymentMethod
+  } = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])();
+  const {
+    0: shippingAddress,
+    1: SetshippingAddress
+  } = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])({});
+  const {
+    0: orderItems,
+    1: SetorderItems
+  } = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])([]);
+  const {
+    0: totalPrice,
+    1: SettotalPrice
+  } = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])();
+  const {
+    0: itemsPrice,
+    1: SetitemsPrice
+  } = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])();
+  const {
+    0: shippingPrice,
+    1: SetshippingPrice
+  } = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])();
+  const {
+    0: isPaid,
+    1: SetisPaid
+  } = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])();
+  const {
+    0: isDelivered,
+    1: SetisDelivered
+  } = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])();
+  const {
+    0: deliveredAt,
+    1: SetdeliveredAt
+  } = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])();
+  const {
+    0: paidAt,
+    1: SetpaidAt
+  } = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])();
   Object(react__WEBPACK_IMPORTED_MODULE_3__["useEffect"])(() => {
     const fetchOrder = () => {
       try {
@@ -5264,7 +5307,18 @@ function OrderScreen() {
             authorization: `Bearer ${userInfo.token}`
           }
         }).then(res => {
-          setOrder(res.data);
+          SettaxPrice(res.data.taxPrice);
+          SetpaymentMethod(res.data.paymentMethod);
+          SetshippingAddress(res.data.shippingAddress);
+          SetorderItems(res.data.orderItems);
+          console.log(res.data.orderItems);
+          SettotalPrice(res.data.totalPrice);
+          SetshippingPrice(res.data.shippingPrice);
+          SetitemsPrice(res.data.itemsPrice);
+          SetisPaid(res.data.isPaid);
+          SetisDelivered(res.data.isDelivered);
+          SetdeliveredAt(res.data.deliveredAt);
+          SetpaidAt(res.data.paidAt);
         });
       } catch (err) {}
     };
@@ -5273,19 +5327,16 @@ function OrderScreen() {
       return alert("Go To Sign In");
     }
 
-    if (!order._id || order._id && order._id !== orderId) {
+    if (!order._id || successPay || successDeliver || order._id && order._id !== orderId) {
       fetchOrder();
     }
-  }, [order, userInfo, orderId]);
-  Object(react__WEBPACK_IMPORTED_MODULE_3__["useEffect"])(() => {
-    console.log(order);
-  }, [order]);
+  }, [userInfo, orderId]);
   return __jsx(_containers_common_common_layout__WEBPACK_IMPORTED_MODULE_7__["default"], {
     title: `Order ${orderId}`,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77,
+      lineNumber: 91,
       columnNumber: 5
     }
   }, __jsx(_components_CheckoutSteps__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -5293,7 +5344,7 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78,
+      lineNumber: 92,
       columnNumber: 7
     }
   }), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
@@ -5302,16 +5353,23 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79,
+      lineNumber: 93,
       columnNumber: 7
     }
-  }, "Order ", orderId), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
+  }, "Order ", orderId), __jsx("div", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96,
+      columnNumber: 7
+    }
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
     container: true,
     spacing: 1,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82,
+      lineNumber: 97,
       columnNumber: 7
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
@@ -5321,28 +5379,28 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83,
+      lineNumber: 98,
       columnNumber: 11
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84,
+      lineNumber: 99,
       columnNumber: 12
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["List"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85,
+      lineNumber: 100,
       columnNumber: 15
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 101,
       columnNumber: 17
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
@@ -5351,42 +5409,42 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87,
+      lineNumber: 102,
       columnNumber: 19
     }
   }, "Shipping Address")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91,
+      lineNumber: 106,
       columnNumber: 17
     }
   }, shippingAddress.fullName, ", ", shippingAddress.address, ",", ' ', shippingAddress.city, ", ", shippingAddress.postalCode, ",", ' ', shippingAddress.country), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 111,
       columnNumber: 17
     }
   }, "Status:", ' ', isDelivered ? `delivered at ${deliveredAt}` : 'not delivered'))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104,
+      lineNumber: 119,
       columnNumber: 13
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["List"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105,
+      lineNumber: 120,
       columnNumber: 15
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106,
+      lineNumber: 121,
       columnNumber: 17
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
@@ -5395,42 +5453,42 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107,
+      lineNumber: 122,
       columnNumber: 19
     }
   }, "Payment Method")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111,
+      lineNumber: 126,
       columnNumber: 17
     }
   }, paymentMethod), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112,
+      lineNumber: 127,
       columnNumber: 17
     }
   }, "Status: ", isPaid ? `paid at ${paidAt}` : 'not paid'))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117,
+      lineNumber: 132,
       columnNumber: 13
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["List"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118,
+      lineNumber: 133,
       columnNumber: 15
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119,
+      lineNumber: 134,
       columnNumber: 17
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
@@ -5439,214 +5497,125 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120,
+      lineNumber: 135,
       columnNumber: 19
     }
-  }, "Order Items")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
+  }, "Order Items")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
+    className: "mb-3",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124,
+      lineNumber: 139,
       columnNumber: 17
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["TableContainer"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardBody"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125,
+      lineNumber: 140,
+      columnNumber: 13
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardTitle"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 141,
+      columnNumber: 15
+    }
+  }, "Items"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["ListGroup"], {
+    variant: "flush",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 142,
+      columnNumber: 15
+    }
+  }, orderItems.map(item => __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
+    key: item._id,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 144,
       columnNumber: 19
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Table"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Row"], {
+    className: "align-items-center",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126,
+      lineNumber: 145,
       columnNumber: 21
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["TableHead"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
+    md: 6,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127,
+      lineNumber: 146,
       columnNumber: 23
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["TableRow"], {
+  }, __jsx("img", {
+    src: item.image,
+    alt: item.name,
+    className: "img-fluid rounded img-thumbnail",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128,
+      lineNumber: 147,
       columnNumber: 25
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["TableCell"], {
+  }), ' '), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
+    md: 3,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129,
-      columnNumber: 27
-    }
-  }, "Image"), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["TableCell"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 130,
-      columnNumber: 27
-    }
-  }, "Name"), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["TableCell"], {
-    align: "right",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 131,
-      columnNumber: 27
-    }
-  }, "Quantity"), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["TableCell"], {
-    align: "right",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 132,
-      columnNumber: 27
-    }
-  }, "Price"))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["TableBody"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 135,
+      lineNumber: 154,
       columnNumber: 23
     }
-  }, orderItems ? orderItems.map(item => {
-    __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["TableRow"], {
-      key: item._id,
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 138,
-        columnNumber: 27
-      }
-    }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["TableCell"], {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 139,
-        columnNumber: 29
-      }
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
-      href: `/product/${item.slug}`,
-      passHref: true,
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 140,
-        columnNumber: 31
-      }
-    }, __jsx(react_router_dom__WEBPACK_IMPORTED_MODULE_10__["Link"], {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 141,
-        columnNumber: 33
-      }
-    }, __jsx(Image, {
-      src: item.image,
-      alt: item.name,
-      width: 50,
-      height: 50,
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 142,
-        columnNumber: 35
-      }
-    })))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["TableCell"], {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 152,
-        columnNumber: 29
-      }
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
-      href: `/product/${item.slug}`,
-      passHref: true,
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 153,
-        columnNumber: 31
-      }
-    }, __jsx(react_router_dom__WEBPACK_IMPORTED_MODULE_10__["Link"], {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 154,
-        columnNumber: 33
-      }
-    }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 155,
-        columnNumber: 35
-      }
-    }, item.name)))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["TableCell"], {
-      align: "right",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 159,
-        columnNumber: 29
-      }
-    }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 160,
-        columnNumber: 31
-      }
-    }, item.quantity)), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["TableCell"], {
-      align: "right",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 162,
-        columnNumber: 29
-      }
-    }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 163,
-        columnNumber: 31
-      }
-    }, "$", item.price)));
-  }) : "Loading..."))))))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
+  }, __jsx("span", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 155,
+      columnNumber: 25
+    }
+  }, item.quantity)), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
+    md: 3,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 157,
+      columnNumber: 23
+    }
+  }, "$", item.price)))))))))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
     item: true,
     md: 3,
     xs: 12,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 176,
+      lineNumber: 169,
       columnNumber: 13
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 177,
+      lineNumber: 170,
       columnNumber: 13
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["List"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 178,
+      lineNumber: 171,
       columnNumber: 15
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179,
+      lineNumber: 172,
       columnNumber: 17
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
@@ -5654,14 +5623,14 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 180,
+      lineNumber: 173,
       columnNumber: 19
     }
   }, "Order Summary")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 182,
+      lineNumber: 175,
       columnNumber: 17
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
@@ -5669,7 +5638,7 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 183,
+      lineNumber: 176,
       columnNumber: 19
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
@@ -5678,17 +5647,49 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 184,
+      lineNumber: 177,
       columnNumber: 21
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 185,
+      lineNumber: 178,
       columnNumber: 23
     }
   }, "Items Price:")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
+    item: true,
+    xs: 6,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 180,
+      columnNumber: 21
+    }
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
+    align: "right",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 181,
+      columnNumber: 23
+    }
+  }, "$", itemsPrice)))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 185,
+      columnNumber: 17
+    }
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
+    container: true,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 186,
+      columnNumber: 19
+    }
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
     item: true,
     xs: 6,
     __self: this,
@@ -5698,18 +5699,34 @@ function OrderScreen() {
       columnNumber: 21
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
-    align: "right",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 188,
       columnNumber: 23
     }
-  }, "$", itemsPrice)))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
+  }, "Tax:")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
+    item: true,
+    xs: 6,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 192,
+      lineNumber: 190,
+      columnNumber: 21
+    }
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
+    align: "right",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 191,
+      columnNumber: 23
+    }
+  }, "$", taxPrice)))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 195,
       columnNumber: 17
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
@@ -5717,26 +5734,10 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 193,
+      lineNumber: 196,
       columnNumber: 19
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
-    item: true,
-    xs: 6,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 194,
-      columnNumber: 21
-    }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 195,
-      columnNumber: 23
-    }
-  }, "Tax:")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
     item: true,
     xs: 6,
     __self: this,
@@ -5746,18 +5747,34 @@ function OrderScreen() {
       columnNumber: 21
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
-    align: "right",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 198,
       columnNumber: 23
     }
-  }, "$", taxPrice)))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
+  }, "Shipping:")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
+    item: true,
+    xs: 6,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 202,
+      lineNumber: 200,
+      columnNumber: 21
+    }
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
+    align: "right",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 201,
+      columnNumber: 23
+    }
+  }, "$", shippingPrice)))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 205,
       columnNumber: 17
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
@@ -5765,26 +5782,10 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 203,
+      lineNumber: 206,
       columnNumber: 19
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
-    item: true,
-    xs: 6,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 204,
-      columnNumber: 21
-    }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 205,
-      columnNumber: 23
-    }
-  }, "Shipping:")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
     item: true,
     xs: 6,
     __self: this,
@@ -5794,49 +5795,17 @@ function OrderScreen() {
       columnNumber: 21
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
-    align: "right",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 208,
       columnNumber: 23
     }
-  }, "$", shippingPrice)))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 212,
-      columnNumber: 17
-    }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
-    container: true,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 213,
-      columnNumber: 19
-    }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
-    item: true,
-    xs: 6,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 214,
-      columnNumber: 21
-    }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 215,
-      columnNumber: 23
-    }
   }, __jsx("strong", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 216,
+      lineNumber: 209,
       columnNumber: 25
     }
   }, "Total:"))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
@@ -5845,7 +5814,7 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 219,
+      lineNumber: 212,
       columnNumber: 21
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
@@ -5853,17 +5822,17 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 220,
+      lineNumber: 213,
       columnNumber: 23
     }
   }, __jsx("strong", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 221,
+      lineNumber: 214,
       columnNumber: 25
     }
-  }, "$", totalPrice))))))))));
+  }, "$", totalPrice)))))))))));
 }
 
 /***/ }),
@@ -6037,6 +6006,17 @@ module.exports = __webpack_require__(/*! C:\Users\Karim\Desktop\Project\PrimeTim
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core");
+
+/***/ }),
+
+/***/ "@paypal/react-paypal-js":
+/*!******************************************!*\
+  !*** external "@paypal/react-paypal-js" ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@paypal/react-paypal-js");
 
 /***/ }),
 
