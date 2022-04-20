@@ -10,6 +10,7 @@ import { getToken } from "./api";
 import { confirmAlert } from "react-confirm-alert"; // Import
 import "react-confirm-alert/src/react-confirm-alert.css"; // Import css
 import { JoiningScreen } from "./components/JoiningScreen";
+import axios from "axios";
 
 const primary = "#3E84F6";
 
@@ -775,8 +776,16 @@ function MeetingView({ onNewMeetingIdToken, onMeetingLeave }) {
   const handleStopLiveStream = () => {
     stopLivestream();
   };
+  const setrecordedtrue= async()=>
+    axios.get("http://localhost:5000/stream/setStreamRecorded/"+localStorage.getItem("meetid"))
+    .then(console.log('mchet'))
+    .catch(function (error){console.log(error)})
+    
+  
   const handleStartRecording = () => {
     startRecording();
+    setrecordedtrue();
+
   };
   const queryParams = new URLSearchParams(window.location.search);
   const styling=()=>{ if(queryParams.get("meetId")=="button blue")return("button blue hide")}

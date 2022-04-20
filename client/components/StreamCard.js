@@ -1,7 +1,6 @@
 import "./stylez.css"
 function StreamCard(props){
 
-
     return( 
         
 

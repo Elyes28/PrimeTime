@@ -5,7 +5,8 @@ const streamSchema = mongoose.Schema({
   streamerName: { type: String, required:  true },
   viewerCount: { type: Number, required: true },
   streamTitle: { type: String, required: true },
-  streamImg: { type: String, required: true }
+  streamImg: { type: String, required: true },
+  isrecorded:{type:Boolean,default: false}
 
 
 });

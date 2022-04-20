@@ -19,6 +19,23 @@ export const createStream = async (req, res) => {
         res.status(409).json({ message: error.message });
     }
 }
+
+export const setRecording = async (req,res) => {
+    const meetid = req.params.meetid;
+    const streams = await stream.findOne({meetingId:meetid});
+    streams.isrecorded=true;
+    streams.save();
+    return res.status(200).json(streams);
+}
+
+export const getStreamByName = async (req, res) => { 
+const name = req.params.name;
+const streams = await stream.find({streamerName:name,isrecorded:true});
+return res.status(200).json(streams);
+
+}
+
+
 export const getStreamById = async (req, res) => { 
         
     
@@ -50,7 +67,7 @@ export const getStreamById = async (req, res) => {
     // image upload start here
 const multerConfig = multer.diskStorage({
     destination : (req,file,callback)=>{
-      callback(null,'../streamapi/public/images/Streams')
+      callback(null,'../client/public/images/Streams')
     },
     filename:(req,file,callback)=>{
      // const ext= file.mimetype.split('/')[1];

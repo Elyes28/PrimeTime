@@ -12728,3 +12728,4487 @@
   level: 'info',
   timestamp: '4/19/2022, 4:19:12 AM GMT+2'
 }
+{
+  message: '::1 - - [19/Apr/2022:21:52:19 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/19/2022, 11:52:19 PM GMT+2'
+}
+{
+  error: ReferenceError: async is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:211:27
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: async is not defined\n' +
+    'ReferenceError: async is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:211:27\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: async is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:211:27\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Tue Apr 19 2022 22:57:12 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 21632,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72912896,
+      heapTotal: 38539264,
+      heapUsed: 24810352,
+      external: 25423495,
+      arrayBuffers: 19002492
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 339836 },
+  trace: [
+    {
+      column: 27,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: null,
+      line: 211,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/19/2022, 11:57:12 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 11:57:22 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 11:57:47 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 11:57:54 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 11:58:03 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 11:58:14 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 11:58:26 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 11:58:40 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 11:58:47 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/19/2022, 11:59:22 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 12:00:29 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 12:00:57 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 12:01:16 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 12:01:21 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 12:01:28 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 12:01:57 AM GMT+2'
+}
+{
+  error: ReferenceError: get is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:15:31
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: get is not defined\n' +
+    'ReferenceError: get is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:15:31\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: get is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:15:31\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Tue Apr 19 2022 23:02:06 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 10016,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72871936,
+      heapTotal: 38277120,
+      heapUsed: 25580616,
+      external: 25424341,
+      arrayBuffers: 19192767
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 340130 },
+  trace: [
+    {
+      column: 31,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js',
+      function: null,
+      line: 15,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 12:02:06 AM GMT+2'
+}
+{
+  error: ReferenceError: get is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:15:35
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: get is not defined\n' +
+    'ReferenceError: get is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:15:35\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: get is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:15:35\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Tue Apr 19 2022 23:02:10 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 33012,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72511488,
+      heapTotal: 38539264,
+      heapUsed: 24943112,
+      external: 25424353,
+      arrayBuffers: 19002492
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 340135 },
+  trace: [
+    {
+      column: 35,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js',
+      function: null,
+      line: 15,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 12:02:10 AM GMT+2'
+}
+{
+  error: ReferenceError: getCour is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:15:35
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: getCour is not defined\n' +
+    'ReferenceError: getCour is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:15:35\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: getCour is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:15:35\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Tue Apr 19 2022 23:02:18 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 26892,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72278016,
+      heapTotal: 37752832,
+      heapUsed: 27544224,
+      external: 25424365,
+      arrayBuffers: 19547129
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 340143 },
+  trace: [
+    {
+      column: 35,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js',
+      function: null,
+      line: 15,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 12:02:18 AM GMT+2'
+}
+{
+  error: ReferenceError: getCours is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:15:35
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: getCours is not defined\n' +
+    'ReferenceError: getCours is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:15:35\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: getCours is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:15:35\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Tue Apr 19 2022 23:02:20 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 32844,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72712192,
+      heapTotal: 38014976,
+      heapUsed: 27430672,
+      external: 25424368,
+      arrayBuffers: 19547129
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 340145 },
+  trace: [
+    {
+      column: 35,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js',
+      function: null,
+      line: 15,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 12:02:20 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 12:02:28 AM GMT+2'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'learning_courses')
+      at getCoursesByUserId (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:215:51)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'learning_courses')\n" +
+    "TypeError: Cannot read properties of null (reading 'learning_courses')\n" +
+    '    at getCoursesByUserId (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:215:51)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "TypeError: Cannot read properties of null (reading 'learning_courses')\n" +
+    '    at getCoursesByUserId (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:215:51)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Apr 19 2022 23:05:26 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 12516,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 63737856,
+      heapTotal: 27791360,
+      heapUsed: 25803440,
+      external: 19830489,
+      arrayBuffers: 18309299
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 340331 },
+  trace: [
+    {
+      column: 51,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: 'getCoursesByUserId',
+      line: 215,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 12:05:26 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 12:07:30 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 12:10:04 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 12:10:18 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 12:10:22 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 12:10:27 AM GMT+2'
+}
+{
+  error: TypeError: Cannot destructure property 'userid' of 'req.param.userid' as it is undefined.
+      at getCoursesByUserId (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:213:10)
+      at Layer.handle [as handle_request] (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\route.js:137:13)
+      at Route.dispatch (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\route.js:112:3)
+      at Layer.handle [as handle_request] (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:281:22
+      at param (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:354:14)
+      at param (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:365:14)
+      at Function.process_params (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:410:3)
+      at next (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:275:10)
+      at Function.handle (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:174:3)
+      at router (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:47:12)
+      at Layer.handle [as handle_request] (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at trim_prefix (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:317:13)
+      at C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:284:7
+      at Function.process_params (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:335:12),
+  level: 'error',
+  message: "uncaughtException: Cannot destructure property 'userid' of 'req.param.userid' as it is undefined.\n" +
+    "TypeError: Cannot destructure property 'userid' of 'req.param.userid' as it is undefined.\n" +
+    '    at getCoursesByUserId (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:213:10)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:354:14)\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:365:14)\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:410:3)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)',
+  stack: "TypeError: Cannot destructure property 'userid' of 'req.param.userid' as it is undefined.\n" +
+    '    at getCoursesByUserId (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:213:10)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:354:14)\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:365:14)\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:410:3)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)',
+  exception: true,
+  date: 'Tue Apr 19 2022 23:10:34 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 33204,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 63057920,
+      heapTotal: 27791360,
+      heapUsed: 25583000,
+      external: 19694431,
+      arrayBuffers: 18378178
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 340639 },
+  trace: [
+    {
+      column: 10,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: 'getCoursesByUserId',
+      line: 213,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 137,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 112,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 281,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'param',
+      line: 354,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'param',
+      line: 365,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 410,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 275,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 174,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'trim_prefix',
+      line: 317,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 335,
+      method: 'process_params',
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 12:10:34 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 12:12:07 AM GMT+2'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'courses_learning')
+      at getCoursesByUserId (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:215:51)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'courses_learning')\n" +
+    "TypeError: Cannot read properties of null (reading 'courses_learning')\n" +
+    '    at getCoursesByUserId (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:215:51)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "TypeError: Cannot read properties of null (reading 'courses_learning')\n" +
+    '    at getCoursesByUserId (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:215:51)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Apr 19 2022 23:12:07 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 32100,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 77062144,
+      heapTotal: 60559360,
+      heapUsed: 26906680,
+      external: 25805512,
+      arrayBuffers: 18412956
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 340732 },
+  trace: [
+    {
+      column: 51,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: 'getCoursesByUserId',
+      line: 215,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 12:12:07 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 12:13:08 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 12:13:20 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 12:13:43 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 12:14:31 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 12:15:26 AM GMT+2'
+}
+{
+  error: CastError: Cast to ObjectId failed for value "[object Storage]" (type string) at path "_id" for model "User"
+      at model.Query.exec (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\query.js:4498:21)
+      at model.Query.Query.then (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\query.js:4592:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    messageFormat: undefined,
+    stringValue: '"[object Storage]"',
+    kind: 'ObjectId',
+    value: '[object Storage]',
+    path: '_id',
+    reason: Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+        at new ObjectID (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\bson\lib\bson\objectid.js:59:11)
+        at castObjectId (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\cast\objectid.js:25:12)
+        at ObjectId.cast (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\schema\objectid.js:246:12)
+        at ObjectId.SchemaType.applySetters (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\schematype.js:1123:12)
+        at ObjectId.SchemaType._castForQuery (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\schematype.js:1601:15)
+        at ObjectId.SchemaType.castForQuery (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\schematype.js:1591:15)
+        at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\schematype.js:1568:20)
+        at cast (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\cast.js:332:32)
+        at model.Query.Query.cast (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\query.js:4937:12)
+        at model.Query.Query._castConditions (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\query.js:1975:10)
+        at model.Query.<anonymous> (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\query.js:2232:8)
+        at model.Query._wrappedThunk [as _findOne] (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+        at C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\kareem\index.js:370:33
+        at processTicksAndRejections (node:internal/process/task_queues:78:11),
+    valueType: 'string'
+  },
+  level: 'error',
+  message: 'uncaughtException: Cast to ObjectId failed for value "[object Storage]" (type string) at path "_id" for model "User"\n' +
+    'CastError: Cast to ObjectId failed for value "[object Storage]" (type string) at path "_id" for model "User"\n' +
+    '    at model.Query.exec (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\query.js:4498:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\query.js:4592:15)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: 'CastError: Cast to ObjectId failed for value "[object Storage]" (type string) at path "_id" for model "User"\n' +
+    '    at model.Query.exec (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\query.js:4498:21)\n' +
+    '    at model.Query.Query.then (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\query.js:4592:15)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Tue Apr 19 2022 23:21:29 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 23392,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 65998848,
+      heapTotal: 29888512,
+      heapUsed: 27676720,
+      external: 19914093,
+      arrayBuffers: 18361109
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 341294 },
+  trace: [
+    {
+      column: 21,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\query.js',
+      function: 'model.Query.exec',
+      line: 4498,
+      method: 'exec',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\query.js',
+      function: 'model.Query.Query.then',
+      line: 4592,
+      method: 'then',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 12:21:29 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 12:25:20 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:33:49 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:33:53 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:33:55 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:34:13 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:34:15 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:34:41 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:34:51 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:35:52 AM GMT+2'
+}
+{
+  error: ReferenceError: courses is not defined
+      at getCoursesByUserId (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:219:10)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: 'uncaughtException: courses is not defined\n' +
+    'ReferenceError: courses is not defined\n' +
+    '    at getCoursesByUserId (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:219:10)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: 'ReferenceError: courses is not defined\n' +
+    '    at getCoursesByUserId (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:219:10)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Wed Apr 20 2022 01:35:54 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 23736,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 75030528,
+      heapTotal: 60559360,
+      heapUsed: 27221480,
+      external: 25904836,
+      arrayBuffers: 18414153
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 349358 },
+  trace: [
+    {
+      column: 10,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: 'getCoursesByUserId',
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 2:35:54 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:36:04 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:36:32 AM GMT+2'
+}
+{
+  error: TypeError: Assignment to constant variable.
+      at getCoursesByUserId (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:220:10)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: 'uncaughtException: Assignment to constant variable.\n' +
+    'TypeError: Assignment to constant variable.\n' +
+    '    at getCoursesByUserId (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:220:10)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: 'TypeError: Assignment to constant variable.\n' +
+    '    at getCoursesByUserId (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:220:10)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Wed Apr 20 2022 01:36:35 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 27156,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 75276288,
+      heapTotal: 60821504,
+      heapUsed: 27098032,
+      external: 25904896,
+      arrayBuffers: 18414153
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 349399 },
+  trace: [
+    {
+      column: 10,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: 'getCoursesByUserId',
+      line: 220,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 2:36:35 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:36:46 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:37:02 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:37:11 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:37:18 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:37:20 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:42:38 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:42:53 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:42:56 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:42:59 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:43:13 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:43:19 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:43:26 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:43:43 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:43:49 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:44:15 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:48:06 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:48:21 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:48:30 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:48:32 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:48:34 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:48:39 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:48:43 AM GMT+2'
+}
+{
+  error: ReferenceError: set is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:14:41
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: set is not defined\n' +
+    'ReferenceError: set is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:14:41\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: set is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:14:41\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Wed Apr 20 2022 01:48:45 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 32908,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 68669440,
+      heapTotal: 39067648,
+      heapUsed: 27473080,
+      external: 25759024,
+      arrayBuffers: 19335654
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 350129 },
+  trace: [
+    {
+      column: 41,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js',
+      function: null,
+      line: 14,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 2:48:45 AM GMT+2'
+}
+{
+  error: ReferenceError: set is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:14:41
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: set is not defined\n' +
+    'ReferenceError: set is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:14:41\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: set is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:14:41\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Wed Apr 20 2022 01:49:09 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 19560,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 68812800,
+      heapTotal: 57155584,
+      heapUsed: 25908088,
+      external: 25759021,
+      arrayBuffers: 18317703
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 350154 },
+  trace: [
+    {
+      column: 41,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js',
+      function: null,
+      line: 14,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 2:49:09 AM GMT+2'
+}
+{
+  error: ReferenceError: set is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:14:41
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: set is not defined\n' +
+    'ReferenceError: set is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:14:41\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: set is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:14:41\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Wed Apr 20 2022 01:49:10 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 13224,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 68734976,
+      heapTotal: 57155584,
+      heapUsed: 26132352,
+      external: 25759018,
+      arrayBuffers: 18317703
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 350155 },
+  trace: [
+    {
+      column: 41,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js',
+      function: null,
+      line: 14,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 2:49:11 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:49:21 AM GMT+2'
+}
+{
+  error: ReferenceError: Cannot access 'stream' before initialization
+      at setRecording (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:25:19)
+      at Layer.handle [as handle_request] (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\route.js:137:13)
+      at Route.dispatch (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\route.js:112:3)
+      at Layer.handle [as handle_request] (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:281:22
+      at param (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:354:14)
+      at param (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:365:14)
+      at Function.process_params (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:410:3)
+      at next (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:275:10)
+      at Function.handle (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:174:3)
+      at router (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:47:12)
+      at Layer.handle [as handle_request] (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at trim_prefix (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:317:13)
+      at C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:284:7
+      at Function.process_params (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:335:12),
+  level: 'error',
+  message: "uncaughtException: Cannot access 'stream' before initialization\n" +
+    "ReferenceError: Cannot access 'stream' before initialization\n" +
+    '    at setRecording (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:25:19)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:354:14)\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:365:14)\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:410:3)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)',
+  stack: "ReferenceError: Cannot access 'stream' before initialization\n" +
+    '    at setRecording (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:25:19)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:354:14)\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:365:14)\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:410:3)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)',
+  exception: true,
+  date: 'Wed Apr 20 2022 01:51:37 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 28040,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 61353984,
+      heapTotal: 28053504,
+      heapUsed: 25686520,
+      external: 19719564,
+      arrayBuffers: 18311890
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 350302 },
+  trace: [
+    {
+      column: 19,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js',
+      function: 'setRecording',
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 137,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 112,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 281,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'param',
+      line: 354,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'param',
+      line: 365,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 410,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 275,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 174,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'trim_prefix',
+      line: 317,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 335,
+      method: 'process_params',
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 2:51:38 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:52:04 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:52:16 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:52:20 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:52:24 AM GMT+2'
+}
+{
+  error: TypeError: streams.save is not a function
+      at setRecording (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:27:13)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: 'uncaughtException: streams.save is not a function\n' +
+    'TypeError: streams.save is not a function\n' +
+    '    at setRecording (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:27:13)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: 'TypeError: streams.save is not a function\n' +
+    '    at setRecording (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:27:13)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Wed Apr 20 2022 01:52:32 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 8304,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 61640704,
+      heapTotal: 28315648,
+      heapUsed: 25448664,
+      external: 19695812,
+      arrayBuffers: 18337832
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 350357 },
+  trace: [
+    {
+      column: 13,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js',
+      function: 'setRecording',
+      line: 27,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 2:52:32 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:53:16 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:53:20 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:53:23 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:53:26 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:53:34 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:56:14 AM GMT+2'
+}
+{
+  error: ReferenceError: g is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:31:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: g is not defined\n' +
+    'ReferenceError: g is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:31:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: g is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:31:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Wed Apr 20 2022 01:56:22 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 28124,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 68714496,
+      heapTotal: 39067648,
+      heapUsed: 27661720,
+      external: 25759132,
+      arrayBuffers: 19335654
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 350586 },
+  trace: [
+    {
+      column: 1,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js',
+      function: null,
+      line: 31,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 2:56:22 AM GMT+2'
+}
+{
+  error: ReferenceError: ge is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:31:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: ge is not defined\n' +
+    'ReferenceError: ge is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:31:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: ge is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:31:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Wed Apr 20 2022 01:56:26 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 26304,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 68857856,
+      heapTotal: 57417728,
+      heapUsed: 25923616,
+      external: 25759135,
+      arrayBuffers: 18317703
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 350590 },
+  trace: [
+    {
+      column: 1,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js',
+      function: null,
+      line: 31,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 2:56:26 AM GMT+2'
+}
+{
+  error: ReferenceError: getS is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:31:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: getS is not defined\n' +
+    'ReferenceError: getS is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:31:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: getS is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:31:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Wed Apr 20 2022 01:56:30 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 22448,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 68497408,
+      heapTotal: 39067648,
+      heapUsed: 27428088,
+      external: 25759141,
+      arrayBuffers: 19335654
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 350595 },
+  trace: [
+    {
+      column: 1,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js',
+      function: null,
+      line: 31,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 2:56:30 AM GMT+2'
+}
+{
+  error: ReferenceError: getStreamByNa is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:31:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: getStreamByNa is not defined\n' +
+    'ReferenceError: getStreamByNa is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:31:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: getStreamByNa is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:31:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Wed Apr 20 2022 01:56:34 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 27508,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 68464640,
+      heapTotal: 38805504,
+      heapUsed: 28471040,
+      external: 25759168,
+      arrayBuffers: 19618362
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 350599 },
+  trace: [
+    {
+      column: 1,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js',
+      function: null,
+      line: 31,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 2:56:35 AM GMT+2'
+}
+{
+  error: ReferenceError: getStreamByName is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:31:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: getStreamByName is not defined\n' +
+    'ReferenceError: getStreamByName is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:31:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: getStreamByName is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:31:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Wed Apr 20 2022 01:56:36 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 18196,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 68874240,
+      heapTotal: 39067648,
+      heapUsed: 27488944,
+      external: 25759174,
+      arrayBuffers: 19348708
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 350601 },
+  trace: [
+    {
+      column: 1,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js',
+      function: null,
+      line: 31,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 2:56:36 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:58:14 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:58:33 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:58:46 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:58:53 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:59:00 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:59:05 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 2:59:10 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:00:34 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:00:56 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:01:01 AM GMT+2'
+}
+{
+  error: ReferenceError: getStreamByName is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:15:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: getStreamByName is not defined\n' +
+    'ReferenceError: getStreamByName is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:15:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: getStreamByName is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:15:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Wed Apr 20 2022 02:02:18 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 31628,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 68816896,
+      heapTotal: 39067648,
+      heapUsed: 27467424,
+      external: 25759732,
+      arrayBuffers: 19335654
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 350942 },
+  trace: [
+    {
+      column: 1,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js',
+      function: null,
+      line: 15,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 3:02:18 AM GMT+2'
+}
+{
+  error: ReferenceError: getStreamByName is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:17:1
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: getStreamByName is not defined\n' +
+    'ReferenceError: getStreamByName is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:17:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: getStreamByName is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:17:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Wed Apr 20 2022 02:02:22 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 31868,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 68755456,
+      heapTotal: 39067648,
+      heapUsed: 27251184,
+      external: 25759903,
+      arrayBuffers: 19335654
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 350946 },
+  trace: [
+    {
+      column: 1,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 3:02:22 AM GMT+2'
+}
+{
+  error: ReferenceError: getStreamByName is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:15:41
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: getStreamByName is not defined\n' +
+    'ReferenceError: getStreamByName is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:15:41\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: getStreamByName is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:15:41\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Wed Apr 20 2022 02:02:26 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 33708,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 68493312,
+      heapTotal: 38805504,
+      heapUsed: 27469872,
+      external: 25759867,
+      arrayBuffers: 19335654
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 350950 },
+  trace: [
+    {
+      column: 41,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js',
+      function: null,
+      line: 15,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 3:02:26 AM GMT+2'
+}
+{
+  error: ReferenceError: getStreamByName is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:15:39
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: getStreamByName is not defined\n' +
+    'ReferenceError: getStreamByName is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:15:39\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: getStreamByName is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:15:39\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Wed Apr 20 2022 02:02:28 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 33360,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 68820992,
+      heapTotal: 57155584,
+      heapUsed: 25944224,
+      external: 25759861,
+      arrayBuffers: 18317703
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 350953 },
+  trace: [
+    {
+      column: 39,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js',
+      function: null,
+      line: 15,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 3:02:28 AM GMT+2'
+}
+{
+  error: ReferenceError: getStreamByName is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:15:37
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: getStreamByName is not defined\n' +
+    'ReferenceError: getStreamByName is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:15:37\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: getStreamByName is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:15:37\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Wed Apr 20 2022 02:02:35 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 2896,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 68472832,
+      heapTotal: 39067648,
+      heapUsed: 27692088,
+      external: 25759855,
+      arrayBuffers: 19348708
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 350960 },
+  trace: [
+    {
+      column: 37,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js',
+      function: null,
+      line: 15,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 3:02:35 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:03:13 AM GMT+2'
+}
+{
+  error: ReferenceError: Cannot access 'stream' before initialization
+      at getStreamByName (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:34:16)
+      at Layer.handle [as handle_request] (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\route.js:137:13)
+      at Route.dispatch (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\route.js:112:3)
+      at Layer.handle [as handle_request] (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:281:22
+      at param (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:354:14)
+      at param (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:365:14)
+      at Function.process_params (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:410:3)
+      at next (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:275:10)
+      at Function.handle (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:174:3)
+      at router (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:47:12)
+      at Layer.handle [as handle_request] (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at trim_prefix (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:317:13)
+      at C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:284:7
+      at Function.process_params (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:335:12),
+  level: 'error',
+  message: "uncaughtException: Cannot access 'stream' before initialization\n" +
+    "ReferenceError: Cannot access 'stream' before initialization\n" +
+    '    at getStreamByName (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:34:16)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:354:14)\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:365:14)\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:410:3)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)',
+  stack: "ReferenceError: Cannot access 'stream' before initialization\n" +
+    '    at getStreamByName (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:34:16)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:354:14)\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:365:14)\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:410:3)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)',
+  exception: true,
+  date: 'Wed Apr 20 2022 02:03:17 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 21604,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 74702848,
+      heapTotal: 60035072,
+      heapUsed: 25824624,
+      external: 25817979,
+      arrayBuffers: 18325364
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 351002 },
+  trace: [
+    {
+      column: 16,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js',
+      function: 'getStreamByName',
+      line: 34,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 137,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 112,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 281,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'param',
+      line: 354,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'param',
+      line: 365,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 410,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 275,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 174,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'trim_prefix',
+      line: 317,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 335,
+      method: 'process_params',
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 3:03:17 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:03:37 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:03:52 AM GMT+2'
+}
+{
+  error: ReferenceError: Cannot access 'stream' before initialization
+      at getStreamByName (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:34:16)
+      at Layer.handle [as handle_request] (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\route.js:137:13)
+      at Route.dispatch (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\route.js:112:3)
+      at Layer.handle [as handle_request] (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:281:22
+      at param (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:354:14)
+      at param (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:365:14)
+      at Function.process_params (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:410:3)
+      at next (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:275:10)
+      at Function.handle (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:174:3)
+      at router (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:47:12)
+      at Layer.handle [as handle_request] (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at trim_prefix (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:317:13)
+      at C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:284:7
+      at Function.process_params (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:335:12),
+  level: 'error',
+  message: "uncaughtException: Cannot access 'stream' before initialization\n" +
+    "ReferenceError: Cannot access 'stream' before initialization\n" +
+    '    at getStreamByName (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:34:16)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:354:14)\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:365:14)\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:410:3)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)',
+  stack: "ReferenceError: Cannot access 'stream' before initialization\n" +
+    '    at getStreamByName (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:34:16)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:354:14)\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:365:14)\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:410:3)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)',
+  exception: true,
+  date: 'Wed Apr 20 2022 02:03:59 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 29400,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 61804544,
+      heapTotal: 27791360,
+      heapUsed: 24943960,
+      external: 19607335,
+      arrayBuffers: 18291082
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 351044 },
+  trace: [
+    {
+      column: 16,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js',
+      function: 'getStreamByName',
+      line: 34,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 137,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 112,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 281,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'param',
+      line: 354,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'param',
+      line: 365,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 410,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 275,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 174,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'trim_prefix',
+      line: 317,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 335,
+      method: 'process_params',
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 3:03:59 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:04:14 AM GMT+2'
+}
+{
+  error: ReferenceError: Cannot access 'stream' before initialization
+      at getStreamByName (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:34:16)
+      at Layer.handle [as handle_request] (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\route.js:137:13)
+      at Route.dispatch (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\route.js:112:3)
+      at Layer.handle [as handle_request] (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:281:22
+      at param (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:354:14)
+      at param (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:365:14)
+      at Function.process_params (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:410:3)
+      at next (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:275:10)
+      at Function.handle (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:174:3)
+      at router (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:47:12)
+      at Layer.handle [as handle_request] (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at trim_prefix (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:317:13)
+      at C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:284:7
+      at Function.process_params (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:335:12),
+  level: 'error',
+  message: "uncaughtException: Cannot access 'stream' before initialization\n" +
+    "ReferenceError: Cannot access 'stream' before initialization\n" +
+    '    at getStreamByName (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:34:16)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:354:14)\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:365:14)\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:410:3)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)',
+  stack: "ReferenceError: Cannot access 'stream' before initialization\n" +
+    '    at getStreamByName (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:34:16)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:354:14)\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:365:14)\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:410:3)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)',
+  exception: true,
+  date: 'Wed Apr 20 2022 02:04:16 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 29928,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 75972608,
+      heapTotal: 60559360,
+      heapUsed: 25815528,
+      external: 19659317,
+      arrayBuffers: 18325364
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 351060 },
+  trace: [
+    {
+      column: 16,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js',
+      function: 'getStreamByName',
+      line: 34,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 137,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 112,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 281,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'param',
+      line: 354,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'param',
+      line: 365,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 410,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 275,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 174,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'trim_prefix',
+      line: 317,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 335,
+      method: 'process_params',
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 3:04:16 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:05:41 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:05:46 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:07:02 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:07:04 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:08:14 AM GMT+2'
+}
+{
+  error: ReferenceError: name is not defined
+      at getStreamByName (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:34:49)
+      at Layer.handle [as handle_request] (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\route.js:137:13)
+      at Route.dispatch (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\route.js:112:3)
+      at Layer.handle [as handle_request] (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:281:22
+      at param (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:354:14)
+      at param (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:365:14)
+      at Function.process_params (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:410:3)
+      at next (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:275:10)
+      at Function.handle (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:174:3)
+      at router (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:47:12)
+      at Layer.handle [as handle_request] (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at trim_prefix (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:317:13)
+      at C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:284:7
+      at Function.process_params (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:335:12),
+  level: 'error',
+  message: 'uncaughtException: name is not defined\n' +
+    'ReferenceError: name is not defined\n' +
+    '    at getStreamByName (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:34:49)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:354:14)\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:365:14)\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:410:3)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)',
+  stack: 'ReferenceError: name is not defined\n' +
+    '    at getStreamByName (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:34:49)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:354:14)\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:365:14)\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:410:3)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)',
+  exception: true,
+  date: 'Wed Apr 20 2022 02:08:17 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 23448,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 75403264,
+      heapTotal: 60035072,
+      heapUsed: 26042904,
+      external: 25818057,
+      arrayBuffers: 18325364
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 351301 },
+  trace: [
+    {
+      column: 49,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js',
+      function: 'getStreamByName',
+      line: 34,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 137,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 112,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 281,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'param',
+      line: 354,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'param',
+      line: 365,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 410,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 275,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 174,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'trim_prefix',
+      line: 317,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 335,
+      method: 'process_params',
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 3:08:17 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:08:25 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:09:13 AM GMT+2'
+}
+{
+  error: TypeError: Cannot destructure property 'namee' of 'req.params.name' as it is undefined.
+      at getStreamByName (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:33:8)
+      at Layer.handle [as handle_request] (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\route.js:137:13)
+      at Route.dispatch (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\route.js:112:3)
+      at Layer.handle [as handle_request] (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:281:22
+      at param (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:354:14)
+      at param (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:365:14)
+      at Function.process_params (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:410:3)
+      at next (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:275:10)
+      at Function.handle (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:174:3)
+      at router (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:47:12)
+      at Layer.handle [as handle_request] (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at trim_prefix (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:317:13)
+      at C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:284:7
+      at Function.process_params (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\express\lib\router\index.js:335:12),
+  level: 'error',
+  message: "uncaughtException: Cannot destructure property 'namee' of 'req.params.name' as it is undefined.\n" +
+    "TypeError: Cannot destructure property 'namee' of 'req.params.name' as it is undefined.\n" +
+    '    at getStreamByName (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:33:8)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:354:14)\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:365:14)\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:410:3)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)',
+  stack: "TypeError: Cannot destructure property 'namee' of 'req.params.name' as it is undefined.\n" +
+    '    at getStreamByName (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:33:8)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:354:14)\n' +
+    '    at param (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:365:14)\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:410:3)\n' +
+    '    at next (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)',
+  exception: true,
+  date: 'Wed Apr 20 2022 02:09:15 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 31952,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 75943936,
+      heapTotal: 60297216,
+      heapUsed: 25825472,
+      external: 25818063,
+      arrayBuffers: 18325364
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 351359 },
+  trace: [
+    {
+      column: 8,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js',
+      function: 'getStreamByName',
+      line: 33,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 137,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 112,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 281,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'param',
+      line: 354,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'param',
+      line: 365,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 410,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 275,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 174,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'trim_prefix',
+      line: 317,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 335,
+      method: 'process_params',
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 3:09:15 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:09:35 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:09:47 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:09:51 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:10:35 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:10:50 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:10:52 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:10:55 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:11:13 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:16:20 AM GMT+2'
+}
+{
+  message: '::1 - - [20/Apr/2022:01:16:49 +0000] "GET /stream/getStreamBymeetId/kcny-yt5t-33tw HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/20/2022, 3:16:49 AM GMT+2'
+}
+{
+  message: '::1 - - [20/Apr/2022:01:21:34 +0000] "GET /stream/getStreamBymeetId/kcny-yt5t-33tw HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/20/2022, 3:21:34 AM GMT+2'
+}
+{
+  message: '::1 - - [20/Apr/2022:01:24:07 +0000] "GET /stream/getStreamBymeetId/zhq2-lh14-ig6t HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/20/2022, 3:24:07 AM GMT+2'
+}
+{
+  message: '::1 - - [20/Apr/2022:01:24:09 +0000] "GET /stream/getStreamBymeetId/zhq2-lh14-ig6t HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/20/2022, 3:24:09 AM GMT+2'
+}
+{
+  message: '::1 - - [20/Apr/2022:01:25:33 +0000] "GET /stream/getStreamBymeetId/tvmg-7kia-iecb HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/20/2022, 3:25:33 AM GMT+2'
+}
+{
+  message: '::1 - - [20/Apr/2022:01:25:39 +0000] "POST /stream HTTP/1.1" 409 84 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/20/2022, 3:25:39 AM GMT+2'
+}
+{
+  message: '::1 - - [20/Apr/2022:01:28:36 +0000] "GET /stream/getStreamBymeetId/72ru-7rz5-r2f4 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/20/2022, 3:28:36 AM GMT+2'
+}
+{
+  message: '::1 - - [20/Apr/2022:01:28:42 +0000] "POST /stream HTTP/1.1" 409 84 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/20/2022, 3:28:42 AM GMT+2'
+}
+{
+  message: '::1 - - [20/Apr/2022:01:30:34 +0000] "GET /stream/getStreamBymeetId/0jjw-sgq9-hw5y HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/20/2022, 3:30:34 AM GMT+2'
+}
+{
+  message: '::1 - - [20/Apr/2022:01:30:51 +0000] "GET /stream/getStreamBymeetId/0jjw-sgq9-hw5y HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/20/2022, 3:30:51 AM GMT+2'
+}
+{
+  message: '::1 - - [20/Apr/2022:01:31:45 +0000] "GET /stream/getStreamBymeetId/0jjw-sgq9-hw5y HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/20/2022, 3:31:45 AM GMT+2'
+}
+{
+  message: '::1 - - [20/Apr/2022:01:31:52 +0000] "POST /stream HTTP/1.1" 409 84 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/20/2022, 3:31:52 AM GMT+2'
+}
+{
+  message: '::1 - - [20/Apr/2022:01:32:21 +0000] "GET /stream/getStreamBymeetId/m8cl-rg6z-4l71 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/20/2022, 3:32:21 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:36:39 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:36:46 AM GMT+2'
+}
+{
+  error: TypeError: Cannot set properties of null (setting 'isrecorded')
+      at setRecording (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:26:23)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: "uncaughtException: Cannot set properties of null (setting 'isrecorded')\n" +
+    "TypeError: Cannot set properties of null (setting 'isrecorded')\n" +
+    '    at setRecording (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:26:23)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "TypeError: Cannot set properties of null (setting 'isrecorded')\n" +
+    '    at setRecording (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js:26:23)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Wed Apr 20 2022 02:37:11 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 30336,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 62353408,
+      heapTotal: 28053504,
+      heapUsed: 25365080,
+      external: 19620786,
+      arrayBuffers: 18304533
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 353035 },
+  trace: [
+    {
+      column: 23,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/stream.js',
+      function: 'setRecording',
+      line: 26,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 3:37:11 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:38:53 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:39:38 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:39:43 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:39:50 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:40:27 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:40:34 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:41:04 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:41:39 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:41:52 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:42:08 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 3:42:29 AM GMT+2'
+}
+{
+  message: '::1 - - [20/Apr/2022:01:45:35 +0000] "GET /stream/getStreamBymeetId/fw2g-82c3-5qd5 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/20/2022, 3:45:35 AM GMT+2'
+}
+{
+  error: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+      at Function.Model.$wrapCallback (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\model.js:5087:32)
+      at C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\query.js:4510:21
+      at C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+      at new Promise (<anonymous>)
+      at promiseOrCallback (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+      at model.Query.exec (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\query.js:4509:10)
+      at model.Query.Query.then (C:\Users\Wissem\Desktop\PrimeTime\server\node_modules\mongoose\lib\query.js:4592:15)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    reason: TopologyDescription {
+      type: 'ReplicaSetNoPrimary',
+      setName: 'atlas-fgshea-shard-0',
+      maxSetVersion: 1,
+      maxElectionId: 7fffffff0000000000000006,
+      servers: Map(3) {
+        'cluster0-shard-00-00.zlao8.mongodb.net:27017' => ServerDescription {
+          address: 'cluster0-shard-00-00.zlao8.mongodb.net:27017',
+          error: Error: getaddrinfo ENOTFOUND cluster0-shard-00-00.zlao8.mongodb.net
+              at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) {
+            name: 'MongoNetworkError'
+          },
+          roundTripTime: -1,
+          lastUpdateTime: 375304450,
+          lastWriteDate: null,
+          opTime: null,
+          type: 'Unknown',
+          topologyVersion: { processId: 625c11373a07da87be4828c8, counter: 4 },
+          minWireVersion: 0,
+          maxWireVersion: 0,
+          hosts: [],
+          passives: [],
+          arbiters: [],
+          tags: []
+        },
+        'cluster0-shard-00-01.zlao8.mongodb.net:27017' => ServerDescription {
+          address: 'cluster0-shard-00-01.zlao8.mongodb.net:27017',
+          error: Error: getaddrinfo ENOTFOUND cluster0-shard-00-01.zlao8.mongodb.net
+              at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) {
+            name: 'MongoNetworkError'
+          },
+          roundTripTime: -1,
+          lastUpdateTime: 375304450,
+          lastWriteDate: null,
+          opTime: null,
+          type: 'Unknown',
+          topologyVersion: { processId: 625c11cfe954f75c40e8c406, counter: 6 },
+          minWireVersion: 0,
+          maxWireVersion: 0,
+          hosts: [],
+          passives: [],
+          arbiters: [],
+          tags: []
+        },
+        'cluster0-shard-00-02.zlao8.mongodb.net:27017' => ServerDescription {
+          address: 'cluster0-shard-00-02.zlao8.mongodb.net:27017',
+          error: Error: getaddrinfo ENOTFOUND cluster0-shard-00-02.zlao8.mongodb.net
+              at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) {
+            name: 'MongoNetworkError'
+          },
+          roundTripTime: -1,
+          lastUpdateTime: 375304450,
+          lastWriteDate: null,
+          opTime: null,
+          type: 'Unknown',
+          topologyVersion: { processId: 625c1271415dce64bbaf8fca, counter: 3 },
+          minWireVersion: 0,
+          maxWireVersion: 0,
+          hosts: [],
+          passives: [],
+          arbiters: [],
+          tags: []
+        }
+      },
+      stale: false,
+      compatible: true,
+      compatibilityError: null,
+      logicalSessionTimeoutMinutes: null,
+      heartbeatFrequencyMS: 10000,
+      localThresholdMS: 15,
+      commonWireVersion: 13
+    }
+  },
+  level: 'error',
+  message: "uncaughtException: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n" +
+    "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n" +
+    '    at Function.Model.$wrapCallback (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\model.js:5087:32)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\query.js:4510:21\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at promiseOrCallback (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n' +
+    '    at model.Query.exec (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\query.js:4509:10)\n' +
+    '    at model.Query.Query.then (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\query.js:4592:15)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n" +
+    '    at Function.Model.$wrapCallback (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\model.js:5087:32)\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\query.js:4510:21\n' +
+    '    at C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at promiseOrCallback (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n' +
+    '    at model.Query.exec (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\query.js:4509:10)\n' +
+    '    at model.Query.Query.then (C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\query.js:4592:15)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Wed Apr 20 2022 08:48:00 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 17428,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 65306624,
+      heapTotal: 29626368,
+      heapUsed: 27975552,
+      external: 19633618,
+      arrayBuffers: 18317365
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 375284 },
+  trace: [
+    {
+      column: 32,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\model.js',
+      function: 'Function.Model.$wrapCallback',
+      line: 5087,
+      method: '$wrapCallback',
+      native: false
+    },
+    {
+      column: 21,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\query.js',
+      function: null,
+      line: 4510,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js',
+      function: null,
+      line: 32,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js',
+      function: 'promiseOrCallback',
+      line: 31,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\query.js',
+      function: 'model.Query.exec',
+      line: 4509,
+      method: 'exec',
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\node_modules\\mongoose\\lib\\query.js',
+      function: 'model.Query.Query.then',
+      line: 4592,
+      method: 'then',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/20/2022, 9:48:00 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/20/2022, 9:52:44 AM GMT+2'
+}
+{
+  message: '::1 - - [20/Apr/2022:07:56:30 +0000] "GET /stream/getStreamBymeetId/fw2g-82c3-5qd5 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/20/2022, 9:56:30 AM GMT+2'
+}
+{
+  message: '::1 - - [20/Apr/2022:07:58:05 +0000] "GET /stream/getStreamBymeetId/wcf0-x32e-f6vx HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/20/2022, 9:58:05 AM GMT+2'
+}

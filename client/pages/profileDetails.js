@@ -4,6 +4,7 @@ import { Container, Row, Col } from "reactstrap";
 import axios from "axios";
 import "../public/assets/person.css";
 import StreamCard from "../components/StreamCard";
+import CourseCard from "../components/CourseCard";
 import Link from "next/link";
 
 const PortfolioDetail7 = () => {
@@ -12,6 +13,16 @@ const PortfolioDetail7 = () => {
   useEffect(() => {
     setUser(JSON.parse(localStorage.getItem("user")));
   }, []);
+
+  const [courses, setCourses] = useState([]);
+  const getCourses = async() =>
+  axios.get("http://localhost:5000/user/getCoursesByUserId/"+(JSON.parse(localStorage.getItem("user"))["_id"]))
+          .then(res => {
+              setCourses(res.data)   
+           }) .catch(function (error) {
+              console.log(error);              
+          })    
+
   const [channeldescription,setChannelDescription]=useState({userid:"",text:""})
   const [imgsrc, setImgsrc] = useState("");
   const [userData,setUserData]=useState({
@@ -45,9 +56,10 @@ const PortfolioDetail7 = () => {
                     });
          setChannelDescription({userid:user["_id"],
          text:user['channelDescription']});
+         getCourses();
     }
   }, [user]);
-
+    
   const onInputChange = (e) => {
     const formData = new FormData();
     formData.append("username", user['_id']);
@@ -360,16 +372,12 @@ const PortfolioDetail7 = () => {
                   "flex-wrap": "wrap",
                 }}
               >
-                <StreamCard />
-                <StreamCard />
-                <StreamCard />
-                <StreamCard />
-                <StreamCard />
-                <StreamCard />
-                <StreamCard />
-                <StreamCard />
-                <StreamCard />
-                <StreamCard />
+                  {courses.map(course =>
+                  {
+                    return (<CourseCard course={course} />)
+                  })
+                    }
+              
               </div>
 
               <div style={{ overflow: "scroll", height: "50%", width: "100%" }}>

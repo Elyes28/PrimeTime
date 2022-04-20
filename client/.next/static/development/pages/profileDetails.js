@@ -1,8 +1,8 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\profileDetails.js"],{
 
-/***/ "./components/StreamCard.js":
+/***/ "./components/CourseCard.js":
 /*!**********************************!*\
-  !*** ./components/StreamCard.js ***!
+  !*** ./components/CourseCard.js ***!
   \**********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -13,14 +13,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _stylez_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./stylez.css */ "./components/stylez.css");
 /* harmony import */ var _stylez_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_stylez_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\components\\StreamCard.js";
+var _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\components\\CourseCard.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-function StreamCard(props) {
+function CourseCard(course) {
   return __jsx("div", {
-    className: "card m-2 ",
+    className: "card m-3",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -60,7 +60,7 @@ function StreamCard(props) {
       lineNumber: 15,
       columnNumber: 11
     }
-  }, "Streamer"), __jsx("h2", {
+  }, course.course.name), __jsx("h2", {
     className: "price",
     __self: this,
     __source: {
@@ -68,11 +68,95 @@ function StreamCard(props) {
       lineNumber: 16,
       columnNumber: 11
     }
+  }, course.course.type), __jsx("a", {
+    href: "#",
+    className: "buy",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 11
+    }
+  }, "Buy Now")));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (CourseCard);
+
+/***/ }),
+
+/***/ "./components/StreamCard.js":
+/*!**********************************!*\
+  !*** ./components/StreamCard.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _stylez_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./stylez.css */ "./components/stylez.css");
+/* harmony import */ var _stylez_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_stylez_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\components\\StreamCard.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+function StreamCard(props) {
+  return __jsx("div", {
+    className: "card m-2 ",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "imgBox",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 9
+    }
+  }, __jsx("img", {
+    src: "https://wac-cdn.atlassian.com/fr/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=309",
+    alt: "mouse corsair",
+    "class": "mouse",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 11
+    }
+  })), __jsx("div", {
+    className: "contentBox",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 9
+    }
+  }, __jsx("h3", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 11
+    }
+  }, "Streamer"), __jsx("h2", {
+    className: "price",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 11
+    }
   }, "61.", __jsx("small", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 15,
       columnNumber: 36
     }
   }, "98"), " \u20AC"), __jsx("a", {
@@ -81,7 +165,7 @@ function StreamCard(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 16,
       columnNumber: 11
     }
   }, "Buy Now")));
@@ -2760,6 +2844,58 @@ function _createClass(Constructor, protoProps, staticProps) {
 }
 
 module.exports = _createClass;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _asyncToGenerator; });
+/* harmony import */ var _core_js_promise__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
+/* harmony import */ var _core_js_promise__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_promise__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+  try {
+    var info = gen[key](arg);
+    var value = info.value;
+  } catch (error) {
+    reject(error);
+    return;
+  }
+
+  if (info.done) {
+    resolve(value);
+  } else {
+    _core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a.resolve(value).then(_next, _throw);
+  }
+}
+
+function _asyncToGenerator(fn) {
+  return function () {
+    var self = this,
+        args = arguments;
+    return new _core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a(function (resolve, reject) {
+      var gen = fn.apply(self, args);
+
+      function _next(value) {
+        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+      }
+
+      function _throw(err) {
+        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+      }
+
+      _next(undefined);
+    });
+  };
+}
 
 /***/ }),
 
@@ -32104,17 +32240,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
 /* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js");
 /* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _containers_common_common_layout__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../containers/common/common-layout */ "./containers/common/common-layout.js");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _public_assets_person_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../public/assets/person.css */ "./public/assets/person.css");
-/* harmony import */ var _public_assets_person_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_public_assets_person_css__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _components_StreamCard__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/StreamCard */ "./components/StreamCard.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js");
+/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _containers_common_common_layout__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../containers/common/common-layout */ "./containers/common/common-layout.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _public_assets_person_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../public/assets/person.css */ "./public/assets/person.css");
+/* harmony import */ var _public_assets_person_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_public_assets_person_css__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _components_StreamCard__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../components/StreamCard */ "./components/StreamCard.js");
+/* harmony import */ var _components_CourseCard__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../components/CourseCard */ "./components/CourseCard.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_17__);
+
+
 
 
 
@@ -32127,7 +32269,7 @@ __webpack_require__.r(__webpack_exports__);
 var _this = undefined,
     _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\pages\\profileDetails.js";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement;
 
 function ownKeys(object, enumerableOnly) { var keys = _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default()(object); if (_babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default.a) { var symbols = _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default()(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
 
@@ -32141,34 +32283,64 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 
 
+
 var PortfolioDetail7 = function PortfolioDetail7() {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])(""),
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_10__["useState"])(""),
       expires = _useState[0],
       setExpires = _useState[1];
 
-  var _useState2 = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])({
+  var _useState2 = Object(react__WEBPACK_IMPORTED_MODULE_10__["useState"])({
     firstName: "",
     lastName: ""
   }),
       user = _useState2[0],
       setUser = _useState2[1];
 
-  Object(react__WEBPACK_IMPORTED_MODULE_8__["useEffect"])(function () {
+  Object(react__WEBPACK_IMPORTED_MODULE_10__["useEffect"])(function () {
     setUser(JSON.parse(localStorage.getItem("user")));
   }, []);
 
-  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])({
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_10__["useState"])([]),
+      courses = _useState3[0],
+      setCourses = _useState3[1];
+
+  var getCourses = /*#__PURE__*/function () {
+    var _ref = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_9__["default"])( /*#__PURE__*/_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_8___default.a.mark(function _callee() {
+      return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_8___default.a.wrap(function _callee$(_context) {
+        while (1) {
+          switch (_context.prev = _context.next) {
+            case 0:
+              return _context.abrupt("return", axios__WEBPACK_IMPORTED_MODULE_13___default.a.get("http://localhost:5000/user/getCoursesByUserId/" + JSON.parse(localStorage.getItem("user"))["_id"]).then(function (res) {
+                setCourses(res.data);
+              })["catch"](function (error) {
+                console.log(error);
+              }));
+
+            case 1:
+            case "end":
+              return _context.stop();
+          }
+        }
+      }, _callee);
+    }));
+
+    return function getCourses() {
+      return _ref.apply(this, arguments);
+    };
+  }();
+
+  var _useState4 = Object(react__WEBPACK_IMPORTED_MODULE_10__["useState"])({
     userid: "",
     text: ""
   }),
-      channeldescription = _useState3[0],
-      setChannelDescription = _useState3[1];
+      channeldescription = _useState4[0],
+      setChannelDescription = _useState4[1];
 
-  var _useState4 = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])(""),
-      imgsrc = _useState4[0],
-      setImgsrc = _useState4[1];
+  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_10__["useState"])(""),
+      imgsrc = _useState5[0],
+      setImgsrc = _useState5[1];
 
-  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])({
+  var _useState6 = Object(react__WEBPACK_IMPORTED_MODULE_10__["useState"])({
     userid: "",
     firstname: "",
     lastname: "",
@@ -32178,10 +32350,10 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     youtube: "",
     spotify: ""
   }),
-      userData = _useState5[0],
-      setUserData = _useState5[1];
+      userData = _useState6[0],
+      setUserData = _useState6[1];
 
-  Object(react__WEBPACK_IMPORTED_MODULE_8__["useEffect"])(function () {
+  Object(react__WEBPACK_IMPORTED_MODULE_10__["useEffect"])(function () {
     if (user) {
       setImgsrc("images/users/" + user["_id"] + ".jpg");
       if (JSON.parse(localStorage.getItem("user"))["role"] != "user") setExpires(JSON.parse(localStorage.getItem("user"))["expiration"].split("T")[0]);
@@ -32199,6 +32371,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
         userid: user["_id"],
         text: user['channelDescription']
       });
+      getCourses();
     }
   }, [user]);
 
@@ -32211,7 +32384,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
         "content-type": "multipart/form-data"
       }
     };
-    axios__WEBPACK_IMPORTED_MODULE_11___default.a.post("http://localhost:5000/user/uploadProfileImg", formData, config).then(window.location.reload());
+    axios__WEBPACK_IMPORTED_MODULE_13___default.a.post("http://localhost:5000/user/uploadProfileImg", formData, config).then(window.location.reload());
   };
 
   var imgClicked = function imgClicked(e) {
@@ -32219,17 +32392,17 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     document.getElementById("file-input").click();
   };
 
-  var _useState6 = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])(false),
-      editabledesc = _useState6[0],
-      setEditabledesc = _useState6[1];
+  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_10__["useState"])(false),
+      editabledesc = _useState7[0],
+      setEditabledesc = _useState7[1];
 
   var onOffEditdesc = function onOffEditdesc() {
     setEditabledesc(!editabledesc);
   };
 
-  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])(false),
-      editable = _useState7[0],
-      setEditable = _useState7[1];
+  var _useState8 = Object(react__WEBPACK_IMPORTED_MODULE_10__["useState"])(false),
+      editable = _useState8[0],
+      setEditable = _useState8[1];
 
   var onOffEdit = function onOffEdit() {
     setEditable(!editable);
@@ -32237,7 +32410,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
 
   var sendUpdateRequest = function sendUpdateRequest() {
     console.log(userData);
-    axios__WEBPACK_IMPORTED_MODULE_11___default.a.post("http://localhost:5000/user/updateProfile", userData).then(function () {
+    axios__WEBPACK_IMPORTED_MODULE_13___default.a.post("http://localhost:5000/user/updateProfile", userData).then(function () {
       user.firstName = userData.firstname;
       user.lastName = userData.lastname;
       user.phone = userData.phonenumber;
@@ -32255,7 +32428,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
 
   var sendChannelDescription = function sendChannelDescription() {
     console.log(channeldescription);
-    axios__WEBPACK_IMPORTED_MODULE_11___default.a.post("http://localhost:5000/user/updateChannelDescription", channeldescription).then(function () {
+    axios__WEBPACK_IMPORTED_MODULE_13___default.a.post("http://localhost:5000/user/updateChannelDescription", channeldescription).then(function () {
       user.channelDescription = channeldescription.text;
       setEditabledesc(!editabledesc);
       localStorage.setItem('user', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_7___default()(user));
@@ -32264,27 +32437,27 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     });
   };
 
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_8__["Fragment"], {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_10__["Fragment"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104,
+      lineNumber: 116,
       columnNumber: 5
     }
-  }, __jsx(_containers_common_common_layout__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  }, __jsx(_containers_common_common_layout__WEBPACK_IMPORTED_MODULE_11__["default"], {
     pathList: ["portfolio details", "left side image portfolio"],
     pathTitle: "left side image portfolio",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105,
+      lineNumber: 117,
       columnNumber: 7
     }
   }, __jsx("section", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109,
+      lineNumber: 121,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -32295,7 +32468,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110,
+      lineNumber: 122,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -32303,7 +32476,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111,
+      lineNumber: 123,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -32311,7 +32484,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112,
+      lineNumber: 124,
       columnNumber: 15
     }
   }, __jsx("div", {
@@ -32323,7 +32496,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113,
+      lineNumber: 125,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -32331,7 +32504,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118,
+      lineNumber: 130,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -32339,7 +32512,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119,
+      lineNumber: 131,
       columnNumber: 21
     }
   }, __jsx("h3", {
@@ -32347,7 +32520,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120,
+      lineNumber: 132,
       columnNumber: 23
     }
   }, "Profile detail"), __jsx("svg", {
@@ -32361,7 +32534,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121,
+      lineNumber: 133,
       columnNumber: 23
     }
   }, __jsx("path", {
@@ -32369,7 +32542,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130,
+      lineNumber: 142,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -32378,7 +32551,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131,
+      lineNumber: 143,
       columnNumber: 25
     }
   }))), __jsx("div", {
@@ -32386,7 +32559,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137,
+      lineNumber: 149,
       columnNumber: 21
     }
   }, __jsx("input", {
@@ -32402,7 +32575,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138,
+      lineNumber: 150,
       columnNumber: 23
     }
   }), __jsx("a", {
@@ -32411,7 +32584,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149,
+      lineNumber: 161,
       columnNumber: 23
     }
   }, __jsx("img", {
@@ -32425,15 +32598,15 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151,
+      lineNumber: 163,
       columnNumber: 25
     }
-  }), " ")), editable ? __jsx(react__WEBPACK_IMPORTED_MODULE_8___default.a.Fragment, null, __jsx("div", {
+  }), " ")), editable ? __jsx(react__WEBPACK_IMPORTED_MODULE_10___default.a.Fragment, null, __jsx("div", {
     className: "detail-container d-flex mt-3 ",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 161,
+      lineNumber: 173,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -32441,7 +32614,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 162,
+      lineNumber: 174,
       columnNumber: 23
     }
   }, __jsx("h5", {
@@ -32449,7 +32622,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 163,
+      lineNumber: 175,
       columnNumber: 25
     }
   }, "First Name: ")), __jsx("div", {
@@ -32457,7 +32630,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 165,
+      lineNumber: 177,
       columnNumber: 23
     }
   }, __jsx("input", {
@@ -32471,7 +32644,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 166,
+      lineNumber: 178,
       columnNumber: 25
     }
   }))), __jsx("div", {
@@ -32479,7 +32652,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 171,
+      lineNumber: 183,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -32487,7 +32660,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172,
+      lineNumber: 184,
       columnNumber: 23
     }
   }, __jsx("h5", {
@@ -32495,7 +32668,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 173,
+      lineNumber: 185,
       columnNumber: 25
     }
   }, "Last Name: ")), __jsx("div", {
@@ -32503,7 +32676,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 175,
+      lineNumber: 187,
       columnNumber: 23
     }
   }, __jsx("input", {
@@ -32517,7 +32690,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 176,
+      lineNumber: 188,
       columnNumber: 23
     }
   }))), __jsx("div", {
@@ -32525,7 +32698,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 181,
+      lineNumber: 193,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -32533,7 +32706,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 182,
+      lineNumber: 194,
       columnNumber: 23
     }
   }, __jsx("h5", {
@@ -32541,7 +32714,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 183,
+      lineNumber: 195,
       columnNumber: 25
     }
   }, "Phone: ")), __jsx("div", {
@@ -32549,7 +32722,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 185,
+      lineNumber: 197,
       columnNumber: 23
     }
   }, __jsx("input", {
@@ -32564,7 +32737,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 186,
+      lineNumber: 198,
       columnNumber: 23
     }
   }))), __jsx("div", {
@@ -32572,7 +32745,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 191,
+      lineNumber: 203,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -32580,7 +32753,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 192,
+      lineNumber: 204,
       columnNumber: 23
     }
   }, __jsx("h5", {
@@ -32588,7 +32761,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 193,
+      lineNumber: 205,
       columnNumber: 25
     }
   }, "facebook: ")), __jsx("div", {
@@ -32596,7 +32769,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 195,
+      lineNumber: 207,
       columnNumber: 23
     }
   }, __jsx("input", {
@@ -32611,54 +32784,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 196,
-      columnNumber: 23
-    }
-  }))), __jsx("div", {
-    className: "detail-container d-flex ",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 201,
-      columnNumber: 21
-    }
-  }, __jsx("div", {
-    className: "portfolio-left",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 202,
-      columnNumber: 23
-    }
-  }, __jsx("h5", {
-    className: "text-left",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 203,
-      columnNumber: 25
-    }
-  }, "instagram: ")), __jsx("div", {
-    className: "portfolio-right",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 205,
-      columnNumber: 23
-    }
-  }, __jsx("input", {
-    type: "text",
-    value: userData.instagram,
-    className: "border  border-dark rounded w-75",
-    onChange: function onChange(e) {
-      return setUserData(_objectSpread({}, userData, {
-        instagram: e.target.value
-      }));
-    },
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 206,
+      lineNumber: 208,
       columnNumber: 23
     }
   }))), __jsx("div", {
@@ -32685,12 +32811,59 @@ var PortfolioDetail7 = function PortfolioDetail7() {
       lineNumber: 215,
       columnNumber: 25
     }
-  }, "youtube: ")), __jsx("div", {
+  }, "instagram: ")), __jsx("div", {
     className: "portfolio-right",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 217,
+      columnNumber: 23
+    }
+  }, __jsx("input", {
+    type: "text",
+    value: userData.instagram,
+    className: "border  border-dark rounded w-75",
+    onChange: function onChange(e) {
+      return setUserData(_objectSpread({}, userData, {
+        instagram: e.target.value
+      }));
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 218,
+      columnNumber: 23
+    }
+  }))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 225,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 226,
+      columnNumber: 23
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 227,
+      columnNumber: 25
+    }
+  }, "youtube: ")), __jsx("div", {
+    className: "portfolio-right",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 229,
       columnNumber: 23
     }
   }, __jsx("input", {
@@ -32705,7 +32878,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 218,
+      lineNumber: 230,
       columnNumber: 23
     }
   }))), __jsx("div", {
@@ -32713,7 +32886,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 223,
+      lineNumber: 235,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -32721,7 +32894,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 224,
+      lineNumber: 236,
       columnNumber: 23
     }
   }, __jsx("h5", {
@@ -32729,7 +32902,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 225,
+      lineNumber: 237,
       columnNumber: 25
     }
   }, "Spotify: ")), __jsx("div", {
@@ -32737,7 +32910,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 227,
+      lineNumber: 239,
       columnNumber: 23
     }
   }, __jsx("input", {
@@ -32752,7 +32925,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 228,
+      lineNumber: 240,
       columnNumber: 23
     }
   }))), __jsx("div", {
@@ -32760,7 +32933,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 232,
+      lineNumber: 244,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -32769,74 +32942,19 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 233,
+      lineNumber: 245,
       columnNumber: 23
     }
-  }, "update"))) : __jsx(react__WEBPACK_IMPORTED_MODULE_8___default.a.Fragment, null, __jsx("div", {
+  }, "update"))) : __jsx(react__WEBPACK_IMPORTED_MODULE_10___default.a.Fragment, null, __jsx("div", {
     className: "detail-container d-flex mt-3 ",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 243,
+      lineNumber: 255,
       columnNumber: 21
     }
   }, __jsx("div", {
     className: "portfolio-left",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 244,
-      columnNumber: 23
-    }
-  }, __jsx("h5", {
-    className: "text-left",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 245,
-      columnNumber: 25
-    }
-  }, "First Name: ")), __jsx("div", {
-    className: "portfolio-right",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 247,
-      columnNumber: 23
-    }
-  }, __jsx("h5", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 248,
-      columnNumber: 25
-    }
-  }, user["firstName"]))), __jsx("div", {
-    className: "detail-container d-flex ",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 252,
-      columnNumber: 21
-    }
-  }, __jsx("div", {
-    className: "portfolio-left",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 253,
-      columnNumber: 23
-    }
-  }, __jsx("h5", {
-    className: "text-left",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 254,
-      columnNumber: 25
-    }
-  }, "Last Name: ")), __jsx("div", {
-    className: "portfolio-right",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -32844,10 +32962,65 @@ var PortfolioDetail7 = function PortfolioDetail7() {
       columnNumber: 23
     }
   }, __jsx("h5", {
+    className: "text-left",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 257,
+      columnNumber: 25
+    }
+  }, "First Name: ")), __jsx("div", {
+    className: "portfolio-right",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 259,
+      columnNumber: 23
+    }
+  }, __jsx("h5", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 260,
+      columnNumber: 25
+    }
+  }, user["firstName"]))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 264,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 265,
+      columnNumber: 23
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 266,
+      columnNumber: 25
+    }
+  }, "Last Name: ")), __jsx("div", {
+    className: "portfolio-right",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 268,
+      columnNumber: 23
+    }
+  }, __jsx("h5", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 269,
       columnNumber: 25
     }
   }, user["lastName"]))), __jsx("div", {
@@ -32855,66 +33028,11 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 262,
+      lineNumber: 274,
       columnNumber: 21
     }
   }, __jsx("div", {
     className: "portfolio-left",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 263,
-      columnNumber: 23
-    }
-  }, __jsx("h5", {
-    className: "text-left",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 264,
-      columnNumber: 25
-    }
-  }, "Phone: ")), __jsx("div", {
-    className: "portfolio-right",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 266,
-      columnNumber: 23
-    }
-  }, __jsx("h5", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 267,
-      columnNumber: 25
-    }
-  }, "+216 ", user['phone']))), __jsx("div", {
-    className: "detail-container d-flex ",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 271,
-      columnNumber: 21
-    }
-  }, __jsx("div", {
-    className: "portfolio-left",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 272,
-      columnNumber: 23
-    }
-  }, __jsx("h5", {
-    className: "text-left",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 273,
-      columnNumber: 25
-    }
-  }, "Email: ")), __jsx("div", {
-    className: "portfolio-right",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -32922,18 +33040,34 @@ var PortfolioDetail7 = function PortfolioDetail7() {
       columnNumber: 23
     }
   }, __jsx("h5", {
+    className: "text-left",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 276,
       columnNumber: 25
     }
-  }, user["email"]))), __jsx("div", {
-    className: "detail-container d-flex ",
+  }, "Phone: ")), __jsx("div", {
+    className: "portfolio-right",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 278,
+      columnNumber: 23
+    }
+  }, __jsx("h5", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 279,
+      columnNumber: 25
+    }
+  }, "+216 ", user['phone']))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 283,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -32941,7 +33075,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 280,
+      lineNumber: 284,
       columnNumber: 23
     }
   }, __jsx("h5", {
@@ -32949,7 +33083,46 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 281,
+      lineNumber: 285,
+      columnNumber: 25
+    }
+  }, "Email: ")), __jsx("div", {
+    className: "portfolio-right",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 287,
+      columnNumber: 23
+    }
+  }, __jsx("h5", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 288,
+      columnNumber: 25
+    }
+  }, user["email"]))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 291,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 292,
+      columnNumber: 23
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 293,
       columnNumber: 25
     }
   }, "Role:")), __jsx("div", {
@@ -32957,14 +33130,14 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 283,
+      lineNumber: 295,
       columnNumber: 23
     }
   }, __jsx("h5", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 284,
+      lineNumber: 296,
       columnNumber: 25
     }
   }, user["role"]))), user["role"] != "user" ? __jsx("div", {
@@ -32972,7 +33145,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 289,
+      lineNumber: 301,
       columnNumber: 23
     }
   }, __jsx("div", {
@@ -32980,7 +33153,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 290,
+      lineNumber: 302,
       columnNumber: 25
     }
   }, __jsx("h5", {
@@ -32988,7 +33161,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 291,
+      lineNumber: 303,
       columnNumber: 27
     }
   }, "expiration:")), __jsx("div", {
@@ -32996,14 +33169,14 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 293,
+      lineNumber: 305,
       columnNumber: 25
     }
   }, __jsx("h5", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 294,
+      lineNumber: 306,
       columnNumber: 27
     }
   }, expires))) : null)), user["role"] == "musician" ? __jsx("div", {
@@ -33011,7 +33184,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 307,
+      lineNumber: 319,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -33019,7 +33192,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 308,
+      lineNumber: 320,
       columnNumber: 23
     }
   }, __jsx("h3", {
@@ -33027,7 +33200,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 309,
+      lineNumber: 321,
       columnNumber: 21
     }
   }, "My Channel description"), __jsx("svg", {
@@ -33041,7 +33214,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 310,
+      lineNumber: 322,
       columnNumber: 21
     }
   }, __jsx("path", {
@@ -33049,7 +33222,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 319,
+      lineNumber: 331,
       columnNumber: 25
     }
   }), __jsx("path", {
@@ -33058,17 +33231,17 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 320,
+      lineNumber: 332,
       columnNumber: 25
     }
   }))), !editabledesc ? __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 327,
+      lineNumber: 339,
       columnNumber: 21
     }
-  }, user['channelDescription']) : __jsx(react__WEBPACK_IMPORTED_MODULE_8___default.a.Fragment, null, __jsx("textarea", {
+  }, user['channelDescription']) : __jsx(react__WEBPACK_IMPORTED_MODULE_10___default.a.Fragment, null, __jsx("textarea", {
     className: "w-100",
     value: channeldescription.text,
     onChange: function onChange(e) {
@@ -33079,7 +33252,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 331,
+      lineNumber: 343,
       columnNumber: 21
     }
   }), __jsx("div", {
@@ -33087,7 +33260,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 334,
+      lineNumber: 346,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -33096,7 +33269,7 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 335,
+      lineNumber: 347,
       columnNumber: 23
     }
   }, "update")))) : null))), __jsx("div", {
@@ -33108,15 +33281,15 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 349,
+      lineNumber: 361,
       columnNumber: 13
     }
-  }, user["role"] == "musician" ? __jsx(next_link__WEBPACK_IMPORTED_MODULE_14___default.a, {
+  }, user["role"] == "musician" ? __jsx(next_link__WEBPACK_IMPORTED_MODULE_17___default.a, {
     href: "/streams/launchStream",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 351,
+      lineNumber: 363,
       columnNumber: 17
     }
   }, "Go live") : null, __jsx("div", {
@@ -33130,79 +33303,19 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 354,
+      lineNumber: 366,
       columnNumber: 15
     }
-  }, __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_13__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 363,
-      columnNumber: 17
-    }
-  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_13__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 364,
-      columnNumber: 17
-    }
-  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_13__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 365,
-      columnNumber: 17
-    }
-  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_13__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 366,
-      columnNumber: 17
-    }
-  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_13__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 367,
-      columnNumber: 17
-    }
-  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_13__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 368,
-      columnNumber: 17
-    }
-  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_13__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 369,
-      columnNumber: 17
-    }
-  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_13__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 370,
-      columnNumber: 17
-    }
-  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_13__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 371,
-      columnNumber: 17
-    }
-  }), __jsx(_components_StreamCard__WEBPACK_IMPORTED_MODULE_13__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 372,
-      columnNumber: 17
-    }
+  }, courses.map(function (course) {
+    return __jsx(_components_CourseCard__WEBPACK_IMPORTED_MODULE_16__["default"], {
+      course: course,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 377,
+        columnNumber: 29
+      }
+    });
   })), __jsx("div", {
     style: {
       overflow: "scroll",
@@ -33212,35 +33325,35 @@ var PortfolioDetail7 = function PortfolioDetail7() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 375,
+      lineNumber: 383,
       columnNumber: 15
     }
   }, "test", __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 376,
+      lineNumber: 384,
       columnNumber: 21
     }
   }), __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 377,
+      lineNumber: 385,
       columnNumber: 17
     }
   }), __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 378,
+      lineNumber: 386,
       columnNumber: 17
     }
   }), __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 379,
+      lineNumber: 387,
       columnNumber: 17
     }
   }), "tessst"))))));

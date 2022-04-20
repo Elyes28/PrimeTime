@@ -5,6 +5,7 @@ import logger from "./../helpers/logger.js";
 import multer from "multer";
 import UserModal from "../models/user.js";
 import licensekeyModal from "../models/licensekey.js";
+import course from "../models/course.js";
 
 const secret = process.env.secret;
 const BASE_URL = process.env.BASE_URL;
@@ -206,4 +207,15 @@ export const updateChannelDescription= async (req,res)=>{
   user.channel_description=text;
   user.save()
   return res.status(200).json(user)
+}
+
+export const getCoursesByUserId = async (req,res)=>{
+  const userid=req.params.userid
+  const user = await UserModal.findById(userid)
+  var courses=[]
+  if (user.role=="musician")
+  courses= await course.find({_id:{$in:user.courses_teaching}})
+  else 
+  courses= await course.find({_id:{$in:user.courses_learning}})
+  return res.status(200).json(courses)
 }
