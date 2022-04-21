@@ -96,7 +96,7 @@ export const fetch_sessions = async(req,res)=>{
 		"Content-Type": "application/json",
 	},
 };
-const url= `https://api.videosdk.live/v2/sessions/`;
+const url= `https://api.videosdk.live/v2/recordings?roomId=`+req.params.meetid;
 const response = await fetch(url, options);
 const data = await response.json();
 console.log(data);

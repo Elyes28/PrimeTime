@@ -9912,3 +9912,297 @@
   ],
   timestamp: '4/20/2022, 9:48:00 AM GMT+2'
 }
+{
+  error: ReferenceError: created is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/models/stream.js:10:3
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: created is not defined\n' +
+    'ReferenceError: created is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/models/stream.js:10:3\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: created is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/models/stream.js:10:3\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Thu Apr 21 2022 01:19:03 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 11644,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72577024,
+      heapTotal: 38801408,
+      heapUsed: 24741992,
+      external: 25426813,
+      arrayBuffers: 19002492
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 27441 },
+  trace: [
+    {
+      column: 3,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/models/stream.js',
+      function: null,
+      line: 10,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/21/2022, 2:19:03 AM GMT+2'
+}
+{
+  error: ReferenceError: d is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/models/stream.js:10:20
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: d is not defined\n' +
+    'ReferenceError: d is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/models/stream.js:10:20\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: d is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/models/stream.js:10:20\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Thu Apr 21 2022 01:19:13 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 21988,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72790016,
+      heapTotal: 38801408,
+      heapUsed: 24941136,
+      external: 25426849,
+      arrayBuffers: 19015546
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 27452 },
+  trace: [
+    {
+      column: 20,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/models/stream.js',
+      function: null,
+      line: 10,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/21/2022, 2:19:13 AM GMT+2'
+}
+{
+  error: ReferenceError: date is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/models/stream.js:10:34
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: date is not defined\n' +
+    'ReferenceError: date is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/models/stream.js:10:34\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: date is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/models/stream.js:10:34\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Thu Apr 21 2022 01:19:31 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 9900,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 73027584,
+      heapTotal: 38539264,
+      heapUsed: 25797568,
+      external: 25426900,
+      arrayBuffers: 19224912
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 27470 },
+  trace: [
+    {
+      column: 34,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/models/stream.js',
+      function: null,
+      line: 10,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/21/2022, 2:19:31 AM GMT+2'
+}

@@ -10,7 +10,7 @@ router.post('/uploadStreamImg',uploadImage,upload)
 router.post('/', createStream);
 router.get('/allStreams', getStreams);
 router.get('/getStreamById/:id',getStreamById)
-router.get('/fetchSessions',fetch_sessions)
+router.get('/fetchSessions/:meetid',fetch_sessions)
 router.get('/setStreamRecorded/:meetid',setRecording)
 router.get('/getStreamByName/:name',getStreamByName)
 
