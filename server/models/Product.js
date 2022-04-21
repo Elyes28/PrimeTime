@@ -43,7 +43,12 @@ var Product = new mongoose.Schema({
         required: true,
         min: 1
       },
-      image: [String],
+      image: {
+        type: String,
+        required: true
+      },
+
+      images: [String],
       arModel: {
         type: String
       },

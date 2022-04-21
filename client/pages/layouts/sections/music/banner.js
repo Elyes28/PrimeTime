@@ -1,10 +1,8 @@
 import React, { useState } from 'react'
 import Tilt from 'react-parallax-tilt';
 import {Container,Row,Col} from 'reactstrap'
-import ProfileSection from './ProfileSection';
 const Banner = () => {
     const [sideSection, setSideSection] = useState(false);
-    const [profileSection, setProfileSection] = useState(false);
 
     const sidesection = () => {
         if (!sideSection) {
@@ -15,22 +13,10 @@ const Banner = () => {
             document.querySelector('.side-section').classList.remove('d-block')
         }
     }
-
-
-    const profilesection = () => {
-        if (!profileSection) {
-            setProfileSection(true)
-            document.getElementById('profile-section').classList.add('d-block')
-        } else {
-            setProfileSection(false)
-            document.getElementById('profile-section').classList.remove('d-block')
-        }
-    }
     
 
     return (
         <section className="music header" id="header">
-            
             <div className="music-content">
                 <div className="music-bg bg bg-shadow-top">
                     <Tilt perspective="20000" transitionSpeed="3000">
@@ -81,8 +67,6 @@ const Banner = () => {
                                             <a onClick={sidesection}>
                                                 <i aria-hidden="true" className="fa fa-ellipsis-v"></i>
                                             </a>
-                                            <div onClick={profilesection}>tra feya ??</div>
-                                            
                                         </div>
                                     </div>
                                 </div>

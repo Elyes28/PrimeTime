@@ -2,8 +2,6 @@ import express from 'express';
 import mongoose from 'mongoose';
 import logger from '../helpers/logger.js';
 import stream from '../models/stream.js';
-import multer from "multer";
-
 
 export const createStream = async (req, res) => {
     const post = req.body;
@@ -46,26 +44,4 @@ export const getStreamById = async (req, res) => {
         }
     }
 
-    // image upload start here
-const multerConfig = multer.diskStorage({
-    destination : (req,file,callback)=>{
-      callback(null,'../streamapi/public/images/Streams')
-    },
-    filename:(req,file,callback)=>{
-     // const ext= file.mimetype.split('/')[1];
-      console.log(req);
-      callback(null,`${req.body.username}.jpg`);
-    }
-  })
-  const uploadd =multer({
-    storage:multerConfig,
-  })
-  export const uploadImage = uploadd.single('photo')
-  
-  export const upload = (req,res)=>{
-    res.status(200).json({
-      succes:'success',
-    })
-  }
-  
-  // image upload ends here
+    

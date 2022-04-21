@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react";
-import Axios, * as others from "axios";
+import Axios from "axios";
 import {
   Button,
   Modal,
@@ -34,7 +34,7 @@ const PopupCourses = () => {
     //{object}
 
     Axios.post("http://localhost:5000/products", {
-        productName: productName,
+    productName: productName,
     slug: slug,
     description: description,
     categories: categories,

@@ -2,6 +2,7 @@
 import React, { useContext } from 'react';
 
 import { Store } from '../utils/Store';
+
  
 import {Container,Row,Col, ListGroup} from 'reactstrap'
 import dynamic from 'next/dynamic';
@@ -33,10 +34,12 @@ import {
   List,
   ListItem,
 } from '@material-ui/core';
+import { useRouter } from 'next/router';
 
  function CartScreen() {
+  const navigate = useRouter();
   const {state,dispatch} = useContext(Store);
-  const {
+  const { userInfo,
     cart: { cartItems },
   } = state;
 
@@ -50,6 +53,13 @@ import {
   };
   const removeItemHandler = (item) => {
     dispatch({ type: 'CART_REMOVE_ITEM', payload: item });
+  };
+  const checkoutHandler = () => {
+    if (localStorage.getItem("user")) {
+      navigate.push('/ShippingAddress');
+    } else{
+      alert("Go to Login") ;
+    }
   };
 
   return (
@@ -146,7 +156,10 @@ import {
                   </Typography>
                 </ListItem>
                 <ListItem>
-                  <Button variant="contained" color="primary" fullWidth>
+                  <Button variant="contained" color="primary" fullWidth
+                  type="button"
+                  onClick={checkoutHandler}
+                  disabled={cartItems.length === 0}>
                     Check Out
                   </Button>
                 </ListItem>

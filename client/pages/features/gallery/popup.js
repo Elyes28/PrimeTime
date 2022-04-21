@@ -1,13 +1,19 @@
-import React, { Fragment, useEffect, useState } from 'react';
+import React, { Fragment, useContext, useEffect, useState } from 'react';
 import { Button, Modal, ModalHeader, ModalBody, TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap';
 import {Container,Row,Col,Form,FormGroup,Label,Input} from 'reactstrap'
 import axios from 'axios';
 
+import {Store} from'../../../utils/Store'
+import Cookies from 'js-cookie';
 
 
       
 
 const Popup = () => {
+    const { state, dispatch} = useContext(Store);
+    const {
+        cart: { shippingAddress},
+      } = state;
     const [modal, setModal] = useState();
     const [activeTab, setActiveTab] = useState('1');
     const [postData, setPostData] = useState({ email: '', password: ''});
@@ -76,6 +82,7 @@ if(newUser.password == newUser.ConfirmPass)
                                // current_user.bro=res.data.result.token;
                              
                                 localStorage.setItem('user',JSON.stringify(current_user))
+                                Cookies.set('userInfo',JSON.stringify(current_user)) 
             SetSigninerr({...signinerr,status:error.response.data.message,message:error.response.data.message})
         })
         .catch(function (error) {
@@ -93,7 +100,20 @@ if(newUser.password == newUser.ConfirmPass)
       },[]);
 
       const logout=() =>{
+           
           localStorage.removeItem("user");
+          Cookies.remove('userInfo');
+          localStorage.removeItem('shippingAddress');
+          localStorage.removeItem('paymentMethod');
+          Cookies.remove('shippingAddress');
+          Cookies.remove('paymentMethod');
+          
+
+        
+
+          
+           
+          
           setButtonValue(!buttonValue);
       }
  
