@@ -23,9 +23,9 @@ function NoSidebar() {
   };
   useEffect(() => {
     getCourses();
-    setsession(JSON.parse(localStorage.getItem("user")))
-    console.log(session)
-  },[getCourses()]);
+    setsession(JSON.parse(localStorage.getItem("user")));
+    console.log(session);
+  }, [getCourses()]);
 
   const deleteCourses = (id) => {
     Axios.delete(`http://localhost:5000/courses/${id}`).then((response) => {
@@ -39,7 +39,7 @@ function NoSidebar() {
   return (
     <>
       <CommonLayout
-      style='background:url("/assets/images/inner-page/breadcrumbe.jpg")'
+        style='background:url("/assets/images/inner-page/breadcrumbe.jpg")'
         pathList={["blog", "blog grid view", "no sidebar"]}
         pathTitle="Courses"
       >

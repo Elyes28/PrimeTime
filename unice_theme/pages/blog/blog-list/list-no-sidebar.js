@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import { BlogsList } from "../../../database/blog/database";
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col, Button } from "reactstrap";
+import html2canvas from "html2canvas";
+import { jsPDF } from "jsPDF";
 // import Custom Components
 import CommonLayout from "../../../containers/common/common-layout";
 import CardWrapper from "../../../containers/blog/card/list-wrapper";
@@ -21,7 +23,9 @@ const ListNoSidebar = () => {
       >
         <section className="agency blog blog-sec blog-list blog-no-sidebar">
           <Container>
-            <iframe id="violon" height="720" width="1400"></iframe>
+            <div id="pagetodownload">
+              <iframe id="violon" height="720" width="1400"></iframe>
+            </div>
           </Container>
         </section>
       </CommonLayout>
