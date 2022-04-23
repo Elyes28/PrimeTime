@@ -13,7 +13,7 @@ const PortfolioTitle4Col = () => {
     const [streams, setStreams] = useState([]);
     const currentStreams=streams.slice(indexOfFirstStream,indexOfLastStream)
     const getStreams = async() =>
-axios.get("http://localhost:5000/stream/allStreams")
+axios.get("http://localhost:5000/user/getStreamers")
         .then(res => {
             setStreams(res.data);
          

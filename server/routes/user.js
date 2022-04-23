@@ -2,7 +2,7 @@ import express from "express";
 const router = express.Router();
 import User from '../models/user.js';
 
-import { signin, signup,forgetPass,recoverPass, upload,uploadImage, activateAccount, updateProfile, updateChannelDescription, getCoursesByUserId } from "../controllers/user.js";
+import { signin, signup,forgetPass,recoverPass, upload,uploadImage, activateAccount, updateProfile, updateChannelDescription, getCoursesByUserId, getStreamers, isLive } from "../controllers/user.js";
 
 router.post("/signin", signin);
 router.post("/signup", signup);
@@ -13,6 +13,9 @@ router.post('/activateaccount',activateAccount)
 router.post('/updateProfile',updateProfile)
 router.post('/updateChannelDescription',updateChannelDescription)
 router.get('/getCoursesByUserId/:userid',getCoursesByUserId);
+router.get('/getStreamers',getStreamers);
+router.get('/getCurrentStream/:userid',isLive);
+
 
 
 router.get('/:id', async(req,res)=>{

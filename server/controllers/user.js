@@ -6,6 +6,7 @@ import multer from "multer";
 import UserModal from "../models/user.js";
 import licensekeyModal from "../models/licensekey.js";
 import course from "../models/course.js";
+import stream from "../models/stream.js";
 
 const secret = process.env.secret;
 const BASE_URL = process.env.BASE_URL;
@@ -218,4 +219,18 @@ export const getCoursesByUserId = async (req,res)=>{
   else 
   courses= await course.find({_id:{$in:user.courses_learning}})
   return res.status(200).json(courses)
+}
+
+export const getStreamers= async(req,res)=>{
+  const streamers= await UserModal.find({role:"musician"})
+  return res.status(200).json(streamers)
+}
+
+export const isLive =async(req,res)=>
+{ 
+  const userid=req.params.userid
+  const user = await UserModal.findById(userid)
+  console.log(user)
+  const currentStream= await stream.findOne({viewerCount:{$gt:0},streamerName: user.firstname+" "+ user.lastname})
+  return res.status(200).json({currentstream:currentStream,streamer:user})
 }

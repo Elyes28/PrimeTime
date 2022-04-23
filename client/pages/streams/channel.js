@@ -3,7 +3,6 @@ import Layout from '../../containers/common/common-layout'
 import axios from 'axios';
 import Slider from 'react-slick';
 import { PortfolioDetail1Data } from './database';
-import { useParams } from 'react-router-dom';
 
 
 const images = [
@@ -55,19 +54,49 @@ const PortfolioDetail2 = () => {
     setUser(JSON.parse(localStorage.getItem("user")))
 
   },[]);
+
+  
+  const [streamer,setStreamer]=useState();
     const getStream = async(para) =>
    
-    
-    axios.get("http://localhost:5000/stream/getStreamById/"+para)
-            .then(res => {
-                setStream(res.data);
+    axios.get("http://localhost:5000/user/getCurrentStream/"+para).then(res=>{
+        setStream(res.data.currentstream)
+        setStreamer(res.data.streamer)
+        console.log(res.data.streamer)
+        //  axios.get("http://localhost:5000/stream/getStreamById/"+res.data.meetingId)
+        //      .then(ress => {
+        //          setStream(ress.data);
                 
              
-             }) .catch(function (error) {
-                console.log("error.response.data");              
-            })        
+        //       }) .catch(function (error) {
+        //          console.log("error.response.data");              
+        //      })        
         
-            
+        })
+        
+          const [recordedStreams, setRecordedStreams] = useState([]);
+          console.log(recordedStreams)
+
+          const getRecordedStreams = async () =>{
+          
+            axios
+              .get(
+                "http://localhost:5000/stream/getStreamByName/" +
+                  streamer.firstname +
+                  " " +
+                  streamer.lastname
+              )
+              .then((res) => {
+                  
+                setRecordedStreams(res.data);
+              })
+              .catch(function (error) {
+                console.log(error);
+              });}
+              useEffect(() => {
+                if (streamer)
+                getRecordedStreams();
+              },[streamer]);
             useEffect(() => {
                 
                 const queryParams = new URLSearchParams(window.location.search);
@@ -75,7 +104,6 @@ const PortfolioDetail2 = () => {
                 
                 
               },[]);
-            
              let iframeurl=""
              let name=""
             if (user)
@@ -96,9 +124,10 @@ const [photoIndex, setPhotoIndex] = useState(initilindex)
 
             <div className="container-fluid blog-sec detail2 p-0">
         <Slider className="owl-carousel owl-theme portfolio-header" {...settings1}>
+            {stream?(
             <div className="item ">
             <iframe id='showskill' height="900" width="100%" style={{"border":"white"}} title="Iframe Example"  src={iframeurl}></iframe>
-                  </div>
+                  </div>):<div>is not live</div>}
             <div className="item">
                 <img alt="" className="img-fluid" src="../assets/images/inner-page/blogs/2.jpg" />
             </div>
@@ -108,7 +137,9 @@ const [photoIndex, setPhotoIndex] = useState(initilindex)
                 <div className="container-fluid p-t-30 px-0">
                     <div className="row">
                         <Slider className="portfolio-slider col-sm-12" {...settings}>
-                            {PortfolioDetail1Data.map((data, i) => {
+                            {recordedStreams.map((data, i) => {
+                                let imgsrc="images/users/" + stream["_id"] + ".jpg";
+
                                 return (
                                     <div className="item" key={i}>
                                         <div className="isotopeSelector">
@@ -119,7 +150,7 @@ const [photoIndex, setPhotoIndex] = useState(initilindex)
                                                         <img alt="" className="img-fluid blur-up lazyload" onClick={() =>
                                                             setPhotoIndex({ ...photoIndex, index: i, isOpen: true })
                                                         }
-                                                            src={data.img} />
+                                                            src={imgsrc} />
 
                                                     </a>
                                                 </div>
@@ -150,18 +181,18 @@ const [photoIndex, setPhotoIndex] = useState(initilindex)
                                 <h3 className="detail-head">project detail</h3>
                                 <div className="detail-container d-flex p-t-0">
                                     <div className="portfolio-left">
-                                        <h5 className="text-left">client :</h5>
+                                        <h5 className="text-left">Musician :</h5>
                                     </div>
                                     <div className="portfolio-right">
-                                        <h5>john doe</h5>
+                                        <h5>{streamer ? (streamer.firstname +" "+streamer.lastname):""}</h5>
                                     </div>
                                 </div>
                                 <div className="detail-container d-flex">
                                     <div className="portfolio-left">
-                                        <h5 className="text-left">date :</h5>
+                                        <h5 className="text-left">email :</h5>
                                     </div>
                                     <div className="portfolio-right">
-                                        <h5>22 Nov 2019</h5>
+                                        <h5>{streamer ? (streamer.email):""}</h5>
                                     </div>
                                 </div>
                                 <div className="detail-container d-flex">
@@ -176,12 +207,8 @@ const [photoIndex, setPhotoIndex] = useState(initilindex)
                         </div>
                         <div className="col-md-6">
                             <div className="portfolio-detail">
-                                <h3 className="detail-head">about project</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been
-                                the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                                galley
-                    of type and scrambled it to make a type specimen book.</p>
+                                <h3 className="detail-head">about channel</h3>
+                                <p>{streamer? (streamer.channel_description):"chay"}</p>
                                 <div className="text-right m-t-10"><a className="btn btn-default primary-btn radius-0" href="#">visit
                     project</a>
                                 </div>

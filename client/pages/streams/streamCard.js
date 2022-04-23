@@ -56,11 +56,12 @@ const StreamCard = ({ className, title, subTitle, fluid ,streams }) => {
     const [photoIndex, setPhotoIndex] = useState(initilindex)
 
     const [activeTab, setActiveTab] = useState('1');
-   
+  
             
 const getUrl=(id) => {
     return ("/streams/channel?id="+id)
 }
+console.log(streams);
              
 
 return (
@@ -106,9 +107,11 @@ return (
                 <TabContent className="isotopeContainer row" activeTab={activeTab}>
                     <TabPane tabId="1">
                         {streams.map((stream, i) => {
+                             let imgsrc="images/users/" + stream["_id"] + ".jpg";
                             return (
-                                <a href={getUrl(stream["_id"])}>
-                                <div className={className} key={i}>
+                                <div style={{"width":"700px"}}>
+                                <a href={getUrl(stream["_id"])} >
+                                <div className={className} key={i} >
                                     <div className="overlay">
                                         <div className="border-portfolio">
                                             <div className="zoom_gallery" data-source={AllImg[photoIndex.index]}
@@ -120,7 +123,7 @@ return (
                                                     
                                                 </div>
                                                 <img alt="" className=" blur-up lazyload"
-                                                    src={stream.streamImg} 
+                                                    src={imgsrc} 
                                                     style={{width:"100%",height:"170px"}}/>
                                                 {photoIndex.isOpen && (
                                                     <Lightbox
@@ -141,14 +144,15 @@ return (
                                     {title &&
                                         <div className="portfolio-text">
                                             <h3 className="head-text">
-                                                {stream["streamTitle"]}
+                                                {stream["firstname"]}
                                             </h3>
                                             <h6 className="head-sub-text">
-                                            {stream["streamerName"]}
+                                            {stream["lastname"]}
                                             </h6>
                                         </div>}
                                 </div>
                                 </a>
+                                </div>
                             )
                         })}
                     </TabPane>

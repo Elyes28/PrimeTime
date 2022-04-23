@@ -17581,3 +17581,869 @@
   level: 'info',
   timestamp: '4/21/2022, 3:48:54 AM GMT+2'
 }
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 6:31:39 PM GMT+2'
+}
+{
+  message: '::1 - - [22/Apr/2022:16:32:12 +0000] "GET /stream/getStreamers HTTP/1.1" 404 158 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/22/2022, 6:32:12 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/22/2022, 6:43:48 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/22/2022, 6:46:45 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/22/2022, 7:01:01 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/22/2022, 7:10:32 PM GMT+2'
+}
+{
+  error: ReferenceError: a is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:228:22
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: a is not defined\n' +
+    'ReferenceError: a is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:228:22\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: a is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:228:22\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Fri Apr 22 2022 18:20:56 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 552,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 71741440,
+      heapTotal: 37752832,
+      heapUsed: 27487552,
+      external: 25427761,
+      arrayBuffers: 19538937
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 7899 },
+  trace: [
+    {
+      column: 22,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: null,
+      line: 228,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/22/2022, 7:20:56 PM GMT+2'
+}
+{
+  error: ReferenceError: async is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:228:22
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: async is not defined\n' +
+    'ReferenceError: async is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:228:22\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: async is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:228:22\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Fri Apr 22 2022 18:21:00 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 11360,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72183808,
+      heapTotal: 38539264,
+      heapUsed: 25849288,
+      external: 25427800,
+      arrayBuffers: 19269080
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 7904 },
+  trace: [
+    {
+      column: 22,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: null,
+      line: 228,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/22/2022, 7:21:00 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:21:06 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:21:20 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:21:27 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:21:29 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:21:37 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:21:42 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:22:52 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:22:59 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:23:01 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:23:11 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:23:17 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:23:28 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:23:31 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:24:03 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:24:10 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:24:19 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:24:37 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:24:47 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:24:49 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:24:55 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:25:09 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:25:16 PM GMT+2'
+}
+{
+  error: ReferenceError: isl is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:17:32
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: isl is not defined\n' +
+    'ReferenceError: isl is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:17:32\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: isl is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js:17:32\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Fri Apr 22 2022 18:25:21 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 15576,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 71421952,
+      heapTotal: 39325696,
+      heapUsed: 23752672,
+      external: 25428658,
+      arrayBuffers: 18294998
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8164 },
+  trace: [
+    {
+      column: 32,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/user.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/22/2022, 7:25:21 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:25:25 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:25:30 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/22/2022, 7:30:13 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/22/2022, 7:30:13 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/22/2022, 7:30:31 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:33:28 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:33:52 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/22/2022, 7:34:24 PM GMT+2'
+}
+{
+  message: '::1 - - [22/Apr/2022:17:35:08 +0000] "GET /user/getStreamById/625cc22473c1816c2c09b6da HTTP/1.1" 404 182 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/22/2022, 7:35:08 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:35:55 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:36:02 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:36:12 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:36:20 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:36:23 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:36:28 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:36:33 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:37:00 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:37:03 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/22/2022, 7:38:33 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/22/2022, 7:38:34 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/22/2022, 7:38:34 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/22/2022, 7:38:34 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/22/2022, 7:39:10 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/22/2022, 7:39:46 PM GMT+2'
+}
+{
+  message: 'errr',
+  level: 'error',
+  timestamp: '4/22/2022, 7:39:46 PM GMT+2'
+}
+{
+  message: '::1 - - [22/Apr/2022:17:39:46 +0000] "GET /stream/getStreamById/2sfn-rd4k-gw3i HTTP/1.1" 404 117 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/22/2022, 7:39:46 PM GMT+2'
+}
+{
+  message: 'tesst',
+  level: 'info',
+  timestamp: '4/22/2022, 7:39:56 PM GMT+2'
+}
+{
+  message: 'errr',
+  level: 'error',
+  timestamp: '4/22/2022, 7:39:56 PM GMT+2'
+}
+{
+  message: '::1 - - [22/Apr/2022:17:39:56 +0000] "GET /stream/getStreamById/2sfn-rd4k-gw3i HTTP/1.1" 404 117 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/22/2022, 7:39:56 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:41:07 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:41:23 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/22/2022, 7:41:45 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/23/2022, 2:28:54 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/23/2022, 2:30:55 AM GMT+2'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'firstname')
+      at isLive (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:233:85)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'firstname')\n" +
+    "TypeError: Cannot read properties of null (reading 'firstname')\n" +
+    '    at isLive (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:233:85)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "TypeError: Cannot read properties of null (reading 'firstname')\n" +
+    '    at isLive (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:233:85)\n' +
+    '    at runMicrotasks (<anonymous>)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Sat Apr 23 2022 02:34:43 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 24088,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 65716224,
+      heapTotal: 30674944,
+      heapUsed: 28414704,
+      external: 22442071,
+      arrayBuffers: 18474982
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 37527 },
+  trace: [
+    {
+      column: 85,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: 'isLive',
+      line: 233,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'runMicrotasks',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/23/2022, 3:34:43 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/23/2022, 3:39:18 AM GMT+2'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'firstname')
+      at isLive (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:233:85)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'firstname')\n" +
+    "TypeError: Cannot read properties of null (reading 'firstname')\n" +
+    '    at isLive (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:233:85)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "TypeError: Cannot read properties of null (reading 'firstname')\n" +
+    '    at isLive (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:233:85)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Sat Apr 23 2022 02:39:20 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 21068,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 76234752,
+      heapTotal: 60035072,
+      heapUsed: 26013312,
+      external: 25820695,
+      arrayBuffers: 18325872
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 37803 },
+  trace: [
+    {
+      column: 85,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: 'isLive',
+      line: 233,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/23/2022, 3:39:20 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/23/2022, 3:43:42 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/23/2022, 3:43:45 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/23/2022, 3:43:48 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/23/2022, 3:43:50 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/23/2022, 3:43:52 AM GMT+2'
+}
+{
+  error: ReferenceError: currentStream is not defined
+      at isLive (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:235:46)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: 'uncaughtException: currentStream is not defined\n' +
+    'ReferenceError: currentStream is not defined\n' +
+    '    at isLive (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:235:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: 'ReferenceError: currentStream is not defined\n' +
+    '    at isLive (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:235:46)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Sat Apr 23 2022 02:43:58 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 1376,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 77066240,
+      heapTotal: 60821504,
+      heapUsed: 26283176,
+      external: 19660605,
+      arrayBuffers: 18325872
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 38081 },
+  trace: [
+    {
+      column: 46,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: 'isLive',
+      line: 235,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/23/2022, 3:43:58 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/23/2022, 3:44:06 AM GMT+2'
+}
+{
+  error: TypeError: Cannot read properties of null (reading 'firstname')
+      at isLive (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:234:85)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'firstname')\n" +
+    "TypeError: Cannot read properties of null (reading 'firstname')\n" +
+    '    at isLive (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:234:85)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "TypeError: Cannot read properties of null (reading 'firstname')\n" +
+    '    at isLive (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:234:85)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Sat Apr 23 2022 02:44:09 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 19288,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 75771904,
+      heapTotal: 60035072,
+      heapUsed: 26038896,
+      external: 25820761,
+      arrayBuffers: 18325872
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 38092 },
+  trace: [
+    {
+      column: 85,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: 'isLive',
+      line: 234,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/23/2022, 3:44:09 AM GMT+2'
+}
