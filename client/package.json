@@ -15,8 +15,10 @@
     "aos": "^2.3.4",
     "axios": "^0.26.1",
     "bootstrap-scss": "4.4.1",
+    "chart.js": "^3.7.1",
     "core-util-is": "^1.0.2",
     "express": "^4.17.1",
+    "faker": "^6.6.6",
     "fslightbox-react": "^1.4.9",
     "graphql": "^14.5.8",
     "graphql-react": "^11.0.2",
@@ -28,6 +30,7 @@
     "nprogress": "^0.2.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
+    "react-chartjs-2": "^4.1.0",
     "react-countdown-now": "^2.1.2",
     "react-countup": "^4.3.2",
     "react-dom": "^17.0.2",
@@ -55,6 +58,7 @@
     "vercel": "^20.1.0"
   },
   "devDependencies": {
+    "@faker-js/faker": "^6.2.0",
     "file-loader": "^6.0.0",
     "url-loader": "^4.1.0"
   }

@@ -6,6 +6,7 @@ import multer from "multer";
 import fetch from 'node-fetch';
 
 
+
 export const createStream = async (req, res) => {
     const post = req.body;
     const newPostMessage = new stream({ ...post })
@@ -20,9 +21,27 @@ export const createStream = async (req, res) => {
     }
 }
 
+export const viewsInc = async (req, res) => {
+  const meetingId = req.params.id;
+  const doc = await stream.findOne({meetingId:meetingId});
+  
+  try {
+    doc.viewerCount=doc.viewerCount+1
+    doc.save();
+      console.log(doc)
+    
+
+      res.status(201).json(doc);
+  } catch (error) {
+      res.status(409).json({ message: error.message });
+  }
+}
+
+
 export const setRecording = async (req,res) => {
     const meetid = req.params.meetid;
     const streams = await stream.findOne({meetingId:meetid});
+    
     streams.isrecorded=true;
     streams.save();
     return res.status(200).json(streams);

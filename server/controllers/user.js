@@ -11,6 +11,37 @@ import stream from "../models/stream.js";
 const secret = process.env.secret;
 const BASE_URL = process.env.BASE_URL;
 
+export const getUsers = async (req, res) => {
+  try {   
+    logger.info("tesst");
+    const users = await UserModal.find();    
+    res.status(200).json(users);
+} catch (error) {
+    logger.error("errr");
+    res.status(404).json({ message: error.message });
+}}
+
+export const deleteUser = async (req, res) => {
+  try {   
+    logger.info("delete user");
+     await UserModal.findByIdAndDelete(req.params.id);    
+    res.status(200).json("user deleted");
+} catch (error) {
+    logger.error("errr");
+    res.status(404).json({ message: error.message });
+}
+}
+export const updateUserById = async (req, res) => {
+  try {   
+    logger.info("updating user");
+     await UserModal.findByIdAndUpdate(req.params.id,req.body)    
+    res.status(200).json("user deleted");
+} catch (error) {
+    logger.error("errr");
+    res.status(404).json({ message: error.message });
+}
+}
+
 export const activateAccount = async (req, res) => {
   const { licensekey, userid } = req.body;
   const license_key = await licensekeyModal.findOne({

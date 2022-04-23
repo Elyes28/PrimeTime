@@ -781,6 +781,8 @@ function MeetingView({ onNewMeetingIdToken, onMeetingLeave }) {
     .then(console.log('mchet'))
     .catch(function (error){console.log(error)})
     
+    
+    
   
   const handleStartRecording = () => {
     startRecording();
@@ -949,6 +951,7 @@ const App = () => {
       webcamOn={webcamOn}
       setWebcamOn={setWebcamOn}
       onClickStartMeeting={() => {
+        
         setMeetingStarted(true);
       }}
       startMeeting={isMeetingStarted}

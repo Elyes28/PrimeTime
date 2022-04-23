@@ -17596,3 +17596,8 @@
   level: 'info',
   timestamp: '4/23/2022, 10:49:24 PM GMT+2'
 }
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/23/2022, 11:23:49 PM GMT+2'
+}
