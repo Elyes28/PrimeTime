@@ -17581,3 +17581,13 @@
   level: 'info',
   timestamp: '4/21/2022, 3:48:54 AM GMT+2'
 }
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/23/2022, 10:46:19 PM GMT+2'
+}
+{
+  message: '::1 - - [23/Apr/2022:20:46:19 +0000] "GET /stream/getStreamBymeetId/undefined HTTP/1.1" 404 173 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/23/2022, 10:46:19 PM GMT+2'
+}

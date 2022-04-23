@@ -1,7 +1,7 @@
 module.exports =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
-/******/ 	var installedModules = require('../../../ssr-module-cache.js');
+/******/ 	var installedModules = require('../../../../ssr-module-cache.js');
 /******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
@@ -88,196 +88,10 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
-
-/***/ "./components/CourseCard.js":
-/*!**********************************!*\
-  !*** ./components/CourseCard.js ***!
-  \**********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _stylez_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./stylez.css */ "./components/stylez.css");
-/* harmony import */ var _stylez_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_stylez_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\client\\components\\CourseCard.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-function CourseCard(course) {
-  return __jsx("div", {
-    className: "card m-3",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "imgBox",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 9
-    }
-  }, __jsx("img", {
-    src: "https://wac-cdn.atlassian.com/fr/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=309",
-    alt: "mouse corsair",
-    class: "mouse",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 11
-    }
-  })), __jsx("div", {
-    className: "contentBox",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 9
-    }
-  }, __jsx("h3", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 11
-    }
-  }, course.course.name), __jsx("h2", {
-    className: "price",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 11
-    }
-  }, course.course.type), __jsx("a", {
-    href: "#",
-    className: "buy",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 11
-    }
-  }, "Buy Now")));
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (CourseCard);
-
-/***/ }),
-
-/***/ "./components/StreamCard.js":
-/*!**********************************!*\
-  !*** ./components/StreamCard.js ***!
-  \**********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _stylez_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./stylez.css */ "./components/stylez.css");
-/* harmony import */ var _stylez_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_stylez_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\client\\components\\StreamCard.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-function StreamCard(props) {
-  return __jsx("div", {
-    className: "card m-2 ",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "imgBox",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 9
-    }
-  }, __jsx("img", {
-    src: "https://wac-cdn.atlassian.com/fr/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=309",
-    alt: "mouse corsair",
-    class: "mouse",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 11
-    }
-  })), __jsx("div", {
-    className: "contentBox",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 9
-    }
-  }, __jsx("h3", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 11
-    }
-  }, "Streamer"), __jsx("h2", {
-    className: "price",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 11
-    }
-  }, "61.", __jsx("small", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 36
-    }
-  }, "98"), " \u20AC"), __jsx("a", {
-    href: "#",
-    className: "buy",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 11
-    }
-  }, "Buy Now")));
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (StreamCard);
-
-/***/ }),
-
-/***/ "./components/stylez.css":
-/*!*******************************!*\
-  !*** ./components/stylez.css ***!
-  \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
 
 /***/ "./constant/menu.js":
 /*!**************************!*\
@@ -5272,1210 +5086,130 @@ const Popup = () => {
 
 /***/ }),
 
-/***/ "./pages/profileDetails.js":
+/***/ "./pages/streams/iframe.js":
 /*!*********************************!*\
-  !*** ./pages/profileDetails.js ***!
+  !*** ./pages/streams/iframe.js ***!
   \*********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-properties */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/get-own-property-descriptors */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptors.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/get-own-property-descriptor */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/get-own-property-symbols */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _containers_common_common_layout__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../containers/common/common-layout */ "./containers/common/common-layout.js");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! reactstrap */ "reactstrap");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! axios */ "axios");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _public_assets_person_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../public/assets/person.css */ "./public/assets/person.css");
-/* harmony import */ var _public_assets_person_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_public_assets_person_css__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _components_StreamCard__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/StreamCard */ "./components/StreamCard.js");
-/* harmony import */ var _components_CourseCard__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/CourseCard */ "./components/CourseCard.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\client\\pages\\streams\\iframe.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
-
-
-
-
-var _jsxFileName = "C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\client\\pages\\profileDetails.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
-
-function ownKeys(object, enumerableOnly) { var keys = _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default()(object); if (_babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default.a) { var symbols = _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default()(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(target, key, source[key]); }) : _babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2___default.a ? _babel_runtime_corejs2_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_1___default()(target, _babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2___default()(source)) : ownKeys(Object(source)).forEach(function (key) { _babel_runtime_corejs2_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(target, key, _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(source, key)); }); } return target; }
-
-
-
-
-
-
-
-
-
-
-const PortfolioDetail7 = () => {
-  const {
-    0: expires,
-    1: setExpires
-  } = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])("");
-  const {
-    0: user,
-    1: setUser
-  } = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])({
-    firstName: "",
-    lastName: ""
+const JoinScreen = ({
+  className,
+  title,
+  subTitle,
+  fluid
+}) => {
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
+    document.body.style.setProperty('--primary', '#10266b');
+    document.body.style.setProperty('--secondary', '#464545');
+    document.body.style.setProperty('--light', '#1F357D');
+    document.body.style.setProperty('--dark', '#04185B');
+    document.getElementById("showskill").src = "http://localhost:3001/react-rtc-demo?streamerName=" + JSON.parse(localStorage.getItem('user')).firstName + " " + JSON.parse(localStorage.getItem('user')).lastName + "&meetId=create&streamerId=" + JSON.parse(localStorage.getItem('user'))._id;
   });
-  Object(react__WEBPACK_IMPORTED_MODULE_8__["useEffect"])(() => {
-    setUser(JSON.parse(localStorage.getItem("user")));
-  }, []);
-  const {
-    0: recordedStreams,
-    1: setRecordedStreams
-  } = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])([]);
-
-  const getRecordedStreams = async () => axios__WEBPACK_IMPORTED_MODULE_11___default.a.get("http://localhost:5000/stream/getStreamByName/" + JSON.parse(localStorage.getItem("user"))["firstName"] + " " + JSON.parse(localStorage.getItem("user"))["lastName"]).then(res => {
-    setRecordedStreams(res.data);
-  }).catch(function (error) {
-    console.log(error);
-  });
-
-  const {
-    0: courses,
-    1: setCourses
-  } = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])([]);
-
-  const getCourses = async () => axios__WEBPACK_IMPORTED_MODULE_11___default.a.get("http://localhost:5000/user/getCoursesByUserId/" + JSON.parse(localStorage.getItem("user"))["_id"]).then(res => {
-    setCourses(res.data);
-  }).catch(function (error) {
-    console.log(error);
-  });
-
-  const {
-    0: channeldescription,
-    1: setChannelDescription
-  } = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])({
-    userid: "",
-    text: ""
-  });
-  const {
-    0: imgsrc,
-    1: setImgsrc
-  } = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])("");
-  const {
-    0: userData,
-    1: setUserData
-  } = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])({
-    userid: "",
-    firstname: "",
-    lastname: "",
-    phonenumber: "",
-    facebook: "",
-    instagram: "",
-    youtube: "",
-    spotify: ""
-  });
-  Object(react__WEBPACK_IMPORTED_MODULE_8__["useEffect"])(() => {
-    if (user) {
-      setImgsrc("images/users/" + user["_id"] + ".jpg");
-      if (JSON.parse(localStorage.getItem("user"))["role"] != "user") setExpires(JSON.parse(localStorage.getItem("user"))["expiration"].split("T")[0]);
-      setUserData({
-        userid: user["_id"],
-        firstname: user["firstName"],
-        lastname: user["lastName"],
-        phonenumber: user["phone"],
-        facebook: user["facebook"],
-        instagram: user["instagram"],
-        youtube: user["youtube"],
-        spotify: user["spotify"]
-      });
-      setChannelDescription({
-        userid: user["_id"],
-        text: user["channelDescription"]
-      });
-      getCourses();
-      getRecordedStreams();
-    }
-  }, [user]);
-
-  const onInputChange = e => {
-    const formData = new FormData();
-    formData.append("username", user["_id"]);
-    formData.append("photo", e.target.files[0]);
-    const config = {
-      headers: {
-        "content-type": "multipart/form-data"
-      }
-    };
-    axios__WEBPACK_IMPORTED_MODULE_11___default.a.post("http://localhost:5000/user/uploadProfileImg", formData, config).then(window.location.reload());
-  };
-
-  const imgClicked = e => {
-    e.preventDefault();
-    document.getElementById("file-input").click();
-  };
-
-  const {
-    0: editabledesc,
-    1: setEditabledesc
-  } = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])(false);
-
-  const onOffEditdesc = () => {
-    setEditabledesc(!editabledesc);
-  };
-
-  const {
-    0: editable,
-    1: setEditable
-  } = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])(false);
-
-  const onOffEdit = () => {
-    setEditable(!editable);
-  };
-
-  const sendUpdateRequest = () => {
-    console.log(userData);
-    axios__WEBPACK_IMPORTED_MODULE_11___default.a.post("http://localhost:5000/user/updateProfile", userData).then(() => {
-      user.firstName = userData.firstname;
-      user.lastName = userData.lastname;
-      user.phone = userData.phonenumber;
-      user.facebook = userData.facebook;
-      user.instagram = userData.instagram;
-      user.youtube = userData.youtube;
-      user.spotify = userData.spotify;
-      setEditable(!editable); // setUser(user)
-
-      localStorage.setItem("user", _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_7___default()(user));
-    }).catch(err => {
-      console.log(err);
-    });
-  };
-
-  const sendChannelDescription = () => {
-    console.log(channeldescription);
-    axios__WEBPACK_IMPORTED_MODULE_11___default.a.post("http://localhost:5000/user/updateChannelDescription", channeldescription).then(() => {
-      user.channelDescription = channeldescription.text;
-      setEditabledesc(!editabledesc);
-      localStorage.setItem("user", _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_7___default()(user));
-    }).catch(err => {
-      console.log(err);
-    });
-  };
-
-  const getRecord = meetid => {
-    axios__WEBPACK_IMPORTED_MODULE_11___default.a.get('http://localhost:5000/stream/fetchSessions/' + meetid).then(res => {
-      window.location.href = res.data.data[0].file.fileUrl;
-    });
-  };
-
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_8__["Fragment"], {
+  return __jsx("iframe", {
+    id: "showskill",
+    height: "720",
+    width: "1400",
+    title: "Iframe Example",
+    allow: "camera; microphone;display-capture;autoplay; clipboard-write;",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 157,
+      lineNumber: 25,
       columnNumber: 5
     }
-  }, __jsx(_containers_common_common_layout__WEBPACK_IMPORTED_MODULE_9__["default"], {
-    pathList: ["portfolio details", "left side image portfolio"],
-    pathTitle: "left side image portfolio",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 158,
-      columnNumber: 7
-    }
-  }, __jsx("section", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 162,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "d-flex",
-    style: {
-      height: "1080px"
-    },
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 163,
-      columnNumber: 11
-    }
-  }, __jsx("div", {
-    className: "isar w-25 pl-3",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 164,
-      columnNumber: 13
-    }
-  }, __jsx("div", {
-    className: "d-block",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 165,
-      columnNumber: 15
-    }
-  }, __jsx("div", {
-    className: "product-right pro_sticky_info w-100",
-    style: {
-      "margin-right": "50%"
-    },
-    "data-sticky_column": true,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 166,
-      columnNumber: 17
-    }
-  }, __jsx("div", {
-    className: "portfolio-detail",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 171,
-      columnNumber: 19
-    }
-  }, __jsx("div", {
-    className: "d-flex w-100 justify-content-between",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 172,
-      columnNumber: 21
-    }
-  }, __jsx("h3", {
-    className: "detail-head",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 173,
-      columnNumber: 23
-    }
-  }, "Profile detail"), __jsx("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    width: "25",
-    height: "25",
-    fill: "currentColor",
-    class: "bi bi-pencil-square",
-    viewBox: "0 0 16 16",
-    onClick: onOffEdit,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 174,
-      columnNumber: 23
-    }
-  }, __jsx("path", {
-    d: "M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 183,
-      columnNumber: 25
-    }
-  }), __jsx("path", {
-    "fill-rule": "evenodd",
-    d: "M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 184,
-      columnNumber: 25
-    }
-  }))), __jsx("div", {
-    className: "mb-3",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 190,
-      columnNumber: 21
-    }
-  }, __jsx("input", {
-    type: "file",
-    id: "file-input",
-    style: {
-      overflow: "hidden",
-      height: "0px",
-      width: "0px"
-    },
-    accept: "image/*",
-    onChange: onInputChange,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 191,
-      columnNumber: 23
-    }
-  }), __jsx("a", {
-    onClick: imgClicked,
-    className: "w-100 pb-3",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 202,
-      columnNumber: 23
-    }
-  }, __jsx("img", {
-    id: "profileimg",
-    alt: "add profile image",
-    className: "rounded-circle w-50 mx-auto ",
-    src: imgsrc,
-    style: {
-      display: "block"
-    },
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 203,
-      columnNumber: 25
-    }
-  }), " ")), editable ? __jsx(react__WEBPACK_IMPORTED_MODULE_8___default.a.Fragment, null, __jsx("div", {
-    className: "detail-container d-flex mt-3 ",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 214,
-      columnNumber: 25
-    }
-  }, __jsx("div", {
-    className: "portfolio-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 215,
-      columnNumber: 27
-    }
-  }, __jsx("h5", {
-    className: "text-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 216,
-      columnNumber: 29
-    }
-  }, "First Name: ")), __jsx("div", {
-    className: "portfolio-right",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 218,
-      columnNumber: 27
-    }
-  }, __jsx("input", {
-    value: userData.firstname,
-    className: "border border-dark rounded w-75",
-    onChange: e => setUserData(_objectSpread({}, userData, {
-      firstname: e.target.value
-    })),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 219,
-      columnNumber: 29
-    }
-  }))), __jsx("div", {
-    className: "detail-container d-flex ",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 232,
-      columnNumber: 25
-    }
-  }, __jsx("div", {
-    className: "portfolio-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 233,
-      columnNumber: 27
-    }
-  }, __jsx("h5", {
-    className: "text-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 234,
-      columnNumber: 29
-    }
-  }, "Last Name: ")), __jsx("div", {
-    className: "portfolio-right",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 236,
-      columnNumber: 27
-    }
-  }, __jsx("input", {
-    value: userData.lastname,
-    className: "border  border-dark rounded w-75",
-    onChange: e => setUserData(_objectSpread({}, userData, {
-      lastname: e.target.value
-    })),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 237,
-      columnNumber: 29
-    }
-  }))), __jsx("div", {
-    className: "detail-container d-flex ",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 250,
-      columnNumber: 25
-    }
-  }, __jsx("div", {
-    className: "portfolio-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 251,
-      columnNumber: 27
-    }
-  }, __jsx("h5", {
-    className: "text-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 252,
-      columnNumber: 29
-    }
-  }, "Phone: ")), __jsx("div", {
-    className: "portfolio-right",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 254,
-      columnNumber: 27
-    }
-  }, __jsx("input", {
-    type: "number",
-    value: userData.phonenumber,
-    className: "border  border-dark rounded w-75",
-    onChange: e => setUserData(_objectSpread({}, userData, {
-      phonenumber: e.target.value
-    })),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 255,
-      columnNumber: 29
-    }
-  }))), __jsx("div", {
-    className: "detail-container d-flex ",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 269,
-      columnNumber: 25
-    }
-  }, __jsx("div", {
-    className: "portfolio-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 270,
-      columnNumber: 27
-    }
-  }, __jsx("h5", {
-    className: "text-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 271,
-      columnNumber: 29
-    }
-  }, "facebook: ")), __jsx("div", {
-    className: "portfolio-right",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 273,
-      columnNumber: 27
-    }
-  }, __jsx("input", {
-    type: "text",
-    value: userData.facebook,
-    className: "border  border-dark rounded w-75",
-    onChange: e => setUserData(_objectSpread({}, userData, {
-      facebook: e.target.value
-    })),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 274,
-      columnNumber: 29
-    }
-  }))), __jsx("div", {
-    className: "detail-container d-flex ",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 288,
-      columnNumber: 25
-    }
-  }, __jsx("div", {
-    className: "portfolio-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 289,
-      columnNumber: 27
-    }
-  }, __jsx("h5", {
-    className: "text-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 290,
-      columnNumber: 29
-    }
-  }, "instagram: ")), __jsx("div", {
-    className: "portfolio-right",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 292,
-      columnNumber: 27
-    }
-  }, __jsx("input", {
-    type: "text",
-    value: userData.instagram,
-    className: "border  border-dark rounded w-75",
-    onChange: e => setUserData(_objectSpread({}, userData, {
-      instagram: e.target.value
-    })),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 293,
-      columnNumber: 29
-    }
-  }))), __jsx("div", {
-    className: "detail-container d-flex ",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 307,
-      columnNumber: 25
-    }
-  }, __jsx("div", {
-    className: "portfolio-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 308,
-      columnNumber: 27
-    }
-  }, __jsx("h5", {
-    className: "text-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 309,
-      columnNumber: 29
-    }
-  }, "youtube: ")), __jsx("div", {
-    className: "portfolio-right",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 311,
-      columnNumber: 27
-    }
-  }, __jsx("input", {
-    type: "text",
-    value: userData.youtube,
-    className: "border  border-dark rounded w-75",
-    onChange: e => setUserData(_objectSpread({}, userData, {
-      youtube: e.target.value
-    })),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 312,
-      columnNumber: 29
-    }
-  }))), __jsx("div", {
-    className: "detail-container d-flex ",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 326,
-      columnNumber: 25
-    }
-  }, __jsx("div", {
-    className: "portfolio-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 327,
-      columnNumber: 27
-    }
-  }, __jsx("h5", {
-    className: "text-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 328,
-      columnNumber: 29
-    }
-  }, "Spotify: ")), __jsx("div", {
-    className: "portfolio-right",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 330,
-      columnNumber: 27
-    }
-  }, __jsx("input", {
-    type: "text",
-    value: userData.spotify,
-    className: "border  border-dark rounded w-75",
-    onChange: e => setUserData(_objectSpread({}, userData, {
-      spotify: e.target.value
-    })),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 331,
-      columnNumber: 29
-    }
-  }))), __jsx("div", {
-    className: "text-center my-3",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 344,
-      columnNumber: 25
-    }
-  }, __jsx("a", {
-    className: "btn btn-default primary-btn radius-0",
-    onClick: sendUpdateRequest,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 345,
-      columnNumber: 27
-    }
-  }, "update"))) : __jsx(react__WEBPACK_IMPORTED_MODULE_8___default.a.Fragment, null, __jsx("div", {
-    className: "detail-container d-flex mt-3 ",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 355,
-      columnNumber: 25
-    }
-  }, __jsx("div", {
-    className: "portfolio-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 356,
-      columnNumber: 27
-    }
-  }, __jsx("h5", {
-    className: "text-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 357,
-      columnNumber: 29
-    }
-  }, "First Name: ")), __jsx("div", {
-    className: "portfolio-right",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 359,
-      columnNumber: 27
-    }
-  }, __jsx("h5", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 360,
-      columnNumber: 29
-    }
-  }, user["firstName"]))), __jsx("div", {
-    className: "detail-container d-flex ",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 364,
-      columnNumber: 25
-    }
-  }, __jsx("div", {
-    className: "portfolio-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 365,
-      columnNumber: 27
-    }
-  }, __jsx("h5", {
-    className: "text-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 366,
-      columnNumber: 29
-    }
-  }, "Last Name: ")), __jsx("div", {
-    className: "portfolio-right",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 368,
-      columnNumber: 27
-    }
-  }, __jsx("h5", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 369,
-      columnNumber: 29
-    }
-  }, user["lastName"]))), __jsx("div", {
-    className: "detail-container d-flex ",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 373,
-      columnNumber: 25
-    }
-  }, __jsx("div", {
-    className: "portfolio-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 374,
-      columnNumber: 27
-    }
-  }, __jsx("h5", {
-    className: "text-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 375,
-      columnNumber: 29
-    }
-  }, "Phone: ")), __jsx("div", {
-    className: "portfolio-right",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 377,
-      columnNumber: 27
-    }
-  }, __jsx("h5", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 378,
-      columnNumber: 29
-    }
-  }, "+216 ", user["phone"]))), __jsx("div", {
-    className: "detail-container d-flex ",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 382,
-      columnNumber: 25
-    }
-  }, __jsx("div", {
-    className: "portfolio-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 383,
-      columnNumber: 27
-    }
-  }, __jsx("h5", {
-    className: "text-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 384,
-      columnNumber: 29
-    }
-  }, "Email: ")), __jsx("div", {
-    className: "portfolio-right",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 386,
-      columnNumber: 27
-    }
-  }, __jsx("h5", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 387,
-      columnNumber: 29
-    }
-  }, user["email"]))), __jsx("div", {
-    className: "detail-container d-flex ",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 390,
-      columnNumber: 25
-    }
-  }, __jsx("div", {
-    className: "portfolio-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 391,
-      columnNumber: 27
-    }
-  }, __jsx("h5", {
-    className: "text-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 392,
-      columnNumber: 29
-    }
-  }, "Role:")), __jsx("div", {
-    className: "portfolio-right",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 394,
-      columnNumber: 27
-    }
-  }, __jsx("h5", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 395,
-      columnNumber: 29
-    }
-  }, user["role"]))), user["role"] != "user" ? __jsx("div", {
-    className: "detail-container d-flex ",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 400,
-      columnNumber: 27
-    }
-  }, __jsx("div", {
-    className: "portfolio-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 401,
-      columnNumber: 29
-    }
-  }, __jsx("h5", {
-    className: "text-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 402,
-      columnNumber: 31
-    }
-  }, "expiration:")), __jsx("div", {
-    className: "portfolio-right",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 404,
-      columnNumber: 29
-    }
-  }, __jsx("h5", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 405,
-      columnNumber: 31
-    }
-  }, expires))) : null)), user["role"] == "musician" ? __jsx("div", {
-    className: "portfolio-detail m-t-10",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 413,
-      columnNumber: 21
-    }
-  }, __jsx("div", {
-    className: "d-flex w-100 justify-content-between",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 414,
-      columnNumber: 23
-    }
-  }, __jsx("h3", {
-    className: "detail-head",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 415,
-      columnNumber: 25
-    }
-  }, "My Channel description"), __jsx("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    width: "25",
-    height: "25",
-    fill: "currentColor",
-    class: "bi bi-pencil-square",
-    viewBox: "0 0 16 16",
-    onClick: onOffEditdesc,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 416,
-      columnNumber: 25
-    }
-  }, __jsx("path", {
-    d: "M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 425,
-      columnNumber: 27
-    }
-  }), __jsx("path", {
-    "fill-rule": "evenodd",
-    d: "M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 426,
-      columnNumber: 27
-    }
-  }))), !editabledesc ? __jsx("p", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 433,
-      columnNumber: 25
-    }
-  }, user["channelDescription"]) : __jsx(react__WEBPACK_IMPORTED_MODULE_8___default.a.Fragment, null, __jsx("textarea", {
-    className: "w-100",
-    value: channeldescription.text,
-    onChange: e => setChannelDescription(_objectSpread({}, channeldescription, {
-      text: e.target.value
-    })),
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 436,
-      columnNumber: 27
-    }
-  }), __jsx("div", {
-    className: "text-center m-t-10",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 446,
-      columnNumber: 27
-    }
-  }, __jsx("a", {
-    className: "btn btn-default primary-btn radius-0",
-    onClick: sendChannelDescription,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 447,
-      columnNumber: 29
-    }
-  }, "update")))) : null))), __jsx("div", {
-    className: "imin",
-    style: {
-      width: "75%",
-      "margin-left": "2%"
-    },
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 462,
-      columnNumber: 13
-    }
-  }, user["role"] == "musician" ? __jsx(next_link__WEBPACK_IMPORTED_MODULE_15___default.a, {
-    href: "/streams/launchStream",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 464,
-      columnNumber: 17
-    }
-  }, "Go live") : null, __jsx("div", {
-    className: "d-flex",
-    style: {
-      overflow: "scroll",
-      height: "50%",
-      width: "100%",
-      "flex-wrap": "wrap"
-    },
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 467,
-      columnNumber: 15
-    }
-  }, courses.map(course => {
-    return __jsx(_components_CourseCard__WEBPACK_IMPORTED_MODULE_14__["default"], {
-      course: course,
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 477,
-        columnNumber: 26
-      }
-    });
-  })), __jsx("div", {
-    style: {
-      overflow: "scroll",
-      height: "50%",
-      width: "100%"
-    },
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 481,
-      columnNumber: 15
-    }
-  }, __jsx("div", {
-    className: "d-flex",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 482,
-      columnNumber: 17
-    }
-  }, __jsx("div", {
-    style: {
-      width: "40%"
-    },
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 483,
-      columnNumber: 19
-    }
-  }, __jsx("h2", {
-    className: "mb-3",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 484,
-      columnNumber: 21
-    }
-  }, "my recordings"), __jsx("div", {
-    className: " mr-3  border border-2 sandou9elrecordes",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 485,
-      columnNumber: 21
-    }
-  }, recordedStreams.map(recordedstream => {
-    let date = recordedstream.created_at.split('T');
-    return __jsx("div", {
-      className: "d-flex justify-content-between",
-      onClick: () => getRecord(recordedstream.meetingId),
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 491,
-        columnNumber: 27
-      }
-    }, __jsx("span", {
-      className: "h5 m-2",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 492,
-        columnNumber: 29
-      }
-    }, recordedstream.streamTitle), __jsx("span", {
-      className: "m-2",
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 493,
-        columnNumber: 29
-      }
-    }, date[0]));
-  }))), __jsx("div", {
-    style: {
-      width: "55%"
-    },
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 501,
-      columnNumber: 19
-    }
-  }, __jsx("h2", {
-    className: "mb-3",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 505,
-      columnNumber: 21
-    }
-  }, "stats"), __jsx("div", {
-    className: " mr-3 border border-2 sandou9elstats",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 506,
-      columnNumber: 21
-    }
-  }, "hello")))))))));
+  });
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (PortfolioDetail7);
+/* harmony default export */ __webpack_exports__["default"] = (JoinScreen);
 
 /***/ }),
 
-/***/ "./public/assets/person.css":
-/*!**********************************!*\
-  !*** ./public/assets/person.css ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ 4:
+/***/ "./pages/streams/launchStream.js":
 /*!***************************************!*\
-  !*** multi ./pages/profileDetails.js ***!
+  !*** ./pages/streams/launchStream.js ***!
   \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! reactstrap */ "reactstrap");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _iframe_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./iframe.js */ "./pages/streams/iframe.js");
+/* harmony import */ var _containers_common_common_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../containers/common/common-layout */ "./containers/common/common-layout.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\client\\pages\\streams\\launchStream.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
+
+
+
+
+
+const DetailNoSidebar = () => __jsx(_containers_common_common_layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  pathList: ['blog', 'blog details', 'no sidebar'],
+  pathTitle: "BLOG WITH no-sidebar",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11,
+    columnNumber: 5
+  }
+}, __jsx("section", {
+  className: "agency blog-sec blog-sidebar single_blog_item",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12,
+    columnNumber: 9
+  }
+}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_0__["Container"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13,
+    columnNumber: 13
+  }
+}, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_0__["Row"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 17
+  }
+}, __jsx(_iframe_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15,
+    columnNumber: 21
+  }
+})))));
+
+/* harmony default export */ __webpack_exports__["default"] = (DetailNoSidebar);
+
+/***/ }),
+
+/***/ 5:
+/*!*********************************************!*\
+  !*** multi ./pages/streams/launchStream.js ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\bachq\Documents\GitHub\PrimeTime\client\pages\profileDetails.js */"./pages/profileDetails.js");
+module.exports = __webpack_require__(/*! C:\Users\bachq\Documents\GitHub\PrimeTime\client\pages\streams\launchStream.js */"./pages/streams/launchStream.js");
 
 
 /***/ }),
@@ -6679,4 +5413,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=profileDetails.js.map
+//# sourceMappingURL=launchStream.js.map
