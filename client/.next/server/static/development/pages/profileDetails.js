@@ -1,7 +1,7 @@
 module.exports =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
-/******/ 	var installedModules = require('../../../../ssr-module-cache.js');
+/******/ 	var installedModules = require('../../../ssr-module-cache.js');
 /******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
@@ -88,10 +88,196 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 8);
 /******/ })
 /************************************************************************/
 /******/ ({
+
+/***/ "./components/CourseCard.js":
+/*!**********************************!*\
+  !*** ./components/CourseCard.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _stylez_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./stylez.css */ "./components/stylez.css");
+/* harmony import */ var _stylez_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_stylez_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\components\\CourseCard.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+function CourseCard(course) {
+  return __jsx("div", {
+    className: "card m-3",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "imgBox",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 9
+    }
+  }, __jsx("img", {
+    src: "https://wac-cdn.atlassian.com/fr/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=309",
+    alt: "mouse corsair",
+    class: "mouse",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 11
+    }
+  })), __jsx("div", {
+    className: "contentBox",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 9
+    }
+  }, __jsx("h3", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 11
+    }
+  }, course.course.name), __jsx("h2", {
+    className: "price",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 11
+    }
+  }, course.course.type), __jsx("a", {
+    href: "#",
+    className: "buy",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 11
+    }
+  }, "Buy Now")));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (CourseCard);
+
+/***/ }),
+
+/***/ "./components/StreamCard.js":
+/*!**********************************!*\
+  !*** ./components/StreamCard.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _stylez_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./stylez.css */ "./components/stylez.css");
+/* harmony import */ var _stylez_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_stylez_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\components\\StreamCard.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+function StreamCard(props) {
+  return __jsx("div", {
+    className: "card m-2 ",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "imgBox",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 9
+    }
+  }, __jsx("img", {
+    src: "https://wac-cdn.atlassian.com/fr/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=309",
+    alt: "mouse corsair",
+    class: "mouse",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 11
+    }
+  })), __jsx("div", {
+    className: "contentBox",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 9
+    }
+  }, __jsx("h3", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 11
+    }
+  }, "Streamer"), __jsx("h2", {
+    className: "price",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 11
+    }
+  }, "61.", __jsx("small", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 36
+    }
+  }, "98"), " \u20AC"), __jsx("a", {
+    href: "#",
+    className: "buy",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 11
+    }
+  }, "Buy Now")));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (StreamCard);
+
+/***/ }),
+
+/***/ "./components/stylez.css":
+/*!*******************************!*\
+  !*** ./components/stylez.css ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
 
 /***/ "./constant/menu.js":
 /*!**************************!*\
@@ -2486,39 +2672,6 @@ function _defineProperty(obj, key, value) {
   }
 
   return obj;
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js ***!
-  \********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _extends; });
-/* harmony import */ var _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js");
-/* harmony import */ var _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__);
-
-function _extends() {
-  _extends = _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default.a || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];
-
-      for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }
-
-    return target;
-  };
-
-  return _extends.apply(this, arguments);
 }
 
 /***/ }),
@@ -5119,10 +5272,10 @@ const Popup = () => {
 
 /***/ }),
 
-/***/ "./pages/streams/channel.js":
-/*!**********************************!*\
-  !*** ./pages/streams/channel.js ***!
-  \**********************************/
+/***/ "./pages/profileDetails.js":
+/*!*********************************!*\
+  !*** ./pages/profileDetails.js ***!
+  \*********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5141,9 +5294,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
 /* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
 /* harmony import */ var _containers_common_common_layout__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../containers/common/common-layout */ "./containers/common/common-layout.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! axios */ "axios");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_10__);
@@ -5151,6 +5306,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_11__);
 /* harmony import */ var _database__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./database */ "./pages/streams/database.js");
 /* harmony import */ var _database__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_database__WEBPACK_IMPORTED_MODULE_12__);
+=======
+/* harmony import */ var _containers_common_common_layout__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../containers/common/common-layout */ "./containers/common/common-layout.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! reactstrap */ "reactstrap");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _public_assets_person_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../public/assets/person.css */ "./public/assets/person.css");
+/* harmony import */ var _public_assets_person_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_public_assets_person_css__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _components_StreamCard__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/StreamCard */ "./components/StreamCard.js");
+/* harmony import */ var _components_CourseCard__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/CourseCard */ "./components/CourseCard.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_15__);
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
 
 
 
@@ -5159,7 +5327,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\pages\\streams\\channel.js";
+var _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\pages\\profileDetails.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
 
 function ownKeys(object, enumerableOnly) { var keys = _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default()(object); if (_babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default.a) { var symbols = _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default()(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
@@ -5171,6 +5339,7 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 
 
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
 const images = [__webpack_require__(/*! ../../public/assets/images/portfolio/2.jpg */ "./public/assets/images/portfolio/2.jpg"), __webpack_require__(/*! ../../public/assets/images/portfolio/3.jpg */ "./public/assets/images/portfolio/3.jpg"), __webpack_require__(/*! ../../public/assets/images/portfolio/5.jpg */ "./public/assets/images/portfolio/5.jpg"), __webpack_require__(/*! ../../public/assets/images/portfolio/4.jpg */ "./public/assets/images/portfolio/4.jpg"), __webpack_require__(/*! ../../public/assets/images/portfolio/5.jpg */ "./public/assets/images/portfolio/5.jpg")];
 var settings1 = {
   dots: false,
@@ -5205,19 +5374,28 @@ var settings = {
     }
   }]
 };
+=======
 
-const PortfolioDetail2 = () => {
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+
+
+
+const PortfolioDetail7 = () => {
   const {
-    0: stream,
-    1: setStream
-  } = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])();
+    0: expires,
+    1: setExpires
+  } = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])("");
   const {
     0: user,
     1: setUser
-  } = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])();
+  } = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])({
+    firstName: "",
+    lastName: ""
+  });
   Object(react__WEBPACK_IMPORTED_MODULE_8__["useEffect"])(() => {
     setUser(JSON.parse(localStorage.getItem("user")));
   }, []);
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
   const {
     0: streamer,
     1: setStreamer
@@ -5235,20 +5413,20 @@ const PortfolioDetail2 = () => {
     //      })        
   });
 
+=======
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
   const {
     0: recordedStreams,
     1: setRecordedStreams
   } = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])([]);
-  console.log(recordedStreams);
 
-  const getRecordedStreams = async () => {
-    axios__WEBPACK_IMPORTED_MODULE_10___default.a.get("http://localhost:5000/stream/getStreamByName/" + streamer.firstname + " " + streamer.lastname).then(res => {
-      setRecordedStreams(res.data);
-    }).catch(function (error) {
-      console.log(error);
-    });
-  };
+  const getRecordedStreams = async () => axios__WEBPACK_IMPORTED_MODULE_11___default.a.get("http://localhost:5000/stream/getStreamByName/" + JSON.parse(localStorage.getItem("user"))["firstName"] + " " + JSON.parse(localStorage.getItem("user"))["lastName"]).then(res => {
+    setRecordedStreams(res.data);
+  }).catch(function (error) {
+    console.log(error);
+  });
 
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
   Object(react__WEBPACK_IMPORTED_MODULE_8__["useEffect"])(() => {
     if (streamer) getRecordedStreams();
   }, [streamer]);
@@ -5268,57 +5446,209 @@ const PortfolioDetail2 = () => {
   const initilindex = {
     index: 0,
     isOpen: false
-  };
+=======
   const {
-    0: photoIndex,
-    1: setPhotoIndex
-  } = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])(initilindex);
-  return __jsx(_containers_common_common_layout__WEBPACK_IMPORTED_MODULE_9__["default"], {
-    pathList: ['portfolio details', 'full width'],
-    pathTitle: "full width",
+    0: courses,
+    1: setCourses
+  } = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])([]);
+
+  const getCourses = async () => axios__WEBPACK_IMPORTED_MODULE_11___default.a.get("http://localhost:5000/user/getCoursesByUserId/" + JSON.parse(localStorage.getItem("user"))["_id"]).then(res => {
+    setCourses(res.data);
+  }).catch(function (error) {
+    console.log(error);
+  });
+
+  const {
+    0: channeldescription,
+    1: setChannelDescription
+  } = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])({
+    userid: "",
+    text: ""
+  });
+  const {
+    0: imgsrc,
+    1: setImgsrc
+  } = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])("");
+  const {
+    0: userData,
+    1: setUserData
+  } = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])({
+    userid: "",
+    firstname: "",
+    lastname: "",
+    phonenumber: "",
+    facebook: "",
+    instagram: "",
+    youtube: "",
+    spotify: ""
+  });
+  Object(react__WEBPACK_IMPORTED_MODULE_8__["useEffect"])(() => {
+    if (user) {
+      setImgsrc("images/users/" + user["_id"] + ".jpg");
+      if (JSON.parse(localStorage.getItem("user"))["role"] != "user") setExpires(JSON.parse(localStorage.getItem("user"))["expiration"].split("T")[0]);
+      setUserData({
+        userid: user["_id"],
+        firstname: user["firstName"],
+        lastname: user["lastName"],
+        phonenumber: user["phone"],
+        facebook: user["facebook"],
+        instagram: user["instagram"],
+        youtube: user["youtube"],
+        spotify: user["spotify"]
+      });
+      setChannelDescription({
+        userid: user["_id"],
+        text: user["channelDescription"]
+      });
+      getCourses();
+      getRecordedStreams();
+    }
+  }, [user]);
+
+  const onInputChange = e => {
+    const formData = new FormData();
+    formData.append("username", user["_id"]);
+    formData.append("photo", e.target.files[0]);
+    const config = {
+      headers: {
+        "content-type": "multipart/form-data"
+      }
+    };
+    axios__WEBPACK_IMPORTED_MODULE_11___default.a.post("http://localhost:5000/user/uploadProfileImg", formData, config).then(window.location.reload());
+  };
+
+  const imgClicked = e => {
+    e.preventDefault();
+    document.getElementById("file-input").click();
+  };
+
+  const {
+    0: editabledesc,
+    1: setEditabledesc
+  } = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])(false);
+
+  const onOffEditdesc = () => {
+    setEditabledesc(!editabledesc);
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+  };
+
+  const {
+    0: editable,
+    1: setEditable
+  } = Object(react__WEBPACK_IMPORTED_MODULE_8__["useState"])(false);
+
+  const onOffEdit = () => {
+    setEditable(!editable);
+  };
+
+  const sendUpdateRequest = () => {
+    console.log(userData);
+    axios__WEBPACK_IMPORTED_MODULE_11___default.a.post("http://localhost:5000/user/updateProfile", userData).then(() => {
+      user.firstName = userData.firstname;
+      user.lastName = userData.lastname;
+      user.phone = userData.phonenumber;
+      user.facebook = userData.facebook;
+      user.instagram = userData.instagram;
+      user.youtube = userData.youtube;
+      user.spotify = userData.spotify;
+      setEditable(!editable); // setUser(user)
+
+      localStorage.setItem("user", _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_7___default()(user));
+    }).catch(err => {
+      console.log(err);
+    });
+  };
+
+  const sendChannelDescription = () => {
+    console.log(channeldescription);
+    axios__WEBPACK_IMPORTED_MODULE_11___default.a.post("http://localhost:5000/user/updateChannelDescription", channeldescription).then(() => {
+      user.channelDescription = channeldescription.text;
+      setEditabledesc(!editabledesc);
+      localStorage.setItem("user", _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_7___default()(user));
+    }).catch(err => {
+      console.log(err);
+    });
+  };
+
+  const getRecord = meetid => {
+    axios__WEBPACK_IMPORTED_MODULE_11___default.a.get('http://localhost:5000/stream/fetchSessions/' + meetid).then(res => {
+      window.location.href = res.data.data[0].file.fileUrl;
+    });
+  };
+
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_8__["Fragment"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
       lineNumber: 123,
       columnNumber: 9
+=======
+      lineNumber: 157,
+      columnNumber: 5
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
     }
-  }, __jsx(react__WEBPACK_IMPORTED_MODULE_8__["Fragment"], {
+  }, __jsx(_containers_common_common_layout__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    pathList: ["portfolio details", "left side image portfolio"],
+    pathTitle: "left side image portfolio",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
       lineNumber: 124,
       columnNumber: 5
+=======
+      lineNumber: 158,
+      columnNumber: 7
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
     }
   }, __jsx("section", {
-    className: "portfolio-section port-col zoom-gallery detail-page fullwidth-portfolio",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
       lineNumber: 125,
       columnNumber: 13
+=======
+      lineNumber: 162,
+      columnNumber: 9
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
     }
   }, __jsx("div", {
-    className: "container-fluid blog-sec detail2 p-0",
+    className: "d-flex",
+    style: {
+      height: "1080px"
+    },
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
       lineNumber: 127,
       columnNumber: 13
+=======
+      lineNumber: 163,
+      columnNumber: 11
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
     }
-  }, __jsx(react_slick__WEBPACK_IMPORTED_MODULE_11___default.a, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_7__["default"])({
-    className: "owl-carousel owl-theme portfolio-header"
-  }, settings1, {
+  }, __jsx("div", {
+    className: "isar w-25 pl-3",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
       lineNumber: 128,
       columnNumber: 9
+=======
+      lineNumber: 164,
+      columnNumber: 13
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
     }
-  }), stream ? __jsx("div", {
-    className: "item ",
+  }, __jsx("div", {
+    className: "d-block",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
       lineNumber: 130,
       columnNumber: 13
     }
@@ -5336,11 +5666,37 @@ const PortfolioDetail2 = () => {
       fileName: _jsxFileName,
       lineNumber: 131,
       columnNumber: 13
+=======
+      lineNumber: 165,
+      columnNumber: 15
     }
-  })) : __jsx("div", {
+  }, __jsx("div", {
+    className: "product-right pro_sticky_info w-100",
+    style: {
+      "margin-right": "50%"
+    },
+    "data-sticky_column": true,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 166,
+      columnNumber: 17
+    }
+  }, __jsx("div", {
+    className: "portfolio-detail",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 171,
+      columnNumber: 19
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+    }
+  }, __jsx("div", {
+    className: "d-flex w-100 justify-content-between",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
       lineNumber: 132,
       columnNumber: 27
     }
@@ -5351,39 +5707,134 @@ const PortfolioDetail2 = () => {
       fileName: _jsxFileName,
       lineNumber: 133,
       columnNumber: 13
-    }
-  }, __jsx("img", {
-    alt: "",
-    className: "img-fluid",
-    src: "../assets/images/inner-page/blogs/2.jpg",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 134,
-      columnNumber: 17
-    }
-  })))), __jsx("div", {
-    className: "container-fluid p-t-30 px-0",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 139,
-      columnNumber: 17
-    }
-  }, __jsx("div", {
-    className: "row",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 140,
+=======
+      lineNumber: 172,
       columnNumber: 21
     }
-  }, __jsx(react_slick__WEBPACK_IMPORTED_MODULE_11___default.a, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_7__["default"])({
-    className: "portfolio-slider col-sm-12"
-  }, settings, {
+  }, __jsx("h3", {
+    className: "detail-head",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 173,
+      columnNumber: 23
+    }
+  }, "Profile detail"), __jsx("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "25",
+    height: "25",
+    fill: "currentColor",
+    class: "bi bi-pencil-square",
+    viewBox: "0 0 16 16",
+    onClick: onOffEdit,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 174,
+      columnNumber: 23
+    }
+  }, __jsx("path", {
+    d: "M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 183,
+      columnNumber: 25
+    }
+  }), __jsx("path", {
+    "fill-rule": "evenodd",
+    d: "M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 184,
+      columnNumber: 25
+    }
+  }))), __jsx("div", {
+    className: "mb-3",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 190,
+      columnNumber: 21
+    }
+  }, __jsx("input", {
+    type: "file",
+    id: "file-input",
+    style: {
+      overflow: "hidden",
+      height: "0px",
+      width: "0px"
+    },
+    accept: "image/*",
+    onChange: onInputChange,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 191,
+      columnNumber: 23
+    }
+  }), __jsx("a", {
+    onClick: imgClicked,
+    className: "w-100 pb-3",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 202,
+      columnNumber: 23
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+    }
+  }, __jsx("img", {
+    id: "profileimg",
+    alt: "add profile image",
+    className: "rounded-circle w-50 mx-auto ",
+    src: imgsrc,
+    style: {
+      display: "block"
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
+      lineNumber: 134,
+      columnNumber: 17
+=======
+      lineNumber: 203,
+      columnNumber: 25
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+    }
+  }), " ")), editable ? __jsx(react__WEBPACK_IMPORTED_MODULE_8___default.a.Fragment, null, __jsx("div", {
+    className: "detail-container d-flex mt-3 ",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
+      lineNumber: 139,
+      columnNumber: 17
+=======
+      lineNumber: 214,
+      columnNumber: 25
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
+      lineNumber: 140,
+      columnNumber: 21
+=======
+      lineNumber: 215,
+      columnNumber: 27
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
       lineNumber: 141,
       columnNumber: 25
     }
@@ -5455,91 +5906,521 @@ const PortfolioDetail2 = () => {
     imageTitle: photoIndex.index + 1 + "/" + images.length,
     onCloseRequest: () => setPhotoIndex(_objectSpread({}, photoIndex, {
       isOpen: false
-    })),
-    onMovePrevRequest: onMovePrev,
-    onMoveNextRequest: onMoveNext,
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 168,
-      columnNumber: 21
-    }
-  }), __jsx("div", {
-    className: "container m-t-50",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 179,
-      columnNumber: 17
-    }
-  }, __jsx("div", {
-    className: "row",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 180,
-      columnNumber: 21
-    }
-  }, __jsx("div", {
-    className: "col-md-6",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 181,
-      columnNumber: 25
-    }
-  }, __jsx("div", {
-    className: "portfolio-detail",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 182,
+=======
+      lineNumber: 216,
       columnNumber: 29
     }
-  }, __jsx("h3", {
-    className: "detail-head",
+  }, "First Name: ")), __jsx("div", {
+    className: "portfolio-right",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 183,
-      columnNumber: 33
+      lineNumber: 218,
+      columnNumber: 27
     }
-  }, "project detail"), __jsx("div", {
-    className: "detail-container d-flex p-t-0",
+  }, __jsx("input", {
+    value: userData.firstname,
+    className: "border border-dark rounded w-75",
+    onChange: e => setUserData(_objectSpread({}, userData, {
+      firstname: e.target.value
+    })),
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 184,
-      columnNumber: 33
+      lineNumber: 219,
+      columnNumber: 29
+    }
+  }))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 232,
+      columnNumber: 25
     }
   }, __jsx("div", {
     className: "portfolio-left",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 185,
-      columnNumber: 37
+      lineNumber: 233,
+      columnNumber: 27
     }
   }, __jsx("h5", {
     className: "text-left",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 186,
-      columnNumber: 41
+      lineNumber: 234,
+      columnNumber: 29
     }
-  }, "Musician :")), __jsx("div", {
+  }, "Last Name: ")), __jsx("div", {
     className: "portfolio-right",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 188,
-      columnNumber: 37
+      lineNumber: 236,
+      columnNumber: 27
+    }
+  }, __jsx("input", {
+    value: userData.lastname,
+    className: "border  border-dark rounded w-75",
+    onChange: e => setUserData(_objectSpread({}, userData, {
+      lastname: e.target.value
+    })),
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 237,
+      columnNumber: 29
+    }
+  }))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 250,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 251,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 252,
+      columnNumber: 29
+    }
+  }, "Phone: ")), __jsx("div", {
+    className: "portfolio-right",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 254,
+      columnNumber: 27
+    }
+  }, __jsx("input", {
+    type: "number",
+    value: userData.phonenumber,
+    className: "border  border-dark rounded w-75",
+    onChange: e => setUserData(_objectSpread({}, userData, {
+      phonenumber: e.target.value
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+    })),
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
+      lineNumber: 168,
+      columnNumber: 21
+=======
+      lineNumber: 255,
+      columnNumber: 29
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+    }
+  }))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
+      lineNumber: 179,
+      columnNumber: 17
+=======
+      lineNumber: 269,
+      columnNumber: 25
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
+      lineNumber: 180,
+      columnNumber: 21
+=======
+      lineNumber: 270,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 271,
+      columnNumber: 29
+    }
+  }, "facebook: ")), __jsx("div", {
+    className: "portfolio-right",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 273,
+      columnNumber: 27
+    }
+  }, __jsx("input", {
+    type: "text",
+    value: userData.facebook,
+    className: "border  border-dark rounded w-75",
+    onChange: e => setUserData(_objectSpread({}, userData, {
+      facebook: e.target.value
+    })),
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 274,
+      columnNumber: 29
+    }
+  }))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 288,
+      columnNumber: 25
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
+      lineNumber: 181,
+=======
+      lineNumber: 289,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 290,
+      columnNumber: 29
+    }
+  }, "instagram: ")), __jsx("div", {
+    className: "portfolio-right",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 292,
+      columnNumber: 27
+    }
+  }, __jsx("input", {
+    type: "text",
+    value: userData.instagram,
+    className: "border  border-dark rounded w-75",
+    onChange: e => setUserData(_objectSpread({}, userData, {
+      instagram: e.target.value
+    })),
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 293,
+      columnNumber: 29
+    }
+  }))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 307,
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
+      lineNumber: 182,
+=======
+      lineNumber: 308,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 309,
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+      columnNumber: 29
+    }
+  }, "youtube: ")), __jsx("div", {
+    className: "portfolio-right",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
+      lineNumber: 183,
+      columnNumber: 33
+=======
+      lineNumber: 311,
+      columnNumber: 27
+    }
+  }, __jsx("input", {
+    type: "text",
+    value: userData.youtube,
+    className: "border  border-dark rounded w-75",
+    onChange: e => setUserData(_objectSpread({}, userData, {
+      youtube: e.target.value
+    })),
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 312,
+      columnNumber: 29
+    }
+  }))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 326,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 327,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 328,
+      columnNumber: 29
+    }
+  }, "Spotify: ")), __jsx("div", {
+    className: "portfolio-right",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 330,
+      columnNumber: 27
+    }
+  }, __jsx("input", {
+    type: "text",
+    value: userData.spotify,
+    className: "border  border-dark rounded w-75",
+    onChange: e => setUserData(_objectSpread({}, userData, {
+      spotify: e.target.value
+    })),
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 331,
+      columnNumber: 29
+    }
+  }))), __jsx("div", {
+    className: "text-center my-3",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 344,
+      columnNumber: 25
+    }
+  }, __jsx("a", {
+    className: "btn btn-default primary-btn radius-0",
+    onClick: sendUpdateRequest,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 345,
+      columnNumber: 27
+    }
+  }, "update"))) : __jsx(react__WEBPACK_IMPORTED_MODULE_8___default.a.Fragment, null, __jsx("div", {
+    className: "detail-container d-flex mt-3 ",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 355,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 356,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 357,
+      columnNumber: 29
+    }
+  }, "First Name: ")), __jsx("div", {
+    className: "portfolio-right",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 359,
+      columnNumber: 27
     }
   }, __jsx("h5", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 360,
+      columnNumber: 29
+    }
+  }, user["firstName"]))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 364,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 365,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 366,
+      columnNumber: 29
+    }
+  }, "Last Name: ")), __jsx("div", {
+    className: "portfolio-right",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 368,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 369,
+      columnNumber: 29
+    }
+  }, user["lastName"]))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 373,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 374,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 375,
+      columnNumber: 29
+    }
+  }, "Phone: ")), __jsx("div", {
+    className: "portfolio-right",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 377,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 378,
+      columnNumber: 29
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+    }
+  }, "+216 ", user["phone"]))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
+      lineNumber: 184,
+      columnNumber: 33
+=======
+      lineNumber: 382,
+      columnNumber: 25
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
+      lineNumber: 185,
+      columnNumber: 37
+=======
+      lineNumber: 383,
+      columnNumber: 27
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
+      lineNumber: 186,
+      columnNumber: 41
+    }
+  }, "Musician :")), __jsx("div", {
+=======
+      lineNumber: 384,
+      columnNumber: 29
+    }
+  }, "Email: ")), __jsx("div", {
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+    className: "portfolio-right",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
+      lineNumber: 188,
+      columnNumber: 37
+=======
+      lineNumber: 386,
+      columnNumber: 27
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+    }
+  }, __jsx("h5", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
       lineNumber: 189,
       columnNumber: 41
     }
@@ -5550,35 +6431,65 @@ const PortfolioDetail2 = () => {
       fileName: _jsxFileName,
       lineNumber: 192,
       columnNumber: 33
+=======
+      lineNumber: 387,
+      columnNumber: 29
+    }
+  }, user["email"]))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 390,
+      columnNumber: 25
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
     }
   }, __jsx("div", {
     className: "portfolio-left",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
       lineNumber: 193,
       columnNumber: 37
+=======
+      lineNumber: 391,
+      columnNumber: 27
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
     }
   }, __jsx("h5", {
     className: "text-left",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
       lineNumber: 194,
       columnNumber: 41
     }
   }, "email :")), __jsx("div", {
+=======
+      lineNumber: 392,
+      columnNumber: 29
+    }
+  }, "Role:")), __jsx("div", {
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
     className: "portfolio-right",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
       lineNumber: 196,
       columnNumber: 37
+=======
+      lineNumber: 394,
+      columnNumber: 27
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
     }
   }, __jsx("h5", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
       lineNumber: 197,
       columnNumber: 41
     }
@@ -5589,59 +6500,102 @@ const PortfolioDetail2 = () => {
       fileName: _jsxFileName,
       lineNumber: 200,
       columnNumber: 33
+=======
+      lineNumber: 395,
+      columnNumber: 29
+    }
+  }, user["role"]))), user["role"] != "user" ? __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 400,
+      columnNumber: 27
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
     }
   }, __jsx("div", {
     className: "portfolio-left",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
       lineNumber: 201,
       columnNumber: 37
+=======
+      lineNumber: 401,
+      columnNumber: 29
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
     }
   }, __jsx("h5", {
     className: "text-left",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
       lineNumber: 202,
       columnNumber: 41
+=======
+      lineNumber: 402,
+      columnNumber: 31
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
     }
-  }, "link :")), __jsx("div", {
+  }, "expiration:")), __jsx("div", {
     className: "portfolio-right",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
       lineNumber: 204,
       columnNumber: 37
+=======
+      lineNumber: 404,
+      columnNumber: 29
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
     }
   }, __jsx("h5", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
       lineNumber: 205,
       columnNumber: 41
+=======
+      lineNumber: 405,
+      columnNumber: 31
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
     }
-  }, "www.abcd.com"))))), __jsx("div", {
-    className: "col-md-6",
+  }, expires))) : null)), user["role"] == "musician" ? __jsx("div", {
+    className: "portfolio-detail m-t-10",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
       lineNumber: 210,
       columnNumber: 25
+=======
+      lineNumber: 413,
+      columnNumber: 21
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
     }
   }, __jsx("div", {
-    className: "portfolio-detail",
+    className: "d-flex w-100 justify-content-between",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
       lineNumber: 211,
       columnNumber: 29
+=======
+      lineNumber: 414,
+      columnNumber: 23
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
     }
   }, __jsx("h3", {
     className: "detail-head",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
       lineNumber: 212,
       columnNumber: 33
     }
@@ -5659,305 +6613,327 @@ const PortfolioDetail2 = () => {
       fileName: _jsxFileName,
       lineNumber: 214,
       columnNumber: 33
+=======
+      lineNumber: 415,
+      columnNumber: 25
+    }
+  }, "My Channel description"), __jsx("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "25",
+    height: "25",
+    fill: "currentColor",
+    class: "bi bi-pencil-square",
+    viewBox: "0 0 16 16",
+    onClick: onOffEditdesc,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 416,
+      columnNumber: 25
+    }
+  }, __jsx("path", {
+    d: "M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 425,
+      columnNumber: 27
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+    }
+  }), __jsx("path", {
+    "fill-rule": "evenodd",
+    d: "M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
+      lineNumber: 214,
+      columnNumber: 68
+=======
+      lineNumber: 426,
+      columnNumber: 27
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+    }
+  }))), !editabledesc ? __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
+      lineNumber: 222,
+      columnNumber: 17
+=======
+      lineNumber: 433,
+      columnNumber: 25
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+    }
+  }, user["channelDescription"]) : __jsx(react__WEBPACK_IMPORTED_MODULE_8___default.a.Fragment, null, __jsx("textarea", {
+    className: "w-100",
+    value: channeldescription.text,
+    onChange: e => setChannelDescription(_objectSpread({}, channeldescription, {
+      text: e.target.value
+    })),
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
+      lineNumber: 223,
+      columnNumber: 21
+=======
+      lineNumber: 436,
+      columnNumber: 27
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+    }
+  }), __jsx("div", {
+    className: "text-center m-t-10",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
+      lineNumber: 224,
+      columnNumber: 25
+=======
+      lineNumber: 446,
+      columnNumber: 27
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
     }
   }, __jsx("a", {
     className: "btn btn-default primary-btn radius-0",
-    href: "#",
+    onClick: sendChannelDescription,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 214,
-      columnNumber: 68
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
+      lineNumber: 225,
+=======
+      lineNumber: 447,
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+      columnNumber: 29
     }
-  }, "visit project")))))), __jsx("div", {
-    className: "pagination_sec",
+  }, "update")))) : null))), __jsx("div", {
+    className: "imin",
+    style: {
+      width: "75%",
+      "margin-left": "2%"
+    },
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 222,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
+      lineNumber: 225,
+      columnNumber: 33
+=======
+      lineNumber: 462,
+      columnNumber: 13
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+    }
+  }, user["role"] == "musician" ? __jsx(next_link__WEBPACK_IMPORTED_MODULE_15___default.a, {
+    href: "/streams/launchStream",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
+      lineNumber: 225,
+      columnNumber: 62
+=======
+      lineNumber: 464,
       columnNumber: 17
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+    }
+  }, "Go live") : null, __jsx("div", {
+    className: "d-flex",
+    style: {
+      overflow: "scroll",
+      height: "50%",
+      width: "100%",
+      "flex-wrap": "wrap"
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
+      lineNumber: 226,
+      columnNumber: 29
+=======
+      lineNumber: 467,
+      columnNumber: 15
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+    }
+  }, courses.map(course => {
+    return __jsx(_components_CourseCard__WEBPACK_IMPORTED_MODULE_14__["default"], {
+      course: course,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 477,
+        columnNumber: 26
+      }
+    });
+  })), __jsx("div", {
+    style: {
+      overflow: "scroll",
+      height: "50%",
+      width: "100%"
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
+      lineNumber: 226,
+      columnNumber: 33
+=======
+      lineNumber: 481,
+      columnNumber: 15
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
     }
   }, __jsx("div", {
-    className: "content_detail__pagination cdp",
+    className: "d-flex",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 223,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
+      lineNumber: 227,
+      columnNumber: 29
+=======
+      lineNumber: 482,
+      columnNumber: 17
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+    }
+  }, __jsx("div", {
+    style: {
+      width: "40%"
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
+      lineNumber: 227,
+      columnNumber: 33
+=======
+      lineNumber: 483,
+      columnNumber: 19
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
+    }
+  }, __jsx("h2", {
+    className: "mb-3",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
+      lineNumber: 228,
+      columnNumber: 29
+=======
+      lineNumber: 484,
       columnNumber: 21
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
     }
-  }, __jsx("ul", {
+  }, "my recordings"), __jsx("div", {
+    className: " mr-3  border border-2 sandou9elrecordes",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 224,
-      columnNumber: 25
-    }
-  }, __jsx("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 225,
-      columnNumber: 29
-    }
-  }, __jsx("a", {
-    className: "prev",
-    href: "#",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 225,
-      columnNumber: 33
-    }
-  }, __jsx("i", {
-    "aria-hidden": "true",
-    className: "fa fa-angle-double-left",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 225,
-      columnNumber: 62
-    }
-  }))), __jsx("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 226,
-      columnNumber: 29
-    }
-  }, __jsx("a", {
-    className: "active cdp_i",
-    href: "#",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 226,
-      columnNumber: 33
-    }
-  }, "1")), __jsx("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 227,
-      columnNumber: 29
-    }
-  }, __jsx("a", {
-    className: "cdp_i",
-    href: "#",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 227,
-      columnNumber: 33
-    }
-  }, "2")), __jsx("li", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 228,
-      columnNumber: 29
-    }
-  }, __jsx("a", {
-    className: "cdp_i",
-    href: "#",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
       lineNumber: 228,
       columnNumber: 33
+=======
+      lineNumber: 485,
+      columnNumber: 21
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
     }
-  }, "3")), __jsx("li", {
+  }, recordedStreams.map(recordedstream => {
+    let date = recordedstream.created_at.split('T');
+    return __jsx("div", {
+      className: "d-flex justify-content-between",
+      onClick: () => getRecord(recordedstream.meetingId),
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 491,
+        columnNumber: 27
+      }
+    }, __jsx("span", {
+      className: "h5 m-2",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 492,
+        columnNumber: 29
+      }
+    }, recordedstream.streamTitle), __jsx("span", {
+      className: "m-2",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 493,
+        columnNumber: 29
+      }
+    }, date[0]));
+  }))), __jsx("div", {
+    style: {
+      width: "55%"
+    },
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
       lineNumber: 229,
       columnNumber: 29
+=======
+      lineNumber: 501,
+      columnNumber: 19
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
     }
-  }, __jsx("a", {
-    className: "next",
-    href: "#",
+  }, __jsx("h2", {
+    className: "mb-3",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
       lineNumber: 229,
       columnNumber: 33
+=======
+      lineNumber: 505,
+      columnNumber: 21
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
     }
-  }, __jsx("i", {
-    "aria-hidden": "true",
-    className: "fa fa-angle-double-right",
+  }, "stats"), __jsx("div", {
+    className: " mr-3 border border-2 sandou9elstats",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
       lineNumber: 229,
       columnNumber: 62
+=======
+      lineNumber: 506,
+      columnNumber: 21
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
     }
-  })))))))));
+  }, "hello")))))))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (PortfolioDetail2);
+/* harmony default export */ __webpack_exports__["default"] = (PortfolioDetail7);
 
 /***/ }),
 
-/***/ "./pages/streams/database.js":
-/*!***********************************!*\
-  !*** ./pages/streams/database.js ***!
-  \***********************************/
+/***/ "./public/assets/person.css":
+/*!**********************************!*\
+  !*** ./public/assets/person.css ***!
+  \**********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = {
-  FeshionImgData: [{
-    img: '/assets/images/portfolio/1.jpg'
-  }, {
-    img: '/assets/images/portfolio/2.jpg'
-  }, {
-    img: '/assets/images/portfolio/3.jpg'
-  }, {
-    img: '/assets/images/portfolio/4.jpg'
-  }],
-  BagsImgData: [{
-    img: '/assets/images/portfolio/5.jpg'
-  }, {
-    img: '/assets/images/portfolio/6.jpg'
-  }, {
-    img: '/assets/images/portfolio/7.jpg'
-  }, {
-    img: '/assets/images/portfolio/8.png'
-  }],
-  ShoesImgData: [{
-    img: '/assets/images/portfolio/9.jpg'
-  }, {
-    img: '/assets/images/portfolio/10.jpg'
-  }, {
-    img: '/assets/images/portfolio/12.png'
-  }, {
-    img: '/assets/images/portfolio/8.png'
-  }],
-  WatchImgData: [{
-    img: '/assets/images/portfolio/13.jpg'
-  }, {
-    img: '/assets/images/portfolio/11.jpg'
-  }, {
-    img: '/assets/images/portfolio/10.jpg'
-  }, {
-    img: '/assets/images/portfolio/12.png'
-  }],
-  AllImgData: [{
-    img: '/assets/images/portfolio/1.jpg'
-  }, {
-    img: '/assets/images/portfolio/2.jpg'
-  }, {
-    img: '/assets/images/portfolio/3.jpg'
-  }, {
-    img: '/assets/images/portfolio/4.jpg'
-  }, {
-    img: '/assets/images/portfolio/5.jpg'
-  }, {
-    img: '/assets/images/portfolio/6.jpg'
-  }, {
-    img: '/assets/images/portfolio/7.jpg'
-  }, {
-    img: '/assets/images/portfolio/8.png'
-  }, {
-    img: '/assets/images/portfolio/9.jpg'
-  }, {
-    img: '/assets/images/portfolio/10.jpg'
-  }, {
-    img: '/assets/images/portfolio/11.jpg'
-  }, {
-    img: '/assets/images/portfolio/12.png'
-  }],
-  PortfolioDetail1Data: [{
-    img: '/assets/images/portfolio/2.jpg'
-  }, {
-    img: '/assets/images/portfolio/3.jpg'
-  }, {
-    img: '/assets/images/portfolio/5.jpg'
-  }, {
-    img: '/assets/images/portfolio/4.jpg'
-  }, {
-    img: '/assets/images/portfolio/5.jpg'
-  }, {
-    img: '/assets/images/portfolio/2.jpg'
-  }, {
-    img: '/assets/images/portfolio/3.jpg'
-  }],
-  CreativeWrapperData: [{
-    img: '../assets/images/portfolio/1.jpg',
-    title: 'Lorem Ipsum',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
-  }, {
-    img: '../assets/images/portfolio/2.jpg',
-    title: 'Lorem Ipsum',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
-  }, {
-    img: '../assets/images/portfolio/3.jpg',
-    title: 'Lorem Ipsum',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
-  }, {
-    img: '../assets/images/portfolio/4.jpg',
-    title: 'Lorem Ipsum',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
-  }, {
-    img: '../assets/images/portfolio/5.jpg',
-    title: 'Lorem Ipsum',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
-  }]
-};
+
 
 /***/ }),
 
-/***/ "./public/assets/images/portfolio/2.jpg":
-/*!**********************************************!*\
-  !*** ./public/assets/images/portfolio/2.jpg ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/2-cdd017a1678448e08a33b684af6ef66f.jpg";
-
-/***/ }),
-
-/***/ "./public/assets/images/portfolio/3.jpg":
-/*!**********************************************!*\
-  !*** ./public/assets/images/portfolio/3.jpg ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/3-cdd017a1678448e08a33b684af6ef66f.jpg";
-
-/***/ }),
-
-/***/ "./public/assets/images/portfolio/4.jpg":
-/*!**********************************************!*\
-  !*** ./public/assets/images/portfolio/4.jpg ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/4-cdd017a1678448e08a33b684af6ef66f.jpg";
-
-/***/ }),
-
-/***/ "./public/assets/images/portfolio/5.jpg":
-/*!**********************************************!*\
-  !*** ./public/assets/images/portfolio/5.jpg ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/5-cdd017a1678448e08a33b684af6ef66f.jpg";
-
-/***/ }),
-
-/***/ 3:
-/*!****************************************!*\
-  !*** multi ./pages/streams/channel.js ***!
-  \****************************************/
+/***/ 8:
+/*!***************************************!*\
+  !*** multi ./pages/profileDetails.js ***!
+  \***************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Wissem\Desktop\PrimeTime\client\pages\streams\channel.js */"./pages/streams/channel.js");
+module.exports = __webpack_require__(/*! C:\Users\Wissem\Desktop\PrimeTime\client\pages\profileDetails.js */"./pages/profileDetails.js");
 
 
 /***/ }),
@@ -6138,6 +7114,7 @@ module.exports = require("react");
 
 /***/ }),
 
+<<<<<<< Updated upstream:client/.next/server/static/development/pages/streams/channel.js
 /***/ "react-slick":
 /*!******************************!*\
   !*** external "react-slick" ***!
@@ -6149,6 +7126,8 @@ module.exports = require("react-slick");
 
 /***/ }),
 
+=======
+>>>>>>> Stashed changes:client/.next/server/static/development/pages/profileDetails.js
 /***/ "reactstrap":
 /*!*****************************!*\
   !*** external "reactstrap" ***!
@@ -6172,4 +7151,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=channel.js.map
+//# sourceMappingURL=profileDetails.js.map
