@@ -61,8 +61,9 @@ const PortfolioDetail2 = () => {
    
     axios.get("http://localhost:5000/user/getCurrentStream/"+para).then(res=>{
         setStream(res.data.currentstream)
+        console.log("hello")
         setStreamer(res.data.streamer)
-        console.log(res.data.streamer)
+        console.log(res.data.currentstream)
         //  axios.get("http://localhost:5000/stream/getStreamById/"+res.data.meetingId)
         //      .then(ress => {
         //          setStream(ress.data);
@@ -111,8 +112,9 @@ const PortfolioDetail2 = () => {
              
              //   console.log("name is "+name)
               if (stream && name)
-              iframeurl="http://localhost:3001/react-rtc-demo?streamerName="+name+"&meetId="+stream["meetingId"]
-
+             { iframeurl="http://localhost:3001/react-rtc-demo?streamerName="+name+"&meetId="+stream["meetingId"]
+             console.log(stream)
+             }
               
     const initilindex = { index: 0, isOpen: false }
 

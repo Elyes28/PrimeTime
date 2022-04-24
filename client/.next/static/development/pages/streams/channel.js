@@ -36793,8 +36793,9 @@ var PortfolioDetail2 = function PortfolioDetail2() {
             case 0:
               return _context.abrupt("return", axios__WEBPACK_IMPORTED_MODULE_12___default.a.get("http://localhost:5000/user/getCurrentStream/" + para).then(function (res) {
                 setStream(res.data.currentstream);
+                console.log("hello");
                 setStreamer(res.data.streamer);
-                console.log(res.data.streamer); //  axios.get("http://localhost:5000/stream/getStreamById/"+res.data.meetingId)
+                console.log(res.data.currentstream); //  axios.get("http://localhost:5000/stream/getStreamById/"+res.data.meetingId)
                 //      .then(ress => {
                 //          setStream(ress.data);
                 //       }) .catch(function (error) {
@@ -36857,7 +36858,11 @@ var PortfolioDetail2 = function PortfolioDetail2() {
   var name = "";
   if (user) name = user["firstName"] + " " + user["lastName"]; //   console.log("name is "+name)
 
-  if (stream && name) iframeurl = "http://localhost:3001/react-rtc-demo?streamerName=" + name + "&meetId=" + stream["meetingId"];
+  if (stream && name) {
+    iframeurl = "http://localhost:3001/react-rtc-demo?streamerName=" + name + "&meetId=" + stream["meetingId"];
+    console.log(stream);
+  }
+
   var initilindex = {
     index: 0,
     isOpen: false
@@ -36873,14 +36878,14 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121,
+      lineNumber: 123,
       columnNumber: 9
     }
   }, __jsx(react__WEBPACK_IMPORTED_MODULE_10__["Fragment"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122,
+      lineNumber: 124,
       columnNumber: 5
     }
   }, __jsx("section", {
@@ -36888,7 +36893,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123,
+      lineNumber: 125,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -36896,7 +36901,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125,
+      lineNumber: 127,
       columnNumber: 13
     }
   }, __jsx(react_slick__WEBPACK_IMPORTED_MODULE_13___default.a, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_7__["default"])({
@@ -36905,7 +36910,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126,
+      lineNumber: 128,
       columnNumber: 9
     }
   }), stream ? __jsx("div", {
@@ -36913,7 +36918,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128,
+      lineNumber: 130,
       columnNumber: 13
     }
   }, __jsx("iframe", {
@@ -36928,14 +36933,14 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129,
+      lineNumber: 131,
       columnNumber: 13
     }
   })) : __jsx("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130,
+      lineNumber: 132,
       columnNumber: 27
     }
   }, "is not live"), __jsx("div", {
@@ -36943,7 +36948,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131,
+      lineNumber: 133,
       columnNumber: 13
     }
   }, __jsx("img", {
@@ -36953,7 +36958,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132,
+      lineNumber: 134,
       columnNumber: 17
     }
   })))), __jsx("div", {
@@ -36961,7 +36966,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137,
+      lineNumber: 139,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -36969,7 +36974,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138,
+      lineNumber: 140,
       columnNumber: 21
     }
   }, __jsx(react_slick__WEBPACK_IMPORTED_MODULE_13___default.a, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_7__["default"])({
@@ -36978,7 +36983,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139,
+      lineNumber: 141,
       columnNumber: 25
     }
   }), recordedStreams.map(function (data, i) {
@@ -36989,7 +36994,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 144,
+        lineNumber: 146,
         columnNumber: 37
       }
     }, __jsx("div", {
@@ -36997,7 +37002,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 145,
+        lineNumber: 147,
         columnNumber: 41
       }
     }, __jsx("div", {
@@ -37005,7 +37010,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 146,
+        lineNumber: 148,
         columnNumber: 45
       }
     }, __jsx("div", {
@@ -37013,7 +37018,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 147,
+        lineNumber: 149,
         columnNumber: 49
       }
     }, __jsx("a", {
@@ -37024,7 +37029,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 148,
+        lineNumber: 150,
         columnNumber: 53
       }
     }, __jsx("img", {
@@ -37040,7 +37045,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 150,
+        lineNumber: 152,
         columnNumber: 57
       }
     }))))));
@@ -37059,7 +37064,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 166,
+      lineNumber: 168,
       columnNumber: 21
     }
   }), __jsx("div", {
@@ -37067,7 +37072,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 177,
+      lineNumber: 179,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -37075,7 +37080,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 178,
+      lineNumber: 180,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -37083,7 +37088,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179,
+      lineNumber: 181,
       columnNumber: 25
     }
   }, __jsx("div", {
@@ -37091,7 +37096,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 180,
+      lineNumber: 182,
       columnNumber: 29
     }
   }, __jsx("h3", {
@@ -37099,7 +37104,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 181,
+      lineNumber: 183,
       columnNumber: 33
     }
   }, "project detail"), __jsx("div", {
@@ -37107,7 +37112,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 182,
+      lineNumber: 184,
       columnNumber: 33
     }
   }, __jsx("div", {
@@ -37115,7 +37120,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 183,
+      lineNumber: 185,
       columnNumber: 37
     }
   }, __jsx("h5", {
@@ -37123,7 +37128,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 184,
+      lineNumber: 186,
       columnNumber: 41
     }
   }, "Musician :")), __jsx("div", {
@@ -37131,14 +37136,14 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 186,
+      lineNumber: 188,
       columnNumber: 37
     }
   }, __jsx("h5", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 187,
+      lineNumber: 189,
       columnNumber: 41
     }
   }, streamer ? streamer.firstname + " " + streamer.lastname : ""))), __jsx("div", {
@@ -37146,7 +37151,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 190,
+      lineNumber: 192,
       columnNumber: 33
     }
   }, __jsx("div", {
@@ -37154,7 +37159,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 191,
+      lineNumber: 193,
       columnNumber: 37
     }
   }, __jsx("h5", {
@@ -37162,7 +37167,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 192,
+      lineNumber: 194,
       columnNumber: 41
     }
   }, "email :")), __jsx("div", {
@@ -37170,14 +37175,14 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 194,
+      lineNumber: 196,
       columnNumber: 37
     }
   }, __jsx("h5", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 195,
+      lineNumber: 197,
       columnNumber: 41
     }
   }, streamer ? streamer.email : ""))), __jsx("div", {
@@ -37185,7 +37190,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 198,
+      lineNumber: 200,
       columnNumber: 33
     }
   }, __jsx("div", {
@@ -37193,7 +37198,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 199,
+      lineNumber: 201,
       columnNumber: 37
     }
   }, __jsx("h5", {
@@ -37201,7 +37206,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 200,
+      lineNumber: 202,
       columnNumber: 41
     }
   }, "link :")), __jsx("div", {
@@ -37209,14 +37214,14 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 202,
+      lineNumber: 204,
       columnNumber: 37
     }
   }, __jsx("h5", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 203,
+      lineNumber: 205,
       columnNumber: 41
     }
   }, "www.abcd.com"))))), __jsx("div", {
@@ -37224,7 +37229,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 208,
+      lineNumber: 210,
       columnNumber: 25
     }
   }, __jsx("div", {
@@ -37232,7 +37237,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 209,
+      lineNumber: 211,
       columnNumber: 29
     }
   }, __jsx("h3", {
@@ -37240,14 +37245,14 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 210,
+      lineNumber: 212,
       columnNumber: 33
     }
   }, "about channel"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 211,
+      lineNumber: 213,
       columnNumber: 33
     }
   }, streamer ? streamer.channel_description : "chay"), __jsx("div", {
@@ -37255,7 +37260,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 212,
+      lineNumber: 214,
       columnNumber: 33
     }
   }, __jsx("a", {
@@ -37264,7 +37269,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 212,
+      lineNumber: 214,
       columnNumber: 68
     }
   }, "visit project")))))), __jsx("div", {
@@ -37272,7 +37277,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 220,
+      lineNumber: 222,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -37280,21 +37285,21 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 221,
+      lineNumber: 223,
       columnNumber: 21
     }
   }, __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 222,
+      lineNumber: 224,
       columnNumber: 25
     }
   }, __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 223,
+      lineNumber: 225,
       columnNumber: 29
     }
   }, __jsx("a", {
@@ -37303,7 +37308,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 223,
+      lineNumber: 225,
       columnNumber: 33
     }
   }, __jsx("i", {
@@ -37312,14 +37317,14 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 223,
+      lineNumber: 225,
       columnNumber: 62
     }
   }))), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 224,
+      lineNumber: 226,
       columnNumber: 29
     }
   }, __jsx("a", {
@@ -37328,14 +37333,14 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 224,
+      lineNumber: 226,
       columnNumber: 33
     }
   }, "1")), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 225,
+      lineNumber: 227,
       columnNumber: 29
     }
   }, __jsx("a", {
@@ -37344,14 +37349,14 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 225,
+      lineNumber: 227,
       columnNumber: 33
     }
   }, "2")), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 226,
+      lineNumber: 228,
       columnNumber: 29
     }
   }, __jsx("a", {
@@ -37360,14 +37365,14 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 226,
+      lineNumber: 228,
       columnNumber: 33
     }
   }, "3")), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 227,
+      lineNumber: 229,
       columnNumber: 29
     }
   }, __jsx("a", {
@@ -37376,7 +37381,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 227,
+      lineNumber: 229,
       columnNumber: 33
     }
   }, __jsx("i", {
@@ -37385,7 +37390,7 @@ var PortfolioDetail2 = function PortfolioDetail2() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 227,
+      lineNumber: 229,
       columnNumber: 62
     }
   })))))))));
@@ -37548,7 +37553,7 @@ module.exports = "/_next/static/images/5-c2d0ef6c7afa49de701ac295ed1bbec0.jpg";
 
 /***/ }),
 
-/***/ 7:
+/***/ 9:
 /*!*********************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fstreams%2Fchannel&absolutePagePath=C%3A%5CUsers%5CWissem%5CDesktop%5CPrimeTime%5Cclient%5Cpages%5Cstreams%5Cchannel.js ***!
   \*********************************************************************************************************************************************************************/
@@ -37571,5 +37576,5 @@ module.exports = dll_b0ae7f9d5a2cb9eeeb96;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js"]]]);
+},[[9,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=channel.js.map

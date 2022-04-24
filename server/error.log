@@ -10737,3 +10737,57 @@
   ],
   timestamp: '4/23/2022, 3:44:09 AM GMT+2'
 }
+{
+  error: TypeError: Cannot read properties of null (reading 'firstname')
+      at isLive (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:234:85)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of null (reading 'firstname')\n" +
+    "TypeError: Cannot read properties of null (reading 'firstname')\n" +
+    '    at isLive (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:234:85)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  stack: "TypeError: Cannot read properties of null (reading 'firstname')\n" +
+    '    at isLive (file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js:234:85)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  exception: true,
+  date: 'Sat Apr 23 2022 16:31:17 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 15012,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 64954368,
+      heapTotal: 29626368,
+      heapUsed: 27382176,
+      external: 19779495,
+      arrayBuffers: 18320389
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 87720 },
+  trace: [
+    {
+      column: 85,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/controllers/user.js',
+      function: 'isLive',
+      line: 234,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 96,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/23/2022, 5:31:17 PM GMT+2'
+}
