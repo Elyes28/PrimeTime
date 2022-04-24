@@ -5809,6 +5809,7 @@
   timestamp: '4/17/2022, 12:55:15 AM GMT+2'
 }
 {
+<<<<<<< Updated upstream
   message: 'tesst',
   level: 'info',
   timestamp: '4/17/2022, 12:56:54 AM GMT+2'
@@ -18769,4 +18770,9 @@
   message: 'Server Running on Port: http://localhost:5000',
   level: 'info',
   timestamp: '4/24/2022, 3:08:51 AM GMT+2'
+=======
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 3:07:56 AM GMT+2'
+>>>>>>> Stashed changes
 }

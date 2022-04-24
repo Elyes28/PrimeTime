@@ -2328,6 +2328,7 @@ const Nav = () => {
 
 /***/ }),
 
+<<<<<<< Updated upstream
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/date/now.js":
 /*!*****************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/date/now.js ***!
@@ -2339,6 +2340,8 @@ module.exports = __webpack_require__(/*! core-js/library/fn/date/now */ "core-js
 
 /***/ }),
 
+=======
+>>>>>>> Stashed changes
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js":
 /*!***********************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js ***!
@@ -4571,6 +4574,7 @@ const Popup = () => {
         token: res.data.token,
         firstName: res.data.result.firstname,
         _id: res.data.result._id,
+<<<<<<< Updated upstream
         lastName: res.data.result.lastname,
         expiration: res.data.result.active_until,
         role: res.data.result.role,
@@ -4580,6 +4584,9 @@ const Popup = () => {
         facebook: res.data.result.facebook,
         spotify: res.data.result.spotify,
         channelDescription: res.data.result.channel_description
+=======
+        lastName: res.data.result.lastname
+>>>>>>> Stashed changes
       };
       setButtonValue("log out");
       toggle(); // current_user.bro=res.data.result.token;
@@ -4611,7 +4618,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 116,
+=======
+      lineNumber: 106,
+>>>>>>> Stashed changes
       columnNumber: 9
     }
   }, __jsx("section", {
@@ -4622,21 +4633,33 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 118,
+=======
+      lineNumber: 108,
+>>>>>>> Stashed changes
       columnNumber: 13
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Container"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 119,
+=======
+      lineNumber: 109,
+>>>>>>> Stashed changes
       columnNumber: 17
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Row"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 120,
+=======
+      lineNumber: 110,
+>>>>>>> Stashed changes
       columnNumber: 21
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Col"], {
@@ -4645,7 +4668,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 121,
+=======
+      lineNumber: 111,
+>>>>>>> Stashed changes
       columnNumber: 25
     }
   }, __jsx("div", {
@@ -4653,7 +4680,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 122,
+=======
+      lineNumber: 112,
+>>>>>>> Stashed changes
       columnNumber: 29
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Button"], {
@@ -4665,7 +4696,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 124,
+=======
+      lineNumber: 114,
+>>>>>>> Stashed changes
       columnNumber: 33
     }
   }, "Login"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Button"], {
@@ -4677,7 +4712,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 125,
+=======
+      lineNumber: 115,
+>>>>>>> Stashed changes
       columnNumber: 33
     }
   }, "Logout")))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Modal"], {
@@ -4686,7 +4725,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 135,
+=======
+      lineNumber: 125,
+>>>>>>> Stashed changes
       columnNumber: 13
     }
   }, __jsx("a", {
@@ -4700,14 +4743,22 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 136,
+=======
+      lineNumber: 126,
+>>>>>>> Stashed changes
       columnNumber: 17
     }
   }, "X"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["ModalBody"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 138,
+=======
+      lineNumber: 128,
+>>>>>>> Stashed changes
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -4715,7 +4766,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 139,
+=======
+      lineNumber: 129,
+>>>>>>> Stashed changes
       columnNumber: 21
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Nav"], {
@@ -4724,14 +4779,22 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 140,
+=======
+      lineNumber: 130,
+>>>>>>> Stashed changes
       columnNumber: 25
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["NavItem"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 141,
+=======
+      lineNumber: 131,
+>>>>>>> Stashed changes
       columnNumber: 29
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["NavLink"], {
@@ -4740,14 +4803,22 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 142,
+=======
+      lineNumber: 132,
+>>>>>>> Stashed changes
       columnNumber: 33
     }
   }, "Login")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["NavItem"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 146,
+=======
+      lineNumber: 136,
+>>>>>>> Stashed changes
       columnNumber: 29
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["NavLink"], {
@@ -4756,7 +4827,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 147,
+=======
+      lineNumber: 137,
+>>>>>>> Stashed changes
       columnNumber: 33
     }
   }, "Sign Up"))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["TabContent"], {
@@ -4765,7 +4840,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 152,
+=======
+      lineNumber: 142,
+>>>>>>> Stashed changes
       columnNumber: 25
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["TabPane"], {
@@ -4776,7 +4855,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 153,
+=======
+      lineNumber: 143,
+>>>>>>> Stashed changes
       columnNumber: 29
     }
   }, __jsx("div", {
@@ -4784,7 +4867,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 157,
+=======
+      lineNumber: 147,
+>>>>>>> Stashed changes
       columnNumber: 37
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["FormGroup"], {
@@ -4792,7 +4879,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 158,
+=======
+      lineNumber: 148,
+>>>>>>> Stashed changes
       columnNumber: 41
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -4800,7 +4891,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 159,
+=======
+      lineNumber: 149,
+>>>>>>> Stashed changes
       columnNumber: 45
     }
   }, "Email"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
@@ -4815,7 +4910,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 160,
+=======
+      lineNumber: 150,
+>>>>>>> Stashed changes
       columnNumber: 45
     }
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["FormGroup"], {
@@ -4823,7 +4922,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 163,
+=======
+      lineNumber: 153,
+>>>>>>> Stashed changes
       columnNumber: 41
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -4831,7 +4934,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 164,
+=======
+      lineNumber: 154,
+>>>>>>> Stashed changes
       columnNumber: 45
     }
   }, "Password"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
@@ -4846,7 +4953,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 165,
+=======
+      lineNumber: 155,
+>>>>>>> Stashed changes
       columnNumber: 45
     }
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -4857,7 +4968,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 168,
+=======
+      lineNumber: 158,
+>>>>>>> Stashed changes
       columnNumber: 41
     }
   }, signinerr.message)), __jsx("button", {
@@ -4866,7 +4981,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 171,
+=======
+      lineNumber: 161,
+>>>>>>> Stashed changes
       columnNumber: 37
     }
   }, "Login"), __jsx("button", {
@@ -4876,7 +4995,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 172,
+=======
+      lineNumber: 162,
+>>>>>>> Stashed changes
       columnNumber: 37
     }
   }, "Forget password")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["TabPane"], {
@@ -4887,14 +5010,22 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 177,
+=======
+      lineNumber: 167,
+>>>>>>> Stashed changes
       columnNumber: 29
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Form"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 180,
+=======
+      lineNumber: 170,
+>>>>>>> Stashed changes
       columnNumber: 33
     }
   }, __jsx("div", {
@@ -4902,7 +5033,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 181,
+=======
+      lineNumber: 171,
+>>>>>>> Stashed changes
       columnNumber: 37
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["FormGroup"], {
@@ -4910,7 +5045,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 182,
+=======
+      lineNumber: 172,
+>>>>>>> Stashed changes
       columnNumber: 41
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -4918,7 +5057,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 183,
+=======
+      lineNumber: 173,
+>>>>>>> Stashed changes
       columnNumber: 45
     }
   }, "Email"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
@@ -4933,7 +5076,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 184,
+=======
+      lineNumber: 174,
+>>>>>>> Stashed changes
       columnNumber: 45
     }
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["FormGroup"], {
@@ -4941,7 +5088,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 186,
+=======
+      lineNumber: 176,
+>>>>>>> Stashed changes
       columnNumber: 41
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -4949,7 +5100,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 187,
+=======
+      lineNumber: 177,
+>>>>>>> Stashed changes
       columnNumber: 45
     }
   }, "Password"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
@@ -4964,7 +5119,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 188,
+=======
+      lineNumber: 178,
+>>>>>>> Stashed changes
       columnNumber: 45
     }
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["FormGroup"], {
@@ -4972,7 +5131,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 191,
+=======
+      lineNumber: 181,
+>>>>>>> Stashed changes
       columnNumber: 41
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -4980,7 +5143,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 192,
+=======
+      lineNumber: 182,
+>>>>>>> Stashed changes
       columnNumber: 45
     }
   }, "Confirm Password"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
@@ -4995,7 +5162,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 194,
+=======
+      lineNumber: 184,
+>>>>>>> Stashed changes
       columnNumber: 45
     }
   }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -5006,14 +5177,22 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 196,
+=======
+      lineNumber: 186,
+>>>>>>> Stashed changes
       columnNumber: 49
     }
   }, badPass.message))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["FormGroup"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 199,
+=======
+      lineNumber: 189,
+>>>>>>> Stashed changes
       columnNumber: 37
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -5021,7 +5200,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 200,
+=======
+      lineNumber: 190,
+>>>>>>> Stashed changes
       columnNumber: 41
     }
   }, "Address"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
@@ -5032,7 +5215,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 201,
+=======
+      lineNumber: 191,
+>>>>>>> Stashed changes
       columnNumber: 41
     }
   }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -5040,7 +5227,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 203,
+=======
+      lineNumber: 193,
+>>>>>>> Stashed changes
       columnNumber: 45
     }
   }, "Name"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
@@ -5055,7 +5246,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 204,
+=======
+      lineNumber: 194,
+>>>>>>> Stashed changes
       columnNumber: 41
     }
   }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -5063,7 +5258,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 206,
+=======
+      lineNumber: 196,
+>>>>>>> Stashed changes
       columnNumber: 45
     }
   }, "Last name"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
@@ -5078,7 +5277,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 207,
+=======
+      lineNumber: 197,
+>>>>>>> Stashed changes
       columnNumber: 41
     }
   })), __jsx("button", {
@@ -5087,7 +5290,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 211,
+=======
+      lineNumber: 201,
+>>>>>>> Stashed changes
       columnNumber: 37
     }
   }, "Sign Up"))))))));
@@ -5106,6 +5313,7 @@ const Popup = () => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+<<<<<<< Updated upstream
 /* harmony import */ var _babel_runtime_corejs2_core_js_date_now__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/date/now */ "./node_modules/@babel/runtime-corejs2/core-js/date/now.js");
 /* harmony import */ var _babel_runtime_corejs2_core_js_date_now__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_date_now__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
@@ -5115,6 +5323,14 @@ __webpack_require__.r(__webpack_exports__);
 
 var _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\pages\\streams\\iframe.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+=======
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\pages\\streams\\iframe.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+>>>>>>> Stashed changes
 
 
 
@@ -5124,6 +5340,7 @@ const JoinScreen = ({
   subTitle,
   fluid
 }) => {
+<<<<<<< Updated upstream
   const {
     0: role,
     1: setRole
@@ -5136,13 +5353,22 @@ const JoinScreen = ({
   Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(() => {
     setRole(JSON.parse(localStorage.getItem('user')).role);
     setExpiration(JSON.parse(localStorage.getItem('user')).expiration);
+=======
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
+>>>>>>> Stashed changes
     document.body.style.setProperty('--primary', '#10266b');
     document.body.style.setProperty('--secondary', '#464545');
     document.body.style.setProperty('--light', '#1F357D');
     document.body.style.setProperty('--dark', '#04185B');
+<<<<<<< Updated upstream
     if (role == "musician" && today < expiration) document.getElementById("showskill").src = "http://localhost:3001/react-rtc-demo?streamerName=" + JSON.parse(localStorage.getItem('user')).firstName + " " + JSON.parse(localStorage.getItem('user')).lastName + "&meetId=create&streamerId=" + JSON.parse(localStorage.getItem('user'))._id;
   });
   if (role == "musician" && today < expiration) return __jsx("iframe", {
+=======
+    document.getElementById("showskill").src = "http://localhost:3001/react-rtc-demo?streamerName=" + JSON.parse(localStorage.getItem('user')).firstName + " " + JSON.parse(localStorage.getItem('user')).lastName + "&meetId=create&streamerId=" + JSON.parse(localStorage.getItem('user'))._id;
+  });
+  return __jsx("iframe", {
+>>>>>>> Stashed changes
     id: "showskill",
     height: "720",
     width: "1400",
@@ -5151,6 +5377,7 @@ const JoinScreen = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 31,
       columnNumber: 5
     }
@@ -5162,6 +5389,12 @@ const JoinScreen = ({
       columnNumber: 8
     }
   }, "you can't start a stream upgrade your account.");
+=======
+      lineNumber: 25,
+      columnNumber: 5
+    }
+  });
+>>>>>>> Stashed changes
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (JoinScreen);
@@ -5257,6 +5490,7 @@ module.exports = require("axios");
 
 /***/ }),
 
+<<<<<<< Updated upstream
 /***/ "core-js/library/fn/date/now":
 /*!**********************************************!*\
   !*** external "core-js/library/fn/date/now" ***!
@@ -5268,6 +5502,8 @@ module.exports = require("core-js/library/fn/date/now");
 
 /***/ }),
 
+=======
+>>>>>>> Stashed changes
 /***/ "core-js/library/fn/json/stringify":
 /*!****************************************************!*\
   !*** external "core-js/library/fn/json/stringify" ***!

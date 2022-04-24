@@ -4593,6 +4593,7 @@ const Popup = () => {
         token: res.data.token,
         firstName: res.data.result.firstname,
         _id: res.data.result._id,
+<<<<<<< Updated upstream
         lastName: res.data.result.lastname,
         expiration: res.data.result.active_until,
         role: res.data.result.role,
@@ -4602,6 +4603,9 @@ const Popup = () => {
         facebook: res.data.result.facebook,
         spotify: res.data.result.spotify,
         channelDescription: res.data.result.channel_description
+=======
+        lastName: res.data.result.lastname
+>>>>>>> Stashed changes
       };
       setButtonValue("log out");
       toggle(); // current_user.bro=res.data.result.token;
@@ -4633,7 +4637,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 116,
+=======
+      lineNumber: 106,
+>>>>>>> Stashed changes
       columnNumber: 9
     }
   }, __jsx("section", {
@@ -4644,21 +4652,33 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 118,
+=======
+      lineNumber: 108,
+>>>>>>> Stashed changes
       columnNumber: 13
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Container"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 119,
+=======
+      lineNumber: 109,
+>>>>>>> Stashed changes
       columnNumber: 17
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Row"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 120,
+=======
+      lineNumber: 110,
+>>>>>>> Stashed changes
       columnNumber: 21
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Col"], {
@@ -4667,7 +4687,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 121,
+=======
+      lineNumber: 111,
+>>>>>>> Stashed changes
       columnNumber: 25
     }
   }, __jsx("div", {
@@ -4675,7 +4699,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 122,
+=======
+      lineNumber: 112,
+>>>>>>> Stashed changes
       columnNumber: 29
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Button"], {
@@ -4687,7 +4715,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 124,
+=======
+      lineNumber: 114,
+>>>>>>> Stashed changes
       columnNumber: 33
     }
   }, "Login"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Button"], {
@@ -4699,7 +4731,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 125,
+=======
+      lineNumber: 115,
+>>>>>>> Stashed changes
       columnNumber: 33
     }
   }, "Logout")))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Modal"], {
@@ -4708,7 +4744,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 135,
+=======
+      lineNumber: 125,
+>>>>>>> Stashed changes
       columnNumber: 13
     }
   }, __jsx("a", {
@@ -4722,14 +4762,22 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 136,
+=======
+      lineNumber: 126,
+>>>>>>> Stashed changes
       columnNumber: 17
     }
   }, "X"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["ModalBody"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 138,
+=======
+      lineNumber: 128,
+>>>>>>> Stashed changes
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -4737,7 +4785,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 139,
+=======
+      lineNumber: 129,
+>>>>>>> Stashed changes
       columnNumber: 21
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Nav"], {
@@ -4746,14 +4798,22 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 140,
+=======
+      lineNumber: 130,
+>>>>>>> Stashed changes
       columnNumber: 25
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["NavItem"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 141,
+=======
+      lineNumber: 131,
+>>>>>>> Stashed changes
       columnNumber: 29
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["NavLink"], {
@@ -4762,14 +4822,22 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 142,
+=======
+      lineNumber: 132,
+>>>>>>> Stashed changes
       columnNumber: 33
     }
   }, "Login")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["NavItem"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 146,
+=======
+      lineNumber: 136,
+>>>>>>> Stashed changes
       columnNumber: 29
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["NavLink"], {
@@ -4778,7 +4846,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 147,
+=======
+      lineNumber: 137,
+>>>>>>> Stashed changes
       columnNumber: 33
     }
   }, "Sign Up"))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["TabContent"], {
@@ -4787,7 +4859,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 152,
+=======
+      lineNumber: 142,
+>>>>>>> Stashed changes
       columnNumber: 25
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["TabPane"], {
@@ -4798,7 +4874,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 153,
+=======
+      lineNumber: 143,
+>>>>>>> Stashed changes
       columnNumber: 29
     }
   }, __jsx("div", {
@@ -4806,7 +4886,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 157,
+=======
+      lineNumber: 147,
+>>>>>>> Stashed changes
       columnNumber: 37
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["FormGroup"], {
@@ -4814,7 +4898,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 158,
+=======
+      lineNumber: 148,
+>>>>>>> Stashed changes
       columnNumber: 41
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -4822,7 +4910,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 159,
+=======
+      lineNumber: 149,
+>>>>>>> Stashed changes
       columnNumber: 45
     }
   }, "Email"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
@@ -4837,7 +4929,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 160,
+=======
+      lineNumber: 150,
+>>>>>>> Stashed changes
       columnNumber: 45
     }
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["FormGroup"], {
@@ -4845,7 +4941,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 163,
+=======
+      lineNumber: 153,
+>>>>>>> Stashed changes
       columnNumber: 41
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -4853,7 +4953,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 164,
+=======
+      lineNumber: 154,
+>>>>>>> Stashed changes
       columnNumber: 45
     }
   }, "Password"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
@@ -4868,7 +4972,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 165,
+=======
+      lineNumber: 155,
+>>>>>>> Stashed changes
       columnNumber: 45
     }
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -4879,7 +4987,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 168,
+=======
+      lineNumber: 158,
+>>>>>>> Stashed changes
       columnNumber: 41
     }
   }, signinerr.message)), __jsx("button", {
@@ -4888,7 +5000,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 171,
+=======
+      lineNumber: 161,
+>>>>>>> Stashed changes
       columnNumber: 37
     }
   }, "Login"), __jsx("button", {
@@ -4898,7 +5014,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 172,
+=======
+      lineNumber: 162,
+>>>>>>> Stashed changes
       columnNumber: 37
     }
   }, "Forget password")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["TabPane"], {
@@ -4909,14 +5029,22 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 177,
+=======
+      lineNumber: 167,
+>>>>>>> Stashed changes
       columnNumber: 29
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Form"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 180,
+=======
+      lineNumber: 170,
+>>>>>>> Stashed changes
       columnNumber: 33
     }
   }, __jsx("div", {
@@ -4924,7 +5052,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 181,
+=======
+      lineNumber: 171,
+>>>>>>> Stashed changes
       columnNumber: 37
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["FormGroup"], {
@@ -4932,7 +5064,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 182,
+=======
+      lineNumber: 172,
+>>>>>>> Stashed changes
       columnNumber: 41
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -4940,7 +5076,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 183,
+=======
+      lineNumber: 173,
+>>>>>>> Stashed changes
       columnNumber: 45
     }
   }, "Email"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
@@ -4955,7 +5095,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 184,
+=======
+      lineNumber: 174,
+>>>>>>> Stashed changes
       columnNumber: 45
     }
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["FormGroup"], {
@@ -4963,7 +5107,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 186,
+=======
+      lineNumber: 176,
+>>>>>>> Stashed changes
       columnNumber: 41
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -4971,7 +5119,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 187,
+=======
+      lineNumber: 177,
+>>>>>>> Stashed changes
       columnNumber: 45
     }
   }, "Password"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
@@ -4986,7 +5138,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 188,
+=======
+      lineNumber: 178,
+>>>>>>> Stashed changes
       columnNumber: 45
     }
   })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["FormGroup"], {
@@ -4994,7 +5150,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 191,
+=======
+      lineNumber: 181,
+>>>>>>> Stashed changes
       columnNumber: 41
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -5002,7 +5162,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 192,
+=======
+      lineNumber: 182,
+>>>>>>> Stashed changes
       columnNumber: 45
     }
   }, "Confirm Password"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
@@ -5017,7 +5181,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 194,
+=======
+      lineNumber: 184,
+>>>>>>> Stashed changes
       columnNumber: 45
     }
   }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -5028,14 +5196,22 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 196,
+=======
+      lineNumber: 186,
+>>>>>>> Stashed changes
       columnNumber: 49
     }
   }, badPass.message))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["FormGroup"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 199,
+=======
+      lineNumber: 189,
+>>>>>>> Stashed changes
       columnNumber: 37
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -5043,7 +5219,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 200,
+=======
+      lineNumber: 190,
+>>>>>>> Stashed changes
       columnNumber: 41
     }
   }, "Address"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
@@ -5054,7 +5234,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 201,
+=======
+      lineNumber: 191,
+>>>>>>> Stashed changes
       columnNumber: 41
     }
   }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -5062,7 +5246,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 203,
+=======
+      lineNumber: 193,
+>>>>>>> Stashed changes
       columnNumber: 45
     }
   }, "Name"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
@@ -5077,7 +5265,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 204,
+=======
+      lineNumber: 194,
+>>>>>>> Stashed changes
       columnNumber: 41
     }
   }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
@@ -5085,7 +5277,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 206,
+=======
+      lineNumber: 196,
+>>>>>>> Stashed changes
       columnNumber: 45
     }
   }, "Last name"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
@@ -5100,7 +5296,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 207,
+=======
+      lineNumber: 197,
+>>>>>>> Stashed changes
       columnNumber: 41
     }
   })), __jsx("button", {
@@ -5109,7 +5309,11 @@ const Popup = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 211,
+=======
+      lineNumber: 201,
+>>>>>>> Stashed changes
       columnNumber: 37
     }
   }, "Sign Up"))))))));
@@ -5151,6 +5355,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_11__);
 /* harmony import */ var _database__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./database */ "./pages/streams/database.js");
 /* harmony import */ var _database__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_database__WEBPACK_IMPORTED_MODULE_12__);
+<<<<<<< Updated upstream
+=======
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-router-dom */ "react-router-dom");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(react_router_dom__WEBPACK_IMPORTED_MODULE_13__);
+>>>>>>> Stashed changes
 
 
 
@@ -5171,6 +5380,10 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 const images = [__webpack_require__(/*! ../../public/assets/images/portfolio/2.jpg */ "./public/assets/images/portfolio/2.jpg"), __webpack_require__(/*! ../../public/assets/images/portfolio/3.jpg */ "./public/assets/images/portfolio/3.jpg"), __webpack_require__(/*! ../../public/assets/images/portfolio/5.jpg */ "./public/assets/images/portfolio/5.jpg"), __webpack_require__(/*! ../../public/assets/images/portfolio/4.jpg */ "./public/assets/images/portfolio/4.jpg"), __webpack_require__(/*! ../../public/assets/images/portfolio/5.jpg */ "./public/assets/images/portfolio/5.jpg")];
 var settings1 = {
   dots: false,
@@ -5218,6 +5431,7 @@ const PortfolioDetail2 = () => {
   Object(react__WEBPACK_IMPORTED_MODULE_8__["useEffect"])(() => {
     setUser(JSON.parse(localStorage.getItem("user")));
   }, []);
+<<<<<<< Updated upstream
   const {
     0: streamer,
     1: setStreamer
@@ -5252,6 +5466,15 @@ const PortfolioDetail2 = () => {
   Object(react__WEBPACK_IMPORTED_MODULE_8__["useEffect"])(() => {
     if (streamer) getRecordedStreams();
   }, [streamer]);
+=======
+
+  const getStream = async para => axios__WEBPACK_IMPORTED_MODULE_10___default.a.get("http://localhost:5000/stream/getStreamById/" + para).then(res => {
+    setStream(res.data);
+  }).catch(function (error) {
+    console.log("error.response.data");
+  });
+
+>>>>>>> Stashed changes
   Object(react__WEBPACK_IMPORTED_MODULE_8__["useEffect"])(() => {
     const queryParams = new URLSearchParams(window.location.search);
     getStream(queryParams.get("id"));
@@ -5260,11 +5483,15 @@ const PortfolioDetail2 = () => {
   let name = "";
   if (user) name = user["firstName"] + " " + user["lastName"]; //   console.log("name is "+name)
 
+<<<<<<< Updated upstream
   if (stream && name) {
     iframeurl = "http://localhost:3001/react-rtc-demo?streamerName=" + name + "&meetId=" + stream["meetingId"];
     console.log(stream);
   }
 
+=======
+  if (stream && name) iframeurl = "http://localhost:3001/react-rtc-demo?streamerName=" + name + "&meetId=" + stream["meetingId"];
+>>>>>>> Stashed changes
   const initilindex = {
     index: 0,
     isOpen: false
@@ -5279,14 +5506,22 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 123,
+=======
+      lineNumber: 93,
+>>>>>>> Stashed changes
       columnNumber: 9
     }
   }, __jsx(react__WEBPACK_IMPORTED_MODULE_8__["Fragment"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 124,
+=======
+      lineNumber: 94,
+>>>>>>> Stashed changes
       columnNumber: 5
     }
   }, __jsx("section", {
@@ -5294,7 +5529,11 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 125,
+=======
+      lineNumber: 95,
+>>>>>>> Stashed changes
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -5302,7 +5541,11 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 127,
+=======
+      lineNumber: 97,
+>>>>>>> Stashed changes
       columnNumber: 13
     }
   }, __jsx(react_slick__WEBPACK_IMPORTED_MODULE_11___default.a, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_7__["default"])({
@@ -5311,6 +5554,7 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 128,
       columnNumber: 9
     }
@@ -5320,20 +5564,38 @@ const PortfolioDetail2 = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 130,
+=======
+      lineNumber: 98,
+      columnNumber: 9
+    }
+  }), __jsx("div", {
+    className: "item ml-5",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99,
+>>>>>>> Stashed changes
       columnNumber: 13
     }
   }, __jsx("iframe", {
     id: "showskill",
     height: "900",
+<<<<<<< Updated upstream
     width: "100%",
     style: {
       "border": "white"
     },
     title: "Iframe Example",
+=======
+    width: "1400",
+    title: "Iframe Example",
+    allow: "camera; microphone;display-capture;autoplay; clipboard-write;",
+>>>>>>> Stashed changes
     src: iframeurl,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 131,
       columnNumber: 13
     }
@@ -5345,11 +5607,21 @@ const PortfolioDetail2 = () => {
       columnNumber: 27
     }
   }, "is not live"), __jsx("div", {
+=======
+      lineNumber: 100,
+      columnNumber: 13
+    }
+  })), __jsx("div", {
+>>>>>>> Stashed changes
     className: "item",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 133,
+=======
+      lineNumber: 102,
+>>>>>>> Stashed changes
       columnNumber: 13
     }
   }, __jsx("img", {
@@ -5359,7 +5631,11 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 134,
+=======
+      lineNumber: 103,
+>>>>>>> Stashed changes
       columnNumber: 17
     }
   })))), __jsx("div", {
@@ -5367,7 +5643,11 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 139,
+=======
+      lineNumber: 108,
+>>>>>>> Stashed changes
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -5375,7 +5655,11 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 140,
+=======
+      lineNumber: 109,
+>>>>>>> Stashed changes
       columnNumber: 21
     }
   }, __jsx(react_slick__WEBPACK_IMPORTED_MODULE_11___default.a, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_7__["default"])({
@@ -5384,18 +5668,29 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 141,
       columnNumber: 25
     }
   }), recordedStreams.map((data, i) => {
     let imgsrc = "images/users/" + stream["_id"] + ".jpg";
+=======
+      lineNumber: 110,
+      columnNumber: 25
+    }
+  }), _database__WEBPACK_IMPORTED_MODULE_12__["PortfolioDetail1Data"].map((data, i) => {
+>>>>>>> Stashed changes
     return __jsx("div", {
       className: "item",
       key: i,
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
+<<<<<<< Updated upstream
         lineNumber: 146,
+=======
+        lineNumber: 113,
+>>>>>>> Stashed changes
         columnNumber: 37
       }
     }, __jsx("div", {
@@ -5403,7 +5698,11 @@ const PortfolioDetail2 = () => {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
+<<<<<<< Updated upstream
         lineNumber: 147,
+=======
+        lineNumber: 114,
+>>>>>>> Stashed changes
         columnNumber: 41
       }
     }, __jsx("div", {
@@ -5411,7 +5710,11 @@ const PortfolioDetail2 = () => {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
+<<<<<<< Updated upstream
         lineNumber: 148,
+=======
+        lineNumber: 115,
+>>>>>>> Stashed changes
         columnNumber: 45
       }
     }, __jsx("div", {
@@ -5419,7 +5722,11 @@ const PortfolioDetail2 = () => {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
+<<<<<<< Updated upstream
         lineNumber: 149,
+=======
+        lineNumber: 116,
+>>>>>>> Stashed changes
         columnNumber: 49
       }
     }, __jsx("a", {
@@ -5430,7 +5737,11 @@ const PortfolioDetail2 = () => {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
+<<<<<<< Updated upstream
         lineNumber: 150,
+=======
+        lineNumber: 117,
+>>>>>>> Stashed changes
         columnNumber: 53
       }
     }, __jsx("img", {
@@ -5440,11 +5751,19 @@ const PortfolioDetail2 = () => {
         index: i,
         isOpen: true
       })),
+<<<<<<< Updated upstream
       src: imgsrc,
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 152,
+=======
+      src: data.img,
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 119,
+>>>>>>> Stashed changes
         columnNumber: 57
       }
     }))))));
@@ -5461,7 +5780,11 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 168,
+=======
+      lineNumber: 135,
+>>>>>>> Stashed changes
       columnNumber: 21
     }
   }), __jsx("div", {
@@ -5469,7 +5792,11 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 179,
+=======
+      lineNumber: 146,
+>>>>>>> Stashed changes
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -5477,7 +5804,11 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 180,
+=======
+      lineNumber: 147,
+>>>>>>> Stashed changes
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -5485,7 +5816,11 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 181,
+=======
+      lineNumber: 148,
+>>>>>>> Stashed changes
       columnNumber: 25
     }
   }, __jsx("div", {
@@ -5493,7 +5828,11 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 182,
+=======
+      lineNumber: 149,
+>>>>>>> Stashed changes
       columnNumber: 29
     }
   }, __jsx("h3", {
@@ -5501,7 +5840,11 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 183,
+=======
+      lineNumber: 150,
+>>>>>>> Stashed changes
       columnNumber: 33
     }
   }, "project detail"), __jsx("div", {
@@ -5509,7 +5852,11 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 184,
+=======
+      lineNumber: 151,
+>>>>>>> Stashed changes
       columnNumber: 33
     }
   }, __jsx("div", {
@@ -5517,7 +5864,11 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 185,
+=======
+      lineNumber: 152,
+>>>>>>> Stashed changes
       columnNumber: 37
     }
   }, __jsx("h5", {
@@ -5525,30 +5876,52 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 186,
       columnNumber: 41
     }
   }, "Musician :")), __jsx("div", {
+=======
+      lineNumber: 153,
+      columnNumber: 41
+    }
+  }, "client :")), __jsx("div", {
+>>>>>>> Stashed changes
     className: "portfolio-right",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 188,
+=======
+      lineNumber: 155,
+>>>>>>> Stashed changes
       columnNumber: 37
     }
   }, __jsx("h5", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 189,
       columnNumber: 41
     }
   }, streamer ? streamer.firstname + " " + streamer.lastname : ""))), __jsx("div", {
+=======
+      lineNumber: 156,
+      columnNumber: 41
+    }
+  }, "john doe"))), __jsx("div", {
+>>>>>>> Stashed changes
     className: "detail-container d-flex",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 192,
+=======
+      lineNumber: 159,
+>>>>>>> Stashed changes
       columnNumber: 33
     }
   }, __jsx("div", {
@@ -5556,7 +5929,11 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 193,
+=======
+      lineNumber: 160,
+>>>>>>> Stashed changes
       columnNumber: 37
     }
   }, __jsx("h5", {
@@ -5564,30 +5941,52 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 194,
       columnNumber: 41
     }
   }, "email :")), __jsx("div", {
+=======
+      lineNumber: 161,
+      columnNumber: 41
+    }
+  }, "date :")), __jsx("div", {
+>>>>>>> Stashed changes
     className: "portfolio-right",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 196,
+=======
+      lineNumber: 163,
+>>>>>>> Stashed changes
       columnNumber: 37
     }
   }, __jsx("h5", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 197,
       columnNumber: 41
     }
   }, streamer ? streamer.email : ""))), __jsx("div", {
+=======
+      lineNumber: 164,
+      columnNumber: 41
+    }
+  }, "22 Nov 2019"))), __jsx("div", {
+>>>>>>> Stashed changes
     className: "detail-container d-flex",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 200,
+=======
+      lineNumber: 167,
+>>>>>>> Stashed changes
       columnNumber: 33
     }
   }, __jsx("div", {
@@ -5595,7 +5994,11 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 201,
+=======
+      lineNumber: 168,
+>>>>>>> Stashed changes
       columnNumber: 37
     }
   }, __jsx("h5", {
@@ -5603,7 +6006,11 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 202,
+=======
+      lineNumber: 169,
+>>>>>>> Stashed changes
       columnNumber: 41
     }
   }, "link :")), __jsx("div", {
@@ -5611,14 +6018,22 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 204,
+=======
+      lineNumber: 171,
+>>>>>>> Stashed changes
       columnNumber: 37
     }
   }, __jsx("h5", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 205,
+=======
+      lineNumber: 172,
+>>>>>>> Stashed changes
       columnNumber: 41
     }
   }, "www.abcd.com"))))), __jsx("div", {
@@ -5626,7 +6041,11 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 210,
+=======
+      lineNumber: 177,
+>>>>>>> Stashed changes
       columnNumber: 25
     }
   }, __jsx("div", {
@@ -5634,7 +6053,11 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 211,
+=======
+      lineNumber: 178,
+>>>>>>> Stashed changes
       columnNumber: 29
     }
   }, __jsx("h3", {
@@ -5642,6 +6065,7 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 212,
       columnNumber: 33
     }
@@ -5653,11 +6077,28 @@ const PortfolioDetail2 = () => {
       columnNumber: 33
     }
   }, streamer ? streamer.channel_description : "chay"), __jsx("div", {
+=======
+      lineNumber: 179,
+      columnNumber: 33
+    }
+  }, "about project"), __jsx("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 180,
+      columnNumber: 33
+    }
+  }, "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."), __jsx("div", {
+>>>>>>> Stashed changes
     className: "text-right m-t-10",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 214,
+=======
+      lineNumber: 185,
+>>>>>>> Stashed changes
       columnNumber: 33
     }
   }, __jsx("a", {
@@ -5666,7 +6107,11 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 214,
+=======
+      lineNumber: 185,
+>>>>>>> Stashed changes
       columnNumber: 68
     }
   }, "visit project")))))), __jsx("div", {
@@ -5674,7 +6119,11 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 222,
+=======
+      lineNumber: 193,
+>>>>>>> Stashed changes
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -5682,21 +6131,33 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 223,
+=======
+      lineNumber: 194,
+>>>>>>> Stashed changes
       columnNumber: 21
     }
   }, __jsx("ul", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 224,
+=======
+      lineNumber: 195,
+>>>>>>> Stashed changes
       columnNumber: 25
     }
   }, __jsx("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 225,
+=======
+      lineNumber: 196,
+>>>>>>> Stashed changes
       columnNumber: 29
     }
   }, __jsx("a", {
@@ -5705,7 +6166,11 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 225,
+=======
+      lineNumber: 196,
+>>>>>>> Stashed changes
       columnNumber: 33
     }
   }, __jsx("i", {
@@ -5714,14 +6179,22 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 225,
+=======
+      lineNumber: 196,
+>>>>>>> Stashed changes
       columnNumber: 62
     }
   }))), __jsx("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 226,
+=======
+      lineNumber: 197,
+>>>>>>> Stashed changes
       columnNumber: 29
     }
   }, __jsx("a", {
@@ -5730,14 +6203,22 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 226,
+=======
+      lineNumber: 197,
+>>>>>>> Stashed changes
       columnNumber: 33
     }
   }, "1")), __jsx("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 227,
+=======
+      lineNumber: 198,
+>>>>>>> Stashed changes
       columnNumber: 29
     }
   }, __jsx("a", {
@@ -5746,14 +6227,22 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 227,
+=======
+      lineNumber: 198,
+>>>>>>> Stashed changes
       columnNumber: 33
     }
   }, "2")), __jsx("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 228,
+=======
+      lineNumber: 199,
+>>>>>>> Stashed changes
       columnNumber: 29
     }
   }, __jsx("a", {
@@ -5762,14 +6251,22 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 228,
+=======
+      lineNumber: 199,
+>>>>>>> Stashed changes
       columnNumber: 33
     }
   }, "3")), __jsx("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 229,
+=======
+      lineNumber: 200,
+>>>>>>> Stashed changes
       columnNumber: 29
     }
   }, __jsx("a", {
@@ -5778,7 +6275,11 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 229,
+=======
+      lineNumber: 200,
+>>>>>>> Stashed changes
       columnNumber: 33
     }
   }, __jsx("i", {
@@ -5787,7 +6288,11 @@ const PortfolioDetail2 = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
+<<<<<<< Updated upstream
       lineNumber: 229,
+=======
+      lineNumber: 200,
+>>>>>>> Stashed changes
       columnNumber: 62
     }
   })))))))));
@@ -6138,6 +6643,20 @@ module.exports = require("react");
 
 /***/ }),
 
+<<<<<<< Updated upstream
+=======
+/***/ "react-router-dom":
+/*!***********************************!*\
+  !*** external "react-router-dom" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-router-dom");
+
+/***/ }),
+
+>>>>>>> Stashed changes
 /***/ "react-slick":
 /*!******************************!*\
   !*** external "react-slick" ***!
