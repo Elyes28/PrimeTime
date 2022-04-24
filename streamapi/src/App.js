@@ -10,6 +10,7 @@ import { getToken } from "./api";
 import { confirmAlert } from "react-confirm-alert"; // Import
 import "react-confirm-alert/src/react-confirm-alert.css"; // Import css
 import { JoiningScreen } from "./components/JoiningScreen";
+import axios from "axios";
 
 const primary = "#3E84F6";
 
@@ -197,10 +198,9 @@ const ParticipantView = ({ participantId }) => {
   const webcamRef = useRef(null);
   const micRef = useRef(null);
   const screenShareRef = useRef(null);
-
   const onStreamEnabled = (stream) => {};
   const onStreamDisabled = (stream) => {};
-
+ 
   const {
     displayName,
     participant,
@@ -281,10 +281,13 @@ const ParticipantView = ({ participantId }) => {
     }
   }, [screenShareStream, screenShareOn]);
 
+const queryParams = new URLSearchParams(window.location.search);
+if ( webcamOn)
   return (
     <div
       style={{
-        width,
+        width:"100%",
+        height:"700px",
         backgroundColor: primary,
         borderRadius: borderRadius,
         overflow: "hidden",
@@ -305,7 +308,7 @@ const ParticipantView = ({ participantId }) => {
           overflow: "hidden",
           backgroundColor: "pink",
           width: "100%",
-          height: 300,
+          height: "100%",
         }}
       >
         <div
@@ -352,40 +355,11 @@ const ParticipantView = ({ participantId }) => {
               left: 10,
             }}
           >
-            <button
-              className="button blue"
-              style={
-                {
-                  // height: 50,
-                  // width: 200,
-                }
-              }
-              onClick={async () => {
-                const meetingId = prompt(
-                  `Please enter meeting id where you want to switch ${displayName}`
-                );
-                const token = await getToken();
-                if (meetingId && token) {
-                  try {
-                    await switchTo({
-                      meetingId,
-                      payload: "Im Switching",
-                      token: token,
-                    });
-                  } catch (e) {
-                    console.log("swithc To Error", e);
-                  }
-                } else {
-                  alert("Empty meetingId!");
-                }
-              }}
-            >
-              Switch Participant
-            </button>
+       
           </div>
         </div>
       </div>
-
+          {screenShareOn?(
       <div
         style={{
           marginTop: borderRadius,
@@ -394,7 +368,7 @@ const ParticipantView = ({ participantId }) => {
           overflow: "hidden",
           backgroundColor: "lightgreen",
           width: "100%",
-          height: 300,
+          height: "650px",
         }}
       >
         <div
@@ -434,8 +408,8 @@ const ParticipantView = ({ participantId }) => {
             </p>
           </div>
         </div>
-      </div>
-      <table>
+      </div>):null}
+      {/* <table>
         {[
           { k: "Name", v: displayName },
           { k: "webcamOn", v: webcamOn ? "YES" : "NO" },
@@ -443,7 +417,7 @@ const ParticipantView = ({ participantId }) => {
           { k: "screenShareOn", v: screenShareOn ? "YES" : "NO" },
           { k: "isLocal", v: isLocal ? "YES" : "NO" },
           { k: "isActiveSpeaker", v: isActiveSpeaker ? "YES" : "NO" },
-          { k: "isMainParticipant", v: isMainParticipant ? "YES" : "NO" },
+          { k: "isMainParticipant", v: isMainParticipant ? "yes" : "no" },
         ].map(({ k, v }) => (
           <tr key={k}>
             <td style={{ border: "1px solid #fff", padding: 4 }}>
@@ -454,9 +428,11 @@ const ParticipantView = ({ participantId }) => {
             </td>
           </tr>
         ))}
-      </table>
+      </table> */}
     </div>
   );
+else 
+  return(<></>)
 };
 
 const ParticipantsView = () => {
@@ -471,12 +447,13 @@ const ParticipantsView = () => {
         padding: borderRadius,
       }}
     >
-      <Title dark title={"Participants"} />
+     
       {chunk([...participants.keys()]).map((k) => (
         <div style={{ display: "flex" }}>
-          {k.map((l) => (
-            <ParticipantView key={l} participantId={l} />
-          ))}
+          {k.map((l) => {
+            
+            return(<ParticipantView participantId={l} />)}
+          )}
         </div>
       ))}
     </div>
@@ -799,9 +776,19 @@ function MeetingView({ onNewMeetingIdToken, onMeetingLeave }) {
   const handleStopLiveStream = () => {
     stopLivestream();
   };
+  const setrecordedtrue= async()=>
+    axios.get("http://localhost:5000/stream/setStreamRecorded/"+localStorage.getItem("meetid"))
+    .then(console.log('mchet'))
+    .catch(function (error){console.log(error)})
+    
+  
   const handleStartRecording = () => {
     startRecording();
+    setrecordedtrue();
+
   };
+  const queryParams = new URLSearchParams(window.location.search);
+  const styling=()=>{ if(queryParams.get("meetId")=="button blue")return("button blue hide")}
   const handleStopRecording = () => {
     stopRecording();
   };
@@ -813,23 +800,26 @@ function MeetingView({ onNewMeetingIdToken, onMeetingLeave }) {
       style={{
         display: "flex",
         flexDirection: "column",
-        backgroundColor: "#D6E9FE",
+        backgroundColor: "white",
       }}
     >
       <div style={{ height: tollbarHeight }}>
         <button className={"button red"} onClick={leave}>
           LEAVE
         </button>
-        <button className={"button blue"} onClick={toggleMic}>
+        {(queryParams.get("meetId")=="create") ? (<>
+        <button className={"button blue"}  onClick={toggleMic}>
           toggleMic
         </button>
+        
         <button className={"button blue"} onClick={toggleWebcam}>
           toggleWebcam
         </button>
-        <button className={"button blue"} onClick={toggleScreenShare}>
+      
+        <button className="button blue" onClick={toggleScreenShare}>
           toggleScreenShare
         </button>
-        <button className={"button blue"} onClick={handlestartVideo}>
+        {/* <button className={"button blue"} onClick={handlestartVideo}>
           startVideo
         </button>
         <button className={"button blue"} onClick={handlestopVideo}>
@@ -849,22 +839,26 @@ function MeetingView({ onNewMeetingIdToken, onMeetingLeave }) {
         </button>
         <button className={"button blue"} onClick={handleStopLiveStream}>
           Stop Live Stream
-        </button>
-        <button className={"button blue"} onClick={handleStartRecording}>
+        </button> */}
+        {/* {alert(queryParams.get("meetId"))} */}
+        
+        <button className={"button blue"}  onClick={handleStartRecording} hidden>
           start recording
-        </button>
+        </button> 
         <button className={"button blue"} onClick={handleStopRecording}>
           stop recording
         </button>
-        <button
+        </>): null
+        }
+        {/* <button
           className={"button blue"}
           onClick={() => setParticipantViewVisible((s) => !s)}
         >
           Switch to {participantViewVisible ? "Connections" : "Participants"}{" "}
           view
-        </button>
+        </button> */}
 
-        <button
+        {/* <button
           className={"button blue"}
           onClick={async () => {
             const meetingId = prompt(
@@ -885,9 +879,9 @@ function MeetingView({ onNewMeetingIdToken, onMeetingLeave }) {
           }}
         >
           Make Connections
-        </button>
+        </button> */}
       </div>
-      <h1>Meeting id is : {meetingId}</h1>
+      {/* <h1>Meeting id is : {meetingId}</h1> */}
       <div style={{ display: "flex", flex: 1 }}>
         <div
           style={{

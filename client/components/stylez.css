@@ -3,7 +3,7 @@
 
 .card {
   position: relative;
-  width: 160px;
+  width: 400px;
   height: 220px;
   background: #191919;
   border-radius: 20px;
@@ -105,4 +105,5 @@
 .mouse {
   height: 100px;
   width: auto;
+  border-radius: 50%;
 }

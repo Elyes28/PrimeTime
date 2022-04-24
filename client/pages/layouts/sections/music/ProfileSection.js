@@ -38,7 +38,7 @@ const ProfileSection = () => {
                                 </div>
                                 <img alt="" className="img-fluid girls" src={imgsrc} />
                                 <div className="author-text">
-                                    <h5 className="song-text">{user["firstName"]} {user["lastName"]}</h5>
+                                    <h5 className="song-text">{user?(user["firstName"]):null} {user?(user["lastName"]):null}</h5>
                                     <h6 className="song-sub-text">Zrial doj</h6>
                                 </div>
                             </div>

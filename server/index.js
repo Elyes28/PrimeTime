@@ -11,6 +11,7 @@ import postRoutes from './routes/posts.js';
 import userRouter from "./routes/user.js";
 import router from './routes/stream.js';
 import  courseRouter  from "./routes/courses.js"
+import licenseKeyRouter from "./routes/licensekey.js"
 
 const app = express();
 app.use(morgan('combined', {
@@ -25,6 +26,7 @@ app.use(cors());
 app.use('/stream',router);
 app.use('/posts', postRoutes);
 app.use("/user", userRouter);
+app.use("/licensekey",licenseKeyRouter);
 
 
 import  productRouter  from "./routes/products.js"
