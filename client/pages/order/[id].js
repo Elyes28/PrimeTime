@@ -29,6 +29,7 @@ export default function OrderScreen() {
     } = state;*/
     const [showItem, setShowItem] = useState(false);
     const [ order,setOrder] = useState({});
+    
     const [taxPrice,SettaxPrice]=useState();
     const [paymentMethod,SetpaymentMethod]=useState();
     const [shippingAddress,SetshippingAddress]= useState({});
@@ -91,9 +92,7 @@ export default function OrderScreen() {
   return (
     <CommonLayout title={`Order ${orderId}`}>
       <CheckoutSteps activeStep={3}></CheckoutSteps>
-      <Typography component="h5" variant="h5">
-        Order {orderId}
-      </Typography>
+      
       <div>
       <Grid container spacing={1}>
           <Grid item md={9} xs={12}>
@@ -218,10 +217,10 @@ export default function OrderScreen() {
                   </Grid>
                 </ListItem>
                 {showItem ? (
-				<StripeContainer x={totalPrice} />
+				<StripeContainer x={totalPrice} y={orderId} />
 			) : (
 				<>
-					<h3>${totalPrice}</h3>
+					
 					
 					<button onClick={() => setShowItem(true)}>Go To pay </button>
 				</>

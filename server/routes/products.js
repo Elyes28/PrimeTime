@@ -5,6 +5,7 @@ import Course from "../models/course.js";
 import User from "../models/user.js";
 
 import cors from 'cors';
+import multer from 'multer';
 
 router.use(cors());
 
@@ -213,7 +214,32 @@ router.get(
       pages: Math.ceil(countProducts / pageSize),
     });
   })
+
+  
 );
+
+
+const multerConfig = multer.diskStorage({
+  destination: (req, file, callback) => {
+    callback(null, "../client/public/images/products");
+  },
+  filename: (req, file, callback) => {
+    // const ext= file.mimetype.split('/')[1];
+    console.log(req);
+    callback(null, `${req.body.username}.jpg`);
+  },
+});
+const uploadd = multer({
+  storage: multerConfig,
+});
+const uploadImage = uploadd.single("photo");
+
+ const upload = (req, res) => {
+  res.status(200).json({
+    succes: "success",
+  });
+}
+router.post('/uploadImg',uploadImage,upload);
 
 
 

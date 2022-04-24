@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -5194,7 +5194,8 @@ function OrderHistory() {
   } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([]);
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
     const fetchData = async () => {
-      await axios__WEBPACK_IMPORTED_MODULE_2___default.a.get(`http://localhost:5000/orders/mine`).then(res => {
+      console.log(userInfo._id);
+      await axios__WEBPACK_IMPORTED_MODULE_2___default.a.get(`http://localhost:5000/orders/mine/` + userInfo._id).then(res => {
         console.log(userInfo._id);
         Setorders(res.data);
         console.log(res.data);
@@ -5352,7 +5353,7 @@ function OrderHistory() {
       lineNumber: 65,
       columnNumber: 29
     }
-  }, order.createdAt), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["TableCell"], {
+  }, order.createdAt.split('T')[0]), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["TableCell"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -5366,7 +5367,7 @@ function OrderHistory() {
       lineNumber: 67,
       columnNumber: 29
     }
-  }, order.isPaid ? `paid at ${order.paidAt}` : 'not paid'), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["TableCell"], {
+  }, order.isPaid ? `paid at ${order.paidAt.split('T')[0]}` : 'not paid'), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["TableCell"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -5611,7 +5612,7 @@ function StoreProvider(props) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!*******************************************!*\
   !*** multi ./pages/order/orderHistory.js ***!
   \*******************************************/

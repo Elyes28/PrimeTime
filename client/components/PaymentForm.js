@@ -23,7 +23,7 @@ const CARD_OPTIONS = {
 	}
 }
 
-export default function PaymentForm({price}) {
+export default function PaymentForm({price,id1}) {
     const [success, setSuccess ] = useState(false)
     const stripe = useStripe()
     const elements = useElements()
@@ -46,10 +46,19 @@ export default function PaymentForm({price}) {
                 id
             })
 
+            await Axios.put(`http://localhost:5000/orders/${id1}/pay`, {
+                
+                
+            })
+
+
             if(response.data.success) {
                 console.log("Successful payment")
                 setSuccess(true)
             }
+
+             
+            
 
         } catch (error) {
             console.log("Error", error)
@@ -72,7 +81,7 @@ export default function PaymentForm({price}) {
         </form>
         :
        <div>
-           <h2>You just bought a sweet spatula congrats this is the best decision of you're life</h2>
+           <h2>You just bought a sweet product this is the best decision of you're life</h2>
        </div> 
         }
             

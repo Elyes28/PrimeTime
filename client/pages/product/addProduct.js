@@ -28,6 +28,19 @@ const PopupCourses = () => {
   const [stockQuantity, setstockQuantity] = useState("");
   const [image, setimage] = useState("");
   
+  const onInputChange = (e) => {
+    const formData = new FormData();
+    formData.append("username",productName);
+    formData.append("photo", document.getElementById("image").files[0]);
+    const config = {
+      headers: {
+        "content-type": "multipart/form-data",
+      },
+    };
+    Axios
+      .post("http://localhost:5000/products/uploadImg", formData, config)
+      .then(window.location.reload());
+  };
   
   
   const addProduct = () => {
@@ -41,13 +54,14 @@ const PopupCourses = () => {
     price: price,
     size: size,
     stockQuantity:stockQuantity,
-    image: image
+    image: "/images/products/"+productName+".jpg"
       
-
+  
      
     }).then(() => {
       console.log("success");
     });
+    onInputChange();
   };
   return (
     <Fragment>
@@ -151,11 +165,10 @@ const PopupCourses = () => {
                   <FormGroup className="col-md-12">
                     <Label>image</Label>
                     <Input
-                      type="text"
+                      type="file"
                       name="image"
-                      onChange={(event) => {
-                        setimage(event.target.value);
-                      }}
+                      id="image"
+                        
                     ></Input>
                   </FormGroup>
                 </div>

@@ -4969,3 +4969,817 @@
   level: 'info',
   timestamp: '4/21/2022, 3:32:47 AM GMT+2'
 }
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/23/2022, 6:45:26 PM GMT+2'
+}
+{
+  message: '::1 - - [23/Apr/2022:17:30:09 +0000] "POST /user/signin HTTP/1.1" 404 42 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/23/2022, 7:30:09 PM GMT+2'
+}
+{
+  error: ReferenceError: pro is not defined
+      at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/order.js:5:22
+      at ModuleJob.run (internal/modules/esm/module_job.js:183:25)
+      at async Loader.import (internal/modules/esm/loader.js:178:24)
+      at async Object.loadESM (internal/process/esm_loader.js:68:5),
+  level: 'error',
+  message: 'uncaughtException: pro is not defined\n' +
+    'ReferenceError: pro is not defined\n' +
+    '    at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/order.js:5:22\n' +
+    '    at ModuleJob.run (internal/modules/esm/module_job.js:183:25)\n' +
+    '    at async Loader.import (internal/modules/esm/loader.js:178:24)\n' +
+    '    at async Object.loadESM (internal/process/esm_loader.js:68:5)',
+  stack: 'ReferenceError: pro is not defined\n' +
+    '    at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/order.js:5:22\n' +
+    '    at ModuleJob.run (internal/modules/esm/module_job.js:183:25)\n' +
+    '    at async Loader.import (internal/modules/esm/loader.js:178:24)\n' +
+    '    at async Object.loadESM (internal/process/esm_loader.js:68:5)',
+  exception: true,
+  date: 'Sat Apr 23 2022 23:10:49 GMT+0100 (UTC+01:00)',
+  process: {
+    pid: 5948,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 69079040,
+      heapTotal: 53432320,
+      heapUsed: 25025904,
+      external: 20561055,
+      arrayBuffers: 18517683
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2864332 },
+  trace: [
+    {
+      column: 22,
+      file: 'file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/order.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'internal/modules/esm/module_job.js',
+      function: 'ModuleJob.run',
+      line: 183,
+      method: 'run',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'internal/modules/esm/loader.js',
+      function: 'async Loader.import',
+      line: 178,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'internal/process/esm_loader.js',
+      function: 'async Object.loadESM',
+      line: 68,
+      method: 'loadESM',
+      native: false
+    }
+  ],
+  timestamp: '4/24/2022, 12:10:49 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 12:11:10 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 12:11:59 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 12:15:54 AM GMT+2'
+}
+{
+  error: ReferenceError: proc is not defined
+      at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/order.js:5:22
+      at ModuleJob.run (internal/modules/esm/module_job.js:183:25)
+      at async Loader.import (internal/modules/esm/loader.js:178:24)
+      at async Object.loadESM (internal/process/esm_loader.js:68:5),
+  level: 'error',
+  message: 'uncaughtException: proc is not defined\n' +
+    'ReferenceError: proc is not defined\n' +
+    '    at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/order.js:5:22\n' +
+    '    at ModuleJob.run (internal/modules/esm/module_job.js:183:25)\n' +
+    '    at async Loader.import (internal/modules/esm/loader.js:178:24)\n' +
+    '    at async Object.loadESM (internal/process/esm_loader.js:68:5)',
+  stack: 'ReferenceError: proc is not defined\n' +
+    '    at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/order.js:5:22\n' +
+    '    at ModuleJob.run (internal/modules/esm/module_job.js:183:25)\n' +
+    '    at async Loader.import (internal/modules/esm/loader.js:178:24)\n' +
+    '    at async Object.loadESM (internal/process/esm_loader.js:68:5)',
+  exception: true,
+  date: 'Sun Apr 24 2022 00:57:20 GMT+0100 (UTC+01:00)',
+  process: {
+    pid: 19280,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 68886528,
+      heapTotal: 53170176,
+      heapUsed: 25000912,
+      external: 20561055,
+      arrayBuffers: 18517683
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2870723 },
+  trace: [
+    {
+      column: 22,
+      file: 'file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/order.js',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'internal/modules/esm/module_job.js',
+      function: 'ModuleJob.run',
+      line: 183,
+      method: 'run',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'internal/modules/esm/loader.js',
+      function: 'async Loader.import',
+      line: 178,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'internal/process/esm_loader.js',
+      function: 'async Object.loadESM',
+      line: 68,
+      method: 'loadESM',
+      native: false
+    }
+  ],
+  timestamp: '4/24/2022, 1:57:20 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 1:57:29 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 1:57:43 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 1:59:02 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 1:59:22 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 3:08:02 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 3:20:23 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 4:44:58 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 4:46:22 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 4:46:25 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 4:46:32 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 4:46:52 AM GMT+2'
+}
+{
+  error: ReferenceError: multer is not defined
+      at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js:220:22
+      at ModuleJob.run (internal/modules/esm/module_job.js:183:25)
+      at async Loader.import (internal/modules/esm/loader.js:178:24)
+      at async Object.loadESM (internal/process/esm_loader.js:68:5),
+  level: 'error',
+  message: 'uncaughtException: multer is not defined\n' +
+    'ReferenceError: multer is not defined\n' +
+    '    at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js:220:22\n' +
+    '    at ModuleJob.run (internal/modules/esm/module_job.js:183:25)\n' +
+    '    at async Loader.import (internal/modules/esm/loader.js:178:24)\n' +
+    '    at async Object.loadESM (internal/process/esm_loader.js:68:5)',
+  stack: 'ReferenceError: multer is not defined\n' +
+    '    at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js:220:22\n' +
+    '    at ModuleJob.run (internal/modules/esm/module_job.js:183:25)\n' +
+    '    at async Loader.import (internal/modules/esm/loader.js:178:24)\n' +
+    '    at async Object.loadESM (internal/process/esm_loader.js:68:5)',
+  exception: true,
+  date: 'Sun Apr 24 2022 04:07:15 GMT+0100 (UTC+01:00)',
+  process: {
+    pid: 12448,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 68759552,
+      heapTotal: 53432320,
+      heapUsed: 20675192,
+      external: 21176436,
+      arrayBuffers: 18323413
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2882117 },
+  trace: [
+    {
+      column: 22,
+      file: 'file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js',
+      function: null,
+      line: 220,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'internal/modules/esm/module_job.js',
+      function: 'ModuleJob.run',
+      line: 183,
+      method: 'run',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'internal/modules/esm/loader.js',
+      function: 'async Loader.import',
+      line: 178,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'internal/process/esm_loader.js',
+      function: 'async Object.loadESM',
+      line: 68,
+      method: 'loadESM',
+      native: false
+    }
+  ],
+  timestamp: '4/24/2022, 5:07:15 AM GMT+2'
+}
+{
+  error: ReferenceError: Cannot access 'uploadImage' before initialization
+      at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js:219:33
+      at ModuleJob.run (internal/modules/esm/module_job.js:183:25)
+      at async Loader.import (internal/modules/esm/loader.js:178:24)
+      at async Object.loadESM (internal/process/esm_loader.js:68:5),
+  level: 'error',
+  message: "uncaughtException: Cannot access 'uploadImage' before initialization\n" +
+    "ReferenceError: Cannot access 'uploadImage' before initialization\n" +
+    '    at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js:219:33\n' +
+    '    at ModuleJob.run (internal/modules/esm/module_job.js:183:25)\n' +
+    '    at async Loader.import (internal/modules/esm/loader.js:178:24)\n' +
+    '    at async Object.loadESM (internal/process/esm_loader.js:68:5)',
+  stack: "ReferenceError: Cannot access 'uploadImage' before initialization\n" +
+    '    at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js:219:33\n' +
+    '    at ModuleJob.run (internal/modules/esm/module_job.js:183:25)\n' +
+    '    at async Loader.import (internal/modules/esm/loader.js:178:24)\n' +
+    '    at async Object.loadESM (internal/process/esm_loader.js:68:5)',
+  exception: true,
+  date: 'Sun Apr 24 2022 04:08:33 GMT+0100 (UTC+01:00)',
+  process: {
+    pid: 26232,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 68665344,
+      heapTotal: 53170176,
+      heapUsed: 20819120,
+      external: 21176436,
+      arrayBuffers: 18323413
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2882195 },
+  trace: [
+    {
+      column: 33,
+      file: 'file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js',
+      function: null,
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'internal/modules/esm/module_job.js',
+      function: 'ModuleJob.run',
+      line: 183,
+      method: 'run',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'internal/modules/esm/loader.js',
+      function: 'async Loader.import',
+      line: 178,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'internal/process/esm_loader.js',
+      function: 'async Object.loadESM',
+      line: 68,
+      method: 'loadESM',
+      native: false
+    }
+  ],
+  timestamp: '4/24/2022, 5:08:33 AM GMT+2'
+}
+{
+  error: ReferenceError: Cannot access 'uploadImage' before initialization
+      at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js:219:26
+      at ModuleJob.run (internal/modules/esm/module_job.js:183:25)
+      at async Loader.import (internal/modules/esm/loader.js:178:24)
+      at async Object.loadESM (internal/process/esm_loader.js:68:5),
+  level: 'error',
+  message: "uncaughtException: Cannot access 'uploadImage' before initialization\n" +
+    "ReferenceError: Cannot access 'uploadImage' before initialization\n" +
+    '    at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js:219:26\n' +
+    '    at ModuleJob.run (internal/modules/esm/module_job.js:183:25)\n' +
+    '    at async Loader.import (internal/modules/esm/loader.js:178:24)\n' +
+    '    at async Object.loadESM (internal/process/esm_loader.js:68:5)',
+  stack: "ReferenceError: Cannot access 'uploadImage' before initialization\n" +
+    '    at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js:219:26\n' +
+    '    at ModuleJob.run (internal/modules/esm/module_job.js:183:25)\n' +
+    '    at async Loader.import (internal/modules/esm/loader.js:178:24)\n' +
+    '    at async Object.loadESM (internal/process/esm_loader.js:68:5)',
+  exception: true,
+  date: 'Sun Apr 24 2022 04:09:01 GMT+0100 (UTC+01:00)',
+  process: {
+    pid: 16496,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 69050368,
+      heapTotal: 53170176,
+      heapUsed: 20621128,
+      external: 21176436,
+      arrayBuffers: 18323413
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2882223 },
+  trace: [
+    {
+      column: 26,
+      file: 'file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js',
+      function: null,
+      line: 219,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'internal/modules/esm/module_job.js',
+      function: 'ModuleJob.run',
+      line: 183,
+      method: 'run',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'internal/modules/esm/loader.js',
+      function: 'async Loader.import',
+      line: 178,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'internal/process/esm_loader.js',
+      function: 'async Object.loadESM',
+      line: 68,
+      method: 'loadESM',
+      native: false
+    }
+  ],
+  timestamp: '4/24/2022, 5:09:01 AM GMT+2'
+}
+{
+  error: ReferenceError: Cannot access 'uploadImage' before initialization
+      at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js:220:26
+      at ModuleJob.run (internal/modules/esm/module_job.js:183:25)
+      at async Loader.import (internal/modules/esm/loader.js:178:24)
+      at async Object.loadESM (internal/process/esm_loader.js:68:5),
+  level: 'error',
+  message: "uncaughtException: Cannot access 'uploadImage' before initialization\n" +
+    "ReferenceError: Cannot access 'uploadImage' before initialization\n" +
+    '    at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js:220:26\n' +
+    '    at ModuleJob.run (internal/modules/esm/module_job.js:183:25)\n' +
+    '    at async Loader.import (internal/modules/esm/loader.js:178:24)\n' +
+    '    at async Object.loadESM (internal/process/esm_loader.js:68:5)',
+  stack: "ReferenceError: Cannot access 'uploadImage' before initialization\n" +
+    '    at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js:220:26\n' +
+    '    at ModuleJob.run (internal/modules/esm/module_job.js:183:25)\n' +
+    '    at async Loader.import (internal/modules/esm/loader.js:178:24)\n' +
+    '    at async Object.loadESM (internal/process/esm_loader.js:68:5)',
+  exception: true,
+  date: 'Sun Apr 24 2022 04:11:47 GMT+0100 (UTC+01:00)',
+  process: {
+    pid: 17028,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 71348224,
+      heapTotal: 54747136,
+      heapUsed: 23395888,
+      external: 21094346,
+      arrayBuffers: 19050974
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2882390 },
+  trace: [
+    {
+      column: 26,
+      file: 'file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js',
+      function: null,
+      line: 220,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'internal/modules/esm/module_job.js',
+      function: 'ModuleJob.run',
+      line: 183,
+      method: 'run',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'internal/modules/esm/loader.js',
+      function: 'async Loader.import',
+      line: 178,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'internal/process/esm_loader.js',
+      function: 'async Object.loadESM',
+      line: 68,
+      method: 'loadESM',
+      native: false
+    }
+  ],
+  timestamp: '4/24/2022, 5:11:47 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 5:13:31 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 5:13:54 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 5:23:50 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 5:25:41 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 5:27:13 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 5:27:24 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 5:27:28 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 5:27:41 AM GMT+2'
+}
+{
+  error: ReferenceError: Cannot access 'uploadImage' before initialization
+      at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js:220:33
+      at ModuleJob.run (internal/modules/esm/module_job.js:183:25)
+      at async Loader.import (internal/modules/esm/loader.js:178:24)
+      at async Object.loadESM (internal/process/esm_loader.js:68:5),
+  level: 'error',
+  message: "uncaughtException: Cannot access 'uploadImage' before initialization\n" +
+    "ReferenceError: Cannot access 'uploadImage' before initialization\n" +
+    '    at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js:220:33\n' +
+    '    at ModuleJob.run (internal/modules/esm/module_job.js:183:25)\n' +
+    '    at async Loader.import (internal/modules/esm/loader.js:178:24)\n' +
+    '    at async Object.loadESM (internal/process/esm_loader.js:68:5)',
+  stack: "ReferenceError: Cannot access 'uploadImage' before initialization\n" +
+    '    at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js:220:33\n' +
+    '    at ModuleJob.run (internal/modules/esm/module_job.js:183:25)\n' +
+    '    at async Loader.import (internal/modules/esm/loader.js:178:24)\n' +
+    '    at async Object.loadESM (internal/process/esm_loader.js:68:5)',
+  exception: true,
+  date: 'Sun Apr 24 2022 04:29:05 GMT+0100 (UTC+01:00)',
+  process: {
+    pid: 2576,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 71409664,
+      heapTotal: 54484992,
+      heapUsed: 23394920,
+      external: 21088883,
+      arrayBuffers: 19045511
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2883428 },
+  trace: [
+    {
+      column: 33,
+      file: 'file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js',
+      function: null,
+      line: 220,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'internal/modules/esm/module_job.js',
+      function: 'ModuleJob.run',
+      line: 183,
+      method: 'run',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'internal/modules/esm/loader.js',
+      function: 'async Loader.import',
+      line: 178,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'internal/process/esm_loader.js',
+      function: 'async Object.loadESM',
+      line: 68,
+      method: 'loadESM',
+      native: false
+    }
+  ],
+  timestamp: '4/24/2022, 5:29:05 AM GMT+2'
+}
+{
+  error: ReferenceError: Cannot access 'uploadImage' before initialization
+      at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js:220:33
+      at ModuleJob.run (internal/modules/esm/module_job.js:183:25)
+      at async Loader.import (internal/modules/esm/loader.js:178:24)
+      at async Object.loadESM (internal/process/esm_loader.js:68:5),
+  level: 'error',
+  message: "uncaughtException: Cannot access 'uploadImage' before initialization\n" +
+    "ReferenceError: Cannot access 'uploadImage' before initialization\n" +
+    '    at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js:220:33\n' +
+    '    at ModuleJob.run (internal/modules/esm/module_job.js:183:25)\n' +
+    '    at async Loader.import (internal/modules/esm/loader.js:178:24)\n' +
+    '    at async Object.loadESM (internal/process/esm_loader.js:68:5)',
+  stack: "ReferenceError: Cannot access 'uploadImage' before initialization\n" +
+    '    at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js:220:33\n' +
+    '    at ModuleJob.run (internal/modules/esm/module_job.js:183:25)\n' +
+    '    at async Loader.import (internal/modules/esm/loader.js:178:24)\n' +
+    '    at async Object.loadESM (internal/process/esm_loader.js:68:5)',
+  exception: true,
+  date: 'Sun Apr 24 2022 04:29:08 GMT+0100 (UTC+01:00)',
+  process: {
+    pid: 18064,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 71376896,
+      heapTotal: 54484992,
+      heapUsed: 23372560,
+      external: 21056702,
+      arrayBuffers: 19013330
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2883431 },
+  trace: [
+    {
+      column: 33,
+      file: 'file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js',
+      function: null,
+      line: 220,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'internal/modules/esm/module_job.js',
+      function: 'ModuleJob.run',
+      line: 183,
+      method: 'run',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'internal/modules/esm/loader.js',
+      function: 'async Loader.import',
+      line: 178,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'internal/process/esm_loader.js',
+      function: 'async Object.loadESM',
+      line: 68,
+      method: 'loadESM',
+      native: false
+    }
+  ],
+  timestamp: '4/24/2022, 5:29:08 AM GMT+2'
+}
+{
+  error: ReferenceError: Cannot access 'uploadImage' before initialization
+      at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js:220:26
+      at ModuleJob.run (internal/modules/esm/module_job.js:183:25)
+      at async Loader.import (internal/modules/esm/loader.js:178:24)
+      at async Object.loadESM (internal/process/esm_loader.js:68:5),
+  level: 'error',
+  message: "uncaughtException: Cannot access 'uploadImage' before initialization\n" +
+    "ReferenceError: Cannot access 'uploadImage' before initialization\n" +
+    '    at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js:220:26\n' +
+    '    at ModuleJob.run (internal/modules/esm/module_job.js:183:25)\n' +
+    '    at async Loader.import (internal/modules/esm/loader.js:178:24)\n' +
+    '    at async Object.loadESM (internal/process/esm_loader.js:68:5)',
+  stack: "ReferenceError: Cannot access 'uploadImage' before initialization\n" +
+    '    at file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js:220:26\n' +
+    '    at ModuleJob.run (internal/modules/esm/module_job.js:183:25)\n' +
+    '    at async Loader.import (internal/modules/esm/loader.js:178:24)\n' +
+    '    at async Object.loadESM (internal/process/esm_loader.js:68:5)',
+  exception: true,
+  date: 'Sun Apr 24 2022 04:29:15 GMT+0100 (UTC+01:00)',
+  process: {
+    pid: 26880,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v14.18.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 71274496,
+      heapTotal: 54484992,
+      heapUsed: 23259424,
+      external: 21094346,
+      arrayBuffers: 19050974
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 2883438 },
+  trace: [
+    {
+      column: 26,
+      file: 'file:///C:/Users/Karim/Desktop/Project/PrimeTime/server/routes/products.js',
+      function: null,
+      line: 220,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'internal/modules/esm/module_job.js',
+      function: 'ModuleJob.run',
+      line: 183,
+      method: 'run',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'internal/modules/esm/loader.js',
+      function: 'async Loader.import',
+      line: 178,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'internal/process/esm_loader.js',
+      function: 'async Object.loadESM',
+      line: 68,
+      method: 'loadESM',
+      native: false
+    }
+  ],
+  timestamp: '4/24/2022, 5:29:15 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 5:29:34 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 5:29:39 AM GMT+2'
+}

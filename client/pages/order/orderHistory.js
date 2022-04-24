@@ -18,9 +18,9 @@ export default function OrderHistory() {
   useEffect(() => {
     const fetchData = async () => {
      
-     
+     console.log(userInfo._id)
          await Axios.get(
-          `http://localhost:5000/orders/mine`,
+          `http://localhost:5000/orders/mine/`+userInfo._id,
 
           ).then( res => {
             console.log(userInfo._id);
@@ -62,11 +62,11 @@ export default function OrderHistory() {
                         {orders.map((order) => (
                           <TableRow key={order._id}>
                             <TableCell>{order._id.substring(20, 24)}</TableCell>
-                            <TableCell>{order.createdAt}</TableCell>
+                            <TableCell>{order.createdAt.split('T')[0]}</TableCell>
                             <TableCell>${order.totalPrice}</TableCell>
                             <TableCell>
                               {order.isPaid
-                                ? `paid at ${order.paidAt}`
+                                ? `paid at ${order.paidAt.split('T')[0]}`
                                 : 'not paid'}
                             </TableCell>
                             <TableCell>

@@ -64,7 +64,7 @@ router.post( '/',async(req, res) => {
   
 
 
-  router.put( '/:id/pay',async(req, res) => {
+  router.put( '/:id/pay', cors(),async(req, res) => {
     const order = await Order.findById(req.params.id);
     if (order) {
       order.isPaid = true;
@@ -82,8 +82,9 @@ router.post( '/',async(req, res) => {
 
 
 
-  router.get( '/mine',async(req, res) => {
-    const orders = await Order.find();
+  router.get( '/mine/:id',async(req, res) => {
+    const orders = await Order.find({user:req.params.id});
+    console.log(req.params.id)
     if (orders) {
       res.send(orders);
     } else {

@@ -83100,14 +83100,15 @@ function OrderHistory() {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                _context.next = 2;
-                return axios__WEBPACK_IMPORTED_MODULE_4___default.a.get("http://localhost:5000/orders/mine").then(function (res) {
+                console.log(userInfo._id);
+                _context.next = 3;
+                return axios__WEBPACK_IMPORTED_MODULE_4___default.a.get("http://localhost:5000/orders/mine/" + userInfo._id).then(function (res) {
                   console.log(userInfo._id);
                   Setorders(res.data);
                   console.log(res.data);
                 });
 
-              case 2:
+              case 3:
               case "end":
                 return _context.stop();
             }
@@ -83272,7 +83273,7 @@ function OrderHistory() {
         lineNumber: 65,
         columnNumber: 29
       }
-    }, order.createdAt), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["TableCell"], {
+    }, order.createdAt.split('T')[0]), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["TableCell"], {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
@@ -83286,7 +83287,7 @@ function OrderHistory() {
         lineNumber: 67,
         columnNumber: 29
       }
-    }, order.isPaid ? "paid at ".concat(order.paidAt) : 'not paid'), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["TableCell"], {
+    }, order.isPaid ? "paid at ".concat(order.paidAt.split('T')[0]) : 'not paid'), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["TableCell"], {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
@@ -83540,7 +83541,7 @@ function StoreProvider(props) {
 
 /***/ }),
 
-/***/ 7:
+/***/ 8:
 /*!************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Forder%2ForderHistory&absolutePagePath=C%3A%5CUsers%5CKarim%5CDesktop%5CProject%5CPrimeTime%5Cclient%5Cpages%5Corder%5CorderHistory.js ***!
   \************************************************************************************************************************************************************************************/
@@ -83563,5 +83564,5 @@ module.exports = dll_b0ae7f9d5a2cb9eeeb96;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js"]]]);
+},[[8,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=orderHistory.js.map
