@@ -13,7 +13,10 @@ const ListNoSidebar = () => {
     document.body.style.setProperty("--secondary", "#464545");
     document.body.style.setProperty("--light", "#1F357D");
     document.body.style.setProperty("--dark", "#04185B");
-    document.getElementById("violon").src = "http://localhost:3001";
+    document.getElementById("violon").src =
+      "http://localhost:3001?id=" +
+      JSON.parse(localStorage.getItem("user"))._id;
+    //  document.getElementById("violon").src ="http://localhost:3001?id="+JSON.parse(localStorage.getItem("user"))._id;
   });
   return (
     <>

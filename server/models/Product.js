@@ -10,61 +10,82 @@ const reviewSchema = new mongoose.Schema(
     timestamps: true,
   }
 );
-var Product = new mongoose.Schema({
+var Product = new mongoose.Schema(
+  {
     productName: {
-        type: String,
-        required: true
-      },
-      slug: {
-        type: String,
-        required: true
-      },
-
-    
-      description: {
-        type: String,
-        required: true
-      },
-    
-      categories: {
-        type: Array,
-      },
-      price: {
-        type: Number,
-        required: true,
-        min: 0
-      },
-      size: {
-        type: String,
-         
-      },
-      stockQuantity: {
-        type: Number,
-        required: true,
-        min: 1
-      },
-      image: [String],
-      arModel: {
-        type: String
-      },
-      threeDModel: {
-        type: String
-      },
-      rating:{
-        type:Number
-      },
-      numReviews:{
-        type:Number
-      },
-      color:{
-        type:String
-      },
-      promo:{
-        type:Number
-      },
-      reviews: [reviewSchema],
+      type: String,
+      required: true,
     },
-    {timestamps :true});
+    slug: {
+      type: String,
+      required: true,
+    },
+    type: {
+      type: String,
+      required: true,
+    },
+    violonBody: {
+      type: String,
+      required: true,
+    },
+    violonStick: {
+      type: String,
+      required: true,
+    },
+    violonChincrest: {
+      type: String,
+      required: true,
+    },
 
+    description: {
+      type: String,
+      required: true,
+    },
+
+    categories: {
+      type: Array,
+    },
+    price: {
+      type: Number,
+      required: true,
+      min: 0,
+    },
+    size: {
+      type: String,
+    },
+    stockQuantity: {
+      type: Number,
+      required: true,
+      min: 1,
+    },
+    image: {
+      type: String,
+      required: true,
+    },
+
+    images: [String],
+    arModel: {
+      type: String,
+    },
+    threeDModel: {
+      type: String,
+    },
+    rating: {
+      type: Number,
+    },
+    numReviews: {
+      type: Number,
+    },
+    color: {
+      type: String,
+    },
+
+    promo: {
+      type: Number,
+    },
+    reviews: [reviewSchema],
+  },
+  { timestamps: true }
+);
 
 export default mongoose.model("Product", Product);

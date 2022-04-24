@@ -1,21 +1,16 @@
+import React, { useContext } from "react";
 
-import React, { useContext } from 'react';
+import { Store } from "../utils/Store";
 
-import { Store } from '../utils/Store';
- 
-import {Container,Row,Col, ListGroup} from 'reactstrap'
-import dynamic from 'next/dynamic';
- 
- 
-import CommonLayout from '../containers/common/common-layout';
+import { Container, Row, Col, ListGroup } from "reactstrap";
+import dynamic from "next/dynamic";
 
-import axios from 'axios';
+import CommonLayout from "../containers/common/common-layout";
 
- 
- 
- 
-import NextLink from 'next/link';
- 
+import axios from "axios";
+
+import NextLink from "next/link";
+
 import {
   Grid,
   TableContainer,
@@ -32,24 +27,36 @@ import {
   Card,
   List,
   ListItem,
-} from '@material-ui/core';
+} from "@material-ui/core";
+import { useRouter } from "next/router";
 
- function CartScreen() {
-  const {state,dispatch} = useContext(Store);
+function CartScreen() {
+  const navigate = useRouter();
+  const { state, dispatch } = useContext(Store);
   const {
+    userInfo,
     cart: { cartItems },
   } = state;
 
   const updateCartHandler = async (item, quantity) => {
-    const { data } = await axios.get(`http://localhost:5000/products/${item._id}`);
+    const { data } = await axios.get(
+      `http://localhost:5000/products/${item._id}`
+    );
     if (data.stockQuantity < quantity) {
-      window.alert('Sorry. Product is out of stock');
+      window.alert("Sorry. Product is out of stock");
       return;
     }
-    dispatch({ type: 'CART_ADD_ITEM', payload: { ...item, quantity } });
+    dispatch({ type: "CART_ADD_ITEM", payload: { ...item, quantity } });
   };
   const removeItemHandler = (item) => {
-    dispatch({ type: 'CART_REMOVE_ITEM', payload: item });
+    dispatch({ type: "CART_REMOVE_ITEM", payload: item });
+  };
+  const checkoutHandler = () => {
+    if (localStorage.getItem("user")) {
+      navigate.push("/ShippingAddress");
+    } else {
+      alert("Go to Login");
+    }
   };
 
   return (
@@ -59,7 +66,7 @@ import {
       </Typography>
       {cartItems.length === 0 ? (
         <div>
-           Cart is empty.{' '}
+          Cart is empty.{" "}
           <NextLink href="/blog/blog-masonary/masonary-left-sidebar" passHref>
             <Link>Go shopping</Link>
           </NextLink>
@@ -67,11 +74,11 @@ import {
       ) : (
         <Grid container spacing={1}>
           <Grid item md={9} xs={12}>
-          <NextLink href="/blog/blog-masonary/masonary-left-sidebar" passHref>
-          <Link>
-            <Typography> Go shopping </Typography>
-          </Link>
-        </NextLink>
+            <NextLink href="/blog/blog-masonary/masonary-left-sidebar" passHref>
+              <Link>
+                <Typography> Go shopping </Typography>
+              </Link>
+            </NextLink>
             <TableContainer>
               <Table>
                 <TableHead>
@@ -88,13 +95,7 @@ import {
                     <TableRow key={item._id}>
                       <TableCell>
                         <NextLink href={`/product/${item.slug}`} passHref>
-                          <Link>
-                          
-                            {item.image}
-                            
-                           
-                             
-                          </Link>
+                          <Link>{item.image}</Link>
                         </NextLink>
                       </TableCell>
 
@@ -106,7 +107,7 @@ import {
                         </NextLink>
                       </TableCell>
                       <TableCell align="right">
-                      <Select
+                        <Select
                           value={item.quantity}
                           onChange={(e) =>
                             updateCartHandler(item, e.target.value)
@@ -121,12 +122,12 @@ import {
                       </TableCell>
                       <TableCell align="right">${item.price}</TableCell>
                       <TableCell align="right">
-                      <Button
+                        <Button
                           variant="contained"
                           color="secondary"
                           onClick={() => removeItemHandler(item)}
                         >
-                              x
+                          x
                         </Button>
                       </TableCell>
                     </TableRow>
@@ -140,13 +141,20 @@ import {
               <List>
                 <ListItem>
                   <Typography variant="h6">
-                    Subtotal ({cartItems.reduce((a, c) => a + c.quantity, 0)}{' '}
+                    Subtotal ({cartItems.reduce((a, c) => a + c.quantity, 0)}{" "}
                     items) : $
                     {cartItems.reduce((a, c) => a + c.quantity * c.price, 0)}
                   </Typography>
                 </ListItem>
                 <ListItem>
-                  <Button variant="contained" color="primary" fullWidth>
+                  <Button
+                    variant="contained"
+                    color="primary"
+                    fullWidth
+                    type="button"
+                    onClick={checkoutHandler}
+                    disabled={cartItems.length === 0}
+                  >
                     Check Out
                   </Button>
                 </ListItem>
@@ -158,4 +166,4 @@ import {
     </CommonLayout>
   );
 }
- export default dynamic(() => Promise.resolve(CartScreen), { ssr: false });
+export default dynamic(() => Promise.resolve(CartScreen), { ssr: false });

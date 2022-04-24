@@ -17,6 +17,10 @@ const customizationSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  user: {
+    type: String,
+    ref: "User",
+  },
 });
 
 export default mongoose.model("Customization", customizationSchema);

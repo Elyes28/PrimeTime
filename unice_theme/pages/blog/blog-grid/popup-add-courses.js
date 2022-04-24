@@ -28,7 +28,7 @@ const PopupCourses = () => {
     Axios.post("http://localhost:5000/courses", {
       name: name,
       type: type,
-      user:JSON.parse(localStorage.getItem("user"))
+      user: JSON.parse(localStorage.getItem("user")),
     }).then(() => {
       console.log("success");
     });
@@ -80,10 +80,12 @@ const PopupCourses = () => {
                   </FormGroup>
                   <FormGroup className="col-md-12">
                     <Label>Type</Label>
-                    <select name="type"
+                    <select
+                      name="type"
                       onChange={(event) => {
                         setType(event.target.value);
-                      }}>
+                      }}
+                    >
                       <option value="Guitar">Guitar</option>
                       <option value="Violon">Violon</option>
                       <option value="Piano">Piano</option>

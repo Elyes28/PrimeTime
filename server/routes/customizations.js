@@ -16,12 +16,13 @@ router.get("/", async (req, res) => {
 });
 
 router.post("/", async (req, res) => {
-  console.log(req.body.violonBody);
+  console.log(req.body);
   const customizations = new Customization({
     type: req.body.type,
     violonBody: req.body.violonBody,
     violonStick: req.body.violonStick,
     violonChincrest: req.body.violonChincrest,
+    user: req.body.user,
   });
 
   try {

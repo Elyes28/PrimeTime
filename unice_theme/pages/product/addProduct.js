@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react";
-import Axios, * as others from "axios";
+import Axios from "axios";
 import {
   Button,
   Modal,
@@ -27,31 +27,36 @@ const PopupCourses = () => {
   const [size, setsize] = useState("");
   const [stockQuantity, setstockQuantity] = useState("");
   const [image, setimage] = useState("");
-  
-  
-  
+  const [type, setType] = useState("");
+  const [violonBody, setviolonBody] = useState("");
+  const [violonStick, setviolonStick] = useState("");
+  const [violonChincrest, setviolonChincrest] = useState("");
+
   const addProduct = () => {
     //{object}
 
     Axios.post("http://localhost:5000/products", {
-        productName: productName,
-    slug: slug,
-    description: description,
-    categories: categories,
-    price: price,
-    size: size,
-    stockQuantity:stockQuantity,
-    image: image
-      
-
-     
+      productName: productName,
+      slug: slug,
+      type: type,
+      violonBody: violonBody,
+      violonStick: violonStick,
+      violonChincrest: violonChincrest,
+      description: description,
+      categories: categories,
+      price: price,
+      size: size,
+      stockQuantity: stockQuantity,
+      image: image,
     }).then(() => {
       console.log("success");
     });
   };
   return (
     <Fragment>
-      <Button className="fa fa-plus" onClick={toggle}>Add your Product</Button>
+      <Button className="fa fa-plus" onClick={toggle}>
+        Add your Product
+      </Button>
 
       <Modal isOpen={modal} toggle={toggle}>
         <ModalHeader
@@ -95,6 +100,46 @@ const PopupCourses = () => {
                       name="slug"
                       onChange={(event) => {
                         setslug(event.target.value);
+                      }}
+                    ></Input>
+                  </FormGroup>
+                  <FormGroup className="col-md-12">
+                    <Label>Type</Label>
+                    <Input
+                      type="text"
+                      name="type"
+                      onChange={(event) => {
+                        setType(event.target.value);
+                      }}
+                    ></Input>
+                  </FormGroup>
+                  <FormGroup className="col-md-12">
+                    <Label>violonBody</Label>
+                    <Input
+                      type="text"
+                      name="violonBody"
+                      onChange={(event) => {
+                        setviolonBody(event.target.value);
+                      }}
+                    ></Input>
+                  </FormGroup>
+                  <FormGroup className="col-md-12">
+                    <Label>violonStick</Label>
+                    <Input
+                      type="text"
+                      name="violonStick"
+                      onChange={(event) => {
+                        setviolonStick(event.target.value);
+                      }}
+                    ></Input>
+                  </FormGroup>
+                  <FormGroup className="col-md-12">
+                    <Label>violonChincrest</Label>
+                    <Input
+                      type="text"
+                      name="violonChincrest"
+                      onChange={(event) => {
+                        setviolonChincrest(event.target.value);
                       }}
                     ></Input>
                   </FormGroup>
