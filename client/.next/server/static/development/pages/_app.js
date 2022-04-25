@@ -415,9 +415,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _public_assets_scss_slick_theme_scss__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_public_assets_scss_slick_theme_scss__WEBPACK_IMPORTED_MODULE_13__);
 /* harmony import */ var _containers_customizer__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../containers/customizer */ "./containers/customizer.js");
 /* harmony import */ var _utils_Store__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../utils/Store */ "./utils/Store.js");
+/* harmony import */ var _api_userContext__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./api/userContext */ "./pages/api/userContext.js");
 
 var _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\pages\\_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
 
 
 
@@ -491,14 +493,14 @@ function MyFunctionComponent({
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67,
+      lineNumber: 66,
       columnNumber: 7
     }
   }, __jsx("title", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68,
+      lineNumber: 67,
       columnNumber: 9
     }
   }, "Unice")), loader && __jsx("div", {
@@ -506,7 +508,7 @@ function MyFunctionComponent({
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71,
+      lineNumber: 70,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -514,10 +516,17 @@ function MyFunctionComponent({
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
+      lineNumber: 71,
       columnNumber: 11
     }
   }, __jsx("div", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72,
+      columnNumber: 13
+    }
+  }), __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -573,13 +582,6 @@ function MyFunctionComponent({
       lineNumber: 80,
       columnNumber: 13
     }
-  }), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81,
-      columnNumber: 13
-    }
   }))), __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, children), __jsx("div", {
     className: "tap-top",
     style: goingUp ? {
@@ -591,14 +593,14 @@ function MyFunctionComponent({
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85,
+      lineNumber: 84,
       columnNumber: 7
     }
   }, __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 85,
       columnNumber: 9
     }
   }, __jsx("i", {
@@ -606,7 +608,7 @@ function MyFunctionComponent({
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 85,
       columnNumber: 14
     }
   }))));
@@ -617,50 +619,118 @@ function MyApp({
   pageProps,
   graphql
 }) {
-  return __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 94,
-      columnNumber: 5
-    }
-  }, __jsx(MyFunctionComponent, {
+  const {
+    0: context,
+    1: setContext
+  } = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])();
+  return __jsx(_api_userContext__WEBPACK_IMPORTED_MODULE_16__["default"].Provider, {
+    value: [context, setContext],
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 95,
       columnNumber: 7
     }
-  }, __jsx(_utils_Store__WEBPACK_IMPORTED_MODULE_15__["StoreProvider"], {
+  }, __jsx(MyFunctionComponent, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 96,
       columnNumber: 7
     }
-  }, __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
+  }, __jsx(_utils_Store__WEBPACK_IMPORTED_MODULE_15__["StoreProvider"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 97,
+      columnNumber: 7
+    }
+  }, __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98,
       columnNumber: 9
     }
   }))), __jsx(_containers_customizer__WEBPACK_IMPORTED_MODULE_14__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99,
+      lineNumber: 100,
       columnNumber: 9
     }
   })), __jsx(react_toastify__WEBPACK_IMPORTED_MODULE_6__["ToastContainer"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101,
+      lineNumber: 102,
       columnNumber: 7
     }
   }));
 }
+
+/***/ }),
+
+/***/ "./pages/api/userContext.js":
+/*!**********************************!*\
+  !*** ./pages/api/userContext.js ***!
+  \**********************************/
+/*! exports provided: userContextProvider, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "userContextProvider", function() { return userContextProvider; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\pages\\api\\userContext.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+const user = {};
+const UserContext = Object(react__WEBPACK_IMPORTED_MODULE_0__["createContext"])({
+  user: null,
+  login: () => {}
+});
+const userContextProvider = ({
+  children
+}) => {
+  const {
+    0: user,
+    1: setUser
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(null);
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
+    {
+      console.log('provided' + localStorage.getItem('id'));
+    }
+  }, []);
+
+  const getuser = async () => {
+    axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("http://localhost:5000/user/" + id).then(res => setUser(res.data.result));
+  };
+
+  const login = () => {
+    console.log("aa");
+  };
+
+  const context = {
+    user,
+    login
+  };
+  return __jsx(UserContext.Provider, {
+    value: context,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 5
+    }
+  }, children);
+};
+/* harmony default export */ __webpack_exports__["default"] = (UserContext);
 
 /***/ }),
 
@@ -853,6 +923,17 @@ function StoreProvider(props) {
 
 module.exports = __webpack_require__(/*! private-next-pages/_app.js */"./pages/_app.js");
 
+
+/***/ }),
+
+/***/ "axios":
+/*!************************!*\
+  !*** external "axios" ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("axios");
 
 /***/ }),
 

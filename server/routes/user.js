@@ -2,7 +2,7 @@ import express from "express";
 const router = express.Router();
 import User from '../models/user.js';
 
-import { signin,deleteUser, signup,forgetPass,recoverPass, upload,uploadImage, activateAccount, updateProfile, updateChannelDescription, getCoursesByUserId, getStreamers, isLive, getUsers, updateUserById } from "../controllers/user.js";
+import { signin,deleteUser, signup,forgetPass,recoverPass, upload,uploadImage, activateAccount, updateProfile, updateChannelDescription, getCoursesByUserId, getStreamers, isLive, getUsers, updateUserById, addFollowing_list, get_followers_number } from "../controllers/user.js";
 
 router.post("/signin", signin);
 router.post("/signup", signup);
@@ -18,6 +18,9 @@ router.post('/updateChannelDescription',updateChannelDescription)
 router.get('/getCoursesByUserId/:userid',getCoursesByUserId);
 router.get('/getStreamers',getStreamers);
 router.get('/getCurrentStream/:userid',isLive);
+router.post('/addToFollowersList',addFollowing_list);
+router.get('/getfollowersnumber/:userid',get_followers_number);
+
 
 
 

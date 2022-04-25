@@ -14,8 +14,7 @@ import "../public/assets/scss/slick.scss";
 import "../public/assets/scss/slick-theme.scss";
 import Customizer from '../containers/customizer';
 import { StoreProvider } from '../utils/Store';
-
-
+import UserContext from './api/userContext';
 const { publicRuntimeConfig = {} } = getConfig() || {};
 
 NProgress.configure({ showSpinner: publicRuntimeConfig.NProgressShowSpinner });
@@ -90,8 +89,10 @@ function MyFunctionComponent({ children }) {
 }
 
 export default function MyApp({ Component, pageProps, graphql }) {
+  const [context, setContext] = useState();
+
   return (
-    <div>
+      <UserContext.Provider value={[context,setContext]}>
       <MyFunctionComponent>
       <StoreProvider>
         <Component {...pageProps} />
@@ -99,6 +100,6 @@ export default function MyApp({ Component, pageProps, graphql }) {
         <Customizer />
       </MyFunctionComponent>
       <ToastContainer />
-    </div>
+      </UserContext.Provider>
   )
 }

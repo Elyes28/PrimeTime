@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState } from "react";
+import React, { Fragment, useEffect, useState,useContext } from "react";
 import Layout from "../containers/common/common-layout";
 import { Container, Row, Col } from "reactstrap";
 import axios from "axios";
@@ -8,7 +8,7 @@ import CourseCard from "../components/CourseCard";
 import Link from "next/link";
 import  faker from '@faker-js/faker';
 import './style.css';
-
+import UserContext from "./api/userContext";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -25,14 +25,14 @@ import { Bar } from 'react-chartjs-2';
 const PortfolioDetail7 = () => {
   const [allStreams,setAllStreams] = useState([]);  
  
-
+  const currentuser = useContext(UserContext);
+  console.log(currentuser)
   const [expires, setExpires] = useState("");
   const [user, setUser] = useState({ firstName: "", lastName: "" });
   useEffect(() => {
     setUser(JSON.parse(localStorage.getItem("user")));
   }, []);
   const [recordedStreams, setRecordedStreams] = useState([]);
-
 
 
 
@@ -61,7 +61,6 @@ const PortfolioDetail7 = () => {
       )
       .then((res) => {
         setAllStreams(res.data);
-        console.log(res.data);
       })
       .catch(function (error) {
         console.log(error);
@@ -172,6 +171,9 @@ let data = {
       });
       getCourses();
       getRecordedStreams();
+      if(user['_id']!=undefined)
+      getfollowersnumber();
+
       
       
     }
@@ -187,8 +189,8 @@ let data = {
   data.labels=xData
   data.datasets[0].data=yData
 
- console.log("X :",xData);
- console.log("Y :",yData);
+ //console.log("X :",xData);
+ //console.log("Y :",yData);
   
 
   const onInputChange = (e) => {
@@ -217,7 +219,6 @@ let data = {
     setEditable(!editable);
   };
   const sendUpdateRequest = () => {
-    console.log(userData);
     axios
       .post("http://localhost:5000/user/updateProfile", userData)
       .then(() => {
@@ -237,7 +238,6 @@ let data = {
       });
   };
   const sendChannelDescription = () => {
-    console.log(channeldescription);
     axios
       .post(
         "http://localhost:5000/user/updateChannelDescription",
@@ -256,7 +256,14 @@ let data = {
 
   const getRecord= (meetid)=>{
     
-    axios.get('http://localhost:5000/stream/fetchSessions/'+meetid).then((res)=>{ window.location.href=res.data.data[0].file.fileUrl})
+    axios.get('http://localhost:5000/stream/fetchSessions/'+meetid).then((res)=>{if( res.data.data[0]) window.location.href=res.data.data[0].file.fileUrl})
+    
+  }
+  const [followers,setfollowers]=useState(0);
+  const getfollowersnumber= ()=>{
+    axios.get('http://localhost:5000/user/getfollowersnumber/'+user['_id']).then((res)=>{
+      setfollowers(res.data.followers_number)
+  }).catch((err)=>console.log(err))
     
   }
  
@@ -391,6 +398,8 @@ const [finishAnim,setFinishAnim]= useState(false);
                           style={{ display: "block" }}
                         />{" "}
                       </a>
+                      <div className="text-center">followers:{followers}</div>
+
                     </div>
                     {editable ? (
                       <>
@@ -649,7 +658,7 @@ const [finishAnim,setFinishAnim]= useState(false);
 <h2 className="mb-3">my courses</h2>
 <div className="mr-">
 {user["role"] == "musician" ? (
-         <a>      
+         <a href="/streams/launchStream">
 <span style={{"color":"red"}}> Go live </span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-video3" viewBox="0 0 16 16">
                 <path d="M14 9.5a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm-6 5.7c0 .8.8.8.8.8h6.4s.8 0 .8-.8-.8-3.2-4-3.2-4 2.4-4 3.2Z"/>

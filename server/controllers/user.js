@@ -232,6 +232,24 @@ export const updateProfile= async (req,res)=>{
   return res.status(200).json(user)
 }
 
+export const addFollowing_list = async(req,res)=>{
+  const {following,userid}=req.body
+  const user = await UserModal.findById(userid)
+  const musician = await UserModal.findById(following)
+  musician.followers++;
+  musician.save();
+  user.is_following.push(following)
+  user.save()
+  return res.status(200).json(user.is_following)
+
+}
+
+export const get_followers_number= async(req,res)=>{
+  const userid = req.params.userid
+  const user = await UserModal.findById(userid)
+  return res.status(200).json({"followers_number":user.followers})
+}
+
 export const updateChannelDescription= async (req,res)=>{
   const {userid}=req.body
   const user = await UserModal.findById(userid)
