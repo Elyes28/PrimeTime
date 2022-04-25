@@ -53,6 +53,12 @@ const streams = await stream.find({streamerName:name,isrecorded:true});
 return res.status(200).json(streams);
 
 }
+export const getAllStreamsByName = async (req, res) => { 
+  const name = req.params.name;
+  const streams = await stream.find({streamerName:name});
+  return res.status(200).json(streams);
+  
+  }
 
 
 export const getStreamById = async (req, res) => { 
@@ -111,7 +117,7 @@ export const fetch_sessions = async(req,res)=>{
   const options = {
 	method: "GET",
 	headers: {
-		"Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYjllMjE1Zi04NTFmLTQyZjQtOTljOS05MWJmMjE0ZDUwMTciLCJwZXJtaXNzaW9ucyI6WyJhbGxvd19qb2luIl0sImlhdCI6MTY1MDIwMTc5OSwiZXhwIjoxNjUwODA2NTk5fQ.6ZNK-yP6xJz9FZG9qG8pNyggYgfhottCAhiU48B86y4",
+		"Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiI2OTZjNDQ2Zi1jYTk5LTRiMzItOTljYS1hYzFmNWI4NjUxYTgiLCJwZXJtaXNzaW9ucyI6WyJhbGxvd19qb2luIl0sImlhdCI6MTY1MDgyMDI4MCwiZXhwIjoxNjUxNDI1MDgwfQ.-M8K-XpUMJJO4DdzipGIsrI0K5Vrl9c8Fb3RRJhckxc",
 		"Content-Type": "application/json",
 	},
 };
@@ -121,3 +127,4 @@ const data = await response.json();
 console.log(data);
 res.status(200).json(data)
 }
+

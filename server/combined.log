@@ -17606,3 +17606,2216 @@
   level: 'info',
   timestamp: '4/24/2022, 4:29:59 PM GMT+2'
 }
+{
+  message: '::1 - - [24/Apr/2022:15:43:11 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:43:11 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:43:11 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:43:11 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:50:55 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:50:55 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:50:55 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:50:55 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:51:30 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:51:30 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:51:31 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:51:31 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:51:33 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:51:33 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:51:34 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:51:34 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:52:47 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:52:47 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:52:47 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:52:47 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:53:01 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:53:01 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:53:02 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:53:02 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:53:27 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:53:27 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:53:27 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:53:27 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:53:38 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:53:38 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:53:39 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:53:39 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:53:51 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:53:51 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:53:51 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:53:51 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:54:02 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:54:02 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:54:03 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:54:03 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:54:20 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:54:20 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:54:21 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:54:21 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:54:23 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:54:23 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:54:24 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:54:24 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:55:21 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:55:21 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:55:21 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:55:21 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:55:53 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:55:53 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:56:06 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:56:06 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:56:07 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:56:07 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:56:39 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:56:39 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:56:39 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:56:39 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:56:46 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:56:46 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:56:46 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:56:46 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:57:26 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:57:26 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:57:27 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:57:27 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:57:56 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:57:56 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:57:56 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:57:56 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:58:24 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:58:24 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:58:25 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:58:25 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:58:39 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:58:39 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:58:39 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:58:39 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:58:42 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:58:42 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:58:43 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:58:43 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:58:46 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:58:46 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:58:46 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:58:46 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:59:49 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:59:49 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:15:59:49 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 5:59:49 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:01:22 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:01:22 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:01:22 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:01:22 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:01:46 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:01:46 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:01:47 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:01:47 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:02:01 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:02:01 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:02:03 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:02:03 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:02:27 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:02:27 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:02:27 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:02:27 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:03:01 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:03:01 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:03:01 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:03:01 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:03:30 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:03:30 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:03:31 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:03:31 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:04:53 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:04:53 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:04:53 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:04:53 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:05:06 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:05:06 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:05:07 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:05:07 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:05:35 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:05:35 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:05:36 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:05:36 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:08:35 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:08:35 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:08:35 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:08:35 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:09:19 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:09:19 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:09:19 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:09:19 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:09:20 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:09:20 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:09:21 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:09:21 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:10:00 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:10:00 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:10:01 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:10:01 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:12:15 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:12:15 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:12:15 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:12:15 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:13:53 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:13:53 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:13:53 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:13:53 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:13:54 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:13:54 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:13:54 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:13:54 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:14:03 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:14:03 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:14:03 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:14:03 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:14:28 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:14:28 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:14:29 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:14:29 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:15:04 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:15:04 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:15:05 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:15:05 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:15:20 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:15:20 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:15:20 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:15:20 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:15:39 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:15:39 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:15:40 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:15:40 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:17:04 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:17:04 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:17:04 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:17:04 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:17:24 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:17:24 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:17:24 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:17:24 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:17:26 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:17:26 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:17:26 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:17:26 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:17:57 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:17:57 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:17:57 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:17:57 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:17:59 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:17:59 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:17:59 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:17:59 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:18:05 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:18:05 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:18:06 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:18:06 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:18:21 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:18:21 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:18:22 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:18:22 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:19:39 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:19:39 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:19:40 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:19:40 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:19:50 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:19:50 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:19:51 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:19:51 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:20:27 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:20:27 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:20:28 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:20:28 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:20:50 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:20:50 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:20:51 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:20:51 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:21:09 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:21:09 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:21:10 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:21:10 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:21:26 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:21:26 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:21:27 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:21:27 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:21:29 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:21:29 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:21:30 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:21:30 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:22:38 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:22:38 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:22:39 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:22:39 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:23:18 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:23:18 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:23:19 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:23:19 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:23:20 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:23:20 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:23:21 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:23:21 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:23:41 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:23:41 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:23:41 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:23:41 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:24:21 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:24:21 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:24:22 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:24:22 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:24:35 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:24:35 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:24:36 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:24:36 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:24:37 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:24:37 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:24:37 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:24:37 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:25:00 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:25:00 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:25:01 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:25:01 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:25:01 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:25:01 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:25:02 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:25:02 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:25:51 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:25:51 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:25:52 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:25:52 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:30:04 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:30:04 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:30:05 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:30:05 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:30:17 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:30:17 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:30:18 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:30:18 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:30:37 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:30:37 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:30:38 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:30:38 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:31:23 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:31:23 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:31:24 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:31:24 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:31:40 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:31:40 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:31:40 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:31:40 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:32:17 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:32:17 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:32:18 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:32:18 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:32:19 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:32:19 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:32:19 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:32:19 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:32:32 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:32:32 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:32:32 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:32:32 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:33:52 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:33:52 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:33:53 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:33:53 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:34:20 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:34:20 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:34:21 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:34:21 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:34:41 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:34:41 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:34:42 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:34:42 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:34:58 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:34:58 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:34:59 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:34:59 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:36:24 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:36:24 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:36:24 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:36:24 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:36:53 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:36:53 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:36:54 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:36:54 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:37:03 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:37:03 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:37:03 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:37:03 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:37:23 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:37:23 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:37:24 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:37:24 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:37:25 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:37:25 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:37:26 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:37:26 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:37:48 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:37:48 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:37:49 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:37:49 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:37:56 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:37:56 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:37:57 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:37:57 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:38:14 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:38:14 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:38:14 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:38:14 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:38:15 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:38:15 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:38:15 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:38:15 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:38:26 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:38:26 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:38:26 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:38:26 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:38:27 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:38:27 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:38:28 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:38:28 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:38:38 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:38:38 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:38:39 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:38:39 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:39:00 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:39:00 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:39:00 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:39:00 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:39:41 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:39:41 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:39:41 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:39:41 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:39:48 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:39:48 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:39:49 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:39:49 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:40:33 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:40:33 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:40:34 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:40:34 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:40:45 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:40:45 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:40:46 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:40:46 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:40:47 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:40:47 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:40:48 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:40:48 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:41:13 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:41:13 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:41:13 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:41:13 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:42:14 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:42:14 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:42:14 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:42:14 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:42:17 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:42:17 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:42:18 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:42:18 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:42:35 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:42:35 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:42:36 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:42:36 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:42:51 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:42:51 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:42:52 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:42:52 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:43:05 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:43:05 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:43:05 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:43:05 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:56:18 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:56:18 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:56:19 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:56:19 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:57:16 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:57:16 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:57:16 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:57:16 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:57:17 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:57:17 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:57:17 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:57:17 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:58:40 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:58:40 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:58:41 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:58:41 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:58:42 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:58:42 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:58:43 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:58:43 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:59:00 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:59:00 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:59:01 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:59:01 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:59:25 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:59:25 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:59:25 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:59:25 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:59:26 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:59:26 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:59:27 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:59:27 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:59:41 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:59:41 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:59:42 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:59:42 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:59:43 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:59:43 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:16:59:43 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 6:59:43 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:01:16 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:01:16 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:01:17 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:01:17 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:01:17 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:01:17 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:01:18 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:01:18 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:01:33 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:01:33 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:01:34 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:01:34 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:02:37 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:02:37 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:02:37 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:02:37 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:05:48 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:05:48 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:05:49 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:05:49 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:07:01 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:07:01 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:07:01 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:07:01 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:07:02 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:07:02 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:07:03 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:07:03 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:07:32 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:07:32 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:07:33 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:07:33 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:07:35 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:07:35 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:07:36 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:07:36 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:08:30 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:08:30 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:08:31 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:08:31 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 7:10:14 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 7:10:19 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:10:20 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:10:20 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:10:21 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:10:21 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:10:44 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:10:44 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:10:45 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:10:45 PM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/24/2022, 7:11:41 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:11:45 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:11:45 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:11:46 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:11:46 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:11:59 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:11:59 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:12:00 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:12:00 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:12:01 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:12:01 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:12:02 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:12:02 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:18:11 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:18:11 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:18:13 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:18:13 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:18:14 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:18:14 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:18:34 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:18:34 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:18:34 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:18:34 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:18:35 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:18:35 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:18:35 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:18:35 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:18:44 +0000] "GET /stream/getStreamBymeetId/a914-x149-cjda HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:18:44 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:19:16 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:19:16 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:19:45 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:19:45 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:19:46 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:19:46 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:21:56 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:21:56 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:21:56 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:21:56 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:22:20 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:22:20 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:22:20 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:22:20 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:22:54 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:22:54 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:22:55 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:22:55 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:23:06 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:23:06 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:23:07 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:23:07 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:23:44 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:23:44 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:23:45 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:23:45 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:24:14 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:24:14 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:24:15 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:24:15 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:24:17 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:24:17 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:24:18 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:24:18 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:24:27 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:24:27 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:24:28 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:24:28 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:24:30 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:24:30 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:24:30 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:24:30 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:24:48 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:24:48 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:24:49 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:24:49 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:25:20 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:25:20 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:25:21 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:25:21 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:25:43 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:25:43 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:25:44 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:25:44 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:25:54 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:25:54 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:25:55 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:25:55 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:26:35 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:26:35 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:26:36 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:26:36 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:27:51 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:27:51 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:27:52 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:27:52 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:28:01 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:28:01 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:28:02 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:28:02 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:28:16 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:28:16 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:28:17 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:28:17 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:28:22 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:28:22 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:28:23 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:28:23 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:28:35 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:28:35 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:28:36 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:28:36 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:28:37 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:28:37 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:28:38 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:28:38 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:28:58 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:28:58 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:28:59 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:28:59 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:29:19 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:29:19 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:29:19 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:29:19 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:30:02 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:30:02 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:30:03 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:30:03 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:30:10 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:30:10 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:30:11 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:30:11 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:31:20 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:31:20 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:31:21 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:31:21 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:31:25 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:31:25 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:31:26 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:31:26 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:31:32 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:31:32 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:31:32 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:31:32 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:31:48 +0000] "GET /stream/getStreamBymeetId/fjv6-m1x1-laz2 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:31:48 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:32:43 +0000] "GET /stream/getStreamBymeetId/450h-fvr1-j2si HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:32:43 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:33:36 +0000] "GET /stream/getStreamBymeetId/450h-fvr1-j2si HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:33:36 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:33:37 +0000] "GET /stream/getStreamBymeetId/450h-fvr1-j2si HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:33:37 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:34:15 +0000] "GET /stream/getStreamBymeetId/450h-fvr1-j2si HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:34:15 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:34:15 +0000] "GET /stream/getStreamBymeetId/450h-fvr1-j2si HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:34:15 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:34:38 +0000] "GET /stream/getStreamBymeetId/450h-fvr1-j2si HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:34:38 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:34:39 +0000] "GET /stream/getStreamBymeetId/450h-fvr1-j2si HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:34:39 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:35:49 +0000] "GET /stream/getStreamBymeetId/450h-fvr1-j2si HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:35:49 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:35:49 +0000] "GET /stream/getStreamBymeetId/450h-fvr1-j2si HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:35:49 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:36:16 +0000] "GET /stream/getStreamBymeetId/450h-fvr1-j2si HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:36:16 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:36:17 +0000] "GET /stream/getStreamBymeetId/450h-fvr1-j2si HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:36:17 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:36:49 +0000] "GET /stream/getStreamBymeetId/450h-fvr1-j2si HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:36:49 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:36:50 +0000] "GET /stream/getStreamBymeetId/450h-fvr1-j2si HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:36:50 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:37:10 +0000] "GET /stream/getStreamBymeetId/450h-fvr1-j2si HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:37:10 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:37:11 +0000] "GET /stream/getStreamBymeetId/450h-fvr1-j2si HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:37:11 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:38:10 +0000] "GET /stream/getStreamBymeetId/450h-fvr1-j2si HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:38:10 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:38:10 +0000] "GET /stream/getStreamBymeetId/450h-fvr1-j2si HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:38:10 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:42:22 +0000] "GET /stream/getStreamBymeetId/450h-fvr1-j2si HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:42:22 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:42:22 +0000] "GET /stream/getStreamBymeetId/450h-fvr1-j2si HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:42:22 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:42:23 +0000] "GET /stream/getStreamBymeetId/450h-fvr1-j2si HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:42:23 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:42:23 +0000] "GET /stream/getStreamBymeetId/450h-fvr1-j2si HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:42:23 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:42:44 +0000] "GET /stream/getStreamBymeetId/450h-fvr1-j2si HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:42:44 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:43:11 +0000] "GET /stream/getStreamBymeetId/dj0x-d9mk-xib5 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:43:11 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:44:05 +0000] "GET /stream/getStreamBymeetId/dj0x-d9mk-xib5 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:44:05 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:44:31 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:44:31 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:45:43 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:45:43 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:45:44 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:45:44 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:46:18 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:46:18 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:46:19 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:46:19 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:47:07 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:47:07 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:47:07 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:47:07 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:47:09 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:47:09 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:47:10 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:47:10 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:47:11 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:47:11 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:47:11 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:47:11 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:47:24 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:47:24 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:47:25 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:47:25 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:47:40 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:47:40 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:47:41 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:47:41 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:47:42 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:47:42 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:47:43 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:47:43 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:47:57 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:47:57 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:47:58 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:47:58 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:47:59 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:47:59 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:48:00 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:48:00 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:48:11 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:48:11 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:48:12 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:48:12 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:48:34 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:48:34 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:48:35 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:48:35 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:48:36 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:48:36 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:48:36 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:48:36 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:48:46 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:48:46 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:48:46 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:48:46 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:48:48 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:48:48 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:48:48 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:48:48 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:50:41 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:50:41 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:50:41 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:50:41 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:50:59 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:50:59 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:50:59 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:50:59 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:51:14 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:51:14 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:17:51:15 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 7:51:15 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:18:51:12 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 8:51:12 PM GMT+2'
+}
+{
+  message: '::1 - - [24/Apr/2022:18:51:12 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/24/2022, 8:51:12 PM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:00:40:45 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 2:40:45 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:00:40:45 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 2:40:45 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:00:44:07 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 2:44:07 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:00:44:07 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 2:44:07 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:01:05:07 +0000] "GET /stream/getAllStreamsByName/musician%20name%20musician%20last%20name HTTP/1.1" 404 206 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 3:05:07 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:01:05:08 +0000] "GET /stream/getAllStreamsByName/musician%20name%20musician%20last%20name HTTP/1.1" 404 206 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 3:05:08 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:01:06:30 +0000] "GET /stream/getAllStreamsByName/musician%20name%20musician%20last%20name HTTP/1.1" 404 206 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 3:06:30 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:01:06:30 +0000] "GET /stream/getAllStreamsByName/musician%20name%20musician%20last%20name HTTP/1.1" 404 206 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 3:06:30 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:01:07:31 +0000] "GET /stream/getAllStreamsByName/musician%20name%20musician%20last%20name HTTP/1.1" 404 206 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 3:07:31 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:01:07:31 +0000] "GET /stream/getAllStreamsByName/musician%20name%20musician%20last%20name HTTP/1.1" 404 206 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 3:07:31 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:01:08:36 +0000] "GET /stream/getAllStreamsByName/musician%20name%20musician%20last%20name HTTP/1.1" 404 206 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 3:08:36 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:01:08:36 +0000] "GET /stream/getAllStreamsByName/musician%20name%20musician%20last%20name HTTP/1.1" 404 206 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 3:08:36 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:01:08:36 +0000] "GET /stream/getAllStreamsByName/musician%20name%20musician%20last%20name HTTP/1.1" 404 206 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 3:08:36 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:01:08:36 +0000] "GET /stream/getAllStreamsByName/musician%20name%20musician%20last%20name HTTP/1.1" 404 206 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 3:08:36 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:01:09:08 +0000] "GET /stream/getAllStreamsByName/musician%20name%20musician%20last%20name HTTP/1.1" 404 206 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 3:09:08 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:01:09:08 +0000] "GET /stream/getAllStreamsByName/musician%20name%20musician%20last%20name HTTP/1.1" 404 206 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 3:09:08 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:01:09:09 +0000] "GET /stream/getAllStreamsByName/musician%20name%20musician%20last%20name HTTP/1.1" 404 206 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 3:09:09 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:01:09:09 +0000] "GET /stream/getAllStreamsByName/musician%20name%20musician%20last%20name HTTP/1.1" 404 206 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 3:09:09 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:01:09:58 +0000] "GET /stream/getAllStreamsByName/musician%20name%20musician%20last%20name HTTP/1.1" 404 206 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 3:09:58 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:01:09:58 +0000] "GET /stream/getAllStreamsByName/musician%20name%20musician%20last%20name HTTP/1.1" 404 206 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 3:09:58 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:01:11:37 +0000] "GET /stream/getAllStreamsByName/musician%20name%20musician%20last%20name HTTP/1.1" 404 206 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 3:11:37 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:01:11:38 +0000] "GET /stream/getAllStreamsByName/musician%20name%20musician%20last%20name HTTP/1.1" 404 206 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 3:11:38 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:02:46:35 +0000] "GET /stream/getAllStreamsByName/musician%20name%20musician%20last%20name HTTP/1.1" 404 206 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 4:46:35 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:02:46:35 +0000] "GET /stream/getAllStreamsByName/musician%20name%20musician%20last%20name HTTP/1.1" 404 206 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 4:46:35 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/25/2022, 4:49:11 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/25/2022, 4:49:42 AM GMT+2'
+}
+{
+  error: ReferenceError: getAllStreamsByName is not defined
+      at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:17:41
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: getAllStreamsByName is not defined\n' +
+    'ReferenceError: getAllStreamsByName is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:17:41\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: getAllStreamsByName is not defined\n' +
+    '    at file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js:17:41\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Mon Apr 25 2022 03:50:42 GMT+0100 (heure normale d’Afrique de l’Ouest)',
+  process: {
+    pid: 13404,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\Wissem\\Desktop\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 73125888,
+      heapTotal: 40116224,
+      heapUsed: 26211464,
+      external: 25767466,
+      arrayBuffers: 18628160
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 214885 },
+  trace: [
+    {
+      column: 41,
+      file: 'file:///C:/Users/Wissem/Desktop/PrimeTime/server/routes/stream.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/25/2022, 4:50:42 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/25/2022, 4:51:09 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/25/2022, 4:55:45 AM GMT+2'
+}
+{
+  message: 'Server Running on Port: http://localhost:5000',
+  level: 'info',
+  timestamp: '4/25/2022, 4:56:02 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:03:05:57 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 5:05:57 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:03:06:07 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 5:06:07 AM GMT+2'
+}
+{
+  message: '::1 - - [25/Apr/2022:03:06:07 +0000] "GET /stream/getStreamBymeetId/sdja-5387-d0j0 HTTP/1.1" 404 178 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"\n',
+  level: 'info',
+  timestamp: '4/25/2022, 5:06:07 AM GMT+2'
+}
