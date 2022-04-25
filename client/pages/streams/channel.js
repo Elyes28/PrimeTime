@@ -25,11 +25,11 @@ var settings1 = {
 var settings = {
     dots: false,
     infinite: true,
-    speed: 500,
-    arrows: false,
-    autoplay: false,
-    slidesToShow: 6,
-    slidesToScroll: 3,
+    speed: 1500,
+    arrows: true,
+    autoplay: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
     responsive: [
         {
             breakpoint: 1200,
@@ -55,7 +55,11 @@ const PortfolioDetail2 = () => {
 
   },[]);
 
-  
+  const getRecord= (meetid)=>{
+    
+    axios.get('http://localhost:5000/stream/fetchSessions/'+meetid).then((res)=>{ window.location.href=res.data.data[0].file.fileUrl})
+    
+  }
   const [streamer,setStreamer]=useState();
     const getStream = async(para) =>
    
@@ -94,10 +98,14 @@ const PortfolioDetail2 = () => {
               .catch(function (error) {
                 console.log(error);
               });}
+
+
               useEffect(() => {
                 if (streamer)
                 getRecordedStreams();
               },[streamer]);
+              console.log(recordedStreams)
+
             useEffect(() => {
                 
                 const queryParams = new URLSearchParams(window.location.search);
@@ -127,7 +135,7 @@ const [photoIndex, setPhotoIndex] = useState(initilindex)
             <div className="container-fluid blog-sec detail2 p-0">
         <Slider className="owl-carousel owl-theme portfolio-header" {...settings1}>
             {stream?(
-            <div className="item ">
+            <div className="item " >
             <iframe id='showskill' height="900" width="100%" style={{"border":"white"}} title="Iframe Example"  src={iframeurl}></iframe>
                   </div>):<div>is not live</div>}
             <div className="item">
@@ -138,21 +146,22 @@ const [photoIndex, setPhotoIndex] = useState(initilindex)
 
                 <div className="container-fluid p-t-30 px-0">
                     <div className="row">
+                       <h3 className='ml-3'> Records</h3>
+                     {((recordedStreams.length<3)&&(recordedStreams.length!=0))?settings.slidesToShow=recordedStreams.length:console.log("a")}  
                         <Slider className="portfolio-slider col-sm-12" {...settings}>
+                            
                             {recordedStreams.map((data, i) => {
                                 let imgsrc="images/users/" + stream["_id"] + ".jpg";
-
                                 return (
-                                    <div className="item" key={i}>
+                                    <div className="item" key={i} onClick={()=>getRecord(data.meetingId)}>
                                         <div className="isotopeSelector">
                                             <div className="overlay">
                                                 <div className="border-portfolio">
-                                                    <a className="zoom_gallery" data-source={images[photoIndex.index]}
-                                                        href={null} title="Into The Blue"  >
-                                                        <img alt="" className="img-fluid blur-up lazyload" onClick={() =>
-                                                            setPhotoIndex({ ...photoIndex, index: i, isOpen: true })
-                                                        }
-                                                            src={imgsrc} />
+                                                    <a className="zoom_gallery" 
+                                                        href={null} title="Click to download record"  >
+                                                        <img alt="" className=" blur-up lazyload" style={{"height":"350px"}} 
+                                                            src={"../"+data.streamImg} />
+                                                            <p style={{"color":"white"}}>{data.streamTitle}</p>
 
                                                     </a>
                                                 </div>
@@ -164,17 +173,7 @@ const [photoIndex, setPhotoIndex] = useState(initilindex)
                         </Slider>
                     </div>
                 </div>
-                {photoIndex.isOpen && (
-                    <Lightbox
-                        mainSrc={images[photoIndex.index]}
-                        nextSrc={images[(photoIndex.index + 1) % images.length]}
-                        prevSrc={images[(photoIndex.index + images.length - 1) % images.length]}
-                        imageTitle={photoIndex.index + 1 + "/" + images.length}
-                        onCloseRequest={() => setPhotoIndex({ ...photoIndex, isOpen: false })}
-                        onMovePrevRequest={onMovePrev}
-                        onMoveNextRequest={onMoveNext}
-                    />
-                )}
+                
 
                 <div className="container m-t-50">
                     <div className="row">
@@ -210,16 +209,16 @@ const [photoIndex, setPhotoIndex] = useState(initilindex)
                         <div className="col-md-6">
                             <div className="portfolio-detail">
                                 <h3 className="detail-head">about channel</h3>
-                                <p>{streamer? (streamer.channel_description):"chay"}</p>
-                                <div className="text-right m-t-10"><a className="btn btn-default primary-btn radius-0" href="#">visit
-                    project</a>
+                                <p>{streamer? (streamer.channel_description):""}</p>
+                                <div className="text-right ">
+                                    <a className="btn btn-default primary-btn radius-0" href="#">follow</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 {/* <!-- pagination Start --> */}
-                <div className="pagination_sec">
+                {/* <div className="pagination_sec">
                     <div className="content_detail__pagination cdp">
                         <ul>
                             <li><a className="prev" href="#"><i aria-hidden="true" className="fa fa-angle-double-left"></i></a></li>
@@ -229,7 +228,7 @@ const [photoIndex, setPhotoIndex] = useState(initilindex)
                             <li><a className="next" href="#"><i aria-hidden="true" className="fa fa-angle-double-right"></i></a></li>
                         </ul>
                     </div>
-                </div>
+                </div> */}
                 {/* <!-- pagination End --> */}
             </section>
         </Fragment>

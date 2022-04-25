@@ -1,9 +1,8 @@
-import React, { Fragment, useEffect, useState } from 'react';
+import React, { Fragment, useEffect, useState,useContext } from 'react';
 import { Button, Modal, ModalHeader, ModalBody, TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap';
 import {Container,Row,Col,Form,FormGroup,Label,Input} from 'reactstrap'
 import axios from 'axios';
-
-
+import UserContext from '../../api/userContext';
 
       
 
@@ -31,7 +30,8 @@ const Popup = () => {
       return Promise.reject(error)
     }
   )
-
+  const [context, setContext] = useContext(UserContext);
+    
     
     const [user, setUser] = useState({ email: '', password: '', token:''});
     const [newUser, setNewUser] = useState({ email: '', password: '',ConfirmPass:'', firstname:'', lastName:''});
@@ -79,12 +79,14 @@ if(newUser.password == newUser.ConfirmPass)
                                 facebook:res.data.result.facebook,
                                 spotify:res.data.result.spotify,
                                 channelDescription:res.data.result.channel_description
+                                
 
                             }
+                            
                         setButtonValue("log out");     
                         toggle();   
                                // current_user.bro=res.data.result.token;
-                             
+                              // setContext(current_user);
                                 localStorage.setItem('user',JSON.stringify(current_user))
             SetSigninerr({...signinerr,status:error.response.data.message,message:error.response.data.message})
         })

@@ -39,8 +39,9 @@ export function MeetingDetailsScreen({ onClickJoin, onClickCreateMeeting }) {
   };
   const onInputChange = (e) => {
     const formData = new FormData();
+    const stname=queryParams.get("streamerName").replace(/ /g,"_")
     const imgname =
-      queryParams.get("streamerName") +
+      stname +
       "_" +
       localStorage.getItem("streamtitle");
 
@@ -51,9 +52,9 @@ export function MeetingDetailsScreen({ onClickJoin, onClickCreateMeeting }) {
         "content-type": "multipart/form-data",
       },
     };
-    axios
-      .post("http://localhost:5000/user/uploadProfileImg", formData, config)
-      .then();
+    // axios
+    //   .post("http://localhost:5000/user/uploadProfileImg", formData, config)
+    //   .then();
     
 
       axios

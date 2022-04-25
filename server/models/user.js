@@ -14,6 +14,8 @@ const userSchema = mongoose.Schema({
   role: {type:String,required:true,default:"user"},
   active_until:{type:Date},
   channel_description: {type:String,default:""},
+  is_following:[{type:String}],
+  followers:{type:Number,default:0},
 
   courses_teaching: [
     {

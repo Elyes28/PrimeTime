@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState } from "react";
+import React, { Fragment, useEffect, useState,useContext } from "react";
 import Layout from "../containers/common/common-layout";
 import { Container, Row, Col } from "reactstrap";
 import axios from "axios";
@@ -6,14 +6,36 @@ import "../public/assets/person.css";
 import StreamCard from "../components/StreamCard";
 import CourseCard from "../components/CourseCard";
 import Link from "next/link";
+import  faker from '@faker-js/faker';
+import './style.css';
+import UserContext from "./api/userContext";
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend,
+} from 'chart.js';
+import { Bar } from 'react-chartjs-2';
+
+
 
 const PortfolioDetail7 = () => {
+  const [allStreams,setAllStreams] = useState([]);  
+ 
+  const currentuser = useContext(UserContext);
+  console.log(currentuser)
   const [expires, setExpires] = useState("");
   const [user, setUser] = useState({ firstName: "", lastName: "" });
   useEffect(() => {
     setUser(JSON.parse(localStorage.getItem("user")));
   }, []);
   const [recordedStreams, setRecordedStreams] = useState([]);
+
+
+
   const getRecordedStreams = async () =>
     axios
       .get(
@@ -28,7 +50,73 @@ const PortfolioDetail7 = () => {
       .catch(function (error) {
         console.log(error);
       });
+
+      const getAllStreamsByName = async () =>
+    axios
+      .get(
+        "http://localhost:5000/stream/getAllStreamsByName/" +
+          JSON.parse(localStorage.getItem("user"))["firstName"] +
+          " " +
+          JSON.parse(localStorage.getItem("user"))["lastName"]
+      )
+      .then((res) => {
+        setAllStreams(res.data);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+
+      //---------STATS--->
+
+
+
+
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend
+);
+
+ const options = {
+  responsive: true,
+  plugins: {
+    legend: {
+      position: 'top' 
+    },
+    title: {
+      display: true,
+      text: 'Weekly viewer count',
+    },
+  },
+};
+
+let labels = [];
+let data = {
+  labels,
+  datasets: [
+    {
+      label: 'Views per day',
+      data: [],
+      backgroundColor: 'rgba(255, 99, 132, 0.5)',
+    },
+    /*{
+      label: 'Dataset 2',
+      data: labels.map(() => faker.datatype.number({ min: 0, max: 1000 })),
+      backgroundColor: 'rgba(53, 162, 235, 0.5)',
+    },*/
+  ],
+};
+
+
+
+
+//---------STATS--->>>>>>>
+
   const [courses, setCourses] = useState([]);
+
   const getCourses = async () =>
     axios
       .get(
@@ -41,6 +129,8 @@ const PortfolioDetail7 = () => {
       .catch(function (error) {
         console.log(error);
       });
+
+
 
   const [channeldescription, setChannelDescription] = useState({
     userid: "",
@@ -81,8 +171,27 @@ const PortfolioDetail7 = () => {
       });
       getCourses();
       getRecordedStreams();
+      if(user['_id']!=undefined)
+      getfollowersnumber();
+
+      
+      
     }
+    getAllStreamsByName();
+    
   }, [user]);
+
+  let xData=allStreams.map((e)=>{
+   let date=new Date(e.created_at)
+   return date.toLocaleDateString("fr-FR")
+  })
+  let yData=allStreams.map((e)=>e.totalViewerCount)
+  data.labels=xData
+  data.datasets[0].data=yData
+
+ //console.log("X :",xData);
+ //console.log("Y :",yData);
+  
 
   const onInputChange = (e) => {
     const formData = new FormData();
@@ -110,7 +219,6 @@ const PortfolioDetail7 = () => {
     setEditable(!editable);
   };
   const sendUpdateRequest = () => {
-    console.log(userData);
     axios
       .post("http://localhost:5000/user/updateProfile", userData)
       .then(() => {
@@ -130,7 +238,6 @@ const PortfolioDetail7 = () => {
       });
   };
   const sendChannelDescription = () => {
-    console.log(channeldescription);
     axios
       .post(
         "http://localhost:5000/user/updateChannelDescription",
@@ -149,17 +256,99 @@ const PortfolioDetail7 = () => {
 
   const getRecord= (meetid)=>{
     
-    axios.get('http://localhost:5000/stream/fetchSessions/'+meetid).then((res)=>{ window.location.href=res.data.data[0].file.fileUrl})
+    axios.get('http://localhost:5000/stream/fetchSessions/'+meetid).then((res)=>{if( res.data.data[0]) window.location.href=res.data.data[0].file.fileUrl})
     
   }
+  const [followers,setfollowers]=useState(0);
+  const getfollowersnumber= ()=>{
+    axios.get('http://localhost:5000/user/getfollowersnumber/'+user['_id']).then((res)=>{
+      setfollowers(res.data.followers_number)
+  }).catch((err)=>console.log(err))
+    
+  }
+ 
+
+
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend
+);
+
+
+//const [fullAnim,,setFullAnim]= useState();
+const [finishAnim,setFinishAnim]= useState(false);
+
+    
+  if (typeof window !== 'undefined') {
+    var textWrapper = document.querySelector('.ml11 .letters');
+    
+    textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
+    
+    if(finishAnim==false){
+    var animation = anime.timeline({
+     loop:true,
+     autoplay:true
+    })
+    .add({
+      targets: '.ml11 .line',
+      translateX: [0, document.querySelector('.ml11 .letters').getBoundingClientRect().width + 10],
+      easing: "easeOutExpo",
+      duration: 1100,
+      delay: 100
+    }).add({
+      targets: '.ml11 .letter',
+      opacity: [0,1],
+      easing: "easeOutExpo",
+      duration: 1000,
+      offset: '-=775',
+      delay: (el, i) => 34 * (i+1)
+    }).add({
+      targets: '.ml11',
+      opacity: 0,
+      duration: 1400,
+      easing: "easeOutExpo",
+      delay: 1000
+      
+    });
+    //setTimeout(animation.pause(), 10000);
+      
+
+    }
+    
+ }
+
+ function sleep(ms) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
+}
+
+
 
   return (
+
     <Fragment>
-      <Layout
-        pathList={["portfolio details", "left side image portfolio"]}
-        pathTitle="left side image portfolio"
-      >
+      <Layout>
+      <div ><i></i><i></i><i></i></div>
+      
+        <h1 class="ml11 justify-content-center text-center m-auto">
+  <span class="text-wrapper ">
+    <span class="line line1"></span>
+     <h5 className="letters">{"Welcome back "+user["firstName"]}</h5>
+                        
+  </span>
+  
+  </h1>
+ 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        
         <section>
+          <div className="animated-bg" style={{ "right": "10%" }}><i></i><i></i></div>
           <div className="d-flex" style={{ height: "1080px" }}>
             <div className="isar w-25 pl-3">
               <div className="d-block">
@@ -170,6 +359,7 @@ const PortfolioDetail7 = () => {
                 >
                   <div className="portfolio-detail">
                     <div className="d-flex w-100 justify-content-between">
+
                       <h3 className="detail-head">Profile detail</h3>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -208,6 +398,8 @@ const PortfolioDetail7 = () => {
                           style={{ display: "block" }}
                         />{" "}
                       </a>
+                      <div className="text-center">followers:{followers}</div>
+
                     </div>
                     {editable ? (
                       <>
@@ -460,10 +652,24 @@ const PortfolioDetail7 = () => {
             </div>
 
             <div className="imin" style={{ width: "75%", "margin-left": "2%" }}>
-              {user["role"] == "musician" ? (
-                <Link href="/streams/launchStream">Go live</Link>
-              ) : null}
+              
+              <div className="d-flex justify-content-between " style={{"width":"87%"}}>
 
+<h2 className="mb-3">my courses</h2>
+<div className="mr-">
+{user["role"] == "musician" ? (
+         <a href="/streams/launchStream">
+<span style={{"color":"red"}}> Go live </span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-video3" viewBox="0 0 16 16">
+                <path d="M14 9.5a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm-6 5.7c0 .8.8.8.8.8h6.4s.8 0 .8-.8-.8-3.2-4-3.2-4 2.4-4 3.2Z"/>
+                <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h5.243c.122-.326.295-.668.526-1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v7.81c.353.23.656.496.91.783.059-.187.09-.386.09-.593V4a2 2 0 0 0-2-2H2Z"/>
+               
+              </svg>
+              </a>
+                
+              ) : null} 
+              </div>
+</div>
               <div
                 className="d-flex"
                 style={{
@@ -482,13 +688,13 @@ const PortfolioDetail7 = () => {
                 <div className="d-flex">
                   <div style={{ width: "40%" }}>
                     <h2 className="mb-3">my recordings</h2>
-                    <div className=" mr-3  border border-2 sandou9elrecordes">
+                    <div className="  mr-3  border border-2 sandou9elrecordes">
                       {recordedStreams.map((recordedstream) => {
                         let date=recordedstream.created_at.split('T')
                         
                         return (
                           
-                          <div className="d-flex justify-content-between" onClick={()=>getRecord(recordedstream.meetingId)} >
+                          <div className="d-flex justify-content-between" style={{"cursor":"pointer"}} onClick={()=>getRecord(recordedstream.meetingId)} >
                             <span className="h5 m-2">{recordedstream.streamTitle}</span>
                             <span className="m-2">{date[0]}</span>
                           </div>
@@ -504,7 +710,7 @@ const PortfolioDetail7 = () => {
                   >
                     <h2 className="mb-3">stats</h2>
                     <div className=" mr-3 border border-2 sandou9elstats">
-                    hello
+                    <Bar options={options} data={data} style={{ height: "500px" }}/>
                     </div>
                   </div>
                 </div>

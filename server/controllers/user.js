@@ -11,6 +11,37 @@ import stream from "../models/stream.js";
 const secret = process.env.secret;
 const BASE_URL = process.env.BASE_URL;
 
+export const getUsers = async (req, res) => {
+  try {   
+    logger.info("tesst");
+    const users = await UserModal.find();    
+    res.status(200).json(users);
+} catch (error) {
+    logger.error("errr");
+    res.status(404).json({ message: error.message });
+}}
+
+export const deleteUser = async (req, res) => {
+  try {   
+    logger.info("delete user");
+     await UserModal.findByIdAndDelete(req.params.id);    
+    res.status(200).json("user deleted");
+} catch (error) {
+    logger.error("errr");
+    res.status(404).json({ message: error.message });
+}
+}
+export const updateUserById = async (req, res) => {
+  try {   
+    logger.info("updating user");
+     await UserModal.findByIdAndUpdate(req.params.id,req.body)    
+    res.status(200).json("user deleted");
+} catch (error) {
+    logger.error("errr");
+    res.status(404).json({ message: error.message });
+}
+}
+
 export const activateAccount = async (req, res) => {
   const { licensekey, userid } = req.body;
   const license_key = await licensekeyModal.findOne({
@@ -199,6 +230,24 @@ export const updateProfile= async (req,res)=>{
   user.spotify=spotify;
   user.save()
   return res.status(200).json(user)
+}
+
+export const addFollowing_list = async(req,res)=>{
+  const {following,userid}=req.body
+  const user = await UserModal.findById(userid)
+  const musician = await UserModal.findById(following)
+  musician.followers++;
+  musician.save();
+  user.is_following.push(following)
+  user.save()
+  return res.status(200).json(user.is_following)
+
+}
+
+export const get_followers_number= async(req,res)=>{
+  const userid = req.params.userid
+  const user = await UserModal.findById(userid)
+  return res.status(200).json({"followers_number":user.followers})
 }
 
 export const updateChannelDescription= async (req,res)=>{
