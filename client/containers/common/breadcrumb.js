@@ -2,7 +2,7 @@ import React from 'react'
 import {Container,Row,Col} from 'reactstrap'
 const Breadcrumb = ({ list, title }) => {
     return (
-        <section className="agency breadcrumb-section ">
+        <section className="agency breadcrumb-section " style={{"color":"white"}}>
             <Container>
                 <Row>
                     <Col xs="12">

@@ -21,13 +21,15 @@ export const createStream = async (req, res) => {
     }
 }
 
+
 export const viewsInc = async (req, res) => {
   const meetingId = req.params.id;
   const doc = await stream.findOne({meetingId:meetingId});
   
   try {
-    doc.viewerCount=doc.viewerCount+1
+    doc.totalViewerCount=doc.totalViewerCount+1
     doc.save();
+    console.log("TESTING VIEWER COUNT")
       console.log(doc)
     
 
@@ -53,6 +55,12 @@ const streams = await stream.find({streamerName:name,isrecorded:true});
 return res.status(200).json(streams);
 
 }
+export const getAllStreamsByName = async (req, res) => { 
+  const name = req.params.name;
+  const streams = await stream.find({streamerName:name});
+  return res.status(200).json(streams);
+  
+  }
 
 
 export const getStreamById = async (req, res) => { 

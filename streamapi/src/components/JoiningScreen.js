@@ -135,7 +135,7 @@ export function JoiningScreen({
   }
   const incView = async ()=>
       axios.post("http://localhost:5000/stream/viewsInc/"+localStorage.getItem("meetid"))
-      .then((res)=>console.log(res))
+      .then((res)=>console.log("InncVIEWWWW: "+res))
       .catch(function (error){console.log(error)})
 
   useEffect(() => {            
@@ -333,6 +333,7 @@ export function JoiningScreen({
                         }
                         onClickStartMeeting();
                         addStream();
+                        incView();  
                         
                         
                       }}
@@ -347,7 +348,7 @@ export function JoiningScreen({
         ) : (
           <MeetingDetailsScreen
             onClickJoin={async (id) => {
-             await incView();
+             
               const token = await getToken();
               const valid = await validateMeeting({ meetingId: id, token });             
               if (valid) {

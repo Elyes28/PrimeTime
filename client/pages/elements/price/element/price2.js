@@ -37,8 +37,8 @@ const PricingTwo = () => (
                         <div>
                             <div className="price-feature-container ">
                                 <div className="price-features">
-                                    <h5 className="price-feature text-center">Easy Installations</h5>
-                                    <h5 className="price-feature text-center">Unlimited support</h5>
+                                    <h5 className="price-feature text-center">Watch Streams</h5>
+                                    <h5 className="price-feature text-center">browse courses</h5>
                                     <h5 className="price-feature text-center">Free Forever</h5>
                                 </div>
                                 <div className="price-value">
@@ -54,18 +54,18 @@ const PricingTwo = () => (
                         <div className="service-feature ">
                             <div className="feature-text">
                                 <span className="flaticon-diamond feature-icon"></span>
-                                <h3 className="text-white feature-text-heading text-center">medium</h3>
+                                <h3 className="text-white feature-text-heading text-center">advanced</h3>
                             </div>
                         </div>
                         <div>
                             <div className="price-feature-container ">
                                 <div className="price-features">
-                                    <h5 className="price-feature text-center">Easy Installations</h5>
-                                    <h5 className="price-feature text-center">Unlimited support</h5>
-                                    <h5 className="price-feature text-center">Free Forever</h5>
+                                    <h5 className="price-feature text-center">Recording access</h5>
+                                    <h5 className="price-feature text-center">Launch Stream access</h5>
+                                    <h5 className="price-feature text-center"></h5>
                                 </div>
                                 <div className="price-value">
-                                    <h6 className="price text-center">$<span className="large">49</span>/month</h6>
+                                    <h6 className="price text-center">$<span className="large">5</span>/month</h6>
                                 </div>
                                 <a className="btn btn-default btn-white" href="#">purchase</a>
                             </div>
@@ -77,18 +77,18 @@ const PricingTwo = () => (
                         <div className="service-feature ">
                             <div className="feature-text">
                                 <span className="flaticon-pie-chart feature-icon"></span>
-                                <h3 className="text-white feature-text-heading text-center">business</h3>
+                                <h3 className="text-white feature-text-heading text-center">Prime</h3>
                             </div>
                         </div>
                         <div>
                             <div className="price-feature-container">
                                 <div className="price-features">
-                                    <h5 className="price-feature text-center">Easy Installations</h5>
-                                    <h5 className="price-feature text-center">Unlimited support</h5>
-                                    <h5 className="price-feature text-center">Free Forever</h5>
+                                    <h5 className="price-feature text-center">full access </h5>
+                                    <h5 className="price-feature text-center">Recording/statistics</h5>
+                                    <h5 className="price-feature text-center">monetization</h5>
                                 </div>
                                 <div className="price-value">
-                                    <h6 className="price text-center">$<span className="large">99</span>/month</h6>
+                                    <h6 className="price text-center">$<span className="large">20$</span>/month</h6>
                                 </div>
                                 <a className="btn btn-default btn-white" href="#">purchase</a>
                             </div>
