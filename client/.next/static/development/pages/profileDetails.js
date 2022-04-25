@@ -1,4 +1,2443 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\_error.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\profileDetails.js"],{
+
+/***/ "./components/CourseCard.js":
+/*!**********************************!*\
+  !*** ./components/CourseCard.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _stylez_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./stylez.css */ "./components/stylez.css");
+/* harmony import */ var _stylez_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_stylez_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\components\\CourseCard.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+function CourseCard(course) {
+  return __jsx("div", {
+    className: "card m-3",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "imgBox",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 9
+    }
+  }, __jsx("img", {
+    src: "https://wac-cdn.atlassian.com/fr/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=309",
+    alt: "mouse corsair",
+    "class": "mouse",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 11
+    }
+  })), __jsx("div", {
+    className: "contentBox",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 9
+    }
+  }, __jsx("h3", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 11
+    }
+  }, course.course.name), __jsx("h2", {
+    className: "price",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 11
+    }
+  }, course.course.type), __jsx("a", {
+    href: "#",
+    className: "buy",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 11
+    }
+  }, "Buy Now")));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (CourseCard);
+
+/***/ }),
+
+/***/ "./components/StreamCard.js":
+/*!**********************************!*\
+  !*** ./components/StreamCard.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _stylez_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./stylez.css */ "./components/stylez.css");
+/* harmony import */ var _stylez_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_stylez_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\components\\StreamCard.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+function StreamCard(props) {
+  return __jsx("div", {
+    className: "card m-2 ",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "imgBox",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 9
+    }
+  }, __jsx("img", {
+    src: "https://wac-cdn.atlassian.com/fr/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=309",
+    alt: "mouse corsair",
+    "class": "mouse",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 11
+    }
+  })), __jsx("div", {
+    className: "contentBox",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 9
+    }
+  }, __jsx("h3", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 11
+    }
+  }, "Streamer"), __jsx("h2", {
+    className: "price",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 11
+    }
+  }, "61.", __jsx("small", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 36
+    }
+  }, "98"), " \u20AC"), __jsx("a", {
+    href: "#",
+    className: "buy",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 11
+    }
+  }, "Buy Now")));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (StreamCard);
+
+/***/ }),
+
+/***/ "./constant/menu.js":
+/*!**************************!*\
+  !*** ./constant/menu.js ***!
+  \**************************/
+/*! exports provided: MENUITEMS */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MENUITEMS", function() { return MENUITEMS; });
+var MENUITEMS = [{
+  title: 'Home',
+  type: 'sub',
+  children: [{
+    path: '/layouts/agency',
+    title: 'Agency',
+    type: 'link'
+  }, {
+    path: '/layouts/app1',
+    title: 'App Landing1',
+    type: 'link'
+  }, {
+    path: '/layouts/app2',
+    title: 'App Landing2',
+    type: 'link'
+  }, {
+    path: '/layouts/event',
+    title: 'Event',
+    type: 'link'
+  }, {
+    path: '/layouts/gym',
+    title: 'Gym',
+    type: 'link'
+  }, {
+    path: '/layouts/music',
+    title: 'Music',
+    type: 'link'
+  }, {
+    path: '/layouts/resume',
+    title: 'Resume',
+    type: 'link'
+  }, {
+    path: '/layouts/modern-sass',
+    title: 'Sass1',
+    type: 'link'
+  }, {
+    path: '/layouts/enterprice-sass',
+    title: 'Sass2',
+    type: 'link'
+  }, {
+    path: '/layouts/wedding',
+    title: 'Wedding',
+    type: 'link'
+  }, {
+    path: '/layouts/yoga',
+    title: 'Yoga',
+    type: 'link'
+  }, {
+    path: '/layouts/portfolioLayouts',
+    title: 'Portfolio',
+    type: 'link'
+  }]
+}, {
+  title: 'Shop',
+  type: 'sub',
+  children: [// { path: '/blog/blog-detail/detail-left-sidebar', title: ' ', type: 'link' },
+  {
+    path: '/blog/blog-masonary/masonary-left-sidebar',
+    title: 'Our Products',
+    type: 'link'
+  }, {
+    path: '/cart',
+    title: 'Cart',
+    type: 'link',
+    icon: 'fa fa-'
+  }]
+}, {
+  title: 'Live shows',
+  type: 'sub',
+  children: [// { path: '/blog/blog-detail/detail-left-sidebar', title: ' ', type: 'link' },
+  {
+    path: '/streams/launchStream',
+    title: 'Launch Stream',
+    type: 'link'
+  }, {
+    path: '/streams',
+    title: 'Watch Stream',
+    type: 'link',
+    icon: 'fa fa-'
+  }]
+}, {
+  title: 'Blog',
+  type: 'sub',
+  children: [{
+    title: 'Blog Grid View',
+    type: 'sub',
+    children: [{
+      path: '/blog/blog-grid/column-no-sidebar',
+      title: 'No Sidebar',
+      type: 'link'
+    }, {
+      path: '/blog/blog-grid/column-left-sidebar',
+      title: 'Left Sidebar',
+      type: 'link'
+    }, {
+      path: '/blog/blog-grid/column-right-sidebar',
+      title: 'Right Sidebar',
+      type: 'link'
+    }, {
+      path: '/blog/blog-grid/classic-no-sidebar',
+      title: 'Full Width No Sidebar',
+      type: 'link'
+    }, {
+      path: '/blog/blog-grid/classic-right-sidebar',
+      title: 'Full Width Right Sidebar',
+      type: 'link'
+    }, {
+      path: '/blog/blog-grid/classic-left-sidebar',
+      title: 'Full Width Left Sidebar',
+      type: 'link'
+    }]
+  }, {
+    title: 'Blog List',
+    type: 'sub',
+    children: [{
+      path: '/blog/blog-list/list-no-sidebar',
+      title: 'List No Sidebar',
+      type: 'link'
+    }, {
+      path: '/blog/blog-list/list-left-sidebar',
+      title: 'List Left Sidebar',
+      type: 'link'
+    }, {
+      path: '/blog/blog-list/list-right-sidebar',
+      title: 'List Right Sidebar',
+      type: 'link'
+    }]
+  }, {
+    title: 'Blog List Creative',
+    type: 'sub',
+    children: [{
+      path: '/blog/blog-list-creative/split-no-sidebar',
+      title: 'No Sidebar',
+      type: 'link'
+    }, {
+      path: '/blog/blog-list-creative/split-left-sidebar',
+      title: 'Left Sidebar',
+      type: 'link'
+    }, {
+      path: '/blog/blog-list-creative/split-right-sidebar',
+      title: 'Right Sidebar',
+      type: 'link'
+    }]
+  }, {
+    title: 'Blog Mix Layout',
+    type: 'sub',
+    children: [{
+      path: '/blog/blog-mix-layout/bigpost-list',
+      title: 'List Mix With Left Sidebar',
+      type: 'link'
+    }, {
+      path: '/blog/blog-mix-layout/bigpost-split',
+      title: 'List Mix With Right Sidebar',
+      type: 'link'
+    }, {
+      path: '/blog/blog-mix-layout/bigpost-split-no-sidebar',
+      title: 'List Mix With No Sidebar',
+      type: 'link'
+    }, {
+      path: '/blog/blog-mix-layout/bigpost-list-no-sidebar',
+      title: 'List Full Width No Sidebar',
+      type: 'link'
+    }, {
+      path: '/blog/blog-mix-layout/bigpost-column',
+      title: 'Grid Mix With Right Sidebar',
+      type: 'link'
+    }, {
+      path: '/blog/blog-mix-layout/bigpost-column-no-sidebar',
+      title: 'Grid Mix With No Sidebar',
+      type: 'link'
+    }]
+  }, {
+    title: 'Blog Details',
+    type: 'sub',
+    children: [{
+      path: '/blog/blog-detail/detail-left-sidebar',
+      title: 'Left Sidebar',
+      type: 'link'
+    }, {
+      path: '/blog/blog-detail/detail',
+      title: 'Right Sidebar',
+      type: 'link'
+    }, {
+      path: '/blog/blog-detail/detail-no-sidebar',
+      title: 'No Sidebar',
+      type: 'link'
+    }, {
+      path: '/blog/blog-detail/detail-gallery',
+      title: 'Detail Page With Gallery',
+      type: 'link'
+    }, {
+      path: '/blog/blog-detail/detail-video',
+      title: 'Detail Page With Video',
+      type: 'link'
+    }]
+  }, {
+    title: 'Blog Masonary',
+    type: 'sub',
+    children: [{
+      path: '/blog/blog-masonary/fullwidth-2',
+      title: 'Full Width 2',
+      type: 'link'
+    }, {
+      path: '/blog/blog-masonary/fullwidth-3',
+      title: 'Full Width 3',
+      type: 'link'
+    }, {
+      path: '/blog/blog-masonary/fullwidth-4',
+      title: 'Full Width 4',
+      type: 'link'
+    }, {
+      path: '/blog/blog-masonary/masonary-no-sidebar',
+      title: 'No Sidebar',
+      type: 'link'
+    }, {
+      path: '/blog/blog-masonary/masonary-right-sidebar',
+      title: 'Right Sidebar',
+      type: 'link'
+    }, {
+      path: '/blog/blog-masonary/masonary-left-sidebar',
+      title: 'Left Sidebar',
+      type: 'link'
+    }]
+  }]
+}, {
+  title: 'Pages',
+  type: 'sub',
+  children: [{
+    path: '/page/404',
+    title: '404',
+    type: 'link'
+  }, {
+    path: '/page/faq',
+    title: 'FAQ',
+    type: 'link'
+  }, {
+    path: '/page/typography',
+    title: 'Typography',
+    type: 'link'
+  }, {
+    path: '/page/maintenance',
+    title: 'Maintenance',
+    type: 'link'
+  }, {
+    path: '/page/about-us',
+    title: 'About us',
+    type: 'link'
+  }, {
+    title: 'Team',
+    type: 'sub',
+    children: [{
+      path: '/page/team',
+      title: 'Team',
+      type: 'link'
+    }, {
+      path: '/page/team-grid',
+      title: 'Team Grid',
+      type: 'link'
+    }, {
+      path: '/page/team-list',
+      title: 'Team List',
+      type: 'link'
+    }]
+  }, {
+    title: 'Comming Soon',
+    type: 'sub',
+    children: [{
+      path: '/page/commingsoon1',
+      title: 'Comming Soon1',
+      type: 'link'
+    }, {
+      path: '/page/commingsoon2',
+      title: 'Comming Soon2',
+      type: 'link'
+    }]
+  }]
+}, {
+  title: 'Elements',
+  megaMenu: true,
+  megaMenuType: 'small',
+  type: 'sub',
+  children: [{
+    title: 'Elements1',
+    type: 'sub',
+    children: [{
+      path: '/elements/alerts',
+      title: 'Alerts',
+      type: 'link',
+      icon: 'alert'
+    }, {
+      path: '/elements/accordion',
+      title: 'Accordion',
+      type: 'link',
+      icon: 'layout-accordion-merged'
+    }, {
+      path: '/elements/boxshadow',
+      title: 'Box Shadow',
+      type: 'link',
+      icon: 'layers'
+    }, {
+      path: '/elements/button',
+      title: 'Buttons',
+      type: 'link',
+      icon: 'write'
+    }, {
+      path: '/elements/contact',
+      title: 'Contact',
+      type: 'link',
+      icon: 'map-alt'
+    }]
+  }, {
+    title: 'Elements2',
+    type: 'sub',
+    children: [{
+      path: '/elements/event-schedule',
+      title: 'Event-Schedule',
+      type: 'link',
+      icon: 'list'
+    }, {
+      path: '/elements/gallery',
+      title: 'Gallery',
+      type: 'link',
+      icon: 'gallery'
+    }, {
+      path: '/elements/pricing',
+      title: 'Pricing',
+      type: 'link',
+      icon: 'money'
+    }, {
+      path: '/elements/counter',
+      title: 'Counter',
+      type: 'link',
+      icon: 'time'
+    }, {
+      path: '/elements/count-down',
+      title: 'Countdown',
+      type: 'link',
+      icon: 'alarm-clock'
+    }]
+  }, {
+    title: 'Elements3',
+    type: 'sub',
+    children: [{
+      path: '/elements/progressbar',
+      title: 'Progress Bar',
+      type: 'link',
+      icon: 'bar-chart'
+    }, {
+      path: '/elements/testimonial',
+      title: 'Testimonial',
+      type: 'link',
+      icon: 'thought'
+    }, {
+      path: '/elements/video',
+      title: 'Video',
+      type: 'link',
+      icon: 'video-camera'
+    }, {
+      path: '/elements/service',
+      title: 'Service',
+      type: 'link',
+      icon: 'headphone'
+    }, {
+      path: '/elements/subscribe',
+      title: 'Subscribe',
+      type: 'link',
+      icon: 'share-alt'
+    }]
+  }]
+}, {
+  title: 'Portfolio',
+  megaMenu: true,
+  megaMenuType: 'medium',
+  type: 'sub',
+  children: [{
+    title: 'Portfolio-Basic',
+    type: 'link',
+    children: [{
+      path: '/portfolio/basic-2-grid',
+      title: 'Basic – 2 Grid',
+      type: 'link'
+    }, {
+      path: '/portfolio/basic-3-grid',
+      title: 'Basic – 3 Grid',
+      type: 'link'
+    }, {
+      path: '/portfolio/basic-4-grid',
+      title: 'Basic – 4 Grid',
+      type: 'link'
+    }, {
+      path: '/portfolio/portfolio-title-2-col',
+      title: 'Basic W Tittle – 2 Grid',
+      type: 'link'
+    }, {
+      path: '/portfolio/portfolio-title-3-col',
+      title: 'Basic W Tittle – 3 Grid',
+      type: 'link'
+    }, {
+      path: '/portfolio/portfolio-title-4-col',
+      title: 'Basic W Tittle – 4 Grid',
+      type: 'link'
+    }, {
+      path: '/portfolio/portfolio-parallex',
+      title: 'Parallex',
+      type: 'link'
+    }, {
+      path: '/portfolio/centered-slide',
+      title: 'Centered Slides',
+      type: 'link'
+    }, {
+      path: '/portfolio/vertical-slide',
+      title: 'Vertical Slides',
+      type: 'link'
+    }, {
+      path: '/portfolio/multiple-carousel',
+      title: '4 Slide With Center Slider',
+      type: 'link'
+    }]
+  }, {
+    title: 'Portfolio-Details',
+    type: 'link',
+    children: [{
+      path: '/portfolio/portfolio-detail-1',
+      title: 'Container Layout',
+      type: 'link'
+    }, {
+      path: '/portfolio/portfolio-detail-2',
+      title: 'Full Width',
+      type: 'link'
+    }, {
+      path: '/portfolio/portfolio-detail-3',
+      title: 'With Bg Bredcrumb',
+      type: 'link'
+    }, {
+      path: '/portfolio/portfolio-detail-4',
+      title: 'Details With Slider',
+      type: 'link'
+    }, {
+      path: '/portfolio/portfolio-detail-5',
+      title: 'Video Portfolio',
+      type: 'link'
+    }, {
+      path: '/portfolio/portfolio-detail-6',
+      title: 'Two Image Portfolio',
+      type: 'link'
+    }, {
+      path: '/portfolio/portfolio-detail-7',
+      title: 'Left Side Image Portfolio',
+      type: 'link'
+    }]
+  }, {
+    title: 'Trending Layout',
+    type: 'link',
+    children: [{
+      path: '/portfolio/creative-1',
+      title: 'Trending Layout 1',
+      type: 'link'
+    }, {
+      path: '/portfolio/creative-2',
+      title: 'Trending Layout 2',
+      type: 'link'
+    }, {
+      path: '/portfolio/creative-3',
+      title: 'Trending Layout 3',
+      type: 'link'
+    }, {
+      path: '/portfolio/creative-4',
+      title: 'Trending Layout 4',
+      type: 'link'
+    }, {
+      path: '/portfolio/modern-4',
+      title: 'Trending Layout 5',
+      type: 'link'
+    }, {
+      path: '/portfolio/modern-3',
+      title: 'Trending Layout 6',
+      type: 'link'
+    }, {
+      path: '/portfolio/modern-2',
+      title: 'Trending Layout 7',
+      type: 'link'
+    }]
+  }, {
+    title: 'Portfolio-Masonary',
+    type: 'link',
+    children: [{
+      path: '/portfolio/full-width-2-grid',
+      title: 'Full-Width – 2 Grid',
+      type: 'link'
+    }, {
+      path: '/portfolio/full-width-3-grid',
+      title: 'Full-Width – 3 Grid',
+      type: 'link'
+    }, {
+      path: '/portfolio/full-width-4-grid',
+      title: 'Full-Width – 4 Grid',
+      type: 'link'
+    }]
+  }]
+}, {
+  title: 'Features',
+  megaMenu: true,
+  megaMenuType: 'medium',
+  type: 'sub',
+  children: [{
+    title: 'Header Style',
+    type: 'link',
+    children: [{
+      path: '/features/header-light',
+      title: 'Light Header',
+      type: 'link'
+    }, {
+      path: '/features/header-dark',
+      title: 'Dark Header',
+      type: 'link'
+    }, {
+      path: '/features/header-transparent',
+      title: 'Glass Header',
+      type: 'link'
+    }, {
+      path: '/features/header-right-navigation',
+      title: 'Header Right Navigation',
+      type: 'link'
+    }, {
+      path: '/features/header-center-logo',
+      title: 'Header Center Logo',
+      type: 'link'
+    }]
+  }, {
+    title: 'Breadcrumb Style',
+    type: 'link',
+    children: [{
+      path: '/features/breadcrumb-big-typography',
+      title: 'Classic Type',
+      type: 'link'
+    }, {
+      path: '/features/breadcrumb-left',
+      title: 'Breadcrumb Left',
+      type: 'link'
+    }, {
+      path: '/features/breadcrumb-right',
+      title: 'Breadcrumb Right',
+      type: 'link'
+    }, {
+      path: '/features/breadcrumb-center',
+      title: 'Breadcrumb Center',
+      type: 'link'
+    }, {
+      path: '/features/breadcrumb-dark',
+      title: 'Breadcrumb Dark',
+      type: 'link'
+    }, {
+      path: '/features/breadcrumb-parallex-bg',
+      title: 'Breadcrumb Parallex-Bg',
+      type: 'link'
+    }, {
+      path: '/features/breadcrumb-bg',
+      title: 'Breadcrumb Bg',
+      type: 'link'
+    }, {
+      path: '/features/breadcrumb-gallery',
+      title: 'Breadcrumb Gallery',
+      type: 'link'
+    }, {
+      path: '/features/breadcrumb-video',
+      title: 'Breadcrumb Video',
+      type: 'link'
+    }]
+  }, {
+    title: 'Footer Style',
+    type: 'link',
+    children: [{
+      path: '/features/footer-default',
+      title: 'Footer-Default',
+      type: 'link'
+    }, {
+      path: '/features/footer-light',
+      title: 'Footer-Light',
+      type: 'link'
+    }, {
+      path: '/features/footer-dark',
+      title: 'Footer-Dark',
+      type: 'link'
+    }, {
+      path: '/features/footer-light2',
+      title: 'Footer Dark Light',
+      type: 'link'
+    }, {
+      path: '/features/footer-dark2',
+      title: 'Footer Dark Gradient',
+      type: 'link'
+    }, {
+      path: '/features/footer-dark3',
+      title: 'Footer Creative',
+      type: 'link'
+    }]
+  }, {
+    title: 'Gallery',
+    type: 'link',
+    children: [{
+      path: '/features/zoom-gallery',
+      title: 'Zoom Gallery',
+      type: 'link'
+    }, {
+      path: '/features/form-popup',
+      title: 'Form Popup',
+      type: 'link'
+    }, {
+      path: '/features/modal-popup',
+      title: 'Modal Popup',
+      type: 'link'
+    }, {
+      path: '/features/youtube-popup',
+      title: 'Youtube Popup',
+      type: 'link'
+    }, {
+      path: '/features/map-popup',
+      title: 'Map Popup',
+      type: 'link'
+    }]
+  }]
+}];
+
+/***/ }),
+
+/***/ "./containers/common/breadcrumb.js":
+/*!*****************************************!*\
+  !*** ./containers/common/breadcrumb.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+var _this = undefined,
+    _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\containers\\common\\breadcrumb.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+var Breadcrumb = function Breadcrumb(_ref) {
+  var list = _ref.list,
+      title = _ref.title;
+  return __jsx("section", {
+    className: "agency breadcrumb-section ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5,
+      columnNumber: 9
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 13
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 17
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    xs: "12",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 21
+    }
+  }, __jsx("h2", {
+    className: "breadcrumb-text text-center",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 25
+    }
+  }, title), __jsx("ul", {
+    className: "breadcrumb justify-content-center",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 25
+    }
+  })))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Breadcrumb);
+
+/***/ }),
+
+/***/ "./containers/common/common-layout.js":
+/*!********************************************!*\
+  !*** ./containers/common/common-layout.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header */ "./containers/common/header.js");
+/* harmony import */ var _breadcrumb__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./breadcrumb */ "./containers/common/breadcrumb.js");
+/* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer */ "./containers/common/footer.js");
+var _this = undefined,
+    _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\containers\\common\\common-layout.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+var CommonLayout = function CommonLayout(_ref) {
+  var children = _ref.children,
+      pathList = _ref.pathList,
+      pathTitle = _ref.pathTitle;
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    document.body.style.setProperty('--primary', '#000');
+    document.body.style.setProperty('--secondary', '#000');
+    document.body.style.setProperty('--light', '#252525');
+    document.body.style.setProperty('--dark', '#000');
+  });
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_header__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    className: "light agency",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 13
+    }
+  }), __jsx(_breadcrumb__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    list: pathList,
+    title: pathTitle,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 13
+    }
+  }), __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, children), __jsx(_footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 13
+    }
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (CommonLayout);
+
+/***/ }),
+
+/***/ "./containers/common/footer.js":
+/*!*************************************!*\
+  !*** ./containers/common/footer.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+var _this = undefined,
+    _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\containers\\common\\footer.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+var Footer = function Footer() {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("footer", {
+    className: "resume copyright copyright-bg inner-pages-footer",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5,
+      columnNumber: 9
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 13
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 17
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    xs: "12",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    className: "link link-horizontal  text-center mb-3",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 25
+    }
+  }, __jsx("img", {
+    alt: "",
+    className: "img-fluid",
+    src: "/assets/images/logo/5.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 29
+    }
+  }))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    xs: "12",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    className: "link link-horizontal",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 25
+    }
+  }, __jsx("ul", {
+    className: "justify-content-center",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 29
+    }
+  }, __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 33
+    }
+  }, __jsx("a", {
+    className: "copyright-text",
+    href: "#",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 37
+    }
+  }, "home")), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 33
+    }
+  }, __jsx("a", {
+    className: "copyright-text",
+    href: "#",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 37
+    }
+  }, "couple")), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 33
+    }
+  }, __jsx("a", {
+    className: "copyright-text",
+    href: "#",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 37
+    }
+  }, "invitation")), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 33
+    }
+  }, __jsx("a", {
+    className: "copyright-text",
+    href: "#",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 37
+    }
+  }, "album ")), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 33
+    }
+  }, __jsx("a", {
+    className: "copyright-text",
+    href: "#",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 37
+    }
+  }, "friends say")), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 33
+    }
+  }, __jsx("a", {
+    className: "copyright-text",
+    href: "#",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 37
+    }
+  }, "gift"))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    xs: "12",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    className: "text-center",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "social-link link-horizontal",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 29
+    }
+  }, __jsx("ul", {
+    className: "justify-content-center",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 33
+    }
+  }, __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    className: "copyright-text",
+    href: "#",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 41
+    }
+  }, __jsx("i", {
+    "aria-hidden": "true",
+    className: "fa fa-facebook",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 45
+    }
+  }))), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    className: "copyright-text",
+    href: "#",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 41
+    }
+  }, __jsx("i", {
+    "aria-hidden": "true",
+    className: "fa fa-twitter",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 45
+    }
+  }))), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    className: "copyright-text",
+    href: "#",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 41
+    }
+  }, __jsx("i", {
+    "aria-hidden": "true",
+    className: "fa fa-google",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 45
+    }
+  }))), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    className: "copyright-text ",
+    href: "#",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 41
+    }
+  }, __jsx("i", {
+    "aria-hidden": "true",
+    className: "fa fa-instagram",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 45
+    }
+  })))))))))), __jsx("div", {
+    className: "agency copyright inner-page",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 9
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 13
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 17
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    sm: "6",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    className: "link-horizontal",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 25
+    }
+  }, __jsx("ul", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 29
+    }
+  }, __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62,
+      columnNumber: 33
+    }
+  }, __jsx("a", {
+    className: "copyright-text",
+    href: "#",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62,
+      columnNumber: 37
+    }
+  }, "Privacy Policy")), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 33
+    }
+  }, __jsx("a", {
+    className: "copyright-text",
+    href: "#",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 37
+    }
+  }, "Terms & Conditions"))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
+    sm: "6",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 25
+    }
+  }, __jsx("h6", {
+    className: "copyright-text text-white text-right",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 29
+    }
+  }, "Copyright \xA9 2020 Unice by ", __jsx("i", {
+    "aria-hidden": "true",
+    className: "fa fa-heart",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 108
+    }
+  }), " pixelstrap")))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
+
+/***/ "./containers/common/header.js":
+/*!*************************************!*\
+  !*** ./containers/common/header.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./nav */ "./containers/common/nav.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+var _this = undefined,
+    _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\containers\\common\\header.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+var Header = function Header(props) {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      show = _useState[0],
+      setShow = _useState[1];
+
+  var _useState2 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      sidebar = _useState2[0],
+      setSidebar = _useState2[1];
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      search = _useState3[0],
+      setSearch = _useState3[1];
+
+  var clickSidebar = function clickSidebar() {
+    setSidebar(!sidebar);
+    document.querySelector('.navbar').classList.add('openSidebar');
+  };
+
+  return __jsx("header", {
+    className: "".concat(props.className || 'app2', " loding-header nav-abs custom-scroll  "),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 9
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 13
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 17
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Col"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 21
+    }
+  }, __jsx("nav", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 25
+    }
+  }, __jsx("a", {
+    className: "m-r-auto",
+    href: "/",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 29
+    }
+  }, props.className == 'agency' ? __jsx("img", {
+    alt: "",
+    className: "img-fluid",
+    src: "/assets/images/logo/9.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 37
+    }
+  }) : props.className == 'dark' ? __jsx("img", {
+    alt: "",
+    className: "img-fluid",
+    src: "/assets/images/logo/5.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 41
+    }
+  }) : props.className == 'dark position-relative ecommerce' ? __jsx("img", {
+    alt: "",
+    className: "img-fluid",
+    src: "/assets/images/logo/5.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 45
+    }
+  }) : props.className == 'dark bg-white ecommerce' ? __jsx("img", {
+    alt: "",
+    className: "img-fluid",
+    src: "/assets/images/logo/5.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 45
+    }
+  }) : props.className == 'dark agency' ? __jsx("img", {
+    alt: "",
+    className: "img-fluid",
+    src: "/assets/images/logo/5.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 53
+    }
+  }) : props.className == 'saas1' ? __jsx("img", {
+    alt: "",
+    className: "img-fluid",
+    src: "/assets/images/logo/3.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 57
+    }
+  }) : __jsx("img", {
+    alt: "",
+    className: "img-fluid",
+    src: "/assets/images/logo/finallogo.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 59
+    }
+  })), __jsx("div", {
+    className: "responsive-btn",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 29
+    }
+  }, __jsx("a", {
+    className: "toggle-nav",
+    onClick: clickSidebar,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 33
+    }
+  }, __jsx("i", {
+    "aria-hidden": "true",
+    className: "fa fa-bars text-white",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 37
+    }
+  }))), __jsx(_nav__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 29
+    }
+  }), props.shop && __jsx("div", {
+    className: "top-header-right",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 33
+    }
+  }, __jsx("ul", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 37
+    }
+  }, __jsx("li", {
+    className: "search",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 41
+    }
+  }, __jsx("a", {
+    href: "#",
+    onClick: function onClick() {
+      return setSearch(!search);
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 45
+    }
+  }, __jsx("i", {
+    className: "icon-search",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 49
+    }
+  })), __jsx("div", {
+    "aria-labelledby": "dropdownMenuButton",
+    className: "dropdown-menu ".concat(search && "show", " dropdown-menu-right"),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 45
+    }
+  }, __jsx("form", {
+    className: "form-inline search-form",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 49
+    }
+  }, __jsx("div", {
+    className: "form-group",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 53
+    }
+  }, __jsx("label", {
+    className: "sr-only",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 57
+    }
+  }, "Email"), __jsx("input", {
+    className: "form-control-plaintext",
+    placeholder: "Search....",
+    type: "search",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 57
+    }
+  }), __jsx("span", {
+    className: "d-sm-none mobile-search",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 57
+    }
+  }))))), __jsx("li", {
+    className: "account ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 41
+    }
+  }, __jsx("a", {
+    href: "#",
+    onClick: function onClick() {
+      return setShow(!show);
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70,
+      columnNumber: 45
+    }
+  }, __jsx("i", {
+    className: "icon-user",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71,
+      columnNumber: 49
+    }
+  })), __jsx("div", {
+    className: "dropdown-menu ".concat(show && "show", " dropdown-menu-right"),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73,
+      columnNumber: 45
+    }
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/shop/auth/login",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74,
+      columnNumber: 49
+    }
+  }, __jsx("a", {
+    href: "#",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74,
+      columnNumber: 81
+    }
+  }, "Login")), __jsx("a", {
+    href: "#",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75,
+      columnNumber: 49
+    }
+  }, "Account"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/shop/wishlist",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76,
+      columnNumber: 49
+    }
+  }, __jsx("a", {
+    href: "#",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76,
+      columnNumber: 79
+    }
+  }, "Wishlist")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/shop/checkout",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77,
+      columnNumber: 49
+    }
+  }, __jsx("a", {
+    href: "#",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77,
+      columnNumber: 79
+    }
+  }, "checkout")))))))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./containers/common/nav.js":
+/*!**********************************!*\
+  !*** ./containers/common/nav.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _constant_menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../constant/menu */ "./constant/menu.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+/* harmony import */ var _pages_features_gallery_popup__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../../pages/features/gallery/popup */ "./pages/features/gallery/popup.js");
+var _this = undefined,
+    _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\containers\\common\\nav.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+var Nav = function Nav() {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(_constant_menu__WEBPACK_IMPORTED_MODULE_2__["MENUITEMS"]),
+      mainmenu = _useState[0],
+      setMainMenu = _useState[1];
+
+  var _useState2 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      sidebar = _useState2[0],
+      setSidebar = _useState2[1];
+
+  function closeSidebar() {
+    setSidebar(!sidebar);
+    document.querySelector('.navbar').classList.remove('openSidebar');
+  }
+
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    var currentUrl = location.pathname;
+    mainmenu.filter(function (items) {
+      if (items.path === currentUrl) setNavActive(items);
+      if (!items.children) return false;
+      items.children.filter(function (subItems) {
+        if (subItems.path === currentUrl) setNavActive(subItems);
+        if (!subItems.children) return false;
+        subItems.children.filter(function (subSubItems) {
+          if (subSubItems.path === currentUrl) setNavActive(subSubItems);
+        });
+      });
+    });
+  }, []);
+
+  var setNavActive = function setNavActive(item) {
+    _constant_menu__WEBPACK_IMPORTED_MODULE_2__["MENUITEMS"].filter(function (menuItem) {
+      if (menuItem != item) menuItem.active = false;
+      if (menuItem.children && menuItem.children.includes(item)) menuItem.active = true;
+
+      if (menuItem.children) {
+        menuItem.children.filter(function (submenuItems) {
+          if (submenuItems.children && submenuItems.children.includes(item)) {
+            menuItem.active = true;
+            submenuItems.active = true;
+          }
+        });
+      }
+    });
+    item.active = !item.active;
+    setMainMenu({
+      mainmenu: _constant_menu__WEBPACK_IMPORTED_MODULE_2__["MENUITEMS"]
+    });
+  }; // Click Toggle menu
+
+
+  var toggletNavActive = function toggletNavActive(item) {
+    if (!item.active) {
+      _constant_menu__WEBPACK_IMPORTED_MODULE_2__["MENUITEMS"].forEach(function (a) {
+        if (_constant_menu__WEBPACK_IMPORTED_MODULE_2__["MENUITEMS"].includes(item)) a.active = false;
+        if (!a.children) return false;
+        a.children.forEach(function (b) {
+          if (a.children.includes(item)) {
+            b.active = false;
+          }
+
+          if (!b.children) return false;
+          b.children.forEach(function (c) {
+            if (b.children.includes(item)) {
+              c.active = false;
+            }
+          });
+        });
+      });
+    }
+
+    item.active = !item.active;
+    setMainMenu({
+      mainmenu: _constant_menu__WEBPACK_IMPORTED_MODULE_2__["MENUITEMS"]
+    });
+  };
+
+  return __jsx("div", {
+    className: "navbar",
+    id: "togglebtn",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "responsive-btn",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81,
+      columnNumber: 13
+    }
+  }, __jsx("a", {
+    className: "btn-back",
+    onClick: closeSidebar,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82,
+      columnNumber: 17
+    }
+  }, __jsx("h5", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83,
+      columnNumber: 21
+    }
+  }, "back"))), __jsx("ul", {
+    className: "main-menu",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86,
+      columnNumber: 13
+    }
+  }, _constant_menu__WEBPACK_IMPORTED_MODULE_2__["MENUITEMS"].slice(0, 3).map(function (menuItem, i) {
+    return __jsx("li", {
+      key: i,
+      className: " ".concat(menuItem.megaMenu ? 'mega-menu' : ''),
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 90,
+        columnNumber: 29
+      }
+    }, menuItem.sidebartitle ? __jsx("div", {
+      className: "dropdown",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 93,
+        columnNumber: 37
+      }
+    }, menuItem.sidebartitle) : '', menuItem.type === 'sub' ? __jsx("a", {
+      className: "dropdown",
+      href: "#javascript",
+      onClick: function onClick() {
+        return toggletNavActive(menuItem);
+      },
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 96,
+        columnNumber: 37
+      }
+    }, __jsx("span", {
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 97,
+        columnNumber: 41
+      }
+    }, menuItem.title)) : '', menuItem.type === 'link' ? __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "".concat(process.env.PUBLIC_URL).concat(menuItem.path),
+      className: "".concat(menuItem.active ? 'active' : ''),
+      onClick: function onClick() {
+        return toggletNavActive(menuItem);
+      },
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 101,
+        columnNumber: 37
+      }
+    }, __jsx("span", {
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 107,
+        columnNumber: 41
+      }
+    }, menuItem.title), menuItem.children ? __jsx("i", {
+      className: "fa fa-angle-right pull-right",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 109,
+        columnNumber: 45
+      }
+    }) : '') : '', __jsx("div", {
+      className: "mega-menu-container resize ".concat(menuItem.active ? 'opensubmenu' : ''),
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 114,
+        columnNumber: 33
+      }
+    }, menuItem.megaMenu === true ? __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 118,
+        columnNumber: 45
+      }
+    }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 119,
+        columnNumber: 49
+      }
+    }, menuItem.children.map(function (megaMenuItem, i) {
+      return __jsx("div", {
+        className: "".concat(menuItem.megaMenuType == 'small' ? 'col-lg-4' : menuItem.megaMenuType == 'medium' ? 'col-lg-3' : menuItem.megaMenuType == 'large' ? 'col' : '', " "),
+        key: i,
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 123,
+          columnNumber: 65
+        }
+      }, __jsx("div", {
+        className: "menu-container",
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 124,
+          columnNumber: 69
+        }
+      }, __jsx("a", {
+        className: "menu-head",
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 125,
+          columnNumber: 73
+        }
+      }, megaMenuItem.title), __jsx("ul", {
+        className: "menu-icon ".concat(megaMenuItem.title ? 'openSubChildMenu' : ''),
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 126,
+          columnNumber: 73
+        }
+      }, menuItem.title === 'Elements' ? megaMenuItem.children.map(function (subMegaMenuItem, i) {
+        return __jsx("li", {
+          key: i,
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 131,
+            columnNumber: 89
+          }
+        }, __jsx("a", {
+          href: subMegaMenuItem.path,
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 132,
+            columnNumber: 93
+          }
+        }, __jsx("i", {
+          className: "icon-".concat(subMegaMenuItem.icon),
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 133,
+            columnNumber: 97
+          }
+        }), subMegaMenuItem.title));
+      }) : megaMenuItem.children.map(function (subMegaMenuItem, i) {
+        return __jsx("li", {
+          key: i,
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 139,
+            columnNumber: 89
+          }
+        }, __jsx("a", {
+          href: subMegaMenuItem.path,
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 140,
+            columnNumber: 93
+          }
+        }, subMegaMenuItem.title));
+      }))));
+    }))) : ''), menuItem.children && !menuItem.megaMenu ? __jsx("ul", {
+      className: "".concat(menuItem.active ? 'menu-open activeSubmenu' : ''),
+      style: menuItem.active ? {
+        opacity: 1,
+        transition: 'opacity 500ms ease-in'
+      } : {},
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 158,
+        columnNumber: 37
+      }
+    }, menuItem.children.map(function (childrenItem, index) {
+      return __jsx("li", {
+        key: index,
+        className: "".concat(childrenItem.children ? 'sub-menu ' : ''),
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 163,
+          columnNumber: 45
+        }
+      }, childrenItem.type === 'sub' ? __jsx("a", {
+        href: "#javascript",
+        onClick: function onClick() {
+          return toggletNavActive(childrenItem);
+        },
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 165,
+          columnNumber: 53
+        }
+      }, childrenItem.title) : '', childrenItem.type === 'link' ? __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+        href: "".concat(childrenItem.path),
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 170,
+          columnNumber: 53
+        }
+      }, __jsx("a", {
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 171,
+          columnNumber: 57
+        }
+      }, "    ", childrenItem.title, " ")) : '', childrenItem.children ? __jsx("ul", {
+        className: "".concat(childrenItem.active ? 'menu-open' : 'active'),
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 175,
+          columnNumber: 53
+        }
+      }, childrenItem.children.map(function (childrenSubItem, key) {
+        return __jsx("li", {
+          key: key,
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 177,
+            columnNumber: 61
+          }
+        }, childrenSubItem.type === 'link' ? __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+          href: "".concat(childrenSubItem.path),
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 179,
+            columnNumber: 69
+          }
+        }, __jsx("a", {
+          className: "sub-menu-title",
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 180,
+            columnNumber: 73
+          }
+        }, childrenSubItem.title)) : '');
+      })) : '');
+    })) : '');
+  })), __jsx("ul", {
+    className: "main-menu",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 196,
+      columnNumber: 13
+    }
+  }, _constant_menu__WEBPACK_IMPORTED_MODULE_2__["MENUITEMS"].slice(3, 7).map(function (menuItem, i) {
+    return __jsx("li", {
+      key: i,
+      className: " ".concat(menuItem.megaMenu ? 'mega-menu' : ''),
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 200,
+        columnNumber: 29
+      }
+    }, menuItem.sidebartitle ? __jsx("div", {
+      className: "dropdown",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 203,
+        columnNumber: 37
+      }
+    }, menuItem.sidebartitle) : '', menuItem.type === 'sub' ? __jsx("a", {
+      className: "dropdown",
+      href: "#javascript",
+      onClick: function onClick() {
+        return toggletNavActive(menuItem);
+      },
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 206,
+        columnNumber: 37
+      }
+    }, __jsx("span", {
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 207,
+        columnNumber: 41
+      }
+    }, menuItem.title)) : '', menuItem.type === 'link' ? __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "".concat(process.env.PUBLIC_URL).concat(menuItem.path),
+      className: "".concat(menuItem.active ? 'active' : ''),
+      onClick: function onClick() {
+        return toggletNavActive(menuItem);
+      },
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 211,
+        columnNumber: 37
+      }
+    }, __jsx("span", {
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 217,
+        columnNumber: 41
+      }
+    }, menuItem.title), menuItem.children ? __jsx("i", {
+      className: "fa fa-angle-right pull-right",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 219,
+        columnNumber: 45
+      }
+    }) : '') : '', __jsx("div", {
+      className: "mega-menu-container ".concat(menuItem.title === 'Elements' ? 'resize' : '', " ").concat(menuItem.active ? 'opensubmenu activeSubmenu' : ''),
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 224,
+        columnNumber: 33
+      }
+    }, menuItem.megaMenu === true ? __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 228,
+        columnNumber: 45
+      }
+    }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Row"], {
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 229,
+        columnNumber: 49
+      }
+    }, menuItem.children.map(function (megaMenuItem, i) {
+      return __jsx("div", {
+        className: "".concat(menuItem.megaMenuType == 'small' ? 'col-lg-4' : menuItem.megaMenuType == 'medium' ? 'col-lg-3' : menuItem.megaMenuType == 'large' ? 'col' : '', " "),
+        key: i,
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 233,
+          columnNumber: 65
+        }
+      }, __jsx("div", {
+        className: "menu-container",
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 234,
+          columnNumber: 69
+        }
+      }, __jsx("a", {
+        className: "menu-head",
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 235,
+          columnNumber: 73
+        }
+      }, megaMenuItem.title), __jsx("ul", {
+        className: "menu-icon ".concat(megaMenuItem.title ? 'openSubChildMenu' : ''),
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 236,
+          columnNumber: 73
+        }
+      }, menuItem.title === 'Elements' ? megaMenuItem.children.map(function (subMegaMenuItem, i) {
+        return __jsx("li", {
+          key: i,
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 241,
+            columnNumber: 89
+          }
+        }, __jsx("a", {
+          href: subMegaMenuItem.path,
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 242,
+            columnNumber: 93
+          }
+        }, __jsx("i", {
+          className: "icon-".concat(subMegaMenuItem.icon),
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 243,
+            columnNumber: 97
+          }
+        }), subMegaMenuItem.title));
+      }) : megaMenuItem.children.map(function (subMegaMenuItem, i) {
+        return __jsx("li", {
+          key: i,
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 249,
+            columnNumber: 89
+          }
+        }, __jsx("a", {
+          href: subMegaMenuItem.path,
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 250,
+            columnNumber: 93
+          }
+        }, subMegaMenuItem.title));
+      }))));
+    }))) : ''), menuItem.children && !menuItem.megaMenu ? __jsx("ul", {
+      className: "".concat(menuItem.active ? 'menu-open activeSubmenu' : ''),
+      style: menuItem.active ? {
+        opacity: 1,
+        transition: 'opacity 500ms ease-in'
+      } : {},
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 268,
+        columnNumber: 37
+      }
+    }, menuItem.children.map(function (childrenItem, index) {
+      return __jsx("li", {
+        key: index,
+        className: "".concat(childrenItem.children ? 'sub-menu ' : ''),
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 273,
+          columnNumber: 45
+        }
+      }, childrenItem.type === 'sub' ? __jsx("a", {
+        href: "#javascript",
+        onClick: function onClick() {
+          return toggletNavActive(childrenItem);
+        },
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 275,
+          columnNumber: 53
+        }
+      }, childrenItem.title) : '', childrenItem.type === 'link' ? __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+        href: "".concat(childrenItem.path),
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 280,
+          columnNumber: 53
+        }
+      }, __jsx("a", {
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 281,
+          columnNumber: 57
+        }
+      }, "    ", childrenItem.title, " ")) : '', childrenItem.children ? __jsx("ul", {
+        className: "".concat(childrenItem.active ? 'menu-open activeSubmenu' : 'active'),
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 285,
+          columnNumber: 53
+        }
+      }, childrenItem.children.map(function (childrenSubItem, key) {
+        return __jsx("li", {
+          key: key,
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 287,
+            columnNumber: 61
+          }
+        }, childrenSubItem.type === 'link' ? __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+          href: "".concat(childrenSubItem.path),
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 289,
+            columnNumber: 69
+          }
+        }, __jsx("a", {
+          className: "sub-menu-title",
+          __self: _this,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 290,
+            columnNumber: 73
+          }
+        }, childrenSubItem.title)) : '');
+      })) : '');
+    })) : '');
+  }), __jsx("li", {
+    key: "10",
+    "class": " mega-menu",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 305,
+      columnNumber: 17
+    }
+  }, __jsx(_pages_features_gallery_popup__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 306,
+      columnNumber: 17
+    }
+  }))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Nav);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/process/browser.js */ "./node_modules/process/browser.js")))
+
+/***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js":
 /*!*******************************************************************!*\
@@ -44,6 +2483,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/is-iterable */ "./no
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/json/stringify */ "./node_modules/core-js/library/fn/json/stringify.js");
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/map.js":
 /*!************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/map.js ***!
@@ -77,6 +2527,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/create */ "./
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js":
+/*!*********************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/define-properties */ "./node_modules/core-js/library/fn/object/define-properties.js");
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js":
 /*!*******************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js ***!
@@ -96,6 +2557,28 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/define-proper
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-property-descriptor */ "./node_modules/core-js/library/fn/object/get-own-property-descriptor.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptors.js":
+/*!********************************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptors.js ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-property-descriptors */ "./node_modules/core-js/library/fn/object/get-own-property-descriptors.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-property-symbols */ "./node_modules/core-js/library/fn/object/get-own-property-symbols.js");
 
 /***/ }),
 
@@ -361,6 +2844,88 @@ function _createClass(Constructor, protoProps, staticProps) {
 }
 
 module.exports = _createClass;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _asyncToGenerator; });
+/* harmony import */ var _core_js_promise__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
+/* harmony import */ var _core_js_promise__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_promise__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+  try {
+    var info = gen[key](arg);
+    var value = info.value;
+  } catch (error) {
+    reject(error);
+    return;
+  }
+
+  if (info.done) {
+    resolve(value);
+  } else {
+    _core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a.resolve(value).then(_next, _throw);
+  }
+}
+
+function _asyncToGenerator(fn) {
+  return function () {
+    var self = this,
+        args = arguments;
+    return new _core_js_promise__WEBPACK_IMPORTED_MODULE_0___default.a(function (resolve, reject) {
+      var gen = fn.apply(self, args);
+
+      function _next(value) {
+        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+      }
+
+      function _throw(err) {
+        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+      }
+
+      _next(undefined);
+    });
+  };
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _defineProperty; });
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
 
 /***/ }),
 
@@ -955,6 +3520,2199 @@ module.exports = _objectWithoutPropertiesLoose;
 
 /***/ }),
 
+/***/ "./node_modules/axios/index.js":
+/*!*************************************!*\
+  !*** ./node_modules/axios/index.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ./lib/axios */ "./node_modules/axios/lib/axios.js");
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/adapters/xhr.js":
+/*!************************************************!*\
+  !*** ./node_modules/axios/lib/adapters/xhr.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
+var settle = __webpack_require__(/*! ./../core/settle */ "./node_modules/axios/lib/core/settle.js");
+var cookies = __webpack_require__(/*! ./../helpers/cookies */ "./node_modules/axios/lib/helpers/cookies.js");
+var buildURL = __webpack_require__(/*! ./../helpers/buildURL */ "./node_modules/axios/lib/helpers/buildURL.js");
+var buildFullPath = __webpack_require__(/*! ../core/buildFullPath */ "./node_modules/axios/lib/core/buildFullPath.js");
+var parseHeaders = __webpack_require__(/*! ./../helpers/parseHeaders */ "./node_modules/axios/lib/helpers/parseHeaders.js");
+var isURLSameOrigin = __webpack_require__(/*! ./../helpers/isURLSameOrigin */ "./node_modules/axios/lib/helpers/isURLSameOrigin.js");
+var createError = __webpack_require__(/*! ../core/createError */ "./node_modules/axios/lib/core/createError.js");
+var transitionalDefaults = __webpack_require__(/*! ../defaults/transitional */ "./node_modules/axios/lib/defaults/transitional.js");
+var Cancel = __webpack_require__(/*! ../cancel/Cancel */ "./node_modules/axios/lib/cancel/Cancel.js");
+
+module.exports = function xhrAdapter(config) {
+  return new Promise(function dispatchXhrRequest(resolve, reject) {
+    var requestData = config.data;
+    var requestHeaders = config.headers;
+    var responseType = config.responseType;
+    var onCanceled;
+    function done() {
+      if (config.cancelToken) {
+        config.cancelToken.unsubscribe(onCanceled);
+      }
+
+      if (config.signal) {
+        config.signal.removeEventListener('abort', onCanceled);
+      }
+    }
+
+    if (utils.isFormData(requestData)) {
+      delete requestHeaders['Content-Type']; // Let the browser set it
+    }
+
+    var request = new XMLHttpRequest();
+
+    // HTTP basic authentication
+    if (config.auth) {
+      var username = config.auth.username || '';
+      var password = config.auth.password ? unescape(encodeURIComponent(config.auth.password)) : '';
+      requestHeaders.Authorization = 'Basic ' + btoa(username + ':' + password);
+    }
+
+    var fullPath = buildFullPath(config.baseURL, config.url);
+    request.open(config.method.toUpperCase(), buildURL(fullPath, config.params, config.paramsSerializer), true);
+
+    // Set the request timeout in MS
+    request.timeout = config.timeout;
+
+    function onloadend() {
+      if (!request) {
+        return;
+      }
+      // Prepare the response
+      var responseHeaders = 'getAllResponseHeaders' in request ? parseHeaders(request.getAllResponseHeaders()) : null;
+      var responseData = !responseType || responseType === 'text' ||  responseType === 'json' ?
+        request.responseText : request.response;
+      var response = {
+        data: responseData,
+        status: request.status,
+        statusText: request.statusText,
+        headers: responseHeaders,
+        config: config,
+        request: request
+      };
+
+      settle(function _resolve(value) {
+        resolve(value);
+        done();
+      }, function _reject(err) {
+        reject(err);
+        done();
+      }, response);
+
+      // Clean up request
+      request = null;
+    }
+
+    if ('onloadend' in request) {
+      // Use onloadend if available
+      request.onloadend = onloadend;
+    } else {
+      // Listen for ready state to emulate onloadend
+      request.onreadystatechange = function handleLoad() {
+        if (!request || request.readyState !== 4) {
+          return;
+        }
+
+        // The request errored out and we didn't get a response, this will be
+        // handled by onerror instead
+        // With one exception: request that using file: protocol, most browsers
+        // will return status as 0 even though it's a successful request
+        if (request.status === 0 && !(request.responseURL && request.responseURL.indexOf('file:') === 0)) {
+          return;
+        }
+        // readystate handler is calling before onerror or ontimeout handlers,
+        // so we should call onloadend on the next 'tick'
+        setTimeout(onloadend);
+      };
+    }
+
+    // Handle browser request cancellation (as opposed to a manual cancellation)
+    request.onabort = function handleAbort() {
+      if (!request) {
+        return;
+      }
+
+      reject(createError('Request aborted', config, 'ECONNABORTED', request));
+
+      // Clean up request
+      request = null;
+    };
+
+    // Handle low level network errors
+    request.onerror = function handleError() {
+      // Real errors are hidden from us by the browser
+      // onerror should only fire if it's a network error
+      reject(createError('Network Error', config, null, request));
+
+      // Clean up request
+      request = null;
+    };
+
+    // Handle timeout
+    request.ontimeout = function handleTimeout() {
+      var timeoutErrorMessage = config.timeout ? 'timeout of ' + config.timeout + 'ms exceeded' : 'timeout exceeded';
+      var transitional = config.transitional || transitionalDefaults;
+      if (config.timeoutErrorMessage) {
+        timeoutErrorMessage = config.timeoutErrorMessage;
+      }
+      reject(createError(
+        timeoutErrorMessage,
+        config,
+        transitional.clarifyTimeoutError ? 'ETIMEDOUT' : 'ECONNABORTED',
+        request));
+
+      // Clean up request
+      request = null;
+    };
+
+    // Add xsrf header
+    // This is only done if running in a standard browser environment.
+    // Specifically not if we're in a web worker, or react-native.
+    if (utils.isStandardBrowserEnv()) {
+      // Add xsrf header
+      var xsrfValue = (config.withCredentials || isURLSameOrigin(fullPath)) && config.xsrfCookieName ?
+        cookies.read(config.xsrfCookieName) :
+        undefined;
+
+      if (xsrfValue) {
+        requestHeaders[config.xsrfHeaderName] = xsrfValue;
+      }
+    }
+
+    // Add headers to the request
+    if ('setRequestHeader' in request) {
+      utils.forEach(requestHeaders, function setRequestHeader(val, key) {
+        if (typeof requestData === 'undefined' && key.toLowerCase() === 'content-type') {
+          // Remove Content-Type if data is undefined
+          delete requestHeaders[key];
+        } else {
+          // Otherwise add header to the request
+          request.setRequestHeader(key, val);
+        }
+      });
+    }
+
+    // Add withCredentials to request if needed
+    if (!utils.isUndefined(config.withCredentials)) {
+      request.withCredentials = !!config.withCredentials;
+    }
+
+    // Add responseType to request if needed
+    if (responseType && responseType !== 'json') {
+      request.responseType = config.responseType;
+    }
+
+    // Handle progress if needed
+    if (typeof config.onDownloadProgress === 'function') {
+      request.addEventListener('progress', config.onDownloadProgress);
+    }
+
+    // Not all browsers support upload events
+    if (typeof config.onUploadProgress === 'function' && request.upload) {
+      request.upload.addEventListener('progress', config.onUploadProgress);
+    }
+
+    if (config.cancelToken || config.signal) {
+      // Handle cancellation
+      // eslint-disable-next-line func-names
+      onCanceled = function(cancel) {
+        if (!request) {
+          return;
+        }
+        reject(!cancel || (cancel && cancel.type) ? new Cancel('canceled') : cancel);
+        request.abort();
+        request = null;
+      };
+
+      config.cancelToken && config.cancelToken.subscribe(onCanceled);
+      if (config.signal) {
+        config.signal.aborted ? onCanceled() : config.signal.addEventListener('abort', onCanceled);
+      }
+    }
+
+    if (!requestData) {
+      requestData = null;
+    }
+
+    // Send the request
+    request.send(requestData);
+  });
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/axios.js":
+/*!*****************************************!*\
+  !*** ./node_modules/axios/lib/axios.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./utils */ "./node_modules/axios/lib/utils.js");
+var bind = __webpack_require__(/*! ./helpers/bind */ "./node_modules/axios/lib/helpers/bind.js");
+var Axios = __webpack_require__(/*! ./core/Axios */ "./node_modules/axios/lib/core/Axios.js");
+var mergeConfig = __webpack_require__(/*! ./core/mergeConfig */ "./node_modules/axios/lib/core/mergeConfig.js");
+var defaults = __webpack_require__(/*! ./defaults */ "./node_modules/axios/lib/defaults/index.js");
+
+/**
+ * Create an instance of Axios
+ *
+ * @param {Object} defaultConfig The default config for the instance
+ * @return {Axios} A new instance of Axios
+ */
+function createInstance(defaultConfig) {
+  var context = new Axios(defaultConfig);
+  var instance = bind(Axios.prototype.request, context);
+
+  // Copy axios.prototype to instance
+  utils.extend(instance, Axios.prototype, context);
+
+  // Copy context to instance
+  utils.extend(instance, context);
+
+  // Factory for creating new instances
+  instance.create = function create(instanceConfig) {
+    return createInstance(mergeConfig(defaultConfig, instanceConfig));
+  };
+
+  return instance;
+}
+
+// Create the default instance to be exported
+var axios = createInstance(defaults);
+
+// Expose Axios class to allow class inheritance
+axios.Axios = Axios;
+
+// Expose Cancel & CancelToken
+axios.Cancel = __webpack_require__(/*! ./cancel/Cancel */ "./node_modules/axios/lib/cancel/Cancel.js");
+axios.CancelToken = __webpack_require__(/*! ./cancel/CancelToken */ "./node_modules/axios/lib/cancel/CancelToken.js");
+axios.isCancel = __webpack_require__(/*! ./cancel/isCancel */ "./node_modules/axios/lib/cancel/isCancel.js");
+axios.VERSION = __webpack_require__(/*! ./env/data */ "./node_modules/axios/lib/env/data.js").version;
+
+// Expose all/spread
+axios.all = function all(promises) {
+  return Promise.all(promises);
+};
+axios.spread = __webpack_require__(/*! ./helpers/spread */ "./node_modules/axios/lib/helpers/spread.js");
+
+// Expose isAxiosError
+axios.isAxiosError = __webpack_require__(/*! ./helpers/isAxiosError */ "./node_modules/axios/lib/helpers/isAxiosError.js");
+
+module.exports = axios;
+
+// Allow use of default import syntax in TypeScript
+module.exports.default = axios;
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/cancel/Cancel.js":
+/*!*************************************************!*\
+  !*** ./node_modules/axios/lib/cancel/Cancel.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * A `Cancel` is an object that is thrown when an operation is canceled.
+ *
+ * @class
+ * @param {string=} message The message.
+ */
+function Cancel(message) {
+  this.message = message;
+}
+
+Cancel.prototype.toString = function toString() {
+  return 'Cancel' + (this.message ? ': ' + this.message : '');
+};
+
+Cancel.prototype.__CANCEL__ = true;
+
+module.exports = Cancel;
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/cancel/CancelToken.js":
+/*!******************************************************!*\
+  !*** ./node_modules/axios/lib/cancel/CancelToken.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var Cancel = __webpack_require__(/*! ./Cancel */ "./node_modules/axios/lib/cancel/Cancel.js");
+
+/**
+ * A `CancelToken` is an object that can be used to request cancellation of an operation.
+ *
+ * @class
+ * @param {Function} executor The executor function.
+ */
+function CancelToken(executor) {
+  if (typeof executor !== 'function') {
+    throw new TypeError('executor must be a function.');
+  }
+
+  var resolvePromise;
+
+  this.promise = new Promise(function promiseExecutor(resolve) {
+    resolvePromise = resolve;
+  });
+
+  var token = this;
+
+  // eslint-disable-next-line func-names
+  this.promise.then(function(cancel) {
+    if (!token._listeners) return;
+
+    var i;
+    var l = token._listeners.length;
+
+    for (i = 0; i < l; i++) {
+      token._listeners[i](cancel);
+    }
+    token._listeners = null;
+  });
+
+  // eslint-disable-next-line func-names
+  this.promise.then = function(onfulfilled) {
+    var _resolve;
+    // eslint-disable-next-line func-names
+    var promise = new Promise(function(resolve) {
+      token.subscribe(resolve);
+      _resolve = resolve;
+    }).then(onfulfilled);
+
+    promise.cancel = function reject() {
+      token.unsubscribe(_resolve);
+    };
+
+    return promise;
+  };
+
+  executor(function cancel(message) {
+    if (token.reason) {
+      // Cancellation has already been requested
+      return;
+    }
+
+    token.reason = new Cancel(message);
+    resolvePromise(token.reason);
+  });
+}
+
+/**
+ * Throws a `Cancel` if cancellation has been requested.
+ */
+CancelToken.prototype.throwIfRequested = function throwIfRequested() {
+  if (this.reason) {
+    throw this.reason;
+  }
+};
+
+/**
+ * Subscribe to the cancel signal
+ */
+
+CancelToken.prototype.subscribe = function subscribe(listener) {
+  if (this.reason) {
+    listener(this.reason);
+    return;
+  }
+
+  if (this._listeners) {
+    this._listeners.push(listener);
+  } else {
+    this._listeners = [listener];
+  }
+};
+
+/**
+ * Unsubscribe from the cancel signal
+ */
+
+CancelToken.prototype.unsubscribe = function unsubscribe(listener) {
+  if (!this._listeners) {
+    return;
+  }
+  var index = this._listeners.indexOf(listener);
+  if (index !== -1) {
+    this._listeners.splice(index, 1);
+  }
+};
+
+/**
+ * Returns an object that contains a new `CancelToken` and a function that, when called,
+ * cancels the `CancelToken`.
+ */
+CancelToken.source = function source() {
+  var cancel;
+  var token = new CancelToken(function executor(c) {
+    cancel = c;
+  });
+  return {
+    token: token,
+    cancel: cancel
+  };
+};
+
+module.exports = CancelToken;
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/cancel/isCancel.js":
+/*!***************************************************!*\
+  !*** ./node_modules/axios/lib/cancel/isCancel.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = function isCancel(value) {
+  return !!(value && value.__CANCEL__);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/core/Axios.js":
+/*!**********************************************!*\
+  !*** ./node_modules/axios/lib/core/Axios.js ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
+var buildURL = __webpack_require__(/*! ../helpers/buildURL */ "./node_modules/axios/lib/helpers/buildURL.js");
+var InterceptorManager = __webpack_require__(/*! ./InterceptorManager */ "./node_modules/axios/lib/core/InterceptorManager.js");
+var dispatchRequest = __webpack_require__(/*! ./dispatchRequest */ "./node_modules/axios/lib/core/dispatchRequest.js");
+var mergeConfig = __webpack_require__(/*! ./mergeConfig */ "./node_modules/axios/lib/core/mergeConfig.js");
+var validator = __webpack_require__(/*! ../helpers/validator */ "./node_modules/axios/lib/helpers/validator.js");
+
+var validators = validator.validators;
+/**
+ * Create a new instance of Axios
+ *
+ * @param {Object} instanceConfig The default config for the instance
+ */
+function Axios(instanceConfig) {
+  this.defaults = instanceConfig;
+  this.interceptors = {
+    request: new InterceptorManager(),
+    response: new InterceptorManager()
+  };
+}
+
+/**
+ * Dispatch a request
+ *
+ * @param {Object} config The config specific for this request (merged with this.defaults)
+ */
+Axios.prototype.request = function request(configOrUrl, config) {
+  /*eslint no-param-reassign:0*/
+  // Allow for axios('example/url'[, config]) a la fetch API
+  if (typeof configOrUrl === 'string') {
+    config = config || {};
+    config.url = configOrUrl;
+  } else {
+    config = configOrUrl || {};
+  }
+
+  config = mergeConfig(this.defaults, config);
+
+  // Set config.method
+  if (config.method) {
+    config.method = config.method.toLowerCase();
+  } else if (this.defaults.method) {
+    config.method = this.defaults.method.toLowerCase();
+  } else {
+    config.method = 'get';
+  }
+
+  var transitional = config.transitional;
+
+  if (transitional !== undefined) {
+    validator.assertOptions(transitional, {
+      silentJSONParsing: validators.transitional(validators.boolean),
+      forcedJSONParsing: validators.transitional(validators.boolean),
+      clarifyTimeoutError: validators.transitional(validators.boolean)
+    }, false);
+  }
+
+  // filter out skipped interceptors
+  var requestInterceptorChain = [];
+  var synchronousRequestInterceptors = true;
+  this.interceptors.request.forEach(function unshiftRequestInterceptors(interceptor) {
+    if (typeof interceptor.runWhen === 'function' && interceptor.runWhen(config) === false) {
+      return;
+    }
+
+    synchronousRequestInterceptors = synchronousRequestInterceptors && interceptor.synchronous;
+
+    requestInterceptorChain.unshift(interceptor.fulfilled, interceptor.rejected);
+  });
+
+  var responseInterceptorChain = [];
+  this.interceptors.response.forEach(function pushResponseInterceptors(interceptor) {
+    responseInterceptorChain.push(interceptor.fulfilled, interceptor.rejected);
+  });
+
+  var promise;
+
+  if (!synchronousRequestInterceptors) {
+    var chain = [dispatchRequest, undefined];
+
+    Array.prototype.unshift.apply(chain, requestInterceptorChain);
+    chain = chain.concat(responseInterceptorChain);
+
+    promise = Promise.resolve(config);
+    while (chain.length) {
+      promise = promise.then(chain.shift(), chain.shift());
+    }
+
+    return promise;
+  }
+
+
+  var newConfig = config;
+  while (requestInterceptorChain.length) {
+    var onFulfilled = requestInterceptorChain.shift();
+    var onRejected = requestInterceptorChain.shift();
+    try {
+      newConfig = onFulfilled(newConfig);
+    } catch (error) {
+      onRejected(error);
+      break;
+    }
+  }
+
+  try {
+    promise = dispatchRequest(newConfig);
+  } catch (error) {
+    return Promise.reject(error);
+  }
+
+  while (responseInterceptorChain.length) {
+    promise = promise.then(responseInterceptorChain.shift(), responseInterceptorChain.shift());
+  }
+
+  return promise;
+};
+
+Axios.prototype.getUri = function getUri(config) {
+  config = mergeConfig(this.defaults, config);
+  return buildURL(config.url, config.params, config.paramsSerializer).replace(/^\?/, '');
+};
+
+// Provide aliases for supported request methods
+utils.forEach(['delete', 'get', 'head', 'options'], function forEachMethodNoData(method) {
+  /*eslint func-names:0*/
+  Axios.prototype[method] = function(url, config) {
+    return this.request(mergeConfig(config || {}, {
+      method: method,
+      url: url,
+      data: (config || {}).data
+    }));
+  };
+});
+
+utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
+  /*eslint func-names:0*/
+  Axios.prototype[method] = function(url, data, config) {
+    return this.request(mergeConfig(config || {}, {
+      method: method,
+      url: url,
+      data: data
+    }));
+  };
+});
+
+module.exports = Axios;
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/core/InterceptorManager.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/axios/lib/core/InterceptorManager.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
+
+function InterceptorManager() {
+  this.handlers = [];
+}
+
+/**
+ * Add a new interceptor to the stack
+ *
+ * @param {Function} fulfilled The function to handle `then` for a `Promise`
+ * @param {Function} rejected The function to handle `reject` for a `Promise`
+ *
+ * @return {Number} An ID used to remove interceptor later
+ */
+InterceptorManager.prototype.use = function use(fulfilled, rejected, options) {
+  this.handlers.push({
+    fulfilled: fulfilled,
+    rejected: rejected,
+    synchronous: options ? options.synchronous : false,
+    runWhen: options ? options.runWhen : null
+  });
+  return this.handlers.length - 1;
+};
+
+/**
+ * Remove an interceptor from the stack
+ *
+ * @param {Number} id The ID that was returned by `use`
+ */
+InterceptorManager.prototype.eject = function eject(id) {
+  if (this.handlers[id]) {
+    this.handlers[id] = null;
+  }
+};
+
+/**
+ * Iterate over all the registered interceptors
+ *
+ * This method is particularly useful for skipping over any
+ * interceptors that may have become `null` calling `eject`.
+ *
+ * @param {Function} fn The function to call for each interceptor
+ */
+InterceptorManager.prototype.forEach = function forEach(fn) {
+  utils.forEach(this.handlers, function forEachHandler(h) {
+    if (h !== null) {
+      fn(h);
+    }
+  });
+};
+
+module.exports = InterceptorManager;
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/core/buildFullPath.js":
+/*!******************************************************!*\
+  !*** ./node_modules/axios/lib/core/buildFullPath.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var isAbsoluteURL = __webpack_require__(/*! ../helpers/isAbsoluteURL */ "./node_modules/axios/lib/helpers/isAbsoluteURL.js");
+var combineURLs = __webpack_require__(/*! ../helpers/combineURLs */ "./node_modules/axios/lib/helpers/combineURLs.js");
+
+/**
+ * Creates a new URL by combining the baseURL with the requestedURL,
+ * only when the requestedURL is not already an absolute URL.
+ * If the requestURL is absolute, this function returns the requestedURL untouched.
+ *
+ * @param {string} baseURL The base URL
+ * @param {string} requestedURL Absolute or relative URL to combine
+ * @returns {string} The combined full path
+ */
+module.exports = function buildFullPath(baseURL, requestedURL) {
+  if (baseURL && !isAbsoluteURL(requestedURL)) {
+    return combineURLs(baseURL, requestedURL);
+  }
+  return requestedURL;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/core/createError.js":
+/*!****************************************************!*\
+  !*** ./node_modules/axios/lib/core/createError.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var enhanceError = __webpack_require__(/*! ./enhanceError */ "./node_modules/axios/lib/core/enhanceError.js");
+
+/**
+ * Create an Error with the specified message, config, error code, request and response.
+ *
+ * @param {string} message The error message.
+ * @param {Object} config The config.
+ * @param {string} [code] The error code (for example, 'ECONNABORTED').
+ * @param {Object} [request] The request.
+ * @param {Object} [response] The response.
+ * @returns {Error} The created error.
+ */
+module.exports = function createError(message, config, code, request, response) {
+  var error = new Error(message);
+  return enhanceError(error, config, code, request, response);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/core/dispatchRequest.js":
+/*!********************************************************!*\
+  !*** ./node_modules/axios/lib/core/dispatchRequest.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
+var transformData = __webpack_require__(/*! ./transformData */ "./node_modules/axios/lib/core/transformData.js");
+var isCancel = __webpack_require__(/*! ../cancel/isCancel */ "./node_modules/axios/lib/cancel/isCancel.js");
+var defaults = __webpack_require__(/*! ../defaults */ "./node_modules/axios/lib/defaults/index.js");
+var Cancel = __webpack_require__(/*! ../cancel/Cancel */ "./node_modules/axios/lib/cancel/Cancel.js");
+
+/**
+ * Throws a `Cancel` if cancellation has been requested.
+ */
+function throwIfCancellationRequested(config) {
+  if (config.cancelToken) {
+    config.cancelToken.throwIfRequested();
+  }
+
+  if (config.signal && config.signal.aborted) {
+    throw new Cancel('canceled');
+  }
+}
+
+/**
+ * Dispatch a request to the server using the configured adapter.
+ *
+ * @param {object} config The config that is to be used for the request
+ * @returns {Promise} The Promise to be fulfilled
+ */
+module.exports = function dispatchRequest(config) {
+  throwIfCancellationRequested(config);
+
+  // Ensure headers exist
+  config.headers = config.headers || {};
+
+  // Transform request data
+  config.data = transformData.call(
+    config,
+    config.data,
+    config.headers,
+    config.transformRequest
+  );
+
+  // Flatten headers
+  config.headers = utils.merge(
+    config.headers.common || {},
+    config.headers[config.method] || {},
+    config.headers
+  );
+
+  utils.forEach(
+    ['delete', 'get', 'head', 'post', 'put', 'patch', 'common'],
+    function cleanHeaderConfig(method) {
+      delete config.headers[method];
+    }
+  );
+
+  var adapter = config.adapter || defaults.adapter;
+
+  return adapter(config).then(function onAdapterResolution(response) {
+    throwIfCancellationRequested(config);
+
+    // Transform response data
+    response.data = transformData.call(
+      config,
+      response.data,
+      response.headers,
+      config.transformResponse
+    );
+
+    return response;
+  }, function onAdapterRejection(reason) {
+    if (!isCancel(reason)) {
+      throwIfCancellationRequested(config);
+
+      // Transform response data
+      if (reason && reason.response) {
+        reason.response.data = transformData.call(
+          config,
+          reason.response.data,
+          reason.response.headers,
+          config.transformResponse
+        );
+      }
+    }
+
+    return Promise.reject(reason);
+  });
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/core/enhanceError.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/axios/lib/core/enhanceError.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Update an Error with the specified config, error code, and response.
+ *
+ * @param {Error} error The error to update.
+ * @param {Object} config The config.
+ * @param {string} [code] The error code (for example, 'ECONNABORTED').
+ * @param {Object} [request] The request.
+ * @param {Object} [response] The response.
+ * @returns {Error} The error.
+ */
+module.exports = function enhanceError(error, config, code, request, response) {
+  error.config = config;
+  if (code) {
+    error.code = code;
+  }
+
+  error.request = request;
+  error.response = response;
+  error.isAxiosError = true;
+
+  error.toJSON = function toJSON() {
+    return {
+      // Standard
+      message: this.message,
+      name: this.name,
+      // Microsoft
+      description: this.description,
+      number: this.number,
+      // Mozilla
+      fileName: this.fileName,
+      lineNumber: this.lineNumber,
+      columnNumber: this.columnNumber,
+      stack: this.stack,
+      // Axios
+      config: this.config,
+      code: this.code,
+      status: this.response && this.response.status ? this.response.status : null
+    };
+  };
+  return error;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/core/mergeConfig.js":
+/*!****************************************************!*\
+  !*** ./node_modules/axios/lib/core/mergeConfig.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ../utils */ "./node_modules/axios/lib/utils.js");
+
+/**
+ * Config-specific merge-function which creates a new config-object
+ * by merging two configuration objects together.
+ *
+ * @param {Object} config1
+ * @param {Object} config2
+ * @returns {Object} New object resulting from merging config2 to config1
+ */
+module.exports = function mergeConfig(config1, config2) {
+  // eslint-disable-next-line no-param-reassign
+  config2 = config2 || {};
+  var config = {};
+
+  function getMergedValue(target, source) {
+    if (utils.isPlainObject(target) && utils.isPlainObject(source)) {
+      return utils.merge(target, source);
+    } else if (utils.isPlainObject(source)) {
+      return utils.merge({}, source);
+    } else if (utils.isArray(source)) {
+      return source.slice();
+    }
+    return source;
+  }
+
+  // eslint-disable-next-line consistent-return
+  function mergeDeepProperties(prop) {
+    if (!utils.isUndefined(config2[prop])) {
+      return getMergedValue(config1[prop], config2[prop]);
+    } else if (!utils.isUndefined(config1[prop])) {
+      return getMergedValue(undefined, config1[prop]);
+    }
+  }
+
+  // eslint-disable-next-line consistent-return
+  function valueFromConfig2(prop) {
+    if (!utils.isUndefined(config2[prop])) {
+      return getMergedValue(undefined, config2[prop]);
+    }
+  }
+
+  // eslint-disable-next-line consistent-return
+  function defaultToConfig2(prop) {
+    if (!utils.isUndefined(config2[prop])) {
+      return getMergedValue(undefined, config2[prop]);
+    } else if (!utils.isUndefined(config1[prop])) {
+      return getMergedValue(undefined, config1[prop]);
+    }
+  }
+
+  // eslint-disable-next-line consistent-return
+  function mergeDirectKeys(prop) {
+    if (prop in config2) {
+      return getMergedValue(config1[prop], config2[prop]);
+    } else if (prop in config1) {
+      return getMergedValue(undefined, config1[prop]);
+    }
+  }
+
+  var mergeMap = {
+    'url': valueFromConfig2,
+    'method': valueFromConfig2,
+    'data': valueFromConfig2,
+    'baseURL': defaultToConfig2,
+    'transformRequest': defaultToConfig2,
+    'transformResponse': defaultToConfig2,
+    'paramsSerializer': defaultToConfig2,
+    'timeout': defaultToConfig2,
+    'timeoutMessage': defaultToConfig2,
+    'withCredentials': defaultToConfig2,
+    'adapter': defaultToConfig2,
+    'responseType': defaultToConfig2,
+    'xsrfCookieName': defaultToConfig2,
+    'xsrfHeaderName': defaultToConfig2,
+    'onUploadProgress': defaultToConfig2,
+    'onDownloadProgress': defaultToConfig2,
+    'decompress': defaultToConfig2,
+    'maxContentLength': defaultToConfig2,
+    'maxBodyLength': defaultToConfig2,
+    'transport': defaultToConfig2,
+    'httpAgent': defaultToConfig2,
+    'httpsAgent': defaultToConfig2,
+    'cancelToken': defaultToConfig2,
+    'socketPath': defaultToConfig2,
+    'responseEncoding': defaultToConfig2,
+    'validateStatus': mergeDirectKeys
+  };
+
+  utils.forEach(Object.keys(config1).concat(Object.keys(config2)), function computeConfigValue(prop) {
+    var merge = mergeMap[prop] || mergeDeepProperties;
+    var configValue = merge(prop);
+    (utils.isUndefined(configValue) && merge !== mergeDirectKeys) || (config[prop] = configValue);
+  });
+
+  return config;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/core/settle.js":
+/*!***********************************************!*\
+  !*** ./node_modules/axios/lib/core/settle.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var createError = __webpack_require__(/*! ./createError */ "./node_modules/axios/lib/core/createError.js");
+
+/**
+ * Resolve or reject a Promise based on response status.
+ *
+ * @param {Function} resolve A function that resolves the promise.
+ * @param {Function} reject A function that rejects the promise.
+ * @param {object} response The response.
+ */
+module.exports = function settle(resolve, reject, response) {
+  var validateStatus = response.config.validateStatus;
+  if (!response.status || !validateStatus || validateStatus(response.status)) {
+    resolve(response);
+  } else {
+    reject(createError(
+      'Request failed with status code ' + response.status,
+      response.config,
+      null,
+      response.request,
+      response
+    ));
+  }
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/core/transformData.js":
+/*!******************************************************!*\
+  !*** ./node_modules/axios/lib/core/transformData.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
+var defaults = __webpack_require__(/*! ../defaults */ "./node_modules/axios/lib/defaults/index.js");
+
+/**
+ * Transform the data for a request or a response
+ *
+ * @param {Object|String} data The data to be transformed
+ * @param {Array} headers The headers for the request or response
+ * @param {Array|Function} fns A single function or Array of functions
+ * @returns {*} The resulting transformed data
+ */
+module.exports = function transformData(data, headers, fns) {
+  var context = this || defaults;
+  /*eslint no-param-reassign:0*/
+  utils.forEach(fns, function transform(fn) {
+    data = fn.call(context, data, headers);
+  });
+
+  return data;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/defaults/index.js":
+/*!**************************************************!*\
+  !*** ./node_modules/axios/lib/defaults/index.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {
+
+var utils = __webpack_require__(/*! ../utils */ "./node_modules/axios/lib/utils.js");
+var normalizeHeaderName = __webpack_require__(/*! ../helpers/normalizeHeaderName */ "./node_modules/axios/lib/helpers/normalizeHeaderName.js");
+var enhanceError = __webpack_require__(/*! ../core/enhanceError */ "./node_modules/axios/lib/core/enhanceError.js");
+var transitionalDefaults = __webpack_require__(/*! ./transitional */ "./node_modules/axios/lib/defaults/transitional.js");
+
+var DEFAULT_CONTENT_TYPE = {
+  'Content-Type': 'application/x-www-form-urlencoded'
+};
+
+function setContentTypeIfUnset(headers, value) {
+  if (!utils.isUndefined(headers) && utils.isUndefined(headers['Content-Type'])) {
+    headers['Content-Type'] = value;
+  }
+}
+
+function getDefaultAdapter() {
+  var adapter;
+  if (typeof XMLHttpRequest !== 'undefined') {
+    // For browsers use XHR adapter
+    adapter = __webpack_require__(/*! ../adapters/xhr */ "./node_modules/axios/lib/adapters/xhr.js");
+  } else if (typeof process !== 'undefined' && Object.prototype.toString.call(process) === '[object process]') {
+    // For node use HTTP adapter
+    adapter = __webpack_require__(/*! ../adapters/http */ "./node_modules/axios/lib/adapters/xhr.js");
+  }
+  return adapter;
+}
+
+function stringifySafely(rawValue, parser, encoder) {
+  if (utils.isString(rawValue)) {
+    try {
+      (parser || JSON.parse)(rawValue);
+      return utils.trim(rawValue);
+    } catch (e) {
+      if (e.name !== 'SyntaxError') {
+        throw e;
+      }
+    }
+  }
+
+  return (encoder || JSON.stringify)(rawValue);
+}
+
+var defaults = {
+
+  transitional: transitionalDefaults,
+
+  adapter: getDefaultAdapter(),
+
+  transformRequest: [function transformRequest(data, headers) {
+    normalizeHeaderName(headers, 'Accept');
+    normalizeHeaderName(headers, 'Content-Type');
+
+    if (utils.isFormData(data) ||
+      utils.isArrayBuffer(data) ||
+      utils.isBuffer(data) ||
+      utils.isStream(data) ||
+      utils.isFile(data) ||
+      utils.isBlob(data)
+    ) {
+      return data;
+    }
+    if (utils.isArrayBufferView(data)) {
+      return data.buffer;
+    }
+    if (utils.isURLSearchParams(data)) {
+      setContentTypeIfUnset(headers, 'application/x-www-form-urlencoded;charset=utf-8');
+      return data.toString();
+    }
+    if (utils.isObject(data) || (headers && headers['Content-Type'] === 'application/json')) {
+      setContentTypeIfUnset(headers, 'application/json');
+      return stringifySafely(data);
+    }
+    return data;
+  }],
+
+  transformResponse: [function transformResponse(data) {
+    var transitional = this.transitional || defaults.transitional;
+    var silentJSONParsing = transitional && transitional.silentJSONParsing;
+    var forcedJSONParsing = transitional && transitional.forcedJSONParsing;
+    var strictJSONParsing = !silentJSONParsing && this.responseType === 'json';
+
+    if (strictJSONParsing || (forcedJSONParsing && utils.isString(data) && data.length)) {
+      try {
+        return JSON.parse(data);
+      } catch (e) {
+        if (strictJSONParsing) {
+          if (e.name === 'SyntaxError') {
+            throw enhanceError(e, this, 'E_JSON_PARSE');
+          }
+          throw e;
+        }
+      }
+    }
+
+    return data;
+  }],
+
+  /**
+   * A timeout in milliseconds to abort a request. If set to 0 (default) a
+   * timeout is not created.
+   */
+  timeout: 0,
+
+  xsrfCookieName: 'XSRF-TOKEN',
+  xsrfHeaderName: 'X-XSRF-TOKEN',
+
+  maxContentLength: -1,
+  maxBodyLength: -1,
+
+  validateStatus: function validateStatus(status) {
+    return status >= 200 && status < 300;
+  },
+
+  headers: {
+    common: {
+      'Accept': 'application/json, text/plain, */*'
+    }
+  }
+};
+
+utils.forEach(['delete', 'get', 'head'], function forEachMethodNoData(method) {
+  defaults.headers[method] = {};
+});
+
+utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
+  defaults.headers[method] = utils.merge(DEFAULT_CONTENT_TYPE);
+});
+
+module.exports = defaults;
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../process/browser.js */ "./node_modules/process/browser.js")))
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/defaults/transitional.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/axios/lib/defaults/transitional.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = {
+  silentJSONParsing: true,
+  forcedJSONParsing: true,
+  clarifyTimeoutError: false
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/env/data.js":
+/*!********************************************!*\
+  !*** ./node_modules/axios/lib/env/data.js ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {
+  "version": "0.26.1"
+};
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/helpers/bind.js":
+/*!************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/bind.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = function bind(fn, thisArg) {
+  return function wrap() {
+    var args = new Array(arguments.length);
+    for (var i = 0; i < args.length; i++) {
+      args[i] = arguments[i];
+    }
+    return fn.apply(thisArg, args);
+  };
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/helpers/buildURL.js":
+/*!****************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/buildURL.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
+
+function encode(val) {
+  return encodeURIComponent(val).
+    replace(/%3A/gi, ':').
+    replace(/%24/g, '$').
+    replace(/%2C/gi, ',').
+    replace(/%20/g, '+').
+    replace(/%5B/gi, '[').
+    replace(/%5D/gi, ']');
+}
+
+/**
+ * Build a URL by appending params to the end
+ *
+ * @param {string} url The base of the url (e.g., http://www.google.com)
+ * @param {object} [params] The params to be appended
+ * @returns {string} The formatted url
+ */
+module.exports = function buildURL(url, params, paramsSerializer) {
+  /*eslint no-param-reassign:0*/
+  if (!params) {
+    return url;
+  }
+
+  var serializedParams;
+  if (paramsSerializer) {
+    serializedParams = paramsSerializer(params);
+  } else if (utils.isURLSearchParams(params)) {
+    serializedParams = params.toString();
+  } else {
+    var parts = [];
+
+    utils.forEach(params, function serialize(val, key) {
+      if (val === null || typeof val === 'undefined') {
+        return;
+      }
+
+      if (utils.isArray(val)) {
+        key = key + '[]';
+      } else {
+        val = [val];
+      }
+
+      utils.forEach(val, function parseValue(v) {
+        if (utils.isDate(v)) {
+          v = v.toISOString();
+        } else if (utils.isObject(v)) {
+          v = JSON.stringify(v);
+        }
+        parts.push(encode(key) + '=' + encode(v));
+      });
+    });
+
+    serializedParams = parts.join('&');
+  }
+
+  if (serializedParams) {
+    var hashmarkIndex = url.indexOf('#');
+    if (hashmarkIndex !== -1) {
+      url = url.slice(0, hashmarkIndex);
+    }
+
+    url += (url.indexOf('?') === -1 ? '?' : '&') + serializedParams;
+  }
+
+  return url;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/helpers/combineURLs.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/combineURLs.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Creates a new URL by combining the specified URLs
+ *
+ * @param {string} baseURL The base URL
+ * @param {string} relativeURL The relative URL
+ * @returns {string} The combined URL
+ */
+module.exports = function combineURLs(baseURL, relativeURL) {
+  return relativeURL
+    ? baseURL.replace(/\/+$/, '') + '/' + relativeURL.replace(/^\/+/, '')
+    : baseURL;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/helpers/cookies.js":
+/*!***************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/cookies.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
+
+module.exports = (
+  utils.isStandardBrowserEnv() ?
+
+  // Standard browser envs support document.cookie
+    (function standardBrowserEnv() {
+      return {
+        write: function write(name, value, expires, path, domain, secure) {
+          var cookie = [];
+          cookie.push(name + '=' + encodeURIComponent(value));
+
+          if (utils.isNumber(expires)) {
+            cookie.push('expires=' + new Date(expires).toGMTString());
+          }
+
+          if (utils.isString(path)) {
+            cookie.push('path=' + path);
+          }
+
+          if (utils.isString(domain)) {
+            cookie.push('domain=' + domain);
+          }
+
+          if (secure === true) {
+            cookie.push('secure');
+          }
+
+          document.cookie = cookie.join('; ');
+        },
+
+        read: function read(name) {
+          var match = document.cookie.match(new RegExp('(^|;\\s*)(' + name + ')=([^;]*)'));
+          return (match ? decodeURIComponent(match[3]) : null);
+        },
+
+        remove: function remove(name) {
+          this.write(name, '', Date.now() - 86400000);
+        }
+      };
+    })() :
+
+  // Non standard browser env (web workers, react-native) lack needed support.
+    (function nonStandardBrowserEnv() {
+      return {
+        write: function write() {},
+        read: function read() { return null; },
+        remove: function remove() {}
+      };
+    })()
+);
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/helpers/isAbsoluteURL.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/isAbsoluteURL.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Determines whether the specified URL is absolute
+ *
+ * @param {string} url The URL to test
+ * @returns {boolean} True if the specified URL is absolute, otherwise false
+ */
+module.exports = function isAbsoluteURL(url) {
+  // A URL is considered absolute if it begins with "<scheme>://" or "//" (protocol-relative URL).
+  // RFC 3986 defines scheme name as a sequence of characters beginning with a letter and followed
+  // by any combination of letters, digits, plus, period, or hyphen.
+  return /^([a-z][a-z\d+\-.]*:)?\/\//i.test(url);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/helpers/isAxiosError.js":
+/*!********************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/isAxiosError.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
+
+/**
+ * Determines whether the payload is an error thrown by Axios
+ *
+ * @param {*} payload The value to test
+ * @returns {boolean} True if the payload is an error thrown by Axios, otherwise false
+ */
+module.exports = function isAxiosError(payload) {
+  return utils.isObject(payload) && (payload.isAxiosError === true);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/helpers/isURLSameOrigin.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/isURLSameOrigin.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
+
+module.exports = (
+  utils.isStandardBrowserEnv() ?
+
+  // Standard browser envs have full support of the APIs needed to test
+  // whether the request URL is of the same origin as current location.
+    (function standardBrowserEnv() {
+      var msie = /(msie|trident)/i.test(navigator.userAgent);
+      var urlParsingNode = document.createElement('a');
+      var originURL;
+
+      /**
+    * Parse a URL to discover it's components
+    *
+    * @param {String} url The URL to be parsed
+    * @returns {Object}
+    */
+      function resolveURL(url) {
+        var href = url;
+
+        if (msie) {
+        // IE needs attribute set twice to normalize properties
+          urlParsingNode.setAttribute('href', href);
+          href = urlParsingNode.href;
+        }
+
+        urlParsingNode.setAttribute('href', href);
+
+        // urlParsingNode provides the UrlUtils interface - http://url.spec.whatwg.org/#urlutils
+        return {
+          href: urlParsingNode.href,
+          protocol: urlParsingNode.protocol ? urlParsingNode.protocol.replace(/:$/, '') : '',
+          host: urlParsingNode.host,
+          search: urlParsingNode.search ? urlParsingNode.search.replace(/^\?/, '') : '',
+          hash: urlParsingNode.hash ? urlParsingNode.hash.replace(/^#/, '') : '',
+          hostname: urlParsingNode.hostname,
+          port: urlParsingNode.port,
+          pathname: (urlParsingNode.pathname.charAt(0) === '/') ?
+            urlParsingNode.pathname :
+            '/' + urlParsingNode.pathname
+        };
+      }
+
+      originURL = resolveURL(window.location.href);
+
+      /**
+    * Determine if a URL shares the same origin as the current location
+    *
+    * @param {String} requestURL The URL to test
+    * @returns {boolean} True if URL shares the same origin, otherwise false
+    */
+      return function isURLSameOrigin(requestURL) {
+        var parsed = (utils.isString(requestURL)) ? resolveURL(requestURL) : requestURL;
+        return (parsed.protocol === originURL.protocol &&
+            parsed.host === originURL.host);
+      };
+    })() :
+
+  // Non standard browser envs (web workers, react-native) lack needed support.
+    (function nonStandardBrowserEnv() {
+      return function isURLSameOrigin() {
+        return true;
+      };
+    })()
+);
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/helpers/normalizeHeaderName.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/normalizeHeaderName.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ../utils */ "./node_modules/axios/lib/utils.js");
+
+module.exports = function normalizeHeaderName(headers, normalizedName) {
+  utils.forEach(headers, function processHeader(value, name) {
+    if (name !== normalizedName && name.toUpperCase() === normalizedName.toUpperCase()) {
+      headers[normalizedName] = value;
+      delete headers[name];
+    }
+  });
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/helpers/parseHeaders.js":
+/*!********************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/parseHeaders.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
+
+// Headers whose duplicates are ignored by node
+// c.f. https://nodejs.org/api/http.html#http_message_headers
+var ignoreDuplicateOf = [
+  'age', 'authorization', 'content-length', 'content-type', 'etag',
+  'expires', 'from', 'host', 'if-modified-since', 'if-unmodified-since',
+  'last-modified', 'location', 'max-forwards', 'proxy-authorization',
+  'referer', 'retry-after', 'user-agent'
+];
+
+/**
+ * Parse headers into an object
+ *
+ * ```
+ * Date: Wed, 27 Aug 2014 08:58:49 GMT
+ * Content-Type: application/json
+ * Connection: keep-alive
+ * Transfer-Encoding: chunked
+ * ```
+ *
+ * @param {String} headers Headers needing to be parsed
+ * @returns {Object} Headers parsed into an object
+ */
+module.exports = function parseHeaders(headers) {
+  var parsed = {};
+  var key;
+  var val;
+  var i;
+
+  if (!headers) { return parsed; }
+
+  utils.forEach(headers.split('\n'), function parser(line) {
+    i = line.indexOf(':');
+    key = utils.trim(line.substr(0, i)).toLowerCase();
+    val = utils.trim(line.substr(i + 1));
+
+    if (key) {
+      if (parsed[key] && ignoreDuplicateOf.indexOf(key) >= 0) {
+        return;
+      }
+      if (key === 'set-cookie') {
+        parsed[key] = (parsed[key] ? parsed[key] : []).concat([val]);
+      } else {
+        parsed[key] = parsed[key] ? parsed[key] + ', ' + val : val;
+      }
+    }
+  });
+
+  return parsed;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/helpers/spread.js":
+/*!**************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/spread.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Syntactic sugar for invoking a function and expanding an array for arguments.
+ *
+ * Common use case would be to use `Function.prototype.apply`.
+ *
+ *  ```js
+ *  function f(x, y, z) {}
+ *  var args = [1, 2, 3];
+ *  f.apply(null, args);
+ *  ```
+ *
+ * With `spread` this example can be re-written.
+ *
+ *  ```js
+ *  spread(function(x, y, z) {})([1, 2, 3]);
+ *  ```
+ *
+ * @param {Function} callback
+ * @returns {Function}
+ */
+module.exports = function spread(callback) {
+  return function wrap(arr) {
+    return callback.apply(null, arr);
+  };
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/helpers/validator.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/validator.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var VERSION = __webpack_require__(/*! ../env/data */ "./node_modules/axios/lib/env/data.js").version;
+
+var validators = {};
+
+// eslint-disable-next-line func-names
+['object', 'boolean', 'number', 'function', 'string', 'symbol'].forEach(function(type, i) {
+  validators[type] = function validator(thing) {
+    return typeof thing === type || 'a' + (i < 1 ? 'n ' : ' ') + type;
+  };
+});
+
+var deprecatedWarnings = {};
+
+/**
+ * Transitional option validator
+ * @param {function|boolean?} validator - set to false if the transitional option has been removed
+ * @param {string?} version - deprecated version / removed since version
+ * @param {string?} message - some message with additional info
+ * @returns {function}
+ */
+validators.transitional = function transitional(validator, version, message) {
+  function formatMessage(opt, desc) {
+    return '[Axios v' + VERSION + '] Transitional option \'' + opt + '\'' + desc + (message ? '. ' + message : '');
+  }
+
+  // eslint-disable-next-line func-names
+  return function(value, opt, opts) {
+    if (validator === false) {
+      throw new Error(formatMessage(opt, ' has been removed' + (version ? ' in ' + version : '')));
+    }
+
+    if (version && !deprecatedWarnings[opt]) {
+      deprecatedWarnings[opt] = true;
+      // eslint-disable-next-line no-console
+      console.warn(
+        formatMessage(
+          opt,
+          ' has been deprecated since v' + version + ' and will be removed in the near future'
+        )
+      );
+    }
+
+    return validator ? validator(value, opt, opts) : true;
+  };
+};
+
+/**
+ * Assert object's properties type
+ * @param {object} options
+ * @param {object} schema
+ * @param {boolean?} allowUnknown
+ */
+
+function assertOptions(options, schema, allowUnknown) {
+  if (typeof options !== 'object') {
+    throw new TypeError('options must be an object');
+  }
+  var keys = Object.keys(options);
+  var i = keys.length;
+  while (i-- > 0) {
+    var opt = keys[i];
+    var validator = schema[opt];
+    if (validator) {
+      var value = options[opt];
+      var result = value === undefined || validator(value, opt, options);
+      if (result !== true) {
+        throw new TypeError('option ' + opt + ' must be ' + result);
+      }
+      continue;
+    }
+    if (allowUnknown !== true) {
+      throw Error('Unknown option ' + opt);
+    }
+  }
+}
+
+module.exports = {
+  assertOptions: assertOptions,
+  validators: validators
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/utils.js":
+/*!*****************************************!*\
+  !*** ./node_modules/axios/lib/utils.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var bind = __webpack_require__(/*! ./helpers/bind */ "./node_modules/axios/lib/helpers/bind.js");
+
+// utils is a library of generic helper functions non-specific to axios
+
+var toString = Object.prototype.toString;
+
+/**
+ * Determine if a value is an Array
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is an Array, otherwise false
+ */
+function isArray(val) {
+  return Array.isArray(val);
+}
+
+/**
+ * Determine if a value is undefined
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if the value is undefined, otherwise false
+ */
+function isUndefined(val) {
+  return typeof val === 'undefined';
+}
+
+/**
+ * Determine if a value is a Buffer
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a Buffer, otherwise false
+ */
+function isBuffer(val) {
+  return val !== null && !isUndefined(val) && val.constructor !== null && !isUndefined(val.constructor)
+    && typeof val.constructor.isBuffer === 'function' && val.constructor.isBuffer(val);
+}
+
+/**
+ * Determine if a value is an ArrayBuffer
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is an ArrayBuffer, otherwise false
+ */
+function isArrayBuffer(val) {
+  return toString.call(val) === '[object ArrayBuffer]';
+}
+
+/**
+ * Determine if a value is a FormData
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is an FormData, otherwise false
+ */
+function isFormData(val) {
+  return toString.call(val) === '[object FormData]';
+}
+
+/**
+ * Determine if a value is a view on an ArrayBuffer
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a view on an ArrayBuffer, otherwise false
+ */
+function isArrayBufferView(val) {
+  var result;
+  if ((typeof ArrayBuffer !== 'undefined') && (ArrayBuffer.isView)) {
+    result = ArrayBuffer.isView(val);
+  } else {
+    result = (val) && (val.buffer) && (isArrayBuffer(val.buffer));
+  }
+  return result;
+}
+
+/**
+ * Determine if a value is a String
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a String, otherwise false
+ */
+function isString(val) {
+  return typeof val === 'string';
+}
+
+/**
+ * Determine if a value is a Number
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a Number, otherwise false
+ */
+function isNumber(val) {
+  return typeof val === 'number';
+}
+
+/**
+ * Determine if a value is an Object
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is an Object, otherwise false
+ */
+function isObject(val) {
+  return val !== null && typeof val === 'object';
+}
+
+/**
+ * Determine if a value is a plain Object
+ *
+ * @param {Object} val The value to test
+ * @return {boolean} True if value is a plain Object, otherwise false
+ */
+function isPlainObject(val) {
+  if (toString.call(val) !== '[object Object]') {
+    return false;
+  }
+
+  var prototype = Object.getPrototypeOf(val);
+  return prototype === null || prototype === Object.prototype;
+}
+
+/**
+ * Determine if a value is a Date
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a Date, otherwise false
+ */
+function isDate(val) {
+  return toString.call(val) === '[object Date]';
+}
+
+/**
+ * Determine if a value is a File
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a File, otherwise false
+ */
+function isFile(val) {
+  return toString.call(val) === '[object File]';
+}
+
+/**
+ * Determine if a value is a Blob
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a Blob, otherwise false
+ */
+function isBlob(val) {
+  return toString.call(val) === '[object Blob]';
+}
+
+/**
+ * Determine if a value is a Function
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a Function, otherwise false
+ */
+function isFunction(val) {
+  return toString.call(val) === '[object Function]';
+}
+
+/**
+ * Determine if a value is a Stream
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a Stream, otherwise false
+ */
+function isStream(val) {
+  return isObject(val) && isFunction(val.pipe);
+}
+
+/**
+ * Determine if a value is a URLSearchParams object
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a URLSearchParams object, otherwise false
+ */
+function isURLSearchParams(val) {
+  return toString.call(val) === '[object URLSearchParams]';
+}
+
+/**
+ * Trim excess whitespace off the beginning and end of a string
+ *
+ * @param {String} str The String to trim
+ * @returns {String} The String freed of excess whitespace
+ */
+function trim(str) {
+  return str.trim ? str.trim() : str.replace(/^\s+|\s+$/g, '');
+}
+
+/**
+ * Determine if we're running in a standard browser environment
+ *
+ * This allows axios to run in a web worker, and react-native.
+ * Both environments support XMLHttpRequest, but not fully standard globals.
+ *
+ * web workers:
+ *  typeof window -> undefined
+ *  typeof document -> undefined
+ *
+ * react-native:
+ *  navigator.product -> 'ReactNative'
+ * nativescript
+ *  navigator.product -> 'NativeScript' or 'NS'
+ */
+function isStandardBrowserEnv() {
+  if (typeof navigator !== 'undefined' && (navigator.product === 'ReactNative' ||
+                                           navigator.product === 'NativeScript' ||
+                                           navigator.product === 'NS')) {
+    return false;
+  }
+  return (
+    typeof window !== 'undefined' &&
+    typeof document !== 'undefined'
+  );
+}
+
+/**
+ * Iterate over an Array or an Object invoking a function for each item.
+ *
+ * If `obj` is an Array callback will be called passing
+ * the value, index, and complete array for each item.
+ *
+ * If 'obj' is an Object callback will be called passing
+ * the value, key, and complete object for each property.
+ *
+ * @param {Object|Array} obj The object to iterate
+ * @param {Function} fn The callback to invoke for each item
+ */
+function forEach(obj, fn) {
+  // Don't bother if no value provided
+  if (obj === null || typeof obj === 'undefined') {
+    return;
+  }
+
+  // Force an array if not already something iterable
+  if (typeof obj !== 'object') {
+    /*eslint no-param-reassign:0*/
+    obj = [obj];
+  }
+
+  if (isArray(obj)) {
+    // Iterate over array values
+    for (var i = 0, l = obj.length; i < l; i++) {
+      fn.call(null, obj[i], i, obj);
+    }
+  } else {
+    // Iterate over object keys
+    for (var key in obj) {
+      if (Object.prototype.hasOwnProperty.call(obj, key)) {
+        fn.call(null, obj[key], key, obj);
+      }
+    }
+  }
+}
+
+/**
+ * Accepts varargs expecting each argument to be an object, then
+ * immutably merges the properties of each object and returns result.
+ *
+ * When multiple objects contain the same key the later object in
+ * the arguments list will take precedence.
+ *
+ * Example:
+ *
+ * ```js
+ * var result = merge({foo: 123}, {foo: 456});
+ * console.log(result.foo); // outputs 456
+ * ```
+ *
+ * @param {Object} obj1 Object to merge
+ * @returns {Object} Result of all merge properties
+ */
+function merge(/* obj1, obj2, obj3, ... */) {
+  var result = {};
+  function assignValue(val, key) {
+    if (isPlainObject(result[key]) && isPlainObject(val)) {
+      result[key] = merge(result[key], val);
+    } else if (isPlainObject(val)) {
+      result[key] = merge({}, val);
+    } else if (isArray(val)) {
+      result[key] = val.slice();
+    } else {
+      result[key] = val;
+    }
+  }
+
+  for (var i = 0, l = arguments.length; i < l; i++) {
+    forEach(arguments[i], assignValue);
+  }
+  return result;
+}
+
+/**
+ * Extends object a by mutably adding to it the properties of object b.
+ *
+ * @param {Object} a The object to be extended
+ * @param {Object} b The object to copy properties from
+ * @param {Object} thisArg The object to bind function to
+ * @return {Object} The resulting value of object a
+ */
+function extend(a, b, thisArg) {
+  forEach(b, function assignValue(val, key) {
+    if (thisArg && typeof val === 'function') {
+      a[key] = bind(val, thisArg);
+    } else {
+      a[key] = val;
+    }
+  });
+  return a;
+}
+
+/**
+ * Remove byte order marker. This catches EF BB BF (the UTF-8 BOM)
+ *
+ * @param {string} content with BOM
+ * @return {string} content value without BOM
+ */
+function stripBOM(content) {
+  if (content.charCodeAt(0) === 0xFEFF) {
+    content = content.slice(1);
+  }
+  return content;
+}
+
+module.exports = {
+  isArray: isArray,
+  isArrayBuffer: isArrayBuffer,
+  isBuffer: isBuffer,
+  isFormData: isFormData,
+  isArrayBufferView: isArrayBufferView,
+  isString: isString,
+  isNumber: isNumber,
+  isObject: isObject,
+  isPlainObject: isPlainObject,
+  isUndefined: isUndefined,
+  isDate: isDate,
+  isFile: isFile,
+  isBlob: isBlob,
+  isFunction: isFunction,
+  isStream: isStream,
+  isURLSearchParams: isURLSearchParams,
+  isStandardBrowserEnv: isStandardBrowserEnv,
+  forEach: forEach,
+  merge: merge,
+  extend: extend,
+  trim: trim,
+  stripBOM: stripBOM
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/call-bind/callBound.js":
 /*!*********************************************!*\
   !*** ./node_modules/call-bind/callBound.js ***!
@@ -1158,6 +5916,22 @@ module.exports = __webpack_require__(/*! ../modules/core.is-iterable */ "./node_
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/fn/json/stringify.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/json/stringify.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var core = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js");
+var $JSON = core.JSON || (core.JSON = { stringify: JSON.stringify });
+module.exports = function stringify(it) { // eslint-disable-line no-unused-vars
+  return $JSON.stringify.apply($JSON, arguments);
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/fn/map.js":
 /*!************************************************!*\
   !*** ./node_modules/core-js/library/fn/map.js ***!
@@ -1206,6 +5980,22 @@ module.exports = function create(P, D) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/fn/object/define-properties.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/define-properties.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es6.object.define-properties */ "./node_modules/core-js/library/modules/es6.object.define-properties.js");
+var $Object = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object;
+module.exports = function defineProperties(T, D) {
+  return $Object.defineProperties(T, D);
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/fn/object/define-property.js":
 /*!*******************************************************************!*\
   !*** ./node_modules/core-js/library/fn/object/define-property.js ***!
@@ -1234,6 +6024,32 @@ var $Object = __webpack_require__(/*! ../../modules/_core */ "./node_modules/cor
 module.exports = function getOwnPropertyDescriptor(it, key) {
   return $Object.getOwnPropertyDescriptor(it, key);
 };
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/object/get-own-property-descriptors.js":
+/*!********************************************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/get-own-property-descriptors.js ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es7.object.get-own-property-descriptors */ "./node_modules/core-js/library/modules/es7.object.get-own-property-descriptors.js");
+module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.getOwnPropertyDescriptors;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/object/get-own-property-symbols.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/get-own-property-symbols.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es6.symbol */ "./node_modules/core-js/library/modules/es6.symbol.js");
+module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.getOwnPropertySymbols;
 
 
 /***/ }),
@@ -3165,6 +7981,27 @@ module.exports = function (KEY, exec) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/_own-keys.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_own-keys.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// all object keys, includes non-enumerable and symbols
+var gOPN = __webpack_require__(/*! ./_object-gopn */ "./node_modules/core-js/library/modules/_object-gopn.js");
+var gOPS = __webpack_require__(/*! ./_object-gops */ "./node_modules/core-js/library/modules/_object-gops.js");
+var anObject = __webpack_require__(/*! ./_an-object */ "./node_modules/core-js/library/modules/_an-object.js");
+var Reflect = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js").Reflect;
+module.exports = Reflect && Reflect.ownKeys || function ownKeys(it) {
+  var keys = gOPN.f(anObject(it));
+  var getSymbols = gOPS.f;
+  return getSymbols ? keys.concat(getSymbols(it)) : keys;
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/_perform.js":
 /*!**********************************************************!*\
   !*** ./node_modules/core-js/library/modules/_perform.js ***!
@@ -4014,6 +8851,20 @@ $export($export.S + $export.F, 'Object', { assign: __webpack_require__(/*! ./_ob
 var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
 // 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
 $export($export.S, 'Object', { create: __webpack_require__(/*! ./_object-create */ "./node_modules/core-js/library/modules/_object-create.js") });
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.object.define-properties.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.object.define-properties.js ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+// 19.1.2.3 / 15.2.3.7 Object.defineProperties(O, Properties)
+$export($export.S + $export.F * !__webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js"), 'Object', { defineProperties: __webpack_require__(/*! ./_object-dps */ "./node_modules/core-js/library/modules/_object-dps.js") });
 
 
 /***/ }),
@@ -4869,6 +9720,39 @@ __webpack_require__(/*! ./_set-collection-of */ "./node_modules/core-js/library/
 var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
 
 $export($export.P + $export.R, 'Map', { toJSON: __webpack_require__(/*! ./_collection-to-json */ "./node_modules/core-js/library/modules/_collection-to-json.js")('Map') });
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es7.object.get-own-property-descriptors.js":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es7.object.get-own-property-descriptors.js ***!
+  \*****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// https://github.com/tc39/proposal-object-getownpropertydescriptors
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+var ownKeys = __webpack_require__(/*! ./_own-keys */ "./node_modules/core-js/library/modules/_own-keys.js");
+var toIObject = __webpack_require__(/*! ./_to-iobject */ "./node_modules/core-js/library/modules/_to-iobject.js");
+var gOPD = __webpack_require__(/*! ./_object-gopd */ "./node_modules/core-js/library/modules/_object-gopd.js");
+var createProperty = __webpack_require__(/*! ./_create-property */ "./node_modules/core-js/library/modules/_create-property.js");
+
+$export($export.S, 'Object', {
+  getOwnPropertyDescriptors: function getOwnPropertyDescriptors(object) {
+    var O = toIObject(object);
+    var getDesc = gOPD.f;
+    var keys = ownKeys(O);
+    var result = {};
+    var i = 0;
+    var key, desc;
+    while (keys.length > i) {
+      desc = getDesc(O, key = keys[i++]);
+      if (desc !== undefined) createProperty(result, key, desc);
+    }
+    return result;
+  }
+});
 
 
 /***/ }),
@@ -6220,21 +11104,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_error&absolutePagePath=C%3A%5CUsers%5CWissem%5CDesktop%5CPrimeTime%5Cclient%5Cpages%5C_error.js!./":
-/*!*******************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_error&absolutePagePath=C%3A%5CUsers%5CWissem%5CDesktop%5CPrimeTime%5Cclient%5Cpages%5C_error.js ***!
-  \*******************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FprofileDetails&absolutePagePath=C%3A%5CUsers%5CWissem%5CDesktop%5CPrimeTime%5Cclient%5Cpages%5CprofileDetails.js!./":
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FprofileDetails&absolutePagePath=C%3A%5CUsers%5CWissem%5CDesktop%5CPrimeTime%5Cclient%5Cpages%5CprofileDetails.js ***!
+  \***********************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/_error", function() {
-      var mod = __webpack_require__(/*! ./pages/_error.js */ "./pages/_error.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/profileDetails", function() {
+      var mod = __webpack_require__(/*! ./pages/profileDetails.js */ "./pages/profileDetails.js")
       if(true) {
-        module.hot.accept(/*! ./pages/_error.js */ "./pages/_error.js", function() {
-          if(!next.router.components["/_error"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/_error.js */ "./pages/_error.js")
-          next.router.update("/_error", updatedPage)
+        module.hot.accept(/*! ./pages/profileDetails.js */ "./pages/profileDetails.js", function() {
+          if(!next.router.components["/profileDetails"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/profileDetails.js */ "./pages/profileDetails.js")
+          next.router.update("/profileDetails", updatedPage)
         })
       }
       return mod
@@ -11759,6 +16643,201 @@ Popper.Defaults = Defaults;
 //# sourceMappingURL=popper.js.map
 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/process/browser.js":
+/*!*****************************************!*\
+  !*** ./node_modules/process/browser.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// shim for using process in browser
+var process = module.exports = {};
+
+// cached from whatever global is present so that test runners that stub it
+// don't break things.  But we need to wrap it in a try catch in case it is
+// wrapped in strict mode code which doesn't define any globals.  It's inside a
+// function because try/catches deoptimize in certain engines.
+
+var cachedSetTimeout;
+var cachedClearTimeout;
+
+function defaultSetTimout() {
+    throw new Error('setTimeout has not been defined');
+}
+function defaultClearTimeout () {
+    throw new Error('clearTimeout has not been defined');
+}
+(function () {
+    try {
+        if (typeof setTimeout === 'function') {
+            cachedSetTimeout = setTimeout;
+        } else {
+            cachedSetTimeout = defaultSetTimout;
+        }
+    } catch (e) {
+        cachedSetTimeout = defaultSetTimout;
+    }
+    try {
+        if (typeof clearTimeout === 'function') {
+            cachedClearTimeout = clearTimeout;
+        } else {
+            cachedClearTimeout = defaultClearTimeout;
+        }
+    } catch (e) {
+        cachedClearTimeout = defaultClearTimeout;
+    }
+} ())
+function runTimeout(fun) {
+    if (cachedSetTimeout === setTimeout) {
+        //normal enviroments in sane situations
+        return setTimeout(fun, 0);
+    }
+    // if setTimeout wasn't available but was latter defined
+    if ((cachedSetTimeout === defaultSetTimout || !cachedSetTimeout) && setTimeout) {
+        cachedSetTimeout = setTimeout;
+        return setTimeout(fun, 0);
+    }
+    try {
+        // when when somebody has screwed with setTimeout but no I.E. maddness
+        return cachedSetTimeout(fun, 0);
+    } catch(e){
+        try {
+            // When we are in I.E. but the script has been evaled so I.E. doesn't trust the global object when called normally
+            return cachedSetTimeout.call(null, fun, 0);
+        } catch(e){
+            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error
+            return cachedSetTimeout.call(this, fun, 0);
+        }
+    }
+
+
+}
+function runClearTimeout(marker) {
+    if (cachedClearTimeout === clearTimeout) {
+        //normal enviroments in sane situations
+        return clearTimeout(marker);
+    }
+    // if clearTimeout wasn't available but was latter defined
+    if ((cachedClearTimeout === defaultClearTimeout || !cachedClearTimeout) && clearTimeout) {
+        cachedClearTimeout = clearTimeout;
+        return clearTimeout(marker);
+    }
+    try {
+        // when when somebody has screwed with setTimeout but no I.E. maddness
+        return cachedClearTimeout(marker);
+    } catch (e){
+        try {
+            // When we are in I.E. but the script has been evaled so I.E. doesn't  trust the global object when called normally
+            return cachedClearTimeout.call(null, marker);
+        } catch (e){
+            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error.
+            // Some versions of I.E. have different rules for clearTimeout vs setTimeout
+            return cachedClearTimeout.call(this, marker);
+        }
+    }
+
+
+
+}
+var queue = [];
+var draining = false;
+var currentQueue;
+var queueIndex = -1;
+
+function cleanUpNextTick() {
+    if (!draining || !currentQueue) {
+        return;
+    }
+    draining = false;
+    if (currentQueue.length) {
+        queue = currentQueue.concat(queue);
+    } else {
+        queueIndex = -1;
+    }
+    if (queue.length) {
+        drainQueue();
+    }
+}
+
+function drainQueue() {
+    if (draining) {
+        return;
+    }
+    var timeout = runTimeout(cleanUpNextTick);
+    draining = true;
+
+    var len = queue.length;
+    while(len) {
+        currentQueue = queue;
+        queue = [];
+        while (++queueIndex < len) {
+            if (currentQueue) {
+                currentQueue[queueIndex].run();
+            }
+        }
+        queueIndex = -1;
+        len = queue.length;
+    }
+    currentQueue = null;
+    draining = false;
+    runClearTimeout(timeout);
+}
+
+process.nextTick = function (fun) {
+    var args = new Array(arguments.length - 1);
+    if (arguments.length > 1) {
+        for (var i = 1; i < arguments.length; i++) {
+            args[i - 1] = arguments[i];
+        }
+    }
+    queue.push(new Item(fun, args));
+    if (queue.length === 1 && !draining) {
+        runTimeout(drainQueue);
+    }
+};
+
+// v8 likes predictible objects
+function Item(fun, array) {
+    this.fun = fun;
+    this.array = array;
+}
+Item.prototype.run = function () {
+    this.fun.apply(null, this.array);
+};
+process.title = 'browser';
+process.browser = true;
+process.env = {};
+process.argv = [];
+process.version = ''; // empty string to avoid regexp issues
+process.versions = {};
+
+function noop() {}
+
+process.on = noop;
+process.addListener = noop;
+process.once = noop;
+process.off = noop;
+process.removeListener = noop;
+process.removeAllListeners = noop;
+process.emit = noop;
+process.prependListener = noop;
+process.prependOnceListener = noop;
+
+process.listeners = function (name) { return [] }
+
+process.binding = function (name) {
+    throw new Error('process.binding is not supported');
+};
+
+process.cwd = function () { return '/' };
+process.chdir = function (dir) {
+    throw new Error('process.chdir is not supported');
+};
+process.umask = function() { return 0; };
+
 
 /***/ }),
 
@@ -26418,269 +31497,1978 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/_error.js":
-/*!*************************!*\
-  !*** ./pages/_error.js ***!
-  \*************************/
+/***/ "./pages/features/gallery/popup.js":
+/*!*****************************************!*\
+  !*** ./pages/features/gallery/popup.js ***!
+  \*****************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-properties */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/get-own-property-descriptors */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptors.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/get-own-property-descriptor */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/get-own-property-symbols */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_11__);
+
+
+
+
+
+
+
+
+
+
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\pages\\_error.js";
+    _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\pages\\features\\gallery\\popup.js";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement;
+
+function ownKeys(object, enumerableOnly) { var keys = _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default()(object); if (_babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default.a) { var symbols = _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default()(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(target, key, source[key]); }) : _babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2___default.a ? _babel_runtime_corejs2_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_1___default()(target, _babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2___default()(source)) : ownKeys(Object(source)).forEach(function (key) { _babel_runtime_corejs2_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(target, key, _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(source, key)); }); } return target; }
 
 
 
 
-var Error = function Error(_ref) {
-  var statusCode = _ref.statusCode;
-  var isErrorPage = true;
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
-    document.body.style.setProperty('--primary', '#000000');
-    document.body.style.setProperty('--secondary', '#434345');
-    document.body.style.setProperty('--light', '#252525');
-    document.body.style.setProperty('--dark', '#000000');
-  });
-  return __jsx("div", {
-    className: "bg-purple",
+
+
+var Popup = function Popup() {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_9__["useState"])(),
+      modal = _useState[0],
+      setModal = _useState[1];
+
+  var _useState2 = Object(react__WEBPACK_IMPORTED_MODULE_9__["useState"])('1'),
+      activeTab = _useState2[0],
+      setActiveTab = _useState2[1];
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_9__["useState"])({
+    email: '',
+    password: ''
+  }),
+      postData = _useState3[0],
+      setPostData = _useState3[1];
+
+  var _useState4 = Object(react__WEBPACK_IMPORTED_MODULE_9__["useState"])({}),
+      formErrors = _useState4[0],
+      setFormErrors = _useState4[1];
+
+  var toggle = function toggle() {
+    setModal(!modal);
+  };
+
+  var url = 'http://localhost:5000/user/forgetpass';
+  var log = postData.email;
+
+  var forgetpass = function forgetpass() {
+    return axios__WEBPACK_IMPORTED_MODULE_11___default.a.post(url, {
+      email: postData.email
+    }).then(function (res) {
+      console.log(log);
+      console.log(res);
+      console.log(res.data);
+    })["catch"](function (error) {
+      console.log(postData.email);
+      console.log('Show error notification!');
+      return _babel_runtime_corejs2_core_js_promise__WEBPACK_IMPORTED_MODULE_8___default.a.reject(error);
+    });
+  };
+
+  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_9__["useState"])({
+    email: '',
+    password: '',
+    token: ''
+  }),
+      user = _useState5[0],
+      setUser = _useState5[1];
+
+  var _useState6 = Object(react__WEBPACK_IMPORTED_MODULE_9__["useState"])({
+    email: '',
+    password: '',
+    ConfirmPass: '',
+    firstname: '',
+    lastName: ''
+  }),
+      newUser = _useState6[0],
+      setNewUser = _useState6[1];
+
+  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_9__["useState"])({
+    status: '',
+    message: ''
+  }),
+      signinerr = _useState7[0],
+      SetSigninerr = _useState7[1];
+
+  var _useState8 = Object(react__WEBPACK_IMPORTED_MODULE_9__["useState"])({
+    message: ''
+  }),
+      badPass = _useState8[0],
+      setError = _useState8[1];
+
+  var _useState9 = Object(react__WEBPACK_IMPORTED_MODULE_9__["useState"])(""),
+      sign_forget = _useState9[0],
+      setSignOrForget = _useState9[1];
+
+  var _useState10 = Object(react__WEBPACK_IMPORTED_MODULE_9__["useState"])(""),
+      buttonValue = _useState10[0],
+      setButtonValue = _useState10[1];
+
+  var signup = function signup(e) {
+    e.preventDefault();
+    console.log("implement sign up here");
+    if (newUser.password == newUser.ConfirmPass) axios__WEBPACK_IMPORTED_MODULE_11___default.a.post("http://localhost:5000/user/signup", {
+      email: newUser.email,
+      password: newUser.password,
+      firstName: newUser.firstName,
+      lastName: newUser.lastName
+    }).then(function (res) {
+      setError(_objectSpread({}, badPass, {
+        message: "aaa"
+      }));
+    })["catch"](function (error) {
+      console.log(error.response.data);
+    });else setError(_objectSpread({}, badPass, {
+      message: "Password confirmation doesnt match !"
+    }));
+  };
+
+  var signin = function signin() {
+    axios__WEBPACK_IMPORTED_MODULE_11___default.a.post("http://localhost:5000/user/signin", {
+      email: log,
+      password: postData.password
+    }).then(function (res) {
+      setUser(_objectSpread({}, user, {
+        email: res.data.result.email,
+        password: res.data.result.password,
+        token: res.data.token
+      }));
+      var current_user = {
+        email: res.data.result.email,
+        token: res.data.token,
+        firstName: res.data.result.firstname,
+        _id: res.data.result._id,
+        lastName: res.data.result.lastname,
+        expiration: res.data.result.active_until,
+        role: res.data.result.role,
+        phone: res.data.result.phone,
+        instagram: res.data.result.instagram,
+        youtube: res.data.result.youtube,
+        facebook: res.data.result.facebook,
+        spotify: res.data.result.spotify,
+        channelDescription: res.data.result.channel_description
+      };
+      setButtonValue("log out");
+      toggle(); // current_user.bro=res.data.result.token;
+
+      localStorage.setItem('user', _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_6___default()(current_user));
+      SetSigninerr(_objectSpread({}, signinerr, {
+        status: error.response.data.message,
+        message: error.response.data.message
+      }));
+    })["catch"](function (error) {
+      if (error.response) SetSigninerr(_objectSpread({}, signinerr, {
+        status: error.response.status,
+        message: error.response.data.message
+      }));
+    });
+  };
+
+  Object(react__WEBPACK_IMPORTED_MODULE_9__["useEffect"])(function () {
+    if (JSON.parse(localStorage.getItem("user"))) setButtonValue(true);else setButtonValue(false);
+  }, []);
+
+  var logout = function logout() {
+    localStorage.removeItem("user");
+    setButtonValue(!buttonValue);
+  }; //
+
+
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_9__["Fragment"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 116,
       columnNumber: 9
     }
-  }, __jsx("div", {
-    className: "section-404",
+  }, __jsx("section", {
+    className: "login-popup p-0",
+    style: {
+      overflow: 'inherit !important'
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 118,
       columnNumber: 13
     }
-  }, __jsx("div", {
-    className: "stars",
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Container"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 119,
       columnNumber: 17
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Row"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 120,
       columnNumber: 21
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Col"], {
+    md: "6",
+    className: "offset-md-3",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 121,
       columnNumber: 25
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
-    lg: "8",
-    xs: "12",
-    className: "offset-lg-2",
+  }, __jsx("div", {
+    className: "text-center",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 122,
+      columnNumber: 29
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Button"], {
+    className: "popup-with-form btn btn-default primary-btn",
+    hidden: buttonValue,
+    onClick: function onClick() {
+      toggle();
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 124,
+      columnNumber: 33
+    }
+  }, "Login"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Button"], {
+    className: "popup-with-form btn btn-default primary-btn",
+    hidden: !buttonValue,
+    onClick: function onClick() {
+      logout();
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 125,
+      columnNumber: 33
+    }
+  }, "Logout")))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Modal"], {
+    isOpen: modal,
+    toggle: toggle,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 135,
+      columnNumber: 13
+    }
+  }, __jsx("a", {
+    onClick: toggle,
+    className: "modal-no-header mt-3",
+    style: {
+      width: "50px",
+      left: "95%",
+      fontSize: "1rem"
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 136,
+      columnNumber: 17
+    }
+  }, "X"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["ModalBody"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 138,
+      columnNumber: 17
+    }
+  }, __jsx("div", {
+    className: "modal-body login-modal",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 139,
+      columnNumber: 21
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Nav"], {
+    tabs: true,
+    className: "nav nav-pills mb-5",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 140,
+      columnNumber: 25
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["NavItem"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 141,
+      columnNumber: 29
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["NavLink"], {
+    className: activeTab == '1' ? 'active' : '',
+    onClick: function onClick() {
+      return setActiveTab('1');
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 142,
+      columnNumber: 33
+    }
+  }, "Login")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["NavItem"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 146,
+      columnNumber: 29
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["NavLink"], {
+    className: activeTab == '2' ? 'active' : '',
+    onClick: function onClick() {
+      return setActiveTab('2');
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 147,
+      columnNumber: 33
+    }
+  }, "Sign Up"))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["TabContent"], {
+    className: "tab-content",
+    activeTab: activeTab,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 152,
+      columnNumber: 25
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["TabPane"], {
+    tabId: "1",
+    "aria-labelledby": "pills-home-tab",
+    className: "",
+    role: "tabpanel",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 153,
       columnNumber: 29
     }
   }, __jsx("div", {
-    className: "central-body",
+    className: "form-row",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 33
-    }
-  }, __jsx("h1", {
-    className: "text-inner",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 157,
       columnNumber: 37
     }
-  }, statusCode ? statusCode : '404'), __jsx("h3", {
-    className: "sub-text text-white",
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["FormGroup"], {
+    className: "col-md-12",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 37
-    }
-  }, "page not found"), __jsx("p", {
-    className: "text-404 text-white text-center",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 37
-    }
-  }, "The Page You Are Attempting To Reach Is Currently Not Available. This May Be Because The Page Does Not Exist Or Has Been Moved."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/layouts/app1",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 37
-    }
-  }, __jsx("a", {
-    className: "btn btn-default m-t-20",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 158,
       columnNumber: 41
     }
-  }, "back to home"))))))), __jsx("div", {
-    className: "objects",
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
+    "for": "inputEmail",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 17
+      lineNumber: 159,
+      columnNumber: 45
     }
-  }, __jsx("img", {
-    alt: "object_rocket",
-    className: "object_rocket",
-    src: "/assets/images/404/rocket.svg",
+  }, "Email"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
+    className: "form-control",
+    id: "inputEmail",
+    placeholder: "Email",
+    type: "email",
+    value: postData.email,
+    onChange: function onChange(e) {
+      return setPostData(_objectSpread({}, postData, {
+        email: e.target.value
+      }));
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 21
+      lineNumber: 160,
+      columnNumber: 45
     }
-  }), __jsx("div", {
-    className: "earth-moon",
+  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["FormGroup"], {
+    className: "col-md-12",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 21
+      lineNumber: 163,
+      columnNumber: 41
     }
-  }, __jsx("img", {
-    alt: "object_earth",
-    className: "object_earth",
-    src: "/assets/images/404/earth.svg",
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
+    "for": "inputPassword05",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 25
+      lineNumber: 164,
+      columnNumber: 45
     }
-  }), __jsx("img", {
-    alt: "object_moon",
-    className: "object_moon",
-    src: "/assets/images/404/moon.svg",
+  }, "Password"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
+    className: "form-control",
+    id: "inputPassword05",
+    placeholder: "Password",
+    type: "password",
+    value: postData.password,
+    onChange: function onChange(e) {
+      return setPostData(_objectSpread({}, postData, {
+        password: e.target.value
+      }));
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 25
+      lineNumber: 165,
+      columnNumber: 45
     }
-  })), __jsx("div", {
-    className: "box_astronaut",
+  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
+    style: {
+      color: 'red'
+    },
+    "for": "inputEmail",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 21
+      lineNumber: 168,
+      columnNumber: 41
     }
-  }, __jsx("img", {
-    alt: "object_astronaut",
-    className: "object_astronaut",
-    src: "/assets/images/404/astronaut.svg",
+  }, signinerr.message)), __jsx("button", {
+    className: "btn primary-btn btn-default text-uppercase",
+    onClick: function onClick() {
+      return signin();
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 25
+      lineNumber: 171,
+      columnNumber: 37
     }
-  }))), __jsx("div", {
-    className: "glowing_stars",
+  }, "Login"), __jsx("button", {
+    className: "btn primary-btn btn-default text-uppercase",
+    type: "submit",
+    onClick: function onClick() {
+      return forgetpass();
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 17
+      lineNumber: 172,
+      columnNumber: 37
+    }
+  }, "Forget password")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["TabPane"], {
+    tabId: "2",
+    "aria-labelledby": "pills-profile-tab",
+    className: "",
+    role: "tabpanel",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 177,
+      columnNumber: 29
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Form"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 180,
+      columnNumber: 33
     }
   }, __jsx("div", {
-    className: "star",
+    className: "form-row",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 21
+      lineNumber: 181,
+      columnNumber: 37
     }
-  }), __jsx("div", {
-    className: "star",
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["FormGroup"], {
+    className: "col-md-12",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 21
+      lineNumber: 182,
+      columnNumber: 41
     }
-  }), __jsx("div", {
-    className: "star",
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
+    "for": "inputEmail05",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 21
+      lineNumber: 183,
+      columnNumber: 45
     }
-  }), __jsx("div", {
-    className: "star",
+  }, "Email"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
+    className: "form-control",
+    id: "inputEmail05",
+    placeholder: "Email",
+    type: "email",
+    value: newUser.email,
+    onChange: function onChange(e) {
+      return setNewUser(_objectSpread({}, newUser, {
+        email: e.target.value
+      }));
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
-      columnNumber: 21
+      lineNumber: 184,
+      columnNumber: 45
     }
-  }), __jsx("div", {
-    className: "star",
+  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["FormGroup"], {
+    className: "col-md-6",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 21
+      lineNumber: 186,
+      columnNumber: 41
     }
-  }))));
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
+    "for": "inputPassword04",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 187,
+      columnNumber: 45
+    }
+  }, "Password"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
+    className: "form-control",
+    id: "inputPassword04",
+    placeholder: "Password",
+    value: newUser.password,
+    onChange: function onChange(e) {
+      return setNewUser(_objectSpread({}, newUser, {
+        password: e.target.value
+      }));
+    },
+    type: "password",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 188,
+      columnNumber: 45
+    }
+  })), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["FormGroup"], {
+    className: "col-md-6",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 191,
+      columnNumber: 41
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
+    "for": "inputPassword4",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 192,
+      columnNumber: 45
+    }
+  }, "Confirm Password"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
+    className: "form-control",
+    id: "inputPasswordConfirmation",
+    placeholder: "Password",
+    value: newUser.ConfirmPass,
+    onChange: function onChange(e) {
+      return setNewUser(_objectSpread({}, newUser, {
+        ConfirmPass: e.target.value
+      }));
+    },
+    type: "password",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 194,
+      columnNumber: 45
+    }
+  }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
+    style: {
+      color: 'red'
+    },
+    "for": "errorMessage",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 196,
+      columnNumber: 49
+    }
+  }, badPass.message))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["FormGroup"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 199,
+      columnNumber: 37
+    }
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
+    "for": "inputAddress",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 200,
+      columnNumber: 41
+    }
+  }, "Address"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
+    className: "form-control",
+    id: "inputAddress",
+    placeholder: "1234 Main St",
+    type: "text",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 201,
+      columnNumber: 41
+    }
+  }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
+    "for": "inputAddress",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 203,
+      columnNumber: 45
+    }
+  }, "Name"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
+    className: "form-control",
+    id: "inputNAme",
+    placeholder: "John",
+    value: newUser.firstName,
+    onChange: function onChange(e) {
+      return setNewUser(_objectSpread({}, newUser, {
+        firstName: e.target.value
+      }));
+    },
+    type: "text",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 204,
+      columnNumber: 41
+    }
+  }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Label"], {
+    "for": "inputAddress",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 206,
+      columnNumber: 45
+    }
+  }, "Last name"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_10__["Input"], {
+    className: "form-control",
+    id: "inputLastName",
+    placeholder: "Doe",
+    value: newUser.lastName,
+    onChange: function onChange(e) {
+      return setNewUser(_objectSpread({}, newUser, {
+        lastName: e.target.value
+      }));
+    },
+    type: "text",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 207,
+      columnNumber: 41
+    }
+  })), __jsx("button", {
+    className: "btn btn-default primary-btn text-uppercase",
+    onClick: function onClick(e) {
+      return signup(e);
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 211,
+      columnNumber: 37
+    }
+  }, "Sign Up"))))))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Error);
-
-Error.getInitialProps = function (_ref2) {
-  var res = _ref2.res,
-      err = _ref2.err;
-  var statusCode = res ? res.statusCode : err ? err.statusCode : null;
-  return {
-    statusCode: statusCode
-  };
-};
+/* harmony default export */ __webpack_exports__["default"] = (Popup);
 
 /***/ }),
 
-/***/ 9:
-/*!***********************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F_error&absolutePagePath=C%3A%5CUsers%5CWissem%5CDesktop%5CPrimeTime%5Cclient%5Cpages%5C_error.js ***!
-  \***********************************************************************************************************************************************/
+/***/ "./pages/profileDetails.js":
+/*!*********************************!*\
+  !*** ./pages/profileDetails.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-properties */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/get-own-property-descriptors */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptors.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/get-own-property-descriptor */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/get-own-property-symbols */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js");
+/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _containers_common_common_layout__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../containers/common/common-layout */ "./containers/common/common-layout.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _public_assets_person_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../public/assets/person.css */ "./public/assets/person.css");
+/* harmony import */ var _public_assets_person_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_public_assets_person_css__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _components_StreamCard__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../components/StreamCard */ "./components/StreamCard.js");
+/* harmony import */ var _components_CourseCard__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../components/CourseCard */ "./components/CourseCard.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_17__);
+
+
+
+
+
+
+
+
+
+
+
+var _this = undefined,
+    _jsxFileName = "C:\\Users\\Wissem\\Desktop\\PrimeTime\\client\\pages\\profileDetails.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement;
+
+function ownKeys(object, enumerableOnly) { var keys = _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default()(object); if (_babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default.a) { var symbols = _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default()(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(target, key, source[key]); }) : _babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2___default.a ? _babel_runtime_corejs2_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_1___default()(target, _babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2___default()(source)) : ownKeys(Object(source)).forEach(function (key) { _babel_runtime_corejs2_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(target, key, _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(source, key)); }); } return target; }
+
+
+
+
+
+
+
+
+
+
+var PortfolioDetail7 = function PortfolioDetail7() {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_10__["useState"])(""),
+      expires = _useState[0],
+      setExpires = _useState[1];
+
+  var _useState2 = Object(react__WEBPACK_IMPORTED_MODULE_10__["useState"])({
+    firstName: "",
+    lastName: ""
+  }),
+      user = _useState2[0],
+      setUser = _useState2[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_10__["useEffect"])(function () {
+    setUser(JSON.parse(localStorage.getItem("user")));
+  }, []);
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_10__["useState"])([]),
+      recordedStreams = _useState3[0],
+      setRecordedStreams = _useState3[1];
+
+  var getRecordedStreams = /*#__PURE__*/function () {
+    var _ref = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_9__["default"])( /*#__PURE__*/_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_8___default.a.mark(function _callee() {
+      return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_8___default.a.wrap(function _callee$(_context) {
+        while (1) {
+          switch (_context.prev = _context.next) {
+            case 0:
+              return _context.abrupt("return", axios__WEBPACK_IMPORTED_MODULE_13___default.a.get("http://localhost:5000/stream/getStreamByName/" + JSON.parse(localStorage.getItem("user"))["firstName"] + " " + JSON.parse(localStorage.getItem("user"))["lastName"]).then(function (res) {
+                setRecordedStreams(res.data);
+              })["catch"](function (error) {
+                console.log(error);
+              }));
+
+            case 1:
+            case "end":
+              return _context.stop();
+          }
+        }
+      }, _callee);
+    }));
+
+    return function getRecordedStreams() {
+      return _ref.apply(this, arguments);
+    };
+  }();
+
+  var _useState4 = Object(react__WEBPACK_IMPORTED_MODULE_10__["useState"])([]),
+      courses = _useState4[0],
+      setCourses = _useState4[1];
+
+  var getCourses = /*#__PURE__*/function () {
+    var _ref2 = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_9__["default"])( /*#__PURE__*/_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_8___default.a.mark(function _callee2() {
+      return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_8___default.a.wrap(function _callee2$(_context2) {
+        while (1) {
+          switch (_context2.prev = _context2.next) {
+            case 0:
+              return _context2.abrupt("return", axios__WEBPACK_IMPORTED_MODULE_13___default.a.get("http://localhost:5000/user/getCoursesByUserId/" + JSON.parse(localStorage.getItem("user"))["_id"]).then(function (res) {
+                setCourses(res.data);
+              })["catch"](function (error) {
+                console.log(error);
+              }));
+
+            case 1:
+            case "end":
+              return _context2.stop();
+          }
+        }
+      }, _callee2);
+    }));
+
+    return function getCourses() {
+      return _ref2.apply(this, arguments);
+    };
+  }();
+
+  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_10__["useState"])({
+    userid: "",
+    text: ""
+  }),
+      channeldescription = _useState5[0],
+      setChannelDescription = _useState5[1];
+
+  var _useState6 = Object(react__WEBPACK_IMPORTED_MODULE_10__["useState"])(""),
+      imgsrc = _useState6[0],
+      setImgsrc = _useState6[1];
+
+  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_10__["useState"])({
+    userid: "",
+    firstname: "",
+    lastname: "",
+    phonenumber: "",
+    facebook: "",
+    instagram: "",
+    youtube: "",
+    spotify: ""
+  }),
+      userData = _useState7[0],
+      setUserData = _useState7[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_10__["useEffect"])(function () {
+    if (user) {
+      setImgsrc("images/users/" + user["_id"] + ".jpg");
+      if (JSON.parse(localStorage.getItem("user"))["role"] != "user") setExpires(JSON.parse(localStorage.getItem("user"))["expiration"].split("T")[0]);
+      setUserData({
+        userid: user["_id"],
+        firstname: user["firstName"],
+        lastname: user["lastName"],
+        phonenumber: user["phone"],
+        facebook: user["facebook"],
+        instagram: user["instagram"],
+        youtube: user["youtube"],
+        spotify: user["spotify"]
+      });
+      setChannelDescription({
+        userid: user["_id"],
+        text: user["channelDescription"]
+      });
+      getCourses();
+      getRecordedStreams();
+    }
+  }, [user]);
+
+  var onInputChange = function onInputChange(e) {
+    var formData = new FormData();
+    formData.append("username", user["_id"]);
+    formData.append("photo", e.target.files[0]);
+    var config = {
+      headers: {
+        "content-type": "multipart/form-data"
+      }
+    };
+    axios__WEBPACK_IMPORTED_MODULE_13___default.a.post("http://localhost:5000/user/uploadProfileImg", formData, config).then(window.location.reload());
+  };
+
+  var imgClicked = function imgClicked(e) {
+    e.preventDefault();
+    document.getElementById("file-input").click();
+  };
+
+  var _useState8 = Object(react__WEBPACK_IMPORTED_MODULE_10__["useState"])(false),
+      editabledesc = _useState8[0],
+      setEditabledesc = _useState8[1];
+
+  var onOffEditdesc = function onOffEditdesc() {
+    setEditabledesc(!editabledesc);
+  };
+
+  var _useState9 = Object(react__WEBPACK_IMPORTED_MODULE_10__["useState"])(false),
+      editable = _useState9[0],
+      setEditable = _useState9[1];
+
+  var onOffEdit = function onOffEdit() {
+    setEditable(!editable);
+  };
+
+  var sendUpdateRequest = function sendUpdateRequest() {
+    console.log(userData);
+    axios__WEBPACK_IMPORTED_MODULE_13___default.a.post("http://localhost:5000/user/updateProfile", userData).then(function () {
+      user.firstName = userData.firstname;
+      user.lastName = userData.lastname;
+      user.phone = userData.phonenumber;
+      user.facebook = userData.facebook;
+      user.instagram = userData.instagram;
+      user.youtube = userData.youtube;
+      user.spotify = userData.spotify;
+      setEditable(!editable); // setUser(user)
+
+      localStorage.setItem("user", _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_7___default()(user));
+    })["catch"](function (err) {
+      console.log(err);
+    });
+  };
+
+  var sendChannelDescription = function sendChannelDescription() {
+    console.log(channeldescription);
+    axios__WEBPACK_IMPORTED_MODULE_13___default.a.post("http://localhost:5000/user/updateChannelDescription", channeldescription).then(function () {
+      user.channelDescription = channeldescription.text;
+      setEditabledesc(!editabledesc);
+      localStorage.setItem("user", _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_7___default()(user));
+    })["catch"](function (err) {
+      console.log(err);
+    });
+  };
+
+  var getRecord = function getRecord(meetid) {
+    axios__WEBPACK_IMPORTED_MODULE_13___default.a.get('http://localhost:5000/stream/fetchSessions/' + meetid).then(function (res) {
+      window.location.href = res.data.data[0].file.fileUrl;
+    });
+  };
+
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_10__["Fragment"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 157,
+      columnNumber: 5
+    }
+  }, __jsx(_containers_common_common_layout__WEBPACK_IMPORTED_MODULE_11__["default"], {
+    pathList: ["portfolio details", "left side image portfolio"],
+    pathTitle: "left side image portfolio",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 158,
+      columnNumber: 7
+    }
+  }, __jsx("section", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 162,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "d-flex",
+    style: {
+      height: "1080px"
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 163,
+      columnNumber: 11
+    }
+  }, __jsx("div", {
+    className: "isar w-25 pl-3",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 164,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    className: "d-block",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 165,
+      columnNumber: 15
+    }
+  }, __jsx("div", {
+    className: "product-right pro_sticky_info w-100",
+    style: {
+      "margin-right": "50%"
+    },
+    "data-sticky_column": true,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 166,
+      columnNumber: 17
+    }
+  }, __jsx("div", {
+    className: "portfolio-detail",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 171,
+      columnNumber: 19
+    }
+  }, __jsx("div", {
+    className: "d-flex w-100 justify-content-between",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 172,
+      columnNumber: 21
+    }
+  }, __jsx("h3", {
+    className: "detail-head",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 173,
+      columnNumber: 23
+    }
+  }, "Profile detail"), __jsx("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "25",
+    height: "25",
+    fill: "currentColor",
+    "class": "bi bi-pencil-square",
+    viewBox: "0 0 16 16",
+    onClick: onOffEdit,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 174,
+      columnNumber: 23
+    }
+  }, __jsx("path", {
+    d: "M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 183,
+      columnNumber: 25
+    }
+  }), __jsx("path", {
+    "fill-rule": "evenodd",
+    d: "M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 184,
+      columnNumber: 25
+    }
+  }))), __jsx("div", {
+    className: "mb-3",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 190,
+      columnNumber: 21
+    }
+  }, __jsx("input", {
+    type: "file",
+    id: "file-input",
+    style: {
+      overflow: "hidden",
+      height: "0px",
+      width: "0px"
+    },
+    accept: "image/*",
+    onChange: onInputChange,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 191,
+      columnNumber: 23
+    }
+  }), __jsx("a", {
+    onClick: imgClicked,
+    className: "w-100 pb-3",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 202,
+      columnNumber: 23
+    }
+  }, __jsx("img", {
+    id: "profileimg",
+    alt: "add profile image",
+    className: "rounded-circle w-50 mx-auto ",
+    src: imgsrc,
+    style: {
+      display: "block"
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 203,
+      columnNumber: 25
+    }
+  }), " ")), editable ? __jsx(react__WEBPACK_IMPORTED_MODULE_10___default.a.Fragment, null, __jsx("div", {
+    className: "detail-container d-flex mt-3 ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 214,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 215,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 216,
+      columnNumber: 29
+    }
+  }, "First Name: ")), __jsx("div", {
+    className: "portfolio-right",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 218,
+      columnNumber: 27
+    }
+  }, __jsx("input", {
+    value: userData.firstname,
+    className: "border border-dark rounded w-75",
+    onChange: function onChange(e) {
+      return setUserData(_objectSpread({}, userData, {
+        firstname: e.target.value
+      }));
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 219,
+      columnNumber: 29
+    }
+  }))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 232,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 233,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 234,
+      columnNumber: 29
+    }
+  }, "Last Name: ")), __jsx("div", {
+    className: "portfolio-right",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 236,
+      columnNumber: 27
+    }
+  }, __jsx("input", {
+    value: userData.lastname,
+    className: "border  border-dark rounded w-75",
+    onChange: function onChange(e) {
+      return setUserData(_objectSpread({}, userData, {
+        lastname: e.target.value
+      }));
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 237,
+      columnNumber: 29
+    }
+  }))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 250,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 251,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 252,
+      columnNumber: 29
+    }
+  }, "Phone: ")), __jsx("div", {
+    className: "portfolio-right",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 254,
+      columnNumber: 27
+    }
+  }, __jsx("input", {
+    type: "number",
+    value: userData.phonenumber,
+    className: "border  border-dark rounded w-75",
+    onChange: function onChange(e) {
+      return setUserData(_objectSpread({}, userData, {
+        phonenumber: e.target.value
+      }));
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 255,
+      columnNumber: 29
+    }
+  }))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 269,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 270,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 271,
+      columnNumber: 29
+    }
+  }, "facebook: ")), __jsx("div", {
+    className: "portfolio-right",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 273,
+      columnNumber: 27
+    }
+  }, __jsx("input", {
+    type: "text",
+    value: userData.facebook,
+    className: "border  border-dark rounded w-75",
+    onChange: function onChange(e) {
+      return setUserData(_objectSpread({}, userData, {
+        facebook: e.target.value
+      }));
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 274,
+      columnNumber: 29
+    }
+  }))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 288,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 289,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 290,
+      columnNumber: 29
+    }
+  }, "instagram: ")), __jsx("div", {
+    className: "portfolio-right",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 292,
+      columnNumber: 27
+    }
+  }, __jsx("input", {
+    type: "text",
+    value: userData.instagram,
+    className: "border  border-dark rounded w-75",
+    onChange: function onChange(e) {
+      return setUserData(_objectSpread({}, userData, {
+        instagram: e.target.value
+      }));
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 293,
+      columnNumber: 29
+    }
+  }))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 307,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 308,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 309,
+      columnNumber: 29
+    }
+  }, "youtube: ")), __jsx("div", {
+    className: "portfolio-right",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 311,
+      columnNumber: 27
+    }
+  }, __jsx("input", {
+    type: "text",
+    value: userData.youtube,
+    className: "border  border-dark rounded w-75",
+    onChange: function onChange(e) {
+      return setUserData(_objectSpread({}, userData, {
+        youtube: e.target.value
+      }));
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 312,
+      columnNumber: 29
+    }
+  }))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 326,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 327,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 328,
+      columnNumber: 29
+    }
+  }, "Spotify: ")), __jsx("div", {
+    className: "portfolio-right",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 330,
+      columnNumber: 27
+    }
+  }, __jsx("input", {
+    type: "text",
+    value: userData.spotify,
+    className: "border  border-dark rounded w-75",
+    onChange: function onChange(e) {
+      return setUserData(_objectSpread({}, userData, {
+        spotify: e.target.value
+      }));
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 331,
+      columnNumber: 29
+    }
+  }))), __jsx("div", {
+    className: "text-center my-3",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 344,
+      columnNumber: 25
+    }
+  }, __jsx("a", {
+    className: "btn btn-default primary-btn radius-0",
+    onClick: sendUpdateRequest,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 345,
+      columnNumber: 27
+    }
+  }, "update"))) : __jsx(react__WEBPACK_IMPORTED_MODULE_10___default.a.Fragment, null, __jsx("div", {
+    className: "detail-container d-flex mt-3 ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 355,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 356,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 357,
+      columnNumber: 29
+    }
+  }, "First Name: ")), __jsx("div", {
+    className: "portfolio-right",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 359,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 360,
+      columnNumber: 29
+    }
+  }, user["firstName"]))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 364,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 365,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 366,
+      columnNumber: 29
+    }
+  }, "Last Name: ")), __jsx("div", {
+    className: "portfolio-right",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 368,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 369,
+      columnNumber: 29
+    }
+  }, user["lastName"]))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 373,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 374,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 375,
+      columnNumber: 29
+    }
+  }, "Phone: ")), __jsx("div", {
+    className: "portfolio-right",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 377,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 378,
+      columnNumber: 29
+    }
+  }, "+216 ", user["phone"]))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 382,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 383,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 384,
+      columnNumber: 29
+    }
+  }, "Email: ")), __jsx("div", {
+    className: "portfolio-right",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 386,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 387,
+      columnNumber: 29
+    }
+  }, user["email"]))), __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 390,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 391,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 392,
+      columnNumber: 29
+    }
+  }, "Role:")), __jsx("div", {
+    className: "portfolio-right",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 394,
+      columnNumber: 27
+    }
+  }, __jsx("h5", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 395,
+      columnNumber: 29
+    }
+  }, user["role"]))), user["role"] != "user" ? __jsx("div", {
+    className: "detail-container d-flex ",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 400,
+      columnNumber: 27
+    }
+  }, __jsx("div", {
+    className: "portfolio-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 401,
+      columnNumber: 29
+    }
+  }, __jsx("h5", {
+    className: "text-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 402,
+      columnNumber: 31
+    }
+  }, "expiration:")), __jsx("div", {
+    className: "portfolio-right",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 404,
+      columnNumber: 29
+    }
+  }, __jsx("h5", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 405,
+      columnNumber: 31
+    }
+  }, expires))) : null)), user["role"] == "musician" ? __jsx("div", {
+    className: "portfolio-detail m-t-10",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 413,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    className: "d-flex w-100 justify-content-between",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 414,
+      columnNumber: 23
+    }
+  }, __jsx("h3", {
+    className: "detail-head",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 415,
+      columnNumber: 25
+    }
+  }, "My Channel description"), __jsx("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "25",
+    height: "25",
+    fill: "currentColor",
+    "class": "bi bi-pencil-square",
+    viewBox: "0 0 16 16",
+    onClick: onOffEditdesc,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 416,
+      columnNumber: 25
+    }
+  }, __jsx("path", {
+    d: "M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 425,
+      columnNumber: 27
+    }
+  }), __jsx("path", {
+    "fill-rule": "evenodd",
+    d: "M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 426,
+      columnNumber: 27
+    }
+  }))), !editabledesc ? __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 433,
+      columnNumber: 25
+    }
+  }, user["channelDescription"]) : __jsx(react__WEBPACK_IMPORTED_MODULE_10___default.a.Fragment, null, __jsx("textarea", {
+    className: "w-100",
+    value: channeldescription.text,
+    onChange: function onChange(e) {
+      return setChannelDescription(_objectSpread({}, channeldescription, {
+        text: e.target.value
+      }));
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 436,
+      columnNumber: 27
+    }
+  }), __jsx("div", {
+    className: "text-center m-t-10",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 446,
+      columnNumber: 27
+    }
+  }, __jsx("a", {
+    className: "btn btn-default primary-btn radius-0",
+    onClick: sendChannelDescription,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 447,
+      columnNumber: 29
+    }
+  }, "update")))) : null))), __jsx("div", {
+    className: "imin",
+    style: {
+      width: "75%",
+      "margin-left": "2%"
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 462,
+      columnNumber: 13
+    }
+  }, user["role"] == "musician" ? __jsx(next_link__WEBPACK_IMPORTED_MODULE_17___default.a, {
+    href: "/streams/launchStream",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 464,
+      columnNumber: 17
+    }
+  }, "Go live") : null, __jsx("div", {
+    className: "d-flex",
+    style: {
+      overflow: "scroll",
+      height: "50%",
+      width: "100%",
+      "flex-wrap": "wrap"
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 467,
+      columnNumber: 15
+    }
+  }, courses.map(function (course) {
+    return __jsx(_components_CourseCard__WEBPACK_IMPORTED_MODULE_16__["default"], {
+      course: course,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 477,
+        columnNumber: 26
+      }
+    });
+  })), __jsx("div", {
+    style: {
+      overflow: "scroll",
+      height: "50%",
+      width: "100%"
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 481,
+      columnNumber: 15
+    }
+  }, __jsx("div", {
+    className: "d-flex",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 482,
+      columnNumber: 17
+    }
+  }, __jsx("div", {
+    style: {
+      width: "40%"
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 483,
+      columnNumber: 19
+    }
+  }, __jsx("h2", {
+    className: "mb-3",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 484,
+      columnNumber: 21
+    }
+  }, "my recordings"), __jsx("div", {
+    className: " mr-3  border border-2 sandou9elrecordes",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 485,
+      columnNumber: 21
+    }
+  }, recordedStreams.map(function (recordedstream) {
+    var date = recordedstream.created_at.split('T');
+    return __jsx("div", {
+      className: "d-flex justify-content-between",
+      onClick: function onClick() {
+        return getRecord(recordedstream.meetingId);
+      },
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 491,
+        columnNumber: 27
+      }
+    }, __jsx("span", {
+      className: "h5 m-2",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 492,
+        columnNumber: 29
+      }
+    }, recordedstream.streamTitle), __jsx("span", {
+      className: "m-2",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 493,
+        columnNumber: 29
+      }
+    }, date[0]));
+  }))), __jsx("div", {
+    style: {
+      width: "55%"
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 501,
+      columnNumber: 19
+    }
+  }, __jsx("h2", {
+    className: "mb-3",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 505,
+      columnNumber: 21
+    }
+  }, "stats"), __jsx("div", {
+    className: " mr-3 border border-2 sandou9elstats",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 506,
+      columnNumber: 21
+    }
+  }, "hello")))))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (PortfolioDetail7);
+
+/***/ }),
+
+/***/ 10:
+/*!***************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2FprofileDetails&absolutePagePath=C%3A%5CUsers%5CWissem%5CDesktop%5CPrimeTime%5Cclient%5Cpages%5CprofileDetails.js ***!
+  \***************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F_error&absolutePagePath=C%3A%5CUsers%5CWissem%5CDesktop%5CPrimeTime%5Cclient%5Cpages%5C_error.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_error&absolutePagePath=C%3A%5CUsers%5CWissem%5CDesktop%5CPrimeTime%5Cclient%5Cpages%5C_error.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2FprofileDetails&absolutePagePath=C%3A%5CUsers%5CWissem%5CDesktop%5CPrimeTime%5Cclient%5Cpages%5CprofileDetails.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2FprofileDetails&absolutePagePath=C%3A%5CUsers%5CWissem%5CDesktop%5CPrimeTime%5Cclient%5Cpages%5CprofileDetails.js!./");
 
 
 /***/ }),
@@ -26696,5 +33484,5 @@ module.exports = dll_b0ae7f9d5a2cb9eeeb96;
 
 /***/ })
 
-},[[9,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=_error.js.map
+},[[10,"static/runtime/webpack.js","styles"]]]);
+//# sourceMappingURL=profileDetails.js.map
