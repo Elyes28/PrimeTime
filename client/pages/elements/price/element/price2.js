@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useState } from 'react'
 import Slider from "react-slick";
 import { Col } from 'reactstrap'
 var settings = {
@@ -21,6 +21,9 @@ var settings = {
         }
     ]
 };
+
+const [purchase,setPurchase]=useState();
+
 
 const PricingTwo = () => (
     <Fragment>

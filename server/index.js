@@ -13,6 +13,9 @@ import router from './routes/stream.js';
 import  courseRouter  from "./routes/courses.js"
 import licenseKeyRouter from "./routes/licensekey.js"
 
+import  productRouter  from "./routes/products.js"
+import newsLetterRouter from './routes/newsLetter.js';
+
 const app = express();
 app.use(morgan('combined', {
   skip: function (req, res) { return res.statusCode < 400 },
@@ -27,9 +30,10 @@ app.use('/stream',router);
 app.use('/posts', postRoutes);
 app.use("/user", userRouter);
 app.use("/licensekey",licenseKeyRouter);
+app.use("/newsLetter",newsLetterRouter);
 
 
-import  productRouter  from "./routes/products.js"
+
 app.use('/products',productRouter)
 
 

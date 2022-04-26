@@ -1,6 +1,10 @@
 import React from 'react';
 import { AlbumData } from '../../../../database/layouts/music/database'
 import { Container, Row, Col } from 'reactstrap'
+import axios from 'axios';
+
+
+
 const Album = () => (
     <section className="music album bg-black pb-0">
         <Container>

@@ -7,7 +7,8 @@ const streamSchema = mongoose.Schema({
   streamTitle: { type: String, required: true },
   streamImg: { type: String, required: true },
   isrecorded:{type:Boolean,default: false},
-  created_at:{type:Date,default: Date.now}
+  created_at:{type:Date,default: Date.now},
+  totalViews:{ type: Number, required: true,default:1 }
 
 
 });

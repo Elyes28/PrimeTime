@@ -2,10 +2,12 @@ import express from "express";
 const router = express.Router();
 import User from '../models/user.js';
 
-import { signin,deleteUser, signup,forgetPass,recoverPass, upload,uploadImage, activateAccount, updateProfile, updateChannelDescription, getCoursesByUserId, getStreamers, isLive, getUsers, updateUserById, addFollowing_list, get_followers_number } from "../controllers/user.js";
+import { signin,deleteUser, signup,forgetPass,recoverPass, upload,uploadImage, activateAccount, updateProfile, updateChannelDescription, getCoursesByUserId, getStreamers, isLive, getUsers, updateUserById, addFollowing_list, get_followers_number, addUserToNewsletter, getTopUsers } from "../controllers/user.js";
 
 router.post("/signin", signin);
 router.post("/signup", signup);
+router.get("/topUsers",getTopUsers);
+router.post("/subToNewsletter", addUserToNewsletter);
 router.get("/getUsers", getUsers);
 router.delete("/deleteUser/:id", deleteUser);
 router.post("/updateUser/:id", updateUserById);

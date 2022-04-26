@@ -18,7 +18,7 @@ export default function generateMuiTheme(type, primary, secondary) {
           paper: "#333244",
         },
         primary: {
-          main: "#1178F8",
+          main: "#f44336",
         },
         secondary: {
           main: "#000",

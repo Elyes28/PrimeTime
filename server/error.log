@@ -12441,3 +12441,2373 @@
   timestamp: '4/25/2022, 6:20:28 AM GMT+2'
 >>>>>>> feat/add-profile-img
 }
+{
+  error: ReferenceError: news is not defined
+      at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/index.js:30:23
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: news is not defined\n' +
+    'ReferenceError: news is not defined\n' +
+    '    at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/index.js:30:23\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: news is not defined\n' +
+    '    at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/index.js:30:23\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Tue Apr 26 2022 14:36:09 GMT+0100 (Central European Standard Time)',
+  process: {
+    pid: 13892,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 71856128,
+      heapTotal: 56102912,
+      heapUsed: 25783168,
+      external: 25791539,
+      arrayBuffers: 18324178
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 5863 },
+  trace: [
+    {
+      column: 23,
+      file: 'file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/index.js',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/26/2022, 3:36:09 PM GMT+2'
+}
+{
+  error: ReferenceError: news is not defined
+      at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/index.js:30:23
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: news is not defined\n' +
+    'ReferenceError: news is not defined\n' +
+    '    at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/index.js:30:23\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: news is not defined\n' +
+    '    at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/index.js:30:23\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Tue Apr 26 2022 14:36:22 GMT+0100 (Central European Standard Time)',
+  process: {
+    pid: 23224,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72060928,
+      heapTotal: 56102912,
+      heapUsed: 26068256,
+      external: 25791539,
+      arrayBuffers: 18339861
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 5875 },
+  trace: [
+    {
+      column: 23,
+      file: 'file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/index.js',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/26/2022, 3:36:22 PM GMT+2'
+}
+{
+  error: ReferenceError: news is not defined
+      at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/index.js:30:23
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: news is not defined\n' +
+    'ReferenceError: news is not defined\n' +
+    '    at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/index.js:30:23\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: news is not defined\n' +
+    '    at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/index.js:30:23\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Tue Apr 26 2022 14:36:24 GMT+0100 (Central European Standard Time)',
+  process: {
+    pid: 9820,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72011776,
+      heapTotal: 56102912,
+      heapUsed: 25820920,
+      external: 25791539,
+      arrayBuffers: 18324178
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 5878 },
+  trace: [
+    {
+      column: 23,
+      file: 'file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/index.js',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/26/2022, 3:36:24 PM GMT+2'
+}
+{
+  error: ReferenceError: newsL is not defined
+      at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/index.js:30:23
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: newsL is not defined\n' +
+    'ReferenceError: newsL is not defined\n' +
+    '    at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/index.js:30:23\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: newsL is not defined\n' +
+    '    at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/index.js:30:23\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Tue Apr 26 2022 14:36:29 GMT+0100 (Central European Standard Time)',
+  process: {
+    pid: 2820,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 71626752,
+      heapTotal: 56102912,
+      heapUsed: 26042520,
+      external: 25791542,
+      arrayBuffers: 18330602
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 5883 },
+  trace: [
+    {
+      column: 23,
+      file: 'file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/index.js',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/26/2022, 3:36:29 PM GMT+2'
+}
+{
+  error: ReferenceError: newsLetterRouter is not defined
+      at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/index.js:30:23
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: newsLetterRouter is not defined\n' +
+    'ReferenceError: newsLetterRouter is not defined\n' +
+    '    at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/index.js:30:23\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: newsLetterRouter is not defined\n' +
+    '    at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/index.js:30:23\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Tue Apr 26 2022 14:36:51 GMT+0100 (Central European Standard Time)',
+  process: {
+    pid: 9072,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 72081408,
+      heapTotal: 56365056,
+      heapUsed: 25608728,
+      external: 25769978,
+      arrayBuffers: 18324178
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 5905 },
+  trace: [
+    {
+      column: 23,
+      file: 'file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/index.js',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/26/2022, 3:36:51 PM GMT+2'
+}
+{
+  error: ReferenceError: Cannot access 'email' before initialization
+      at sendNewsletter (file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/controllers/newsLetter.js:7:40)
+      at Layer.handle [as handle_request] (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\route.js:137:13)
+      at Route.dispatch (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\route.js:112:3)
+      at Layer.handle [as handle_request] (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:281:22
+      at Function.process_params (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:335:12)
+      at next (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:275:10)
+      at Function.handle (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:174:3)
+      at router (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:47:12)
+      at Layer.handle [as handle_request] (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at trim_prefix (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:317:13)
+      at C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:284:7
+      at Function.process_params (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:335:12)
+      at next (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:275:10)
+      at cors (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\cors\lib\index.js:188:7),
+  level: 'error',
+  message: "uncaughtException: Cannot access 'email' before initialization\n" +
+    "ReferenceError: Cannot access 'email' before initialization\n" +
+    '    at sendNewsletter (file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/controllers/newsLetter.js:7:40)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at cors (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\cors\\lib\\index.js:188:7)',
+  stack: "ReferenceError: Cannot access 'email' before initialization\n" +
+    '    at sendNewsletter (file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/controllers/newsLetter.js:7:40)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at cors (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\cors\\lib\\index.js:188:7)',
+  exception: true,
+  date: 'Tue Apr 26 2022 14:41:15 GMT+0100 (Central European Standard Time)',
+  process: {
+    pid: 16196,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 61853696,
+      heapTotal: 26742784,
+      heapUsed: 24604760,
+      external: 19893939,
+      arrayBuffers: 18300801
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 6169 },
+  trace: [
+    {
+      column: 40,
+      file: 'file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/controllers/newsLetter.js',
+      function: 'sendNewsletter',
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 137,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 112,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 281,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 335,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 275,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 174,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'trim_prefix',
+      line: 317,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 335,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 275,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\cors\\lib\\index.js',
+      function: 'cors',
+      line: 188,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/26/2022, 3:41:15 PM GMT+2'
+}
+{
+  error: ReferenceError: Cannot access 'email' before initialization
+      at sendNewsletter (file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/controllers/newsLetter.js:8:33)
+      at Layer.handle [as handle_request] (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\route.js:137:13)
+      at Route.dispatch (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\route.js:112:3)
+      at Layer.handle [as handle_request] (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:281:22
+      at Function.process_params (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:335:12)
+      at next (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:275:10)
+      at Function.handle (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:174:3)
+      at router (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:47:12)
+      at Layer.handle [as handle_request] (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at trim_prefix (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:317:13)
+      at C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:284:7
+      at Function.process_params (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:335:12)
+      at next (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:275:10)
+      at cors (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\cors\lib\index.js:188:7),
+  level: 'error',
+  message: "uncaughtException: Cannot access 'email' before initialization\n" +
+    "ReferenceError: Cannot access 'email' before initialization\n" +
+    '    at sendNewsletter (file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/controllers/newsLetter.js:8:33)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at cors (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\cors\\lib\\index.js:188:7)',
+  stack: "ReferenceError: Cannot access 'email' before initialization\n" +
+    '    at sendNewsletter (file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/controllers/newsLetter.js:8:33)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at cors (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\cors\\lib\\index.js:188:7)',
+  exception: true,
+  date: 'Tue Apr 26 2022 14:42:51 GMT+0100 (Central European Standard Time)',
+  process: {
+    pid: 17052,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 78094336,
+      heapTotal: 60559360,
+      heapUsed: 24918472,
+      external: 25939480,
+      arrayBuffers: 18388139
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 6265 },
+  trace: [
+    {
+      column: 33,
+      file: 'file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/controllers/newsLetter.js',
+      function: 'sendNewsletter',
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 137,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 112,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 281,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 335,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 275,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 174,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'trim_prefix',
+      line: 317,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 335,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 275,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\cors\\lib\\index.js',
+      function: 'cors',
+      line: 188,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/26/2022, 3:42:51 PM GMT+2'
+}
+{
+  error: ReferenceError: Cannot access 'email' before initialization
+      at sendNewsletter (file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/controllers/newsLetter.js:8:30)
+      at Layer.handle [as handle_request] (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\route.js:137:13)
+      at Route.dispatch (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\route.js:112:3)
+      at Layer.handle [as handle_request] (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:281:22
+      at Function.process_params (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:335:12)
+      at next (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:275:10)
+      at Function.handle (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:174:3)
+      at router (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:47:12)
+      at Layer.handle [as handle_request] (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at trim_prefix (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:317:13)
+      at C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:284:7
+      at Function.process_params (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:335:12)
+      at next (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:275:10)
+      at cors (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\cors\lib\index.js:188:7),
+  level: 'error',
+  message: "uncaughtException: Cannot access 'email' before initialization\n" +
+    "ReferenceError: Cannot access 'email' before initialization\n" +
+    '    at sendNewsletter (file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/controllers/newsLetter.js:8:30)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at cors (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\cors\\lib\\index.js:188:7)',
+  stack: "ReferenceError: Cannot access 'email' before initialization\n" +
+    '    at sendNewsletter (file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/controllers/newsLetter.js:8:30)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at cors (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\cors\\lib\\index.js:188:7)',
+  exception: true,
+  date: 'Tue Apr 26 2022 14:43:21 GMT+0100 (Central European Standard Time)',
+  process: {
+    pid: 24004,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 61517824,
+      heapTotal: 26480640,
+      heapUsed: 24311656,
+      external: 19887300,
+      arrayBuffers: 18297392
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 6294 },
+  trace: [
+    {
+      column: 30,
+      file: 'file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/controllers/newsLetter.js',
+      function: 'sendNewsletter',
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 137,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 112,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 281,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 335,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 275,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 174,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'trim_prefix',
+      line: 317,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 335,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 275,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\cors\\lib\\index.js',
+      function: 'cors',
+      line: 188,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/26/2022, 3:43:21 PM GMT+2'
+}
+{
+  error: ReferenceError: email is not defined
+      at sendNewsletter (file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/controllers/newsLetter.js:8:35)
+      at Layer.handle [as handle_request] (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\route.js:137:13)
+      at Route.dispatch (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\route.js:112:3)
+      at Layer.handle [as handle_request] (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:281:22
+      at Function.process_params (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:335:12)
+      at next (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:275:10)
+      at Function.handle (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:174:3)
+      at router (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:47:12)
+      at Layer.handle [as handle_request] (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at trim_prefix (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:317:13)
+      at C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:284:7
+      at Function.process_params (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:335:12)
+      at next (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:275:10)
+      at cors (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\cors\lib\index.js:188:7),
+  level: 'error',
+  message: 'uncaughtException: email is not defined\n' +
+    'ReferenceError: email is not defined\n' +
+    '    at sendNewsletter (file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/controllers/newsLetter.js:8:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at cors (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\cors\\lib\\index.js:188:7)',
+  stack: 'ReferenceError: email is not defined\n' +
+    '    at sendNewsletter (file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/controllers/newsLetter.js:8:35)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at cors (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\cors\\lib\\index.js:188:7)',
+  exception: true,
+  date: 'Tue Apr 26 2022 14:44:24 GMT+0100 (Central European Standard Time)',
+  process: {
+    pid: 22740,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 76537856,
+      heapTotal: 59248640,
+      heapUsed: 25820096,
+      external: 25939501,
+      arrayBuffers: 18412457
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 6357 },
+  trace: [
+    {
+      column: 35,
+      file: 'file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/controllers/newsLetter.js',
+      function: 'sendNewsletter',
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 137,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 112,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 281,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 335,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 275,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 174,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'trim_prefix',
+      line: 317,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 335,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 275,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\cors\\lib\\index.js',
+      function: 'cors',
+      line: 188,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/26/2022, 3:44:24 PM GMT+2'
+}
+{
+  error: ReferenceError: email is not defined
+      at sendNewsletter (file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/controllers/newsLetter.js:8:34)
+      at Layer.handle [as handle_request] (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\route.js:137:13)
+      at Route.dispatch (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\route.js:112:3)
+      at Layer.handle [as handle_request] (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:281:22
+      at Function.process_params (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:335:12)
+      at next (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:275:10)
+      at Function.handle (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:174:3)
+      at router (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:47:12)
+      at Layer.handle [as handle_request] (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at trim_prefix (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:317:13)
+      at C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:284:7
+      at Function.process_params (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:335:12)
+      at next (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:275:10)
+      at cors (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\cors\lib\index.js:188:7),
+  level: 'error',
+  message: 'uncaughtException: email is not defined\n' +
+    'ReferenceError: email is not defined\n' +
+    '    at sendNewsletter (file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/controllers/newsLetter.js:8:34)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at cors (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\cors\\lib\\index.js:188:7)',
+  stack: 'ReferenceError: email is not defined\n' +
+    '    at sendNewsletter (file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/controllers/newsLetter.js:8:34)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at cors (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\cors\\lib\\index.js:188:7)',
+  exception: true,
+  date: 'Tue Apr 26 2022 14:45:19 GMT+0100 (Central European Standard Time)',
+  process: {
+    pid: 24500,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 77082624,
+      heapTotal: 59510784,
+      heapUsed: 25563416,
+      external: 19906721,
+      arrayBuffers: 18412457
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 6412 },
+  trace: [
+    {
+      column: 34,
+      file: 'file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/controllers/newsLetter.js',
+      function: 'sendNewsletter',
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 137,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 112,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 281,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 335,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 275,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 174,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'trim_prefix',
+      line: 317,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 335,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 275,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\cors\\lib\\index.js',
+      function: 'cors',
+      line: 188,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/26/2022, 3:45:19 PM GMT+2'
+}
+{
+  error: TypeError: doc.find is not a function
+      at sendNewsletter (file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/controllers/newsLetter.js:8:29)
+      at Layer.handle [as handle_request] (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\route.js:137:13)
+      at Route.dispatch (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\route.js:112:3)
+      at Layer.handle [as handle_request] (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:281:22
+      at Function.process_params (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:335:12)
+      at next (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:275:10)
+      at Function.handle (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:174:3)
+      at router (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:47:12)
+      at Layer.handle [as handle_request] (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\layer.js:95:5)
+      at trim_prefix (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:317:13)
+      at C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:284:7
+      at Function.process_params (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:335:12)
+      at next (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:275:10)
+      at cors (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\cors\lib\index.js:188:7),
+  level: 'error',
+  message: 'uncaughtException: doc.find is not a function\n' +
+    'TypeError: doc.find is not a function\n' +
+    '    at sendNewsletter (file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/controllers/newsLetter.js:8:29)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at cors (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\cors\\lib\\index.js:188:7)',
+  stack: 'TypeError: doc.find is not a function\n' +
+    '    at sendNewsletter (file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/controllers/newsLetter.js:8:29)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at cors (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\cors\\lib\\index.js:188:7)',
+  exception: true,
+  date: 'Tue Apr 26 2022 14:48:35 GMT+0100 (Central European Standard Time)',
+  process: {
+    pid: 21852,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 61505536,
+      heapTotal: 26742784,
+      heapUsed: 24385632,
+      external: 19893939,
+      arrayBuffers: 18300801
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 6608 },
+  trace: [
+    {
+      column: 29,
+      file: 'file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/controllers/newsLetter.js',
+      function: 'sendNewsletter',
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'next',
+      line: 137,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\route.js',
+      function: 'Route.dispatch',
+      line: 112,
+      method: 'dispatch',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 281,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 335,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 275,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.handle',
+      line: 174,
+      method: 'handle',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'router',
+      line: 47,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'Layer.handle [as handle_request]',
+      line: 95,
+      method: 'handle [as handle_request]',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'trim_prefix',
+      line: 317,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: null,
+      line: 284,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.process_params',
+      line: 335,
+      method: 'process_params',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'next',
+      line: 275,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\cors\\lib\\index.js',
+      function: 'cors',
+      line: 188,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/26/2022, 3:48:35 PM GMT+2'
+}
+{
+  error: ReferenceError: viewsDnc is not defined
+      at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/routes/stream.js:12:30
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: viewsDnc is not defined\n' +
+    'ReferenceError: viewsDnc is not defined\n' +
+    '    at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/routes/stream.js:12:30\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: viewsDnc is not defined\n' +
+    '    at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/routes/stream.js:12:30\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Tue Apr 26 2022 16:48:35 GMT+0100 (Central European Standard Time)',
+  process: {
+    pid: 12068,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 73637888,
+      heapTotal: 38539264,
+      heapUsed: 27682880,
+      external: 25798265,
+      arrayBuffers: 19433730
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 13809 },
+  trace: [
+    {
+      column: 30,
+      file: 'file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/routes/stream.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/26/2022, 5:48:36 PM GMT+2'
+}
+{
+  error: ReferenceError: viewsDec is not defined
+      at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/routes/stream.js:12:30
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: viewsDec is not defined\n' +
+    'ReferenceError: viewsDec is not defined\n' +
+    '    at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/routes/stream.js:12:30\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: viewsDec is not defined\n' +
+    '    at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/routes/stream.js:12:30\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Tue Apr 26 2022 16:48:38 GMT+0100 (Central European Standard Time)',
+  process: {
+    pid: 15348,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 74412032,
+      heapTotal: 38539264,
+      heapUsed: 27545576,
+      external: 25798265,
+      arrayBuffers: 19425538
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 13811 },
+  trace: [
+    {
+      column: 30,
+      file: 'file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/routes/stream.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/26/2022, 5:48:38 PM GMT+2'
+}
+{
+  error: ReferenceError: view is not defined
+      at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/routes/stream.js:12:30
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: view is not defined\n' +
+    'ReferenceError: view is not defined\n' +
+    '    at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/routes/stream.js:12:30\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: view is not defined\n' +
+    '    at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/routes/stream.js:12:30\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Tue Apr 26 2022 16:48:42 GMT+0100 (Central European Standard Time)',
+  process: {
+    pid: 23804,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 73814016,
+      heapTotal: 56102912,
+      heapUsed: 25392528,
+      external: 25798253,
+      arrayBuffers: 18324178
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 13815 },
+  trace: [
+    {
+      column: 30,
+      file: 'file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/routes/stream.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/26/2022, 5:48:42 PM GMT+2'
+}
+{
+  error: ReferenceError: views is not defined
+      at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/routes/stream.js:12:30
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: views is not defined\n' +
+    'ReferenceError: views is not defined\n' +
+    '    at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/routes/stream.js:12:30\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: views is not defined\n' +
+    '    at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/routes/stream.js:12:30\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Tue Apr 26 2022 16:48:43 GMT+0100 (Central European Standard Time)',
+  process: {
+    pid: 28312,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 73621504,
+      heapTotal: 38539264,
+      heapUsed: 27696904,
+      external: 25798256,
+      arrayBuffers: 19433730
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 13816 },
+  trace: [
+    {
+      column: 30,
+      file: 'file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/routes/stream.js',
+      function: null,
+      line: 12,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/26/2022, 5:48:43 PM GMT+2'
+}
+{
+  error: TypeError: Cannot read properties of undefined (reading 'length')
+      at pathtoRegexp (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\path-to-regexp\index.js:63:49)
+      at new Layer (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\layer.js:45:17)
+      at Function.route (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:494:15)
+      at Function.proto.<computed> [as get] (C:\Users\bachq\Documents\GitHub\PrimeTime\server\node_modules\express\lib\router\index.js:509:22)
+      at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/routes/user.js:9:8
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of undefined (reading 'length')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'length')\n" +
+    '    at pathtoRegexp (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\path-to-regexp\\index.js:63:49)\n' +
+    '    at new Layer (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:45:17)\n' +
+    '    at Function.route (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:494:15)\n' +
+    '    at Function.proto.<computed> [as get] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:509:22)\n' +
+    '    at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/routes/user.js:9:8\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'length')\n" +
+    '    at pathtoRegexp (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\path-to-regexp\\index.js:63:49)\n' +
+    '    at new Layer (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js:45:17)\n' +
+    '    at Function.route (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:494:15)\n' +
+    '    at Function.proto.<computed> [as get] (C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js:509:22)\n' +
+    '    at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/routes/user.js:9:8\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Tue Apr 26 2022 22:51:59 GMT+0100 (Central European Standard Time)',
+  process: {
+    pid: 7888,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 68640768,
+      heapTotal: 56365056,
+      heapUsed: 24969584,
+      external: 25628975,
+      arrayBuffers: 18330598
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 35613 },
+  trace: [
+    {
+      column: 49,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\path-to-regexp\\index.js',
+      function: 'pathtoRegexp',
+      line: 63,
+      method: null,
+      native: false
+    },
+    {
+      column: 17,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\layer.js',
+      function: 'new Layer',
+      line: 45,
+      method: null,
+      native: false
+    },
+    {
+      column: 15,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.route',
+      line: 494,
+      method: 'route',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\node_modules\\express\\lib\\router\\index.js',
+      function: 'Function.proto.<computed> [as get]',
+      line: 509,
+      method: '<computed> [as get]',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/routes/user.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/26/2022, 11:51:59 PM GMT+2'
+}
+{
+  error: ReferenceError: gett is not defined
+      at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/routes/user.js:9:24
+      at ModuleJob.run (node:internal/modules/esm/module_job:195:25)
+      at async Promise.all (index 0)
+      at async ESMLoader.import (node:internal/modules/esm/loader:337:24)
+      at async loadESM (node:internal/process/esm_loader:88:5)
+      at async handleMainPromise (node:internal/modules/run_main:61:12),
+  level: 'error',
+  message: 'uncaughtException: gett is not defined\n' +
+    'ReferenceError: gett is not defined\n' +
+    '    at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/routes/user.js:9:24\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  stack: 'ReferenceError: gett is not defined\n' +
+    '    at file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/routes/user.js:9:24\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:195:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:337:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:61:12)',
+  exception: true,
+  date: 'Tue Apr 26 2022 22:52:09 GMT+0100 (Central European Standard Time)',
+  process: {
+    pid: 27388,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.14.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\bachq\\Documents\\GitHub\\PrimeTime\\server\\index.js'
+    ],
+    memoryUsage: {
+      rss: 68825088,
+      heapTotal: 38801408,
+      heapUsed: 25804216,
+      external: 25628706,
+      arrayBuffers: 19154148
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 35623 },
+  trace: [
+    {
+      column: 24,
+      file: 'file:///C:/Users/bachq/Documents/GitHub/PrimeTime/server/routes/user.js',
+      function: null,
+      line: 9,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'node:internal/modules/esm/module_job',
+      function: 'ModuleJob.run',
+      line: 195,
+      method: 'run',
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'async Promise.all',
+      line: null,
+      method: 'all',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/esm/loader',
+      function: 'async ESMLoader.import',
+      line: 337,
+      method: 'import',
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/esm_loader',
+      function: 'async loadESM',
+      line: 88,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'async handleMainPromise',
+      line: 61,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '4/26/2022, 11:52:09 PM GMT+2'
+}

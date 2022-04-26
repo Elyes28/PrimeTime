@@ -27,6 +27,23 @@ export const viewsInc = async (req, res) => {
   
   try {
     doc.viewerCount=doc.viewerCount+1
+    doc.totalViews=doc.totalViews+1
+    doc.save();
+      console.log(doc)
+    
+
+      res.status(201).json(doc);
+  } catch (error) {
+      res.status(409).json({ message: error.message });
+  }
+}
+
+export const viewsDec = async (req, res) => {
+  const meetingId = req.params.id;
+  const doc = await stream.findOne({meetingId:meetingId});
+  
+  try {
+    doc.viewerCount=doc.viewerCount-1
     doc.save();
       console.log(doc)
     
@@ -48,11 +65,26 @@ export const setRecording = async (req,res) => {
 }
 
 export const getStreamByName = async (req, res) => { 
-const name = req.params.name;
-const streams = await stream.find({streamerName:name,isrecorded:true});
-return res.status(200).json(streams);
+  console.log("test")
 
-}
+  try {   
+    console.log("test")
+    logger.info("get top users !");
+    const users = await stream.find({followers:{$gte:1000}},null,{limit:3});    
+    res.status(200).json(users);
+} catch (error) {
+    logger.error("errr");
+    res.status(404).json({ message: error.message });
+}}
+
+
+export const getTopStream = async (req, res) => { 
+  const name = req.params.name;
+  const streams = await stream.find({streamerName:name,isrecorded:true});
+  return res.status(200).json(streams);
+  
+  }
+
 export const getAllStreamsByName = async (req, res) => { 
   const name = req.params.name;
   const streams = await stream.find({streamerName:name});

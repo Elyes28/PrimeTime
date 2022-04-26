@@ -16,7 +16,6 @@ const ProfileSection = () => {
     
   }, []);
   useEffect(()=>{
-    console.log(user)
       if (user)
     setImgsrc("images/users/"+user["firstName"]+user["lastName"]+".jpg");
 

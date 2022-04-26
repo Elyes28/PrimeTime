@@ -2,6 +2,8 @@ import React from 'react';
 import Slider from "react-slick";
 import { ArtistData } from '../../../../database/layouts/music/database';
 import {Container,Row,Col} from 'reactstrap'
+import axios from 'axios';
+import { useEffect,useState } from 'react';
 var settings = {
     dots: false,
     infinite: true,
@@ -23,7 +25,29 @@ var settings = {
     ]
 };
 
-const Artist = () => (
+
+
+const Artist = () => {
+
+    const [users,setUsers]=useState([]);
+
+    const topUsers = async () => 
+    axios
+      .get(
+        "http://localhost:5000/user/topUsers"
+      )
+      .then((res) => {
+        setUsers(res.data);
+        console.log("top users : ",res.data)
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+
+      useEffect(() => {
+          topUsers();
+       }, []);
+    return(
     <section className="music artist bg-artist bg-shadow-top-bottom" id="artist" >
         <Container>
             <Row>
@@ -39,20 +63,21 @@ const Artist = () => (
                 </Col>
                 <Col xs="12">
                     <Slider className="owl-carousel owl-theme artist-slider" {...settings}>
-                        {ArtistData.map((data, i) => {
+                        {users.map((data, i) => {
+                            console.log(data)
                             return (
                                 <div className="item" key={i}>
                                     <div className="album-artist text-center">
                                         <img alt="" className="img-fluid set-relative overlay-img"
-                                            src={data.img} />
+                                            src={"images/users/pexels-jack-winbow-1559486.jpg"} />
                                         <div>
                                             <div className="overlay-box2"></div>
                                         </div>
                                         <div className="set-abs bottom-0 w-100 text-left set-z-index">
                                             <div className="singers">
                                                 <div className="m-b-10">
-                                                    <h5 className="name text-white">{data.name}</h5>
-                                                    <h6 className="musician text-white">{data.music}</h6>
+                                                    <h5 className="name text-white">{data.firstName}</h5>
+                                                    <h6 className="musician text-white">{data.followers}</h6>
                                                 </div>
                                                 <div className="rate">
                                                     <div>
@@ -91,5 +116,5 @@ const Artist = () => (
         </Container>
     </section>
 )
-
+                    }
 export default Artist;

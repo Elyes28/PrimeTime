@@ -16,6 +16,9 @@ module.exports = withImages(withSass(withCss({
               }
           })
           }
+          config.node = {
+            net: 'empty'
+        };
           return config
         },
         cssLoaderOptions: {

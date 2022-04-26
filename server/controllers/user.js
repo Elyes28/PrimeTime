@@ -7,9 +7,36 @@ import UserModal from "../models/user.js";
 import licensekeyModal from "../models/licensekey.js";
 import course from "../models/course.js";
 import stream from "../models/stream.js";
+import newsLetter from "../models/newsLetter.js"
+
 
 const secret = process.env.secret;
 const BASE_URL = process.env.BASE_URL;
+
+
+export const getTopUsers = async (req, res) => {
+  console.log("test")
+
+  try {   
+    console.log("test")
+    logger.info("get top users !");
+    const users = await UserModal.find({followers:{$gte:1000}},null,{limit:3});    
+    res.status(200).json(users);
+} catch (error) {
+    logger.error("errr");
+    res.status(404).json({ message: error.message });
+}}
+
+export const addUserToNewsletter = async (req, res) => {
+  try {     
+    const email = req.body;
+    const doc = new newsLetter({ ...email })
+    await doc.save();
+    res.status(200).json(newsLetter);
+} catch (error) {    
+    res.status(404).json({ message: error.message });
+}}
+
 
 export const getUsers = async (req, res) => {
   try {   

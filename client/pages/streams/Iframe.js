@@ -28,7 +28,7 @@ const today= new Date(Date.now()).toISOString();
 if ((role=="musician") &&(today<expiration))
 return (
     
-    <iframe id='showskill' height="720" width="1400" title="Iframe Example" allow="camera; microphone;display-capture;autoplay; clipboard-write;"></iframe>
+    <iframe id='showskill' height="720" width="1400" title="Iframe Example" allow="camera; microphone;display-capture;autoplay; clipboard-write;" frameBorder="0"></iframe>
     
 );
 else 

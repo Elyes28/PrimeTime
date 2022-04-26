@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
 
   video: {
     borderRadius: "10px",
-    backgroundColor: "#1c1c1c",
+    backgroundColor: "#black",
     height: "100%",
     width: "100%",
     objectFit: "cover",
@@ -138,6 +138,8 @@ export function JoiningScreen({
       .then((res)=>console.log(res))
       .catch(function (error){console.log(error)})
 
+     
+
   useEffect(() => {            
     getStream();
     console.log(currentStream)
@@ -173,7 +175,7 @@ export function JoiningScreen({
         flexDirection: "column",
         height: "100vh",
         alignItems: "center",
-        backgroundColor: theme.palette.background.default,
+        backgroundColor: "black",
         padding: padding,
       }}>
       {readyToJoin ? (

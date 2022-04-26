@@ -18,7 +18,10 @@ const width = 400;
 const height = (width * 2) / 3;
 const borderRadius = 8;
 
-
+const decView = async ()=>
+axios.post("http://localhost:5000/stream/viewsDec/"+localStorage.getItem("meetid"))
+.then((res)=>console.log(res))
+.catch(function (error){console.log(error)})
 
 
 const chunk = (arr) => {
@@ -115,21 +118,27 @@ const MessageList = ({ messages }) => {
         const { senderName, message: text, timestamp } = message;
 
         return (
-          <div
+          <div className="flex"
             style={{
               margin: 8,
-              backgroundColor: "darkblue",
+              backgroundColor: "transparent",
               borderRadius: 8,
               overflow: "hidden",
               padding: 8,
               color: "#fff",
             }}
             key={i}
+            
           >
-            <p style={{ margin: 0, padding: 0, fontStyle: "italic" }}>
+           
+            <p style={{ margin: 0, padding: 0, fontStyle: "italic", color:"red" }}>
               {senderName}
             </p>
-            <h3 style={{ margin: 0, padding: 0, marginTop: 4 }}>{text}</h3>
+            <div className="">
+              <span className="p-2" style={{"color":"#C6BCB9"}}>{formatAMPM(new Date(timestamp))}</span>
+            
+            <h3 className="p-2" style={{ margin: 0, padding: 0, marginTop: 4 }}>{text}</h3>
+            </div>
             <p
               style={{
                 margin: 0,
@@ -137,8 +146,10 @@ const MessageList = ({ messages }) => {
                 opacity: 0.6,
                 marginTop: 4,
               }}
+              
             >
-              {formatAMPM(new Date(timestamp))}
+              
+              
             </p>
           </div>
         );
@@ -158,8 +169,10 @@ const MeetingChat = ({ tollbarHeight }) => {
       style={{
         marginLeft: borderRadius,
         width: 400,
-        backgroundColor: primary,
-        overflowY: "scroll",
+        //backgroundColor: "#353935",
+        background: "linear-gradient(#010900, #5c5c64)",
+        
+        overflowY: "hidden",
         borderRadius,
         height: `calc(100vh - ${tollbarHeight + 2 * borderRadius}px)`,
         padding: borderRadius,
@@ -167,16 +180,20 @@ const MeetingChat = ({ tollbarHeight }) => {
     >
       <Title title={"Chat"} />
 
+     
+
       <div style={{ display: "flex" }}>
-        <input
+        <input style={{"border-radius":"25px","width":"100%"}} 
           value={message}
           onChange={(e) => {
             const v = e.target.value;
             setMessage(v);
           }}
+          
         />
-        <button
-          className={"button default"}
+        <button 
+          className={"button default align-self-center "}
+          style={{"margin":"0","height":"40px","border-radius":"25px"}}
           onClick={() => {
             const m = message;
 
@@ -624,6 +641,7 @@ function MeetingView({ onNewMeetingIdToken, onMeetingLeave }) {
   function onMeetingLeft() {
     console.log("onMeetingLeft");
     onMeetingLeave();
+    decView();
   }
   const onLiveStreamStarted = (data) => {
     console.log("onLiveStreamStarted example", data);
@@ -795,7 +813,7 @@ function MeetingView({ onNewMeetingIdToken, onMeetingLeave }) {
     stopRecording();
   };
 
-  const tollbarHeight = 120;
+  const tollbarHeight = 50;
 
   return (
     <div
@@ -810,16 +828,16 @@ function MeetingView({ onNewMeetingIdToken, onMeetingLeave }) {
           LEAVE
         </button>
         {(queryParams.get("meetId")=="create") ? (<>
-        <button className={"button blue"}  onClick={toggleMic}>
-          toggleMic
+        <button className={"button blue"}   onClick={toggleMic}>
+          Microphone
         </button>
         
         <button className={"button blue"} onClick={toggleWebcam}>
-          toggleWebcam
+          Webcam
         </button>
       
         <button className="button blue" onClick={toggleScreenShare}>
-          toggleScreenShare
+          ScreenShare
         </button>
         {/* <button className={"button blue"} onClick={handlestartVideo}>
           startVideo
@@ -845,10 +863,10 @@ function MeetingView({ onNewMeetingIdToken, onMeetingLeave }) {
         {/* {alert(queryParams.get("meetId"))} */}
         
         <button className={"button blue"}  onClick={handleStartRecording} hidden>
-          start recording
+          Record
         </button> 
         <button className={"button blue"} onClick={handleStopRecording}>
-          stop recording
+          Stop recording
         </button>
         </>): null
         }
