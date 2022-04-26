@@ -1,46 +1,5 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["styles"],{
 
-/***/ "./components/stylez.css":
-/*!*******************************!*\
-  !*** ./components/stylez.css ***!
-  \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin;
-    if (true) {
-      var injectCss = function injectCss(prev, href) {
-        var link = prev.cloneNode();
-        link.href = href;
-        link.onload = function() {
-          prev.parentNode.removeChild(prev);
-        };
-        prev.stale = true;
-        prev.parentNode.insertBefore(link, prev);
-      };
-      module.hot.dispose(function() {
-        window.__webpack_reload_css__ = true;
-      });
-      if (window.__webpack_reload_css__) {
-        module.hot.__webpack_reload_css__ = false;
-        console.log("[HMR] Reloading stylesheets...");
-        var prefix = document.location.protocol + '//' + document.location.host;
-        document
-          .querySelectorAll("link[href][rel=stylesheet]")
-          .forEach(function(link) {
-            if (!link.href.match(prefix) || link.stale) return;
-<<<<<<< HEAD
-            injectCss(link, link.href.split("?")[0] + "?unix=1650883143322");
-=======
-            injectCss(link, link.href.split("?")[0] + "?unix=1650870088367");
->>>>>>> feat/add-profile-img
-          });
-      }
-    }
-  
-
-/***/ }),
-
 /***/ "./node_modules/bootstrap-scss/bootstrap.scss":
 /*!****************************************************!*\
   !*** ./node_modules/bootstrap-scss/bootstrap.scss ***!
@@ -70,7 +29,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1650869760715");
+            injectCss(link, link.href.split("?")[0] + "?unix=1651013334914");
           });
       }
     }
@@ -78,12 +37,10 @@
 
 /***/ }),
 
-<<<<<<< HEAD
-=======
-/***/ "./pages/style.css":
-/*!*************************!*\
-  !*** ./pages/style.css ***!
-  \*************************/
+/***/ "./pages/layouts/sections/music/style.css":
+/*!************************************************!*\
+  !*** ./pages/layouts/sections/music/style.css ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -109,45 +66,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1650869866707");
-          });
-      }
-    }
-  
-
-/***/ }),
-
->>>>>>> feat/add-profile-img
-/***/ "./public/assets/person.css":
-/*!**********************************!*\
-  !*** ./public/assets/person.css ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin;
-    if (true) {
-      var injectCss = function injectCss(prev, href) {
-        var link = prev.cloneNode();
-        link.href = href;
-        link.onload = function() {
-          prev.parentNode.removeChild(prev);
-        };
-        prev.stale = true;
-        prev.parentNode.insertBefore(link, prev);
-      };
-      module.hot.dispose(function() {
-        window.__webpack_reload_css__ = true;
-      });
-      if (window.__webpack_reload_css__) {
-        module.hot.__webpack_reload_css__ = false;
-        console.log("[HMR] Reloading stylesheets...");
-        var prefix = document.location.protocol + '//' + document.location.host;
-        document
-          .querySelectorAll("link[href][rel=stylesheet]")
-          .forEach(function(link) {
-            if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1650870087141");
+            injectCss(link, link.href.split("?")[0] + "?unix=1651016927272");
           });
       }
     }
@@ -184,7 +103,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1650869761802");
+            injectCss(link, link.href.split("?")[0] + "?unix=1651013334000");
           });
       }
     }
@@ -221,7 +140,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1650869759668");
+            injectCss(link, link.href.split("?")[0] + "?unix=1651013331761");
           });
       }
     }
@@ -258,7 +177,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1650869759972");
+            injectCss(link, link.href.split("?")[0] + "?unix=1651013332751");
           });
       }
     }
@@ -295,7 +214,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1650869760014");
+            injectCss(link, link.href.split("?")[0] + "?unix=1651013334034");
           });
       }
     }
@@ -332,7 +251,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1650869759999");
+            injectCss(link, link.href.split("?")[0] + "?unix=1651013332784");
           });
       }
     }
@@ -369,7 +288,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1650869759814");
+            injectCss(link, link.href.split("?")[0] + "?unix=1651013332261");
           });
       }
     }
