@@ -30745,5 +30745,10 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
       color: black;
       opacity: 0.75; }
 
+.hovertest:hover
+{
+text-decoration:underline;
+color: white;
+}
 
 /*# sourceMappingURL=styles.chunk.css.map*/
