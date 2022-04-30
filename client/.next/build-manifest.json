@@ -18,11 +18,11 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/blog/blog-masonary/masonary-left-sidebar": [
+    "/order/[id]": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/order/orderHistory": [
+    "/placeorder": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

@@ -14,7 +14,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
-var _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\components\\CheckoutSteps.js";
+var _jsxFileName = "C:\\Users\\Karim\\Documents\\GitHub\\PrimeTime\\client\\components\\CheckoutSteps.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -68,7 +68,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
-var _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\components\\MessageBox.js";
+var _jsxFileName = "C:\\Users\\Karim\\Documents\\GitHub\\PrimeTime\\client\\components\\MessageBox.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -82,240 +82,6 @@ function MessageBox(props) {
       columnNumber: 10
     }
   }, props.children);
-}
-
-/***/ }),
-
-/***/ "./components/PaymentForm.js":
-/*!***********************************!*\
-  !*** ./components/PaymentForm.js ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return PaymentForm; });
-/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js");
-/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js");
-/* harmony import */ var _stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @stripe/react-stripe-js */ "./node_modules/@stripe/react-stripe-js/dist/react-stripe.umd.js");
-/* harmony import */ var _stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
-
-
-var _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\components\\PaymentForm.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement;
-
-
-
-var CARD_OPTIONS = {
-  iconStyle: "solid",
-  style: {
-    base: {
-      iconColor: "#c4f0ff",
-      color: "#000",
-      fontWeight: 500,
-      fontFamily: "Roboto, Open Sans, Segoe UI, sans-serif",
-      fontSize: "16px",
-      fontSmoothing: "antialiased",
-      ":-webkit-autofill": {
-        color: "#fce883"
-      },
-      "::placeholder": {
-        color: "#87bbfd"
-      }
-    },
-    invalid: {
-      iconColor: "#ffc7ee",
-      color: "#ffc7ee"
-    }
-  }
-};
-function PaymentForm(_ref) {
-  var price = _ref.price;
-
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_4__["useState"])(false),
-      success = _useState[0],
-      setSuccess = _useState[1];
-
-  var stripe = Object(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_2__["useStripe"])();
-  var elements = Object(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_2__["useElements"])();
-
-  var handleSubmit = /*#__PURE__*/function () {
-    var _ref2 = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])( /*#__PURE__*/_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(e) {
-      var _yield$stripe$createP, error, paymentMethod, id, response;
-
-      return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
-        while (1) {
-          switch (_context.prev = _context.next) {
-            case 0:
-              e.preventDefault();
-              _context.next = 3;
-              return stripe.createPaymentMethod({
-                type: "card",
-                card: elements.getElement(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_2__["CardElement"])
-              });
-
-            case 3:
-              _yield$stripe$createP = _context.sent;
-              error = _yield$stripe$createP.error;
-              paymentMethod = _yield$stripe$createP.paymentMethod;
-
-              if (error) {
-                _context.next = 21;
-                break;
-              }
-
-              _context.prev = 7;
-              id = paymentMethod.id;
-              console.log(id);
-              _context.next = 12;
-              return axios__WEBPACK_IMPORTED_MODULE_3___default.a.post("http://localhost:5000/orders/payment", {
-                amount: price * 100,
-                id: id
-              });
-
-            case 12:
-              response = _context.sent;
-
-              if (response.data.success) {
-                console.log("Successful payment");
-                setSuccess(true);
-              }
-
-              _context.next = 19;
-              break;
-
-            case 16:
-              _context.prev = 16;
-              _context.t0 = _context["catch"](7);
-              console.log("Error", _context.t0);
-
-            case 19:
-              _context.next = 22;
-              break;
-
-            case 21:
-              console.log(error.message);
-
-            case 22:
-            case "end":
-              return _context.stop();
-          }
-        }
-      }, _callee, null, [[7, 16]]);
-    }));
-
-    return function handleSubmit(_x) {
-      return _ref2.apply(this, arguments);
-    };
-  }();
-
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_4___default.a.Fragment, null, !success ? __jsx("form", {
-    onSubmit: handleSubmit,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65,
-      columnNumber: 9
-    }
-  }, __jsx("fieldset", {
-    className: "FormGroup",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66,
-      columnNumber: 13
-    }
-  }, __jsx("div", {
-    className: "FormRow",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67,
-      columnNumber: 17
-    }
-  }, __jsx(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_2__["CardElement"], {
-    options: CARD_OPTIONS,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68,
-      columnNumber: 21
-    }
-  }))), __jsx("button", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71,
-      columnNumber: 13
-    }
-  }, "Pay")) : __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 74,
-      columnNumber: 8
-    }
-  }, __jsx("h2", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 75,
-      columnNumber: 12
-    }
-  }, "You just bought a sweet spatula congrats this is the best decision of you're life")));
-}
-
-/***/ }),
-
-/***/ "./components/StripeContainer.js":
-/*!***************************************!*\
-  !*** ./components/StripeContainer.js ***!
-  \***************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return StripeContainer; });
-/* harmony import */ var _stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @stripe/react-stripe-js */ "./node_modules/@stripe/react-stripe-js/dist/react-stripe.umd.js");
-/* harmony import */ var _stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _stripe_stripe_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @stripe/stripe-js */ "./node_modules/@stripe/stripe-js/dist/stripe.esm.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _PaymentForm__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./PaymentForm */ "./components/PaymentForm.js");
-var _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\components\\StripeContainer.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
-
-
-
-
-var PUBLIC_KEY = "pk_test_51KcqoWJoQcapggoAHWfJs23e0bQJXyu3rMs5OuwGqOg9e7keJgvuFLqH5EOztTS7P2FcuXCz8eBCLLuN38ZRuzY600J5tq8hep";
-var stripeTestPromise = Object(_stripe_stripe_js__WEBPACK_IMPORTED_MODULE_1__["loadStripe"])(PUBLIC_KEY);
-function StripeContainer(_ref) {
-  var x = _ref.x;
-  return __jsx(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_0__["Elements"], {
-    stripe: stripeTestPromise,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 3
-    }
-  }, __jsx(_PaymentForm__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    price: x,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 4
-    }
-  }));
 }
 
 /***/ }),
@@ -973,7 +739,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\containers\\common\\breadcrumb.js";
+    _jsxFileName = "C:\\Users\\Karim\\Documents\\GitHub\\PrimeTime\\client\\containers\\common\\breadcrumb.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1050,7 +816,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _breadcrumb__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./breadcrumb */ "./containers/common/breadcrumb.js");
 /* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer */ "./containers/common/footer.js");
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\containers\\common\\common-layout.js";
+    _jsxFileName = "C:\\Users\\Karim\\Documents\\GitHub\\PrimeTime\\client\\containers\\common\\common-layout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1112,7 +878,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\containers\\common\\footer.js";
+    _jsxFileName = "C:\\Users\\Karim\\Documents\\GitHub\\PrimeTime\\client\\containers\\common\\footer.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1551,7 +1317,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\containers\\common\\header.js";
+    _jsxFileName = "C:\\Users\\Karim\\Documents\\GitHub\\PrimeTime\\client\\containers\\common\\header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1933,7 +1699,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
 /* harmony import */ var _pages_features_gallery_popup__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../../pages/features/gallery/popup */ "./pages/features/gallery/popup.js");
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\containers\\common\\nav.js";
+    _jsxFileName = "C:\\Users\\Karim\\Documents\\GitHub\\PrimeTime\\client\\containers\\common\\nav.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -50433,1394 +50199,6 @@ var refType = prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.oneOfType([prop_
 
 /***/ }),
 
-/***/ "./node_modules/@paypal/react-paypal-js/dist/esm/react-paypal-js.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/@paypal/react-paypal-js/dist/esm/react-paypal-js.js ***!
-  \**************************************************************************/
-/*! exports provided: BraintreePayPalButtons, DISPATCH_ACTION, FUNDING, PAYPAL_HOSTED_FIELDS_TYPES, PayPalButtons, PayPalHostedField, PayPalHostedFieldsProvider, PayPalMarks, PayPalMessages, PayPalScriptProvider, SCRIPT_LOADING_STATE, ScriptContext, destroySDKScript, getScriptID, scriptReducer, usePayPalHostedFields, usePayPalScriptReducer, useScriptProviderContext */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BraintreePayPalButtons", function() { return BraintreePayPalButtons; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DISPATCH_ACTION", function() { return DISPATCH_ACTION; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FUNDING", function() { return FUNDING; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PAYPAL_HOSTED_FIELDS_TYPES", function() { return PAYPAL_HOSTED_FIELDS_TYPES; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PayPalButtons", function() { return PayPalButtons; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PayPalHostedField", function() { return PayPalHostedField; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PayPalHostedFieldsProvider", function() { return PayPalHostedFieldsProvider; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PayPalMarks", function() { return PayPalMarks; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PayPalMessages", function() { return PayPalMessages; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PayPalScriptProvider", function() { return PayPalScriptProvider; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SCRIPT_LOADING_STATE", function() { return SCRIPT_LOADING_STATE; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ScriptContext", function() { return ScriptContext; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "destroySDKScript", function() { return destroySDKScript; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getScriptID", function() { return getScriptID; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "scriptReducer", function() { return scriptReducer; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "usePayPalHostedFields", function() { return usePayPalHostedFields; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "usePayPalScriptReducer", function() { return usePayPalScriptReducer; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "useScriptProviderContext", function() { return useScriptProviderContext; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/*!
- * react-paypal-js v7.6.0 (2022-02-01T20:38:51.364Z)
- * Copyright 2020-present, PayPal, Inc. All rights reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * https://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-/**
- * Enum for the SDK script resolve status,
- *
- * @enum {string}
- */
-
-var SCRIPT_LOADING_STATE;
-
-(function (SCRIPT_LOADING_STATE) {
-  SCRIPT_LOADING_STATE["INITIAL"] = "initial";
-  SCRIPT_LOADING_STATE["PENDING"] = "pending";
-  SCRIPT_LOADING_STATE["REJECTED"] = "rejected";
-  SCRIPT_LOADING_STATE["RESOLVED"] = "resolved";
-})(SCRIPT_LOADING_STATE || (SCRIPT_LOADING_STATE = {}));
-/**
- * Enum for the PayPalScriptProvider context dispatch actions
- *
- * @enum {string}
- */
-
-
-var DISPATCH_ACTION;
-
-(function (DISPATCH_ACTION) {
-  DISPATCH_ACTION["LOADING_STATUS"] = "setLoadingStatus";
-  DISPATCH_ACTION["RESET_OPTIONS"] = "resetOptions";
-  DISPATCH_ACTION["SET_BRAINTREE_INSTANCE"] = "braintreeInstance";
-})(DISPATCH_ACTION || (DISPATCH_ACTION = {}));
-/**
- * Enum for all the available hosted fields
- *
- * @enum {string}
- */
-
-
-var PAYPAL_HOSTED_FIELDS_TYPES;
-
-(function (PAYPAL_HOSTED_FIELDS_TYPES) {
-  PAYPAL_HOSTED_FIELDS_TYPES["NUMBER"] = "number";
-  PAYPAL_HOSTED_FIELDS_TYPES["CVV"] = "cvv";
-  PAYPAL_HOSTED_FIELDS_TYPES["EXPIRATION_DATE"] = "expirationDate";
-  PAYPAL_HOSTED_FIELDS_TYPES["EXPIRATION_MONTH"] = "expirationMonth";
-  PAYPAL_HOSTED_FIELDS_TYPES["EXPIRATION_YEAR"] = "expirationYear";
-  PAYPAL_HOSTED_FIELDS_TYPES["POSTAL_CODE"] = "postalCode";
-})(PAYPAL_HOSTED_FIELDS_TYPES || (PAYPAL_HOSTED_FIELDS_TYPES = {}));
-/*********************************************
- * Common reference to the script identifier *
- *********************************************/
-
-
-var SCRIPT_ID = "data-react-paypal-script-id";
-var SDK_SETTINGS = {
-  DATA_CLIENT_TOKEN: "data-client-token",
-  DATA_USER_ID_TOKEN: "data-user-id-token",
-  DATA_SDK_INTEGRATION_SOURCE: "data-sdk-integration-source",
-  DATA_SDK_INTEGRATION_SOURCE_VALUE: "react-paypal-js",
-  DATA_NAMESPACE: "data-namespace"
-};
-var LOAD_SCRIPT_ERROR = "Failed to load the PayPal JS SDK script.";
-/****************************
- * Braintree error messages *
- ****************************/
-
-var EMPTY_BRAINTREE_AUTHORIZATION_ERROR_MESSAGE = "Invalid authorization data. Use data-client-token or data-user-id-token to authorize.";
-var braintreeVersion = "3.84.0";
-var BRAINTREE_SOURCE = "https://js.braintreegateway.com/web/".concat(braintreeVersion, "/js/client.min.js");
-var BRAINTREE_PAYPAL_CHECKOUT_SOURCE = "https://js.braintreegateway.com/web/".concat(braintreeVersion, "/js/paypal-checkout.min.js");
-/*********************
- * PayPal namespaces *
- *********************/
-
-var DEFAULT_PAYPAL_NAMESPACE = "paypal";
-var DEFAULT_BRAINTREE_NAMESPACE = "braintree";
-/*****************
- * Hosted Fields *
- *****************/
-
-var HOSTED_FIELDS_CHILDREN_ERROR = "To use HostedFields you must use it with at least 3 children with types: [number, cvv, expirationDate] includes";
-var HOSTED_FIELDS_DUPLICATE_CHILDREN_ERROR = "Cannot use duplicate HostedFields as children";
-/*******************
- * Script Provider *
- *******************/
-
-var SCRIPT_PROVIDER_REDUCER_ERROR = "usePayPalScriptReducer must be used within a PayPalScriptProvider";
-
-var __assign = function () {
-  __assign = Object.assign || function __assign(t) {
-    for (var s, i = 1, n = arguments.length; i < n; i++) {
-      s = arguments[i];
-
-      for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
-    }
-
-    return t;
-  };
-
-  return __assign.apply(this, arguments);
-};
-
-function __rest(s, e) {
-  var t = {};
-
-  for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];
-
-  if (s != null && typeof Object.getOwnPropertySymbols === "function") for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
-    if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i])) t[p[i]] = s[p[i]];
-  }
-  return t;
-}
-
-function __spreadArray(to, from, pack) {
-  if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
-    if (ar || !(i in from)) {
-      if (!ar) ar = Array.prototype.slice.call(from, 0, i);
-      ar[i] = from[i];
-    }
-  }
-  return to.concat(ar || Array.prototype.slice.call(from));
-}
-/**
- * Get the namespace from the window in the browser
- * this is useful to get the paypal object from window
- * after load PayPal SDK script
- *
- * @param namespace the name space to return
- * @returns the namespace if exists or undefined otherwise
- */
-
-
-function getPayPalWindowNamespace$1(namespace) {
-  if (namespace === void 0) {
-    namespace = DEFAULT_PAYPAL_NAMESPACE;
-  } // eslint-disable-next-line @typescript-eslint/no-explicit-any
-
-
-  return window[namespace];
-}
-/**
- * Get a namespace from the window in the browser
- * this is useful to get the braintree from window
- * after load Braintree script
- *
- * @param namespace the name space to return
- * @returns the namespace if exists or undefined otherwise
- */
-
-
-function getBraintreeWindowNamespace(namespace) {
-  if (namespace === void 0) {
-    namespace = DEFAULT_BRAINTREE_NAMESPACE;
-  } // eslint-disable-next-line @typescript-eslint/no-explicit-any
-
-
-  return window[namespace];
-}
-/**
- * Creates a string hash code based on the string argument
- *
- * @param str the source input string to hash
- * @returns string hash code
- */
-
-
-function hashStr(str) {
-  var hash = "";
-
-  for (var i = 0; i < str.length; i++) {
-    var total = str[i].charCodeAt(0) * i;
-
-    if (str[i + 1]) {
-      total += str[i + 1].charCodeAt(0) * (i - 1);
-    }
-
-    hash += String.fromCharCode(97 + Math.abs(total) % 26);
-  }
-
-  return hash;
-}
-
-function generateErrorMessage(_a) {
-  var reactComponentName = _a.reactComponentName,
-      sdkComponentKey = _a.sdkComponentKey,
-      _b = _a.sdkRequestedComponents,
-      sdkRequestedComponents = _b === void 0 ? "" : _b,
-      _c = _a.sdkDataNamespace,
-      sdkDataNamespace = _c === void 0 ? DEFAULT_PAYPAL_NAMESPACE : _c;
-  var requiredOptionCapitalized = sdkComponentKey.charAt(0).toUpperCase().concat(sdkComponentKey.substring(1));
-  var errorMessage = "Unable to render <".concat(reactComponentName, " /> because window.").concat(sdkDataNamespace, ".").concat(requiredOptionCapitalized, " is undefined."); // The JS SDK only loads the buttons component by default.
-  // All other components like messages and marks must be requested using the "components" query parameter
-
-  if (!sdkRequestedComponents.includes(sdkComponentKey)) {
-    var expectedComponents = [sdkRequestedComponents, sdkComponentKey].filter(Boolean).join();
-    errorMessage += "\nTo fix the issue, add '".concat(sdkComponentKey, "' to the list of components passed to the parent PayPalScriptProvider:") + "\n`<PayPalScriptProvider options={{ components: '".concat(expectedComponents, "'}}>`.");
-  }
-
-  return errorMessage;
-}
-/**
- * Generate a new random identifier for react-paypal-js
- *
- * @returns the {@code string} containing the random library name
- */
-
-
-function getScriptID(options) {
-  return "react-paypal-js-".concat(hashStr(JSON.stringify(options)));
-}
-/**
- * Destroy the PayPal SDK from the document page
- *
- * @param reactPayPalScriptID the script identifier
- */
-
-
-function destroySDKScript(reactPayPalScriptID) {
-  var scriptNode = self.document.querySelector("script[".concat(SCRIPT_ID, "=\"").concat(reactPayPalScriptID, "\"]"));
-
-  if (scriptNode === null || scriptNode === void 0 ? void 0 : scriptNode.parentNode) {
-    scriptNode.parentNode.removeChild(scriptNode);
-  }
-}
-/**
- * Reducer function to handle complex state changes on the context
- *
- * @param state  the current state on the context object
- * @param action the action to be executed on the previous state
- * @returns a the same state if the action wasn't found, or a new state otherwise
- */
-
-
-function scriptReducer(state, action) {
-  var _a;
-
-  switch (action.type) {
-    case DISPATCH_ACTION.LOADING_STATUS:
-      return __assign(__assign({}, state), {
-        loadingStatus: action.value
-      });
-
-    case DISPATCH_ACTION.RESET_OPTIONS:
-      // destroy existing script to make sure only one script loads at a time
-      destroySDKScript(state.options[SCRIPT_ID]); // exclude the old data-react-paypal-script-id value from the hash generated by getScriptID()
-
-      delete action.value[SCRIPT_ID];
-      return __assign(__assign({}, state), {
-        loadingStatus: SCRIPT_LOADING_STATE.PENDING,
-        options: __assign(__assign({}, action.value), (_a = {}, _a[SCRIPT_ID] = "".concat(getScriptID(action.value)), _a[SDK_SETTINGS.DATA_SDK_INTEGRATION_SOURCE] = SDK_SETTINGS.DATA_SDK_INTEGRATION_SOURCE_VALUE, _a))
-      });
-
-    case DISPATCH_ACTION.SET_BRAINTREE_INSTANCE:
-      return __assign(__assign({}, state), {
-        braintreePayPalCheckoutInstance: action.value
-      });
-
-    default:
-      {
-        return state;
-      }
-  }
-} // Create the React context to use in the script provider component
-
-
-var ScriptContext = Object(react__WEBPACK_IMPORTED_MODULE_0__["createContext"])(null);
-/**
- * Check if the context is valid and ready to dispatch actions.
- *
- * @param scriptContext the result of connecting to the context provider
- * @returns strict context avoiding null values in the type
- */
-
-function validateReducer(scriptContext) {
-  if (typeof (scriptContext === null || scriptContext === void 0 ? void 0 : scriptContext.dispatch) === "function" && scriptContext.dispatch.length !== 0) {
-    return scriptContext;
-  }
-
-  throw new Error(SCRIPT_PROVIDER_REDUCER_ERROR);
-}
-/**
- * Check if the data-client-token or the data-user-id-token are
- * set in the options of the context.
- * @type data-client-token is use to pass a client token
- * @type data-user-id-token is use to pass a client tokenization key
- *
- * @param scriptContext the result of connecting to the context provider
- * @throws an {@link Error} if both data-client-token and the data-user-id-token keys are null or undefine
- * @returns strict context if one of the keys are defined
- */
-
-
-var validateBraintreeAuthorizationData = function (scriptContext) {
-  var _a, _b;
-
-  if (!((_a = scriptContext === null || scriptContext === void 0 ? void 0 : scriptContext.options) === null || _a === void 0 ? void 0 : _a[SDK_SETTINGS.DATA_CLIENT_TOKEN]) && !((_b = scriptContext === null || scriptContext === void 0 ? void 0 : scriptContext.options) === null || _b === void 0 ? void 0 : _b[SDK_SETTINGS.DATA_USER_ID_TOKEN])) {
-    throw new Error(EMPTY_BRAINTREE_AUTHORIZATION_ERROR_MESSAGE);
-  }
-
-  return scriptContext;
-};
-/**
- * Custom hook to get access to the Script context and
- * dispatch actions to modify the state on the {@link ScriptProvider} component
- *
- * @returns a tuple containing the state of the context and
- * a dispatch function to modify the state
- */
-
-
-function usePayPalScriptReducer() {
-  var scriptContext = validateReducer(Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(ScriptContext));
-
-  var derivedStatusContext = __assign(__assign({}, scriptContext), {
-    isInitial: scriptContext.loadingStatus === SCRIPT_LOADING_STATE.INITIAL,
-    isPending: scriptContext.loadingStatus === SCRIPT_LOADING_STATE.PENDING,
-    isResolved: scriptContext.loadingStatus === SCRIPT_LOADING_STATE.RESOLVED,
-    isRejected: scriptContext.loadingStatus === SCRIPT_LOADING_STATE.REJECTED
-  });
-
-  return [derivedStatusContext, scriptContext.dispatch];
-}
-/**
- * Custom hook to get access to the ScriptProvider context
- *
- * @returns the latest state of the context
- */
-
-
-function useScriptProviderContext() {
-  var scriptContext = validateBraintreeAuthorizationData(validateReducer(Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(ScriptContext)));
-  return [scriptContext, scriptContext.dispatch];
-} // Create the React context to use in the PayPal hosted fields provider
-
-
-var PayPalHostedFieldsContext = Object(react__WEBPACK_IMPORTED_MODULE_0__["createContext"])({});
-/**
- * Custom hook to get access to the PayPal Hosted Fields instance.
- * The instance represent the returned object after the render process
- * With this object a user can submit the fields and dynamically modify the cards
- *
- * @returns the hosted fields instance if is available in the component
- */
-
-function usePayPalHostedFields() {
-  return Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(PayPalHostedFieldsContext);
-}
-/**
-This `<PayPalButtons />` component supports rendering [buttons](https://developer.paypal.com/docs/business/javascript-sdk/javascript-sdk-reference/#buttons) for PayPal, Venmo, and alternative payment methods.
-It relies on the `<PayPalScriptProvider />` parent component for managing state related to loading the JS SDK script.
-*/
-
-
-var PayPalButtons = function (_a) {
-  var _b = _a.className,
-      className = _b === void 0 ? "" : _b,
-      _c = _a.disabled,
-      disabled = _c === void 0 ? false : _c,
-      children = _a.children,
-      _d = _a.forceReRender,
-      forceReRender = _d === void 0 ? [] : _d,
-      buttonProps = __rest(_a, ["className", "disabled", "children", "forceReRender"]);
-
-  var isDisabledStyle = disabled ? {
-    opacity: 0.38
-  } : {};
-  var classNames = "".concat(className, " ").concat(disabled ? "paypal-buttons-disabled" : "").trim();
-  var buttonsContainerRef = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(null);
-  var buttons = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(null);
-  var _e = usePayPalScriptReducer()[0],
-      isResolved = _e.isResolved,
-      options = _e.options;
-
-  var _f = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(null),
-      initActions = _f[0],
-      setInitActions = _f[1];
-
-  var _g = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(true),
-      isEligible = _g[0],
-      setIsEligible = _g[1];
-
-  var _h = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(null),
-      setErrorState = _h[1];
-
-  function closeButtonsComponent() {
-    if (buttons.current !== null) {
-      buttons.current.close().catch(function () {// ignore errors when closing the component
-      });
-    }
-  } // useEffect hook for rendering the buttons
-
-
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
-    // verify the sdk script has successfully loaded
-    if (isResolved === false) {
-      return closeButtonsComponent;
-    }
-
-    var paypalWindowNamespace = getPayPalWindowNamespace$1(options[SDK_SETTINGS.DATA_NAMESPACE]); // verify dependency on window object
-
-    if (paypalWindowNamespace === undefined || paypalWindowNamespace.Buttons === undefined) {
-      setErrorState(function () {
-        throw new Error(generateErrorMessage({
-          reactComponentName: PayPalButtons.displayName,
-          sdkComponentKey: "buttons",
-          sdkRequestedComponents: options.components,
-          sdkDataNamespace: options[SDK_SETTINGS.DATA_NAMESPACE]
-        }));
-      });
-      return closeButtonsComponent;
-    }
-
-    var decoratedOnInit = function (data, actions) {
-      setInitActions(actions);
-
-      if (typeof buttonProps.onInit === "function") {
-        buttonProps.onInit(data, actions);
-      }
-    };
-
-    try {
-      buttons.current = paypalWindowNamespace.Buttons(__assign(__assign({}, buttonProps), {
-        onInit: decoratedOnInit
-      }));
-    } catch (err) {
-      return setErrorState(function () {
-        throw new Error("Failed to render <PayPalButtons /> component. Failed to initialize:  ".concat(err));
-      });
-    } // only render the button when eligible
-
-
-    if (buttons.current.isEligible() === false) {
-      setIsEligible(false);
-      return closeButtonsComponent;
-    }
-
-    if (!buttonsContainerRef.current) {
-      return closeButtonsComponent;
-    }
-
-    buttons.current.render(buttonsContainerRef.current).catch(function (err) {
-      // component failed to render, possibly because it was closed or destroyed.
-      if (buttonsContainerRef.current === null || buttonsContainerRef.current.children.length === 0) {
-        // paypal buttons container is no longer in the DOM, we can safely ignore the error
-        return;
-      } // paypal buttons container is still in the DOM
-
-
-      setErrorState(function () {
-        throw new Error("Failed to render <PayPalButtons /> component. ".concat(err));
-      });
-    });
-    return closeButtonsComponent; // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, __spreadArray(__spreadArray([isResolved], forceReRender, true), [buttonProps.fundingSource], false)); // useEffect hook for managing disabled state
-
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
-    if (initActions === null) {
-      return;
-    }
-
-    if (disabled === true) {
-      initActions.disable().catch(function () {// ignore errors when disabling the component
-      });
-    } else {
-      initActions.enable().catch(function () {// ignore errors when enabling the component
-      });
-    }
-  }, [disabled, initActions]);
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, isEligible ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    ref: buttonsContainerRef,
-    style: isDisabledStyle,
-    className: classNames
-  }) : children);
-};
-
-PayPalButtons.displayName = "PayPalButtons";
-
-function findScript(url, attributes) {
-  var currentScript = document.querySelector("script[src=\"".concat(url, "\"]"));
-  if (currentScript === null) return null;
-  var nextScript = createScriptElement(url, attributes);
-  var currentScriptClone = currentScript.cloneNode();
-  delete currentScriptClone.dataset.uidAuto;
-
-  if (Object.keys(currentScriptClone.dataset).length !== Object.keys(nextScript.dataset).length) {
-    return null;
-  }
-
-  var isExactMatch = true;
-  Object.keys(currentScriptClone.dataset).forEach(function (key) {
-    if (currentScriptClone.dataset[key] !== nextScript.dataset[key]) {
-      isExactMatch = false;
-    }
-  });
-  return isExactMatch ? currentScript : null;
-}
-
-function insertScriptElement(_a) {
-  var url = _a.url,
-      attributes = _a.attributes,
-      onSuccess = _a.onSuccess,
-      onError = _a.onError;
-  var newScript = createScriptElement(url, attributes);
-  newScript.onerror = onError;
-  newScript.onload = onSuccess;
-  document.head.insertBefore(newScript, document.head.firstElementChild);
-}
-
-function processOptions(options) {
-  var sdkBaseURL = "https://www.paypal.com/sdk/js";
-
-  if (options.sdkBaseURL) {
-    sdkBaseURL = options.sdkBaseURL;
-    delete options.sdkBaseURL;
-  }
-
-  processMerchantID(options);
-
-  var _a = Object.keys(options).filter(function (key) {
-    return typeof options[key] !== "undefined" && options[key] !== null && options[key] !== "";
-  }).reduce(function (accumulator, key) {
-    var value = options[key].toString();
-
-    if (key.substring(0, 5) === "data-") {
-      accumulator.dataAttributes[key] = value;
-    } else {
-      accumulator.queryParams[key] = value;
-    }
-
-    return accumulator;
-  }, {
-    queryParams: {},
-    dataAttributes: {}
-  }),
-      queryParams = _a.queryParams,
-      dataAttributes = _a.dataAttributes;
-
-  return {
-    url: "".concat(sdkBaseURL, "?").concat(objectToQueryString(queryParams)),
-    dataAttributes: dataAttributes
-  };
-}
-
-function objectToQueryString(params) {
-  var queryString = "";
-  Object.keys(params).forEach(function (key) {
-    if (queryString.length !== 0) queryString += "&";
-    queryString += key + "=" + params[key];
-  });
-  return queryString;
-}
-
-function parseErrorMessage(message) {
-  var originalErrorText = message.split("/* Original Error:")[1];
-  return originalErrorText ? originalErrorText.replace(/\n/g, "").replace("*/", "").trim() : message;
-}
-
-function createScriptElement(url, attributes) {
-  if (attributes === void 0) {
-    attributes = {};
-  }
-
-  var newScript = document.createElement("script");
-  newScript.src = url;
-  Object.keys(attributes).forEach(function (key) {
-    newScript.setAttribute(key, attributes[key]);
-
-    if (key === "data-csp-nonce") {
-      newScript.setAttribute("nonce", attributes["data-csp-nonce"]);
-    }
-  });
-  return newScript;
-}
-
-function processMerchantID(options) {
-  var merchantID = options["merchant-id"],
-      dataMerchantID = options["data-merchant-id"];
-  var newMerchantID = "";
-  var newDataMerchantID = "";
-
-  if (Array.isArray(merchantID)) {
-    if (merchantID.length > 1) {
-      newMerchantID = "*";
-      newDataMerchantID = merchantID.toString();
-    } else {
-      newMerchantID = merchantID.toString();
-    }
-  } else if (typeof merchantID === "string" && merchantID.length > 0) {
-    newMerchantID = merchantID;
-  } else if (typeof dataMerchantID === "string" && dataMerchantID.length > 0) {
-    newMerchantID = "*";
-    newDataMerchantID = dataMerchantID;
-  }
-
-  options["merchant-id"] = newMerchantID;
-  options["data-merchant-id"] = newDataMerchantID;
-  return options;
-}
-
-function loadScript(options, PromisePonyfill) {
-  if (PromisePonyfill === void 0) {
-    PromisePonyfill = getDefaultPromiseImplementation();
-  }
-
-  validateArguments(options, PromisePonyfill);
-  if (typeof window === "undefined") return PromisePonyfill.resolve(null);
-
-  var _a = processOptions(options),
-      url = _a.url,
-      dataAttributes = _a.dataAttributes;
-
-  var namespace = dataAttributes["data-namespace"] || "paypal";
-  var existingWindowNamespace = getPayPalWindowNamespace(namespace);
-
-  if (findScript(url, dataAttributes) && existingWindowNamespace) {
-    return PromisePonyfill.resolve(existingWindowNamespace);
-  }
-
-  return loadCustomScript({
-    url: url,
-    attributes: dataAttributes
-  }, PromisePonyfill).then(function () {
-    var newWindowNamespace = getPayPalWindowNamespace(namespace);
-
-    if (newWindowNamespace) {
-      return newWindowNamespace;
-    }
-
-    throw new Error("The window.".concat(namespace, " global variable is not available."));
-  });
-}
-
-function loadCustomScript(options, PromisePonyfill) {
-  if (PromisePonyfill === void 0) {
-    PromisePonyfill = getDefaultPromiseImplementation();
-  }
-
-  validateArguments(options, PromisePonyfill);
-  var url = options.url,
-      attributes = options.attributes;
-
-  if (typeof url !== "string" || url.length === 0) {
-    throw new Error("Invalid url.");
-  }
-
-  if (typeof attributes !== "undefined" && typeof attributes !== "object") {
-    throw new Error("Expected attributes to be an object.");
-  }
-
-  return new PromisePonyfill(function (resolve, reject) {
-    if (typeof window === "undefined") return resolve();
-    insertScriptElement({
-      url: url,
-      attributes: attributes,
-      onSuccess: function onSuccess() {
-        return resolve();
-      },
-      onError: function onError() {
-        var defaultError = new Error("The script \"".concat(url, "\" failed to load."));
-
-        if (!window.fetch) {
-          return reject(defaultError);
-        }
-
-        return fetch(url).then(function (response) {
-          if (response.status === 200) {
-            reject(defaultError);
-          }
-
-          return response.text();
-        }).then(function (message) {
-          var parseMessage = parseErrorMessage(message);
-          reject(new Error(parseMessage));
-        }).catch(function (err) {
-          reject(err);
-        });
-      }
-    });
-  });
-}
-
-function getDefaultPromiseImplementation() {
-  if (typeof Promise === "undefined") {
-    throw new Error("Promise is undefined. To resolve the issue, use a Promise polyfill.");
-  }
-
-  return Promise;
-}
-
-function getPayPalWindowNamespace(namespace) {
-  return window[namespace];
-}
-
-function validateArguments(options, PromisePonyfill) {
-  if (typeof options !== "object" || options === null) {
-    throw new Error("Expected an options object.");
-  }
-
-  if (typeof PromisePonyfill !== "undefined" && typeof PromisePonyfill !== "function") {
-    throw new Error("Expected PromisePonyfill to be a function.");
-  }
-}
-/**
- * Simple check to determine if the Braintree is a valid namespace.
- *
- * @param braintreeSource the source {@link BraintreeNamespace}
- * @returns a boolean representing if the namespace is valid.
- */
-
-
-var isValidBraintreeNamespace = function (braintreeSource) {
-  var _a, _b;
-
-  if (typeof ((_a = braintreeSource === null || braintreeSource === void 0 ? void 0 : braintreeSource.client) === null || _a === void 0 ? void 0 : _a.create) !== "function" && typeof ((_b = braintreeSource === null || braintreeSource === void 0 ? void 0 : braintreeSource.paypalCheckout) === null || _b === void 0 ? void 0 : _b.create) !== "function") {
-    throw new Error("The braintreeNamespace property is not a valid BraintreeNamespace type.");
-  }
-
-  return true;
-};
-/**
- * Use `actions.braintree` to provide an interface for the paypalCheckoutInstance
- * through the createOrder, createBillingAgreement and onApprove callbacks
- *
- * @param braintreeButtonProps the component button options
- * @returns a new copy of the component button options casted as {@link PayPalButtonsComponentProps}
- */
-
-
-var decorateActions = function (buttonProps, payPalCheckoutInstance) {
-  var createOrderRef = buttonProps.createOrder;
-  var createBillingAgreementRef = buttonProps.createBillingAgreement;
-  var onApproveRef = buttonProps.onApprove;
-
-  if (typeof createOrderRef === "function") {
-    buttonProps.createOrder = function (data, actions) {
-      return createOrderRef(data, __assign(__assign({}, actions), {
-        braintree: payPalCheckoutInstance
-      }));
-    };
-  }
-
-  if (typeof createBillingAgreementRef === "function") {
-    buttonProps.createBillingAgreement = function (data, actions) {
-      return createBillingAgreementRef(data, __assign(__assign({}, actions), {
-        braintree: payPalCheckoutInstance
-      }));
-    };
-  }
-
-  if (typeof onApproveRef === "function") {
-    buttonProps.onApprove = function (data, actions) {
-      return onApproveRef(data, __assign(__assign({}, actions), {
-        braintree: payPalCheckoutInstance
-      }));
-    };
-  }
-
-  return __assign({}, buttonProps);
-};
-/**
- * Get the Braintree namespace from the component props.
- * If the prop `braintreeNamespace` is undefined will try to load it from the CDN.
- * This function allows users to set the braintree manually on the `BraintreePayPalButtons` component.
- *
- * Use case can be for example legacy sites using AMD/UMD modules,
- * trying to integrate the `BraintreePayPalButtons` component.
- * If we attempt to load the Braintree from the CDN won't define the braintree namespace.
- * This happens because the braintree script is an UMD module.
- * After detecting the AMD on the global scope will create an anonymous module using `define`
- * and the `BraintreePayPalButtons` won't be able to get access to the `window.braintree` namespace
- * from the global context.
- *
- * @param braintreeSource the source {@link BraintreeNamespace}
- * @returns the {@link BraintreeNamespace}
- */
-
-
-var getBraintreeNamespace = function (braintreeSource) {
-  if (braintreeSource && isValidBraintreeNamespace(braintreeSource)) {
-    return Promise.resolve(braintreeSource);
-  }
-
-  return Promise.all([loadCustomScript({
-    url: BRAINTREE_SOURCE
-  }), loadCustomScript({
-    url: BRAINTREE_PAYPAL_CHECKOUT_SOURCE
-  })]).then(function () {
-    return getBraintreeWindowNamespace();
-  });
-};
-/**
-This `<BraintreePayPalButtons />` component renders the [Braintree PayPal Buttons](https://developer.paypal.com/braintree/docs/guides/paypal/overview) for Braintree Merchants.
-It relies on the `<PayPalScriptProvider />` parent component for managing state related to loading the JS SDK script.
-
-Note: You are able to make your integration using the client token or using the tokenization key.
-
-- To use the client token integration set the key `data-client-token` in the `PayPayScriptProvider` component's options.
-- To use the tokenization key integration set the key `data-user-id-token` in the `PayPayScriptProvider` component's options.
-*/
-
-
-var BraintreePayPalButtons = function (_a) {
-  var _b = _a.className,
-      className = _b === void 0 ? "" : _b,
-      _c = _a.disabled,
-      disabled = _c === void 0 ? false : _c,
-      children = _a.children,
-      _d = _a.forceReRender,
-      forceReRender = _d === void 0 ? [] : _d,
-      braintreeNamespace = _a.braintreeNamespace,
-      buttonProps = __rest(_a, ["className", "disabled", "children", "forceReRender", "braintreeNamespace"]);
-
-  var _e = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(null),
-      setErrorState = _e[1];
-
-  var _f = useScriptProviderContext(),
-      providerContext = _f[0],
-      dispatch = _f[1];
-
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
-    getBraintreeNamespace(braintreeNamespace).then(function (braintree) {
-      var clientTokenizationKey = providerContext.options[SDK_SETTINGS.DATA_USER_ID_TOKEN];
-      var clientToken = providerContext.options[SDK_SETTINGS.DATA_CLIENT_TOKEN];
-      return braintree.client.create({
-        authorization: clientTokenizationKey || clientToken
-      }).then(function (clientInstance) {
-        return braintree.paypalCheckout.create({
-          client: clientInstance
-        });
-      }).then(function (paypalCheckoutInstance) {
-        dispatch({
-          type: DISPATCH_ACTION.SET_BRAINTREE_INSTANCE,
-          value: paypalCheckoutInstance
-        });
-      });
-    }).catch(function (err) {
-      setErrorState(function () {
-        throw new Error("".concat(LOAD_SCRIPT_ERROR, " ").concat(err));
-      });
-    }); // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [providerContext.options]);
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, providerContext.braintreePayPalCheckoutInstance && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PayPalButtons, __assign({
-    className: className,
-    disabled: disabled,
-    forceReRender: forceReRender
-  }, decorateActions(buttonProps, providerContext.braintreePayPalCheckoutInstance)), children));
-};
-/**
-The `<PayPalMarks />` component is used for conditionally rendering different payment options using radio buttons.
-The [Display PayPal Buttons with other Payment Methods guide](https://developer.paypal.com/docs/business/checkout/add-capabilities/buyer-experience/#display-paypal-buttons-with-other-payment-methods) describes this style of integration in detail.
-It relies on the `<PayPalScriptProvider />` parent component for managing state related to loading the JS SDK script.
-
-This component can also be configured to use a single funding source similar to the [standalone buttons](https://developer.paypal.com/docs/business/checkout/configure-payments/standalone-buttons/) approach.
-A `FUNDING` object is exported by this library which has a key for every available funding source option.
-*/
-
-
-var PayPalMarks = function (_a) {
-  var _b = _a.className,
-      className = _b === void 0 ? "" : _b,
-      children = _a.children,
-      markProps = __rest(_a, ["className", "children"]);
-
-  var _c = usePayPalScriptReducer()[0],
-      isResolved = _c.isResolved,
-      options = _c.options;
-  var markContainerRef = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(null);
-
-  var _d = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(true),
-      isEligible = _d[0],
-      setIsEligible = _d[1];
-
-  var _e = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(null),
-      setErrorState = _e[1];
-  /**
-   * Render PayPal Mark into the DOM
-   */
-
-
-  var renderPayPalMark = function (mark) {
-    var current = markContainerRef.current; // only render the mark when eligible
-
-    if (!current || !mark.isEligible()) {
-      return setIsEligible(false);
-    } // Remove any children before render it again
-
-
-    if (current.firstChild) {
-      current.removeChild(current.firstChild);
-    }
-
-    mark.render(current).catch(function (err) {
-      // component failed to render, possibly because it was closed or destroyed.
-      if (current === null || current.children.length === 0) {
-        // paypal marks container is no longer in the DOM, we can safely ignore the error
-        return;
-      } // paypal marks container is still in the DOM
-
-
-      setErrorState(function () {
-        throw new Error("Failed to render <PayPalMarks /> component. ".concat(err));
-      });
-    });
-  };
-
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
-    // verify the sdk script has successfully loaded
-    if (isResolved === false) {
-      return;
-    }
-
-    var paypalWindowNamespace = getPayPalWindowNamespace$1(options[SDK_SETTINGS.DATA_NAMESPACE]); // verify dependency on window object
-
-    if (paypalWindowNamespace === undefined || paypalWindowNamespace.Marks === undefined) {
-      return setErrorState(function () {
-        throw new Error(generateErrorMessage({
-          reactComponentName: PayPalMarks.displayName,
-          sdkComponentKey: "marks",
-          sdkRequestedComponents: options.components,
-          sdkDataNamespace: options[SDK_SETTINGS.DATA_NAMESPACE]
-        }));
-      });
-    }
-
-    renderPayPalMark(paypalWindowNamespace.Marks(__assign({}, markProps))); // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isResolved, markProps.fundingSource]);
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, isEligible ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    ref: markContainerRef,
-    className: className
-  }) : children);
-};
-
-PayPalMarks.displayName = "PayPalMarks";
-/**
-This `<PayPalMessages />` messages component renders a credit messaging on upstream merchant sites.
-It relies on the `<PayPalScriptProvider />` parent component for managing state related to loading the JS SDK script.
-*/
-
-var PayPalMessages = function (_a) {
-  var _b = _a.className,
-      className = _b === void 0 ? "" : _b,
-      _c = _a.forceReRender,
-      forceReRender = _c === void 0 ? [] : _c,
-      messageProps = __rest(_a, ["className", "forceReRender"]);
-
-  var _d = usePayPalScriptReducer()[0],
-      isResolved = _d.isResolved,
-      options = _d.options;
-  var messagesContainerRef = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(null);
-  var messages = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(null);
-
-  var _e = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(null),
-      setErrorState = _e[1];
-
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
-    // verify the sdk script has successfully loaded
-    if (isResolved === false) {
-      return;
-    }
-
-    var paypalWindowNamespace = getPayPalWindowNamespace$1(options[SDK_SETTINGS.DATA_NAMESPACE]); // verify dependency on window object
-
-    if (paypalWindowNamespace === undefined || paypalWindowNamespace.Messages === undefined) {
-      return setErrorState(function () {
-        throw new Error(generateErrorMessage({
-          reactComponentName: PayPalMessages.displayName,
-          sdkComponentKey: "messages",
-          sdkRequestedComponents: options.components,
-          sdkDataNamespace: options[SDK_SETTINGS.DATA_NAMESPACE]
-        }));
-      });
-    }
-
-    messages.current = paypalWindowNamespace.Messages(__assign({}, messageProps));
-    messages.current.render(messagesContainerRef.current).catch(function (err) {
-      // component failed to render, possibly because it was closed or destroyed.
-      if (messagesContainerRef.current === null || messagesContainerRef.current.children.length === 0) {
-        // paypal messages container is no longer in the DOM, we can safely ignore the error
-        return;
-      } // paypal messages container is still in the DOM
-
-
-      setErrorState(function () {
-        throw new Error("Failed to render <PayPalMessages /> component. ".concat(err));
-      });
-    }); // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, __spreadArray([isResolved], forceReRender, true));
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    ref: messagesContainerRef,
-    className: className
-  });
-};
-
-PayPalMessages.displayName = "PayPalMessages";
-/**
-This `<PayPalScriptProvider />` component takes care of loading the JS SDK `<script>`.
-It manages state for script loading so children components like `<PayPalButtons />` know when it's safe to use the `window.paypal` global namespace.
-
-Note: You always should use this component as a wrapper for  `PayPalButtons`, `PayPalMarks`, `PayPalMessages` and `BraintreePayPalButtons` components.
- */
-
-var PayPalScriptProvider = function (_a) {
-  var _b;
-
-  var _c = _a.options,
-      options = _c === void 0 ? {
-    "client-id": "test"
-  } : _c,
-      children = _a.children,
-      _d = _a.deferLoading,
-      deferLoading = _d === void 0 ? false : _d;
-
-  var _e = Object(react__WEBPACK_IMPORTED_MODULE_0__["useReducer"])(scriptReducer, {
-    options: __assign(__assign({}, options), (_b = {}, _b[SCRIPT_ID] = "".concat(getScriptID(options)), _b[SDK_SETTINGS.DATA_SDK_INTEGRATION_SOURCE] = SDK_SETTINGS.DATA_SDK_INTEGRATION_SOURCE_VALUE, _b)),
-    loadingStatus: deferLoading ? SCRIPT_LOADING_STATE.INITIAL : SCRIPT_LOADING_STATE.PENDING
-  }),
-      state = _e[0],
-      dispatch = _e[1];
-
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
-    if (deferLoading === false && state.loadingStatus === SCRIPT_LOADING_STATE.INITIAL) {
-      return dispatch({
-        type: DISPATCH_ACTION.LOADING_STATUS,
-        value: SCRIPT_LOADING_STATE.PENDING
-      });
-    }
-
-    if (state.loadingStatus !== SCRIPT_LOADING_STATE.PENDING) {
-      return;
-    }
-
-    var isSubscribed = true;
-    loadScript(state.options).then(function () {
-      if (isSubscribed) {
-        dispatch({
-          type: DISPATCH_ACTION.LOADING_STATUS,
-          value: SCRIPT_LOADING_STATE.RESOLVED
-        });
-      }
-    }).catch(function (err) {
-      console.error("".concat(LOAD_SCRIPT_ERROR, " ").concat(err));
-
-      if (isSubscribed) {
-        dispatch({
-          type: DISPATCH_ACTION.LOADING_STATUS,
-          value: SCRIPT_LOADING_STATE.REJECTED
-        });
-      }
-    });
-    return function () {
-      isSubscribed = false;
-    };
-  }, [state.options, deferLoading, state.loadingStatus]);
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ScriptContext.Provider, {
-    value: __assign(__assign({}, state), {
-      dispatch: dispatch
-    })
-  }, children);
-};
-/**
- * Throw an exception if the HostedFields is not found in the paypal namespace
- * Probably cause for this problem is not sending the hosted-fields string
- * as part of the components props in options
- * {@code <PayPalScriptProvider options={{ components: 'hosted-fields'}}>}
- *
- * @param param0 and object containing the components and namespace defined in options
- * @throws {@code Error}
- *
- */
-
-
-var generateMissingHostedFieldsError = function (_a) {
-  var _b = _a.components,
-      components = _b === void 0 ? "" : _b,
-      _c = SDK_SETTINGS.DATA_NAMESPACE,
-      _d = _a[_c],
-      dataNamespace = _d === void 0 ? DEFAULT_PAYPAL_NAMESPACE : _d;
-  var expectedComponents = components ? "".concat(components, ",hosted-fields") : "hosted-fields";
-  var errorMessage = "Unable to render <PayPalHostedFieldsProvider /> because window.".concat(dataNamespace, ".HostedFields is undefined.");
-
-  if (!components.includes("hosted-fields")) {
-    errorMessage += "\nTo fix the issue, add 'hosted-fields' to the list of components passed to the parent PayPalScriptProvider: <PayPalScriptProvider options={{ components: '".concat(expectedComponents, "'}}>");
-  }
-
-  return errorMessage;
-};
-/**
- * Validate the expiration date component. Valid combinations are:
- * 1- Only the `expirationDate` field exists.
- * 2- Only the `expirationMonth` and `expirationYear` fields exist. Cannot be used with the `expirationDate` field.
- *
- * @param registerTypes
- * @returns @type {true} when the children are valid
- */
-
-
-var validateExpirationDate = function (registerTypes) {
-  return !registerTypes.includes(PAYPAL_HOSTED_FIELDS_TYPES.EXPIRATION_DATE) && !registerTypes.includes(PAYPAL_HOSTED_FIELDS_TYPES.EXPIRATION_MONTH) && !registerTypes.includes(PAYPAL_HOSTED_FIELDS_TYPES.EXPIRATION_YEAR);
-};
-/**
- * Check if we find the [number, expiration, cvv] in children
- *
- * @param requiredChildren the list with required children [number, expiration, cvv]
- * @param registerTypes    the list of all the children types pass to the parent
- * @throw an @type {Error} when not find the default children
- */
-
-
-var hasDefaultChildren = function (registerTypes) {
-  if (!registerTypes.includes(PAYPAL_HOSTED_FIELDS_TYPES.NUMBER) || !registerTypes.includes(PAYPAL_HOSTED_FIELDS_TYPES.CVV) || validateExpirationDate(registerTypes)) {
-    throw new Error(HOSTED_FIELDS_CHILDREN_ERROR);
-  }
-};
-/**
- * Check if we don't have duplicate children types
- *
- * @param registerTypes the list of all the children types pass to the parent
- * @throw an @type {Error} when duplicate types was found
- */
-
-
-var noDuplicateChildren = function (registerTypes) {
-  if (registerTypes.length !== new Set(registerTypes).size) {
-    throw new Error(HOSTED_FIELDS_DUPLICATE_CHILDREN_ERROR);
-  }
-};
-/**
- * Validate the hosted field children in the PayPalHostedFieldsProvider component.
- * These are the rules:
- * 1- We need to find 3 default children for number, expiration, cvv
- * 2- No duplicate children are allowed
- * 3- No invalid combinations of `expirationDate`, `expirationMonth`, and `expirationYear`
- *
- * @param childrenList     the list of children
- * @param requiredChildren the list with required children [number, expiration, cvv]
- */
-
-
-var validateHostedFieldChildren = function (registeredFields) {
-  hasDefaultChildren(registeredFields);
-  noDuplicateChildren(registeredFields);
-};
-/**
- * Custom hook to store registered hosted fields children
- * Each `PayPalHostedField` component should be registered on the parent provider
- *
- * @param initialValue the initially registered components
- * @returns at first, an {@link Object} containing the registered hosted fields,
- * and at the second a function handler to register the hosted fields components
- */
-
-
-var useHostedFieldsRegister = function (initialValue) {
-  if (initialValue === void 0) {
-    initialValue = {};
-  }
-
-  var registeredFields = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(initialValue);
-
-  var registerHostedField = function (component) {
-    registeredFields.current = __assign(__assign({}, registeredFields.current), component);
-  };
-
-  return [registeredFields, registerHostedField];
-};
-/**
-This `<PayPalHostedFieldsProvider />` provider component wraps the form field elements and accepts props like `createOrder()`.
-
-This provider component is designed to be used with the `<PayPalHostedField />` component.
-
-Warning: If you don't see anything in the screen probably your client is ineligible.
-To handle this problem make sure to use the prop `notEligibleError` and pass a component with a custom message.
-Take a look to this link if that is the case: https://developer.paypal.com/docs/checkout/advanced/integrate/
-*/
-
-
-var PayPalHostedFieldsProvider = function (_a) {
-  var styles = _a.styles,
-      createOrder = _a.createOrder,
-      notEligibleError = _a.notEligibleError,
-      children = _a.children;
-  var _b = useScriptProviderContext()[0],
-      options = _b.options,
-      loadingStatus = _b.loadingStatus;
-
-  var _c = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(true),
-      isEligible = _c[0],
-      setIsEligible = _c[1];
-
-  var _d = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(),
-      cardFields = _d[0],
-      setCardFields = _d[1];
-
-  var _e = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(null),
-      setErrorState = _e[1];
-
-  var hostedFieldsContainerRef = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(null);
-  var hostedFields = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])();
-
-  var _f = useHostedFieldsRegister(),
-      registeredFields = _f[0],
-      registerHostedField = _f[1];
-
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
-    var _a;
-
-    validateHostedFieldChildren(Object.keys(registeredFields.current)); // Only render the hosted fields when script is loaded and hostedFields is eligible
-
-    if (!(loadingStatus === SCRIPT_LOADING_STATE.RESOLVED)) {
-      return;
-    } // Get the hosted fields from the [window.paypal.HostedFields] SDK
-
-
-    hostedFields.current = getPayPalWindowNamespace$1(options[SDK_SETTINGS.DATA_NAMESPACE]).HostedFields;
-
-    if (!hostedFields.current) {
-      throw new Error(generateMissingHostedFieldsError((_a = {
-        components: options.components
-      }, _a[SDK_SETTINGS.DATA_NAMESPACE] = options[SDK_SETTINGS.DATA_NAMESPACE], _a)));
-    }
-
-    if (!hostedFields.current.isEligible()) {
-      return setIsEligible(false);
-    } // Clean all the fields before the rerender
-
-
-    if (cardFields) {
-      cardFields.teardown();
-    }
-
-    hostedFields.current.render({
-      // Call your server to set up the transaction
-      createOrder: createOrder,
-      styles: styles,
-      fields: registeredFields.current
-    }).then(function (cardFieldsInstance) {
-      if (hostedFieldsContainerRef.current) {
-        setCardFields(cardFieldsInstance);
-      }
-    }).catch(function (err) {
-      setErrorState(function () {
-        throw new Error("Failed to render <PayPalHostedFieldsProvider /> component. ".concat(err));
-      });
-    });
-  }, [loadingStatus, styles]); // eslint-disable-line react-hooks/exhaustive-deps
-
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    ref: hostedFieldsContainerRef
-  }, isEligible ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PayPalHostedFieldsContext.Provider, {
-    value: {
-      cardFields: cardFields,
-      registerHostedField: registerHostedField
-    }
-  }, children) : notEligibleError);
-};
-/**
-This `<PayPalHostedField />` component renders individual fields for [Hosted Fields](https://developer.paypal.com/docs/business/checkout/advanced-card-payments/integrate#3-add-javascript-sdk-and-card-form) integrations.
-It relies on the `<PayPalHostedFieldsProvider />` parent component for managing state related to loading the JS SDK script
-and execute some validations before the rendering the fields.
-
-To use the PayPal hosted fields you need to define at least three fields:
-
-- A card number field
-- The CVV code from the client card
-- The expiration date
-
-You can define the expiration date as a single field similar to the example below,
-or you are able to define it in [two separate fields](https://paypal.github.io/react-paypal-js//?path=/docs/paypal-paypalhostedfields--expiration-date). One for the month and second for year.
-
-Note: Take care when using multiple instances of the PayPal Hosted Fields on the same page.
-The component will fail to render when any of the selectors return more than one element.
-*/
-
-
-var PayPalHostedField = function (_a) {
-  var hostedFieldType = _a.hostedFieldType,
-      // eslint-disable-line @typescript-eslint/no-unused-vars
-  options = _a.options,
-      // eslint-disable-line @typescript-eslint/no-unused-vars
-  props = __rest(_a, ["hostedFieldType", "options"]);
-
-  var hostedFieldContext = Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(PayPalHostedFieldsContext);
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
-    var _a;
-
-    if (!(hostedFieldContext === null || hostedFieldContext === void 0 ? void 0 : hostedFieldContext.registerHostedField)) {
-      throw new Error("The HostedField cannot be register in the PayPalHostedFieldsProvider parent component");
-    } // Register in the parent provider
-
-
-    hostedFieldContext.registerHostedField((_a = {}, _a[hostedFieldType] = {
-      selector: options.selector,
-      placeholder: options.placeholder,
-      type: options.type,
-      formatInput: options.formatInput,
-      maskInput: options.maskInput,
-      select: options.select,
-      maxlength: options.maxlength,
-      minlength: options.minlength,
-      prefill: options.prefill,
-      rejectUnsupportedCards: options.rejectUnsupportedCards
-    }, _a));
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
-
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", __assign({}, props));
-};
-
-var FUNDING$1 = {
-  PAYPAL: 'paypal',
-  VENMO: 'venmo',
-  APPLEPAY: 'applepay',
-  ITAU: 'itau',
-  CREDIT: 'credit',
-  PAYLATER: 'paylater',
-  CARD: 'card',
-  IDEAL: 'ideal',
-  SEPA: 'sepa',
-  BANCONTACT: 'bancontact',
-  GIROPAY: 'giropay',
-  SOFORT: 'sofort',
-  EPS: 'eps',
-  MYBANK: 'mybank',
-  P24: 'p24',
-  VERKKOPANKKI: 'verkkopankki',
-  PAYU: 'payu',
-  BLIK: 'blik',
-  TRUSTLY: 'trustly',
-  ZIMPLER: 'zimpler',
-  MAXIMA: 'maxima',
-  OXXO: 'oxxo',
-  BOLETO: 'boleto',
-  WECHATPAY: 'wechatpay',
-  MERCADOPAGO: 'mercadopago',
-  MULTIBLANCO: 'multiblanco'
-}; // We do not re-export `FUNDING` from the `sdk-constants` module
-// directly because it has no type definitions.
-//
-// See https://github.com/paypal/react-paypal-js/issues/125
-
-var FUNDING = FUNDING$1;
-
-
-
-/***/ }),
-
 /***/ "./node_modules/@stripe/react-stripe-js/dist/react-stripe.umd.js":
 /*!***********************************************************************!*\
   !*** ./node_modules/@stripe/react-stripe-js/dist/react-stripe.umd.js ***!
@@ -52546,149 +50924,6 @@ var FUNDING = FUNDING$1;
 	Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
-
-
-/***/ }),
-
-/***/ "./node_modules/@stripe/stripe-js/dist/stripe.esm.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/@stripe/stripe-js/dist/stripe.esm.js ***!
-  \***********************************************************/
-/*! exports provided: loadStripe */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "loadStripe", function() { return loadStripe; });
-var V3_URL = 'https://js.stripe.com/v3';
-var V3_URL_REGEX = /^https:\/\/js\.stripe\.com\/v3\/?(\?.*)?$/;
-var EXISTING_SCRIPT_MESSAGE = 'loadStripe.setLoadParameters was called but an existing Stripe.js script already exists in the document; existing script parameters will be used';
-var findScript = function findScript() {
-  var scripts = document.querySelectorAll("script[src^=\"".concat(V3_URL, "\"]"));
-
-  for (var i = 0; i < scripts.length; i++) {
-    var script = scripts[i];
-
-    if (!V3_URL_REGEX.test(script.src)) {
-      continue;
-    }
-
-    return script;
-  }
-
-  return null;
-};
-
-var injectScript = function injectScript(params) {
-  var queryString = params && !params.advancedFraudSignals ? '?advancedFraudSignals=false' : '';
-  var script = document.createElement('script');
-  script.src = "".concat(V3_URL).concat(queryString);
-  var headOrBody = document.head || document.body;
-
-  if (!headOrBody) {
-    throw new Error('Expected document.body not to be null. Stripe.js requires a <body> element.');
-  }
-
-  headOrBody.appendChild(script);
-  return script;
-};
-
-var registerWrapper = function registerWrapper(stripe, startTime) {
-  if (!stripe || !stripe._registerWrapper) {
-    return;
-  }
-
-  stripe._registerWrapper({
-    name: 'stripe-js',
-    version: "1.27.0",
-    startTime: startTime
-  });
-};
-
-var stripePromise = null;
-var loadScript = function loadScript(params) {
-  // Ensure that we only attempt to load Stripe.js at most once
-  if (stripePromise !== null) {
-    return stripePromise;
-  }
-
-  stripePromise = new Promise(function (resolve, reject) {
-    if (typeof window === 'undefined') {
-      // Resolve to null when imported server side. This makes the module
-      // safe to import in an isomorphic code base.
-      resolve(null);
-      return;
-    }
-
-    if (window.Stripe && params) {
-      console.warn(EXISTING_SCRIPT_MESSAGE);
-    }
-
-    if (window.Stripe) {
-      resolve(window.Stripe);
-      return;
-    }
-
-    try {
-      var script = findScript();
-
-      if (script && params) {
-        console.warn(EXISTING_SCRIPT_MESSAGE);
-      } else if (!script) {
-        script = injectScript(params);
-      }
-
-      script.addEventListener('load', function () {
-        if (window.Stripe) {
-          resolve(window.Stripe);
-        } else {
-          reject(new Error('Stripe.js not available'));
-        }
-      });
-      script.addEventListener('error', function () {
-        reject(new Error('Failed to load Stripe.js'));
-      });
-    } catch (error) {
-      reject(error);
-      return;
-    }
-  });
-  return stripePromise;
-};
-var initStripe = function initStripe(maybeStripe, args, startTime) {
-  if (maybeStripe === null) {
-    return null;
-  }
-
-  var stripe = maybeStripe.apply(undefined, args);
-  registerWrapper(stripe, startTime);
-  return stripe;
-}; // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-
-// own script injection.
-
-var stripePromise$1 = Promise.resolve().then(function () {
-  return loadScript(null);
-});
-var loadCalled = false;
-stripePromise$1["catch"](function (err) {
-  if (!loadCalled) {
-    console.warn(err);
-  }
-});
-var loadStripe = function loadStripe() {
-  for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-    args[_key] = arguments[_key];
-  }
-
-  loadCalled = true;
-  var startTime = Date.now();
-  return stripePromise$1.then(function (maybeStripe) {
-    return initStripe(maybeStripe, args, startTime);
-  });
-};
-
-
 
 
 /***/ }),
@@ -60750,950 +58985,6 @@ module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 
 /***/ }),
 
-/***/ "./node_modules/history/esm/history.js":
-/*!*********************************************!*\
-  !*** ./node_modules/history/esm/history.js ***!
-  \*********************************************/
-/*! exports provided: createBrowserHistory, createHashHistory, createMemoryHistory, createLocation, locationsAreEqual, parsePath, createPath */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createBrowserHistory", function() { return createBrowserHistory; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createHashHistory", function() { return createHashHistory; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createMemoryHistory", function() { return createMemoryHistory; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createLocation", function() { return createLocation; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "locationsAreEqual", function() { return locationsAreEqual; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "parsePath", function() { return parsePath; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createPath", function() { return createPath; });
-/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
-/* harmony import */ var resolve_pathname__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! resolve-pathname */ "./node_modules/resolve-pathname/esm/resolve-pathname.js");
-/* harmony import */ var value_equal__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! value-equal */ "./node_modules/value-equal/esm/value-equal.js");
-/* harmony import */ var tiny_warning__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! tiny-warning */ "./node_modules/tiny-warning/dist/tiny-warning.esm.js");
-/* harmony import */ var tiny_invariant__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! tiny-invariant */ "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js");
-
-
-
-
-
-
-function addLeadingSlash(path) {
-  return path.charAt(0) === '/' ? path : '/' + path;
-}
-function stripLeadingSlash(path) {
-  return path.charAt(0) === '/' ? path.substr(1) : path;
-}
-function hasBasename(path, prefix) {
-  return path.toLowerCase().indexOf(prefix.toLowerCase()) === 0 && '/?#'.indexOf(path.charAt(prefix.length)) !== -1;
-}
-function stripBasename(path, prefix) {
-  return hasBasename(path, prefix) ? path.substr(prefix.length) : path;
-}
-function stripTrailingSlash(path) {
-  return path.charAt(path.length - 1) === '/' ? path.slice(0, -1) : path;
-}
-function parsePath(path) {
-  var pathname = path || '/';
-  var search = '';
-  var hash = '';
-  var hashIndex = pathname.indexOf('#');
-
-  if (hashIndex !== -1) {
-    hash = pathname.substr(hashIndex);
-    pathname = pathname.substr(0, hashIndex);
-  }
-
-  var searchIndex = pathname.indexOf('?');
-
-  if (searchIndex !== -1) {
-    search = pathname.substr(searchIndex);
-    pathname = pathname.substr(0, searchIndex);
-  }
-
-  return {
-    pathname: pathname,
-    search: search === '?' ? '' : search,
-    hash: hash === '#' ? '' : hash
-  };
-}
-function createPath(location) {
-  var pathname = location.pathname,
-      search = location.search,
-      hash = location.hash;
-  var path = pathname || '/';
-  if (search && search !== '?') path += search.charAt(0) === '?' ? search : "?" + search;
-  if (hash && hash !== '#') path += hash.charAt(0) === '#' ? hash : "#" + hash;
-  return path;
-}
-
-function createLocation(path, state, key, currentLocation) {
-  var location;
-
-  if (typeof path === 'string') {
-    // Two-arg form: push(path, state)
-    location = parsePath(path);
-    location.state = state;
-  } else {
-    // One-arg form: push(location)
-    location = Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, path);
-    if (location.pathname === undefined) location.pathname = '';
-
-    if (location.search) {
-      if (location.search.charAt(0) !== '?') location.search = '?' + location.search;
-    } else {
-      location.search = '';
-    }
-
-    if (location.hash) {
-      if (location.hash.charAt(0) !== '#') location.hash = '#' + location.hash;
-    } else {
-      location.hash = '';
-    }
-
-    if (state !== undefined && location.state === undefined) location.state = state;
-  }
-
-  try {
-    location.pathname = decodeURI(location.pathname);
-  } catch (e) {
-    if (e instanceof URIError) {
-      throw new URIError('Pathname "' + location.pathname + '" could not be decoded. ' + 'This is likely caused by an invalid percent-encoding.');
-    } else {
-      throw e;
-    }
-  }
-
-  if (key) location.key = key;
-
-  if (currentLocation) {
-    // Resolve incomplete/relative pathname relative to current location.
-    if (!location.pathname) {
-      location.pathname = currentLocation.pathname;
-    } else if (location.pathname.charAt(0) !== '/') {
-      location.pathname = Object(resolve_pathname__WEBPACK_IMPORTED_MODULE_1__["default"])(location.pathname, currentLocation.pathname);
-    }
-  } else {
-    // When there is no prior location and pathname is empty, set it to /
-    if (!location.pathname) {
-      location.pathname = '/';
-    }
-  }
-
-  return location;
-}
-function locationsAreEqual(a, b) {
-  return a.pathname === b.pathname && a.search === b.search && a.hash === b.hash && a.key === b.key && Object(value_equal__WEBPACK_IMPORTED_MODULE_2__["default"])(a.state, b.state);
-}
-
-function createTransitionManager() {
-  var prompt = null;
-
-  function setPrompt(nextPrompt) {
-     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(prompt == null, 'A history supports only one prompt at a time') : undefined;
-    prompt = nextPrompt;
-    return function () {
-      if (prompt === nextPrompt) prompt = null;
-    };
-  }
-
-  function confirmTransitionTo(location, action, getUserConfirmation, callback) {
-    // TODO: If another transition starts while we're still confirming
-    // the previous one, we may end up in a weird state. Figure out the
-    // best way to handle this.
-    if (prompt != null) {
-      var result = typeof prompt === 'function' ? prompt(location, action) : prompt;
-
-      if (typeof result === 'string') {
-        if (typeof getUserConfirmation === 'function') {
-          getUserConfirmation(result, callback);
-        } else {
-           true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(false, 'A history needs a getUserConfirmation function in order to use a prompt message') : undefined;
-          callback(true);
-        }
-      } else {
-        // Return false from a transition hook to cancel the transition.
-        callback(result !== false);
-      }
-    } else {
-      callback(true);
-    }
-  }
-
-  var listeners = [];
-
-  function appendListener(fn) {
-    var isActive = true;
-
-    function listener() {
-      if (isActive) fn.apply(void 0, arguments);
-    }
-
-    listeners.push(listener);
-    return function () {
-      isActive = false;
-      listeners = listeners.filter(function (item) {
-        return item !== listener;
-      });
-    };
-  }
-
-  function notifyListeners() {
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    listeners.forEach(function (listener) {
-      return listener.apply(void 0, args);
-    });
-  }
-
-  return {
-    setPrompt: setPrompt,
-    confirmTransitionTo: confirmTransitionTo,
-    appendListener: appendListener,
-    notifyListeners: notifyListeners
-  };
-}
-
-var canUseDOM = !!(typeof window !== 'undefined' && window.document && window.document.createElement);
-function getConfirmation(message, callback) {
-  callback(window.confirm(message)); // eslint-disable-line no-alert
-}
-/**
- * Returns true if the HTML5 history API is supported. Taken from Modernizr.
- *
- * https://github.com/Modernizr/Modernizr/blob/master/LICENSE
- * https://github.com/Modernizr/Modernizr/blob/master/feature-detects/history.js
- * changed to avoid false negatives for Windows Phones: https://github.com/reactjs/react-router/issues/586
- */
-
-function supportsHistory() {
-  var ua = window.navigator.userAgent;
-  if ((ua.indexOf('Android 2.') !== -1 || ua.indexOf('Android 4.0') !== -1) && ua.indexOf('Mobile Safari') !== -1 && ua.indexOf('Chrome') === -1 && ua.indexOf('Windows Phone') === -1) return false;
-  return window.history && 'pushState' in window.history;
-}
-/**
- * Returns true if browser fires popstate on hash change.
- * IE10 and IE11 do not.
- */
-
-function supportsPopStateOnHashChange() {
-  return window.navigator.userAgent.indexOf('Trident') === -1;
-}
-/**
- * Returns false if using go(n) with hash history causes a full page reload.
- */
-
-function supportsGoWithoutReloadUsingHash() {
-  return window.navigator.userAgent.indexOf('Firefox') === -1;
-}
-/**
- * Returns true if a given popstate event is an extraneous WebKit event.
- * Accounts for the fact that Chrome on iOS fires real popstate events
- * containing undefined state when pressing the back button.
- */
-
-function isExtraneousPopstateEvent(event) {
-  return event.state === undefined && navigator.userAgent.indexOf('CriOS') === -1;
-}
-
-var PopStateEvent = 'popstate';
-var HashChangeEvent = 'hashchange';
-
-function getHistoryState() {
-  try {
-    return window.history.state || {};
-  } catch (e) {
-    // IE 11 sometimes throws when accessing window.history.state
-    // See https://github.com/ReactTraining/history/pull/289
-    return {};
-  }
-}
-/**
- * Creates a history object that uses the HTML5 history API including
- * pushState, replaceState, and the popstate event.
- */
-
-
-function createBrowserHistory(props) {
-  if (props === void 0) {
-    props = {};
-  }
-
-  !canUseDOM ?  true ? Object(tiny_invariant__WEBPACK_IMPORTED_MODULE_4__["default"])(false, 'Browser history needs a DOM') : undefined : void 0;
-  var globalHistory = window.history;
-  var canUseHistory = supportsHistory();
-  var needsHashChangeListener = !supportsPopStateOnHashChange();
-  var _props = props,
-      _props$forceRefresh = _props.forceRefresh,
-      forceRefresh = _props$forceRefresh === void 0 ? false : _props$forceRefresh,
-      _props$getUserConfirm = _props.getUserConfirmation,
-      getUserConfirmation = _props$getUserConfirm === void 0 ? getConfirmation : _props$getUserConfirm,
-      _props$keyLength = _props.keyLength,
-      keyLength = _props$keyLength === void 0 ? 6 : _props$keyLength;
-  var basename = props.basename ? stripTrailingSlash(addLeadingSlash(props.basename)) : '';
-
-  function getDOMLocation(historyState) {
-    var _ref = historyState || {},
-        key = _ref.key,
-        state = _ref.state;
-
-    var _window$location = window.location,
-        pathname = _window$location.pathname,
-        search = _window$location.search,
-        hash = _window$location.hash;
-    var path = pathname + search + hash;
-     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(!basename || hasBasename(path, basename), 'You are attempting to use a basename on a page whose URL path does not begin ' + 'with the basename. Expected path "' + path + '" to begin with "' + basename + '".') : undefined;
-    if (basename) path = stripBasename(path, basename);
-    return createLocation(path, state, key);
-  }
-
-  function createKey() {
-    return Math.random().toString(36).substr(2, keyLength);
-  }
-
-  var transitionManager = createTransitionManager();
-
-  function setState(nextState) {
-    Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])(history, nextState);
-
-    history.length = globalHistory.length;
-    transitionManager.notifyListeners(history.location, history.action);
-  }
-
-  function handlePopState(event) {
-    // Ignore extraneous popstate events in WebKit.
-    if (isExtraneousPopstateEvent(event)) return;
-    handlePop(getDOMLocation(event.state));
-  }
-
-  function handleHashChange() {
-    handlePop(getDOMLocation(getHistoryState()));
-  }
-
-  var forceNextPop = false;
-
-  function handlePop(location) {
-    if (forceNextPop) {
-      forceNextPop = false;
-      setState();
-    } else {
-      var action = 'POP';
-      transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
-        if (ok) {
-          setState({
-            action: action,
-            location: location
-          });
-        } else {
-          revertPop(location);
-        }
-      });
-    }
-  }
-
-  function revertPop(fromLocation) {
-    var toLocation = history.location; // TODO: We could probably make this more reliable by
-    // keeping a list of keys we've seen in sessionStorage.
-    // Instead, we just default to 0 for keys we don't know.
-
-    var toIndex = allKeys.indexOf(toLocation.key);
-    if (toIndex === -1) toIndex = 0;
-    var fromIndex = allKeys.indexOf(fromLocation.key);
-    if (fromIndex === -1) fromIndex = 0;
-    var delta = toIndex - fromIndex;
-
-    if (delta) {
-      forceNextPop = true;
-      go(delta);
-    }
-  }
-
-  var initialLocation = getDOMLocation(getHistoryState());
-  var allKeys = [initialLocation.key]; // Public interface
-
-  function createHref(location) {
-    return basename + createPath(location);
-  }
-
-  function push(path, state) {
-     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to push when the 1st ' + 'argument is a location-like object that already has state; it is ignored') : undefined;
-    var action = 'PUSH';
-    var location = createLocation(path, state, createKey(), history.location);
-    transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
-      if (!ok) return;
-      var href = createHref(location);
-      var key = location.key,
-          state = location.state;
-
-      if (canUseHistory) {
-        globalHistory.pushState({
-          key: key,
-          state: state
-        }, null, href);
-
-        if (forceRefresh) {
-          window.location.href = href;
-        } else {
-          var prevIndex = allKeys.indexOf(history.location.key);
-          var nextKeys = allKeys.slice(0, prevIndex + 1);
-          nextKeys.push(location.key);
-          allKeys = nextKeys;
-          setState({
-            action: action,
-            location: location
-          });
-        }
-      } else {
-         true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(state === undefined, 'Browser history cannot push state in browsers that do not support HTML5 history') : undefined;
-        window.location.href = href;
-      }
-    });
-  }
-
-  function replace(path, state) {
-     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to replace when the 1st ' + 'argument is a location-like object that already has state; it is ignored') : undefined;
-    var action = 'REPLACE';
-    var location = createLocation(path, state, createKey(), history.location);
-    transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
-      if (!ok) return;
-      var href = createHref(location);
-      var key = location.key,
-          state = location.state;
-
-      if (canUseHistory) {
-        globalHistory.replaceState({
-          key: key,
-          state: state
-        }, null, href);
-
-        if (forceRefresh) {
-          window.location.replace(href);
-        } else {
-          var prevIndex = allKeys.indexOf(history.location.key);
-          if (prevIndex !== -1) allKeys[prevIndex] = location.key;
-          setState({
-            action: action,
-            location: location
-          });
-        }
-      } else {
-         true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(state === undefined, 'Browser history cannot replace state in browsers that do not support HTML5 history') : undefined;
-        window.location.replace(href);
-      }
-    });
-  }
-
-  function go(n) {
-    globalHistory.go(n);
-  }
-
-  function goBack() {
-    go(-1);
-  }
-
-  function goForward() {
-    go(1);
-  }
-
-  var listenerCount = 0;
-
-  function checkDOMListeners(delta) {
-    listenerCount += delta;
-
-    if (listenerCount === 1 && delta === 1) {
-      window.addEventListener(PopStateEvent, handlePopState);
-      if (needsHashChangeListener) window.addEventListener(HashChangeEvent, handleHashChange);
-    } else if (listenerCount === 0) {
-      window.removeEventListener(PopStateEvent, handlePopState);
-      if (needsHashChangeListener) window.removeEventListener(HashChangeEvent, handleHashChange);
-    }
-  }
-
-  var isBlocked = false;
-
-  function block(prompt) {
-    if (prompt === void 0) {
-      prompt = false;
-    }
-
-    var unblock = transitionManager.setPrompt(prompt);
-
-    if (!isBlocked) {
-      checkDOMListeners(1);
-      isBlocked = true;
-    }
-
-    return function () {
-      if (isBlocked) {
-        isBlocked = false;
-        checkDOMListeners(-1);
-      }
-
-      return unblock();
-    };
-  }
-
-  function listen(listener) {
-    var unlisten = transitionManager.appendListener(listener);
-    checkDOMListeners(1);
-    return function () {
-      checkDOMListeners(-1);
-      unlisten();
-    };
-  }
-
-  var history = {
-    length: globalHistory.length,
-    action: 'POP',
-    location: initialLocation,
-    createHref: createHref,
-    push: push,
-    replace: replace,
-    go: go,
-    goBack: goBack,
-    goForward: goForward,
-    block: block,
-    listen: listen
-  };
-  return history;
-}
-
-var HashChangeEvent$1 = 'hashchange';
-var HashPathCoders = {
-  hashbang: {
-    encodePath: function encodePath(path) {
-      return path.charAt(0) === '!' ? path : '!/' + stripLeadingSlash(path);
-    },
-    decodePath: function decodePath(path) {
-      return path.charAt(0) === '!' ? path.substr(1) : path;
-    }
-  },
-  noslash: {
-    encodePath: stripLeadingSlash,
-    decodePath: addLeadingSlash
-  },
-  slash: {
-    encodePath: addLeadingSlash,
-    decodePath: addLeadingSlash
-  }
-};
-
-function stripHash(url) {
-  var hashIndex = url.indexOf('#');
-  return hashIndex === -1 ? url : url.slice(0, hashIndex);
-}
-
-function getHashPath() {
-  // We can't use window.location.hash here because it's not
-  // consistent across browsers - Firefox will pre-decode it!
-  var href = window.location.href;
-  var hashIndex = href.indexOf('#');
-  return hashIndex === -1 ? '' : href.substring(hashIndex + 1);
-}
-
-function pushHashPath(path) {
-  window.location.hash = path;
-}
-
-function replaceHashPath(path) {
-  window.location.replace(stripHash(window.location.href) + '#' + path);
-}
-
-function createHashHistory(props) {
-  if (props === void 0) {
-    props = {};
-  }
-
-  !canUseDOM ?  true ? Object(tiny_invariant__WEBPACK_IMPORTED_MODULE_4__["default"])(false, 'Hash history needs a DOM') : undefined : void 0;
-  var globalHistory = window.history;
-  var canGoWithoutReload = supportsGoWithoutReloadUsingHash();
-  var _props = props,
-      _props$getUserConfirm = _props.getUserConfirmation,
-      getUserConfirmation = _props$getUserConfirm === void 0 ? getConfirmation : _props$getUserConfirm,
-      _props$hashType = _props.hashType,
-      hashType = _props$hashType === void 0 ? 'slash' : _props$hashType;
-  var basename = props.basename ? stripTrailingSlash(addLeadingSlash(props.basename)) : '';
-  var _HashPathCoders$hashT = HashPathCoders[hashType],
-      encodePath = _HashPathCoders$hashT.encodePath,
-      decodePath = _HashPathCoders$hashT.decodePath;
-
-  function getDOMLocation() {
-    var path = decodePath(getHashPath());
-     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(!basename || hasBasename(path, basename), 'You are attempting to use a basename on a page whose URL path does not begin ' + 'with the basename. Expected path "' + path + '" to begin with "' + basename + '".') : undefined;
-    if (basename) path = stripBasename(path, basename);
-    return createLocation(path);
-  }
-
-  var transitionManager = createTransitionManager();
-
-  function setState(nextState) {
-    Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])(history, nextState);
-
-    history.length = globalHistory.length;
-    transitionManager.notifyListeners(history.location, history.action);
-  }
-
-  var forceNextPop = false;
-  var ignorePath = null;
-
-  function locationsAreEqual$$1(a, b) {
-    return a.pathname === b.pathname && a.search === b.search && a.hash === b.hash;
-  }
-
-  function handleHashChange() {
-    var path = getHashPath();
-    var encodedPath = encodePath(path);
-
-    if (path !== encodedPath) {
-      // Ensure we always have a properly-encoded hash.
-      replaceHashPath(encodedPath);
-    } else {
-      var location = getDOMLocation();
-      var prevLocation = history.location;
-      if (!forceNextPop && locationsAreEqual$$1(prevLocation, location)) return; // A hashchange doesn't always == location change.
-
-      if (ignorePath === createPath(location)) return; // Ignore this change; we already setState in push/replace.
-
-      ignorePath = null;
-      handlePop(location);
-    }
-  }
-
-  function handlePop(location) {
-    if (forceNextPop) {
-      forceNextPop = false;
-      setState();
-    } else {
-      var action = 'POP';
-      transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
-        if (ok) {
-          setState({
-            action: action,
-            location: location
-          });
-        } else {
-          revertPop(location);
-        }
-      });
-    }
-  }
-
-  function revertPop(fromLocation) {
-    var toLocation = history.location; // TODO: We could probably make this more reliable by
-    // keeping a list of paths we've seen in sessionStorage.
-    // Instead, we just default to 0 for paths we don't know.
-
-    var toIndex = allPaths.lastIndexOf(createPath(toLocation));
-    if (toIndex === -1) toIndex = 0;
-    var fromIndex = allPaths.lastIndexOf(createPath(fromLocation));
-    if (fromIndex === -1) fromIndex = 0;
-    var delta = toIndex - fromIndex;
-
-    if (delta) {
-      forceNextPop = true;
-      go(delta);
-    }
-  } // Ensure the hash is encoded properly before doing anything else.
-
-
-  var path = getHashPath();
-  var encodedPath = encodePath(path);
-  if (path !== encodedPath) replaceHashPath(encodedPath);
-  var initialLocation = getDOMLocation();
-  var allPaths = [createPath(initialLocation)]; // Public interface
-
-  function createHref(location) {
-    var baseTag = document.querySelector('base');
-    var href = '';
-
-    if (baseTag && baseTag.getAttribute('href')) {
-      href = stripHash(window.location.href);
-    }
-
-    return href + '#' + encodePath(basename + createPath(location));
-  }
-
-  function push(path, state) {
-     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(state === undefined, 'Hash history cannot push state; it is ignored') : undefined;
-    var action = 'PUSH';
-    var location = createLocation(path, undefined, undefined, history.location);
-    transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
-      if (!ok) return;
-      var path = createPath(location);
-      var encodedPath = encodePath(basename + path);
-      var hashChanged = getHashPath() !== encodedPath;
-
-      if (hashChanged) {
-        // We cannot tell if a hashchange was caused by a PUSH, so we'd
-        // rather setState here and ignore the hashchange. The caveat here
-        // is that other hash histories in the page will consider it a POP.
-        ignorePath = path;
-        pushHashPath(encodedPath);
-        var prevIndex = allPaths.lastIndexOf(createPath(history.location));
-        var nextPaths = allPaths.slice(0, prevIndex + 1);
-        nextPaths.push(path);
-        allPaths = nextPaths;
-        setState({
-          action: action,
-          location: location
-        });
-      } else {
-         true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(false, 'Hash history cannot PUSH the same path; a new entry will not be added to the history stack') : undefined;
-        setState();
-      }
-    });
-  }
-
-  function replace(path, state) {
-     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(state === undefined, 'Hash history cannot replace state; it is ignored') : undefined;
-    var action = 'REPLACE';
-    var location = createLocation(path, undefined, undefined, history.location);
-    transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
-      if (!ok) return;
-      var path = createPath(location);
-      var encodedPath = encodePath(basename + path);
-      var hashChanged = getHashPath() !== encodedPath;
-
-      if (hashChanged) {
-        // We cannot tell if a hashchange was caused by a REPLACE, so we'd
-        // rather setState here and ignore the hashchange. The caveat here
-        // is that other hash histories in the page will consider it a POP.
-        ignorePath = path;
-        replaceHashPath(encodedPath);
-      }
-
-      var prevIndex = allPaths.indexOf(createPath(history.location));
-      if (prevIndex !== -1) allPaths[prevIndex] = path;
-      setState({
-        action: action,
-        location: location
-      });
-    });
-  }
-
-  function go(n) {
-     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(canGoWithoutReload, 'Hash history go(n) causes a full page reload in this browser') : undefined;
-    globalHistory.go(n);
-  }
-
-  function goBack() {
-    go(-1);
-  }
-
-  function goForward() {
-    go(1);
-  }
-
-  var listenerCount = 0;
-
-  function checkDOMListeners(delta) {
-    listenerCount += delta;
-
-    if (listenerCount === 1 && delta === 1) {
-      window.addEventListener(HashChangeEvent$1, handleHashChange);
-    } else if (listenerCount === 0) {
-      window.removeEventListener(HashChangeEvent$1, handleHashChange);
-    }
-  }
-
-  var isBlocked = false;
-
-  function block(prompt) {
-    if (prompt === void 0) {
-      prompt = false;
-    }
-
-    var unblock = transitionManager.setPrompt(prompt);
-
-    if (!isBlocked) {
-      checkDOMListeners(1);
-      isBlocked = true;
-    }
-
-    return function () {
-      if (isBlocked) {
-        isBlocked = false;
-        checkDOMListeners(-1);
-      }
-
-      return unblock();
-    };
-  }
-
-  function listen(listener) {
-    var unlisten = transitionManager.appendListener(listener);
-    checkDOMListeners(1);
-    return function () {
-      checkDOMListeners(-1);
-      unlisten();
-    };
-  }
-
-  var history = {
-    length: globalHistory.length,
-    action: 'POP',
-    location: initialLocation,
-    createHref: createHref,
-    push: push,
-    replace: replace,
-    go: go,
-    goBack: goBack,
-    goForward: goForward,
-    block: block,
-    listen: listen
-  };
-  return history;
-}
-
-function clamp(n, lowerBound, upperBound) {
-  return Math.min(Math.max(n, lowerBound), upperBound);
-}
-/**
- * Creates a history object that stores locations in memory.
- */
-
-
-function createMemoryHistory(props) {
-  if (props === void 0) {
-    props = {};
-  }
-
-  var _props = props,
-      getUserConfirmation = _props.getUserConfirmation,
-      _props$initialEntries = _props.initialEntries,
-      initialEntries = _props$initialEntries === void 0 ? ['/'] : _props$initialEntries,
-      _props$initialIndex = _props.initialIndex,
-      initialIndex = _props$initialIndex === void 0 ? 0 : _props$initialIndex,
-      _props$keyLength = _props.keyLength,
-      keyLength = _props$keyLength === void 0 ? 6 : _props$keyLength;
-  var transitionManager = createTransitionManager();
-
-  function setState(nextState) {
-    Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])(history, nextState);
-
-    history.length = history.entries.length;
-    transitionManager.notifyListeners(history.location, history.action);
-  }
-
-  function createKey() {
-    return Math.random().toString(36).substr(2, keyLength);
-  }
-
-  var index = clamp(initialIndex, 0, initialEntries.length - 1);
-  var entries = initialEntries.map(function (entry) {
-    return typeof entry === 'string' ? createLocation(entry, undefined, createKey()) : createLocation(entry, undefined, entry.key || createKey());
-  }); // Public interface
-
-  var createHref = createPath;
-
-  function push(path, state) {
-     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to push when the 1st ' + 'argument is a location-like object that already has state; it is ignored') : undefined;
-    var action = 'PUSH';
-    var location = createLocation(path, state, createKey(), history.location);
-    transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
-      if (!ok) return;
-      var prevIndex = history.index;
-      var nextIndex = prevIndex + 1;
-      var nextEntries = history.entries.slice(0);
-
-      if (nextEntries.length > nextIndex) {
-        nextEntries.splice(nextIndex, nextEntries.length - nextIndex, location);
-      } else {
-        nextEntries.push(location);
-      }
-
-      setState({
-        action: action,
-        location: location,
-        index: nextIndex,
-        entries: nextEntries
-      });
-    });
-  }
-
-  function replace(path, state) {
-     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])(!(typeof path === 'object' && path.state !== undefined && state !== undefined), 'You should avoid providing a 2nd state argument to replace when the 1st ' + 'argument is a location-like object that already has state; it is ignored') : undefined;
-    var action = 'REPLACE';
-    var location = createLocation(path, state, createKey(), history.location);
-    transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
-      if (!ok) return;
-      history.entries[history.index] = location;
-      setState({
-        action: action,
-        location: location
-      });
-    });
-  }
-
-  function go(n) {
-    var nextIndex = clamp(history.index + n, 0, history.entries.length - 1);
-    var action = 'POP';
-    var location = history.entries[nextIndex];
-    transitionManager.confirmTransitionTo(location, action, getUserConfirmation, function (ok) {
-      if (ok) {
-        setState({
-          action: action,
-          location: location,
-          index: nextIndex
-        });
-      } else {
-        // Mimic the behavior of DOM histories by
-        // causing a render after a cancelled POP.
-        setState();
-      }
-    });
-  }
-
-  function goBack() {
-    go(-1);
-  }
-
-  function goForward() {
-    go(1);
-  }
-
-  function canGo(n) {
-    var nextIndex = history.index + n;
-    return nextIndex >= 0 && nextIndex < history.entries.length;
-  }
-
-  function block(prompt) {
-    if (prompt === void 0) {
-      prompt = false;
-    }
-
-    return transitionManager.setPrompt(prompt);
-  }
-
-  function listen(listener) {
-    return transitionManager.appendListener(listener);
-  }
-
-  var history = {
-    length: entries.length,
-    action: 'POP',
-    location: entries[index],
-    index: index,
-    entries: entries,
-    createHref: createHref,
-    push: push,
-    replace: replace,
-    go: go,
-    goBack: goBack,
-    goForward: goForward,
-    canGo: canGo,
-    block: block,
-    listen: listen
-  };
-  return history;
-}
-
-
-
-
-/***/ }),
-
 /***/ "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js":
 /*!**********************************************************************************!*\
   !*** ./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js ***!
@@ -65348,202 +62639,6 @@ var index = createJss();
 
 /***/ }),
 
-/***/ "./node_modules/mini-create-react-context/dist/esm/index.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/mini-create-react-context/dist/esm/index.js ***!
-  \******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(global) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inheritsLoose */ "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var tiny_warning__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! tiny-warning */ "./node_modules/tiny-warning/dist/tiny-warning.esm.js");
-
-
-
-
-
-var MAX_SIGNED_31_BIT_INT = 1073741823;
-var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : {};
-
-function getUniqueId() {
-  var key = '__global_unique_id__';
-  return commonjsGlobal[key] = (commonjsGlobal[key] || 0) + 1;
-}
-
-function objectIs(x, y) {
-  if (x === y) {
-    return x !== 0 || 1 / x === 1 / y;
-  } else {
-    return x !== x && y !== y;
-  }
-}
-
-function createEventEmitter(value) {
-  var handlers = [];
-  return {
-    on: function on(handler) {
-      handlers.push(handler);
-    },
-    off: function off(handler) {
-      handlers = handlers.filter(function (h) {
-        return h !== handler;
-      });
-    },
-    get: function get() {
-      return value;
-    },
-    set: function set(newValue, changedBits) {
-      value = newValue;
-      handlers.forEach(function (handler) {
-        return handler(value, changedBits);
-      });
-    }
-  };
-}
-
-function onlyChild(children) {
-  return Array.isArray(children) ? children[0] : children;
-}
-
-function createReactContext(defaultValue, calculateChangedBits) {
-  var _Provider$childContex, _Consumer$contextType;
-
-  var contextProp = '__create-react-context-' + getUniqueId() + '__';
-
-  var Provider = /*#__PURE__*/function (_Component) {
-    Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(Provider, _Component);
-
-    function Provider() {
-      var _this;
-
-      _this = _Component.apply(this, arguments) || this;
-      _this.emitter = createEventEmitter(_this.props.value);
-      return _this;
-    }
-
-    var _proto = Provider.prototype;
-
-    _proto.getChildContext = function getChildContext() {
-      var _ref;
-
-      return _ref = {}, _ref[contextProp] = this.emitter, _ref;
-    };
-
-    _proto.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
-      if (this.props.value !== nextProps.value) {
-        var oldValue = this.props.value;
-        var newValue = nextProps.value;
-        var changedBits;
-
-        if (objectIs(oldValue, newValue)) {
-          changedBits = 0;
-        } else {
-          changedBits = typeof calculateChangedBits === 'function' ? calculateChangedBits(oldValue, newValue) : MAX_SIGNED_31_BIT_INT;
-
-          if (true) {
-            Object(tiny_warning__WEBPACK_IMPORTED_MODULE_3__["default"])((changedBits & MAX_SIGNED_31_BIT_INT) === changedBits, 'calculateChangedBits: Expected the return value to be a ' + '31-bit integer. Instead received: ' + changedBits);
-          }
-
-          changedBits |= 0;
-
-          if (changedBits !== 0) {
-            this.emitter.set(nextProps.value, changedBits);
-          }
-        }
-      }
-    };
-
-    _proto.render = function render() {
-      return this.props.children;
-    };
-
-    return Provider;
-  }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
-
-  Provider.childContextTypes = (_Provider$childContex = {}, _Provider$childContex[contextProp] = prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object.isRequired, _Provider$childContex);
-
-  var Consumer = /*#__PURE__*/function (_Component2) {
-    Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(Consumer, _Component2);
-
-    function Consumer() {
-      var _this2;
-
-      _this2 = _Component2.apply(this, arguments) || this;
-      _this2.state = {
-        value: _this2.getValue()
-      };
-
-      _this2.onUpdate = function (newValue, changedBits) {
-        var observedBits = _this2.observedBits | 0;
-
-        if ((observedBits & changedBits) !== 0) {
-          _this2.setState({
-            value: _this2.getValue()
-          });
-        }
-      };
-
-      return _this2;
-    }
-
-    var _proto2 = Consumer.prototype;
-
-    _proto2.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
-      var observedBits = nextProps.observedBits;
-      this.observedBits = observedBits === undefined || observedBits === null ? MAX_SIGNED_31_BIT_INT : observedBits;
-    };
-
-    _proto2.componentDidMount = function componentDidMount() {
-      if (this.context[contextProp]) {
-        this.context[contextProp].on(this.onUpdate);
-      }
-
-      var observedBits = this.props.observedBits;
-      this.observedBits = observedBits === undefined || observedBits === null ? MAX_SIGNED_31_BIT_INT : observedBits;
-    };
-
-    _proto2.componentWillUnmount = function componentWillUnmount() {
-      if (this.context[contextProp]) {
-        this.context[contextProp].off(this.onUpdate);
-      }
-    };
-
-    _proto2.getValue = function getValue() {
-      if (this.context[contextProp]) {
-        return this.context[contextProp].get();
-      } else {
-        return defaultValue;
-      }
-    };
-
-    _proto2.render = function render() {
-      return onlyChild(this.props.children)(this.state.value);
-    };
-
-    return Consumer;
-  }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
-
-  Consumer.contextTypes = (_Consumer$contextType = {}, _Consumer$contextType[contextProp] = prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object, _Consumer$contextType);
-  return {
-    Provider: Provider,
-    Consumer: Consumer
-  };
-}
-
-var index = react__WEBPACK_IMPORTED_MODULE_0___default.a.createContext || createReactContext;
-
-/* harmony default export */ __webpack_exports__["default"] = (index);
-
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
-
-/***/ }),
-
 /***/ "./node_modules/next/dist/build/polyfills/object-assign.js":
 /*!***********************************************************************************************************************!*\
   !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_b0ae7f9d5a2cb9eeeb96 ***!
@@ -65567,10 +62662,10 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Forder%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CKarim%5CDesktop%5CProject%5CPrimeTime%5Cclient%5Cpages%5Corder%5C%5Bid%5D.js!./":
-/*!************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Forder%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CKarim%5CDesktop%5CProject%5CPrimeTime%5Cclient%5Cpages%5Corder%5C%5Bid%5D.js ***!
-  \************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Forder%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CKarim%5CDocuments%5CGitHub%5CPrimeTime%5Cclient%5Cpages%5Corder%5C%5Bid%5D.js!./":
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Forder%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CKarim%5CDocuments%5CGitHub%5CPrimeTime%5Cclient%5Cpages%5Corder%5C%5Bid%5D.js ***!
+  \*************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -73254,1646 +70349,6 @@ var setRef = function setRef(ref, node) {
       ref.current = node;
     }
 };
-
-/***/ }),
-
-/***/ "./node_modules/react-router-dom/esm/react-router-dom.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
-  \***************************************************************/
-/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter, BrowserRouter, HashRouter, Link, NavLink */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BrowserRouter", function() { return BrowserRouter; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HashRouter", function() { return HashRouter; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return Link; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NavLink", function() { return NavLink; });
-/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/esm/react-router.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MemoryRouter", function() { return react_router__WEBPACK_IMPORTED_MODULE_0__["MemoryRouter"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Prompt", function() { return react_router__WEBPACK_IMPORTED_MODULE_0__["Prompt"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Redirect", function() { return react_router__WEBPACK_IMPORTED_MODULE_0__["Redirect"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return react_router__WEBPACK_IMPORTED_MODULE_0__["Route"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return react_router__WEBPACK_IMPORTED_MODULE_0__["Router"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "StaticRouter", function() { return react_router__WEBPACK_IMPORTED_MODULE_0__["StaticRouter"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Switch", function() { return react_router__WEBPACK_IMPORTED_MODULE_0__["Switch"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "generatePath", function() { return react_router__WEBPACK_IMPORTED_MODULE_0__["generatePath"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "matchPath", function() { return react_router__WEBPACK_IMPORTED_MODULE_0__["matchPath"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "useHistory", function() { return react_router__WEBPACK_IMPORTED_MODULE_0__["useHistory"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "useLocation", function() { return react_router__WEBPACK_IMPORTED_MODULE_0__["useLocation"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "useParams", function() { return react_router__WEBPACK_IMPORTED_MODULE_0__["useParams"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "useRouteMatch", function() { return react_router__WEBPACK_IMPORTED_MODULE_0__["useRouteMatch"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "withRouter", function() { return react_router__WEBPACK_IMPORTED_MODULE_0__["withRouter"]; });
-
-/* harmony import */ var _babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inheritsLoose */ "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var history__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! history */ "./node_modules/history/esm/history.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var tiny_warning__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! tiny-warning */ "./node_modules/tiny-warning/dist/tiny-warning.esm.js");
-/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
-/* harmony import */ var tiny_invariant__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! tiny-invariant */ "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js");
-
-
-
-
-
-
-
-
-
-
-
-/**
- * The public API for a <Router> that uses HTML5 history.
- */
-
-var BrowserRouter =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(BrowserRouter, _React$Component);
-
-  function BrowserRouter() {
-    var _this;
-
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    _this = _React$Component.call.apply(_React$Component, [this].concat(args)) || this;
-    _this.history = Object(history__WEBPACK_IMPORTED_MODULE_3__["createBrowserHistory"])(_this.props);
-    return _this;
-  }
-
-  var _proto = BrowserRouter.prototype;
-
-  _proto.render = function render() {
-    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_router__WEBPACK_IMPORTED_MODULE_0__["Router"], {
-      history: this.history,
-      children: this.props.children
-    });
-  };
-
-  return BrowserRouter;
-}(react__WEBPACK_IMPORTED_MODULE_2___default.a.Component);
-
-if (true) {
-  BrowserRouter.propTypes = {
-    basename: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string,
-    children: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.node,
-    forceRefresh: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.bool,
-    getUserConfirmation: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func,
-    keyLength: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.number
-  };
-
-  BrowserRouter.prototype.componentDidMount = function () {
-     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_5__["default"])(!this.props.history, "<BrowserRouter> ignores the history prop. To use a custom history, " + "use `import { Router }` instead of `import { BrowserRouter as Router }`.") : undefined;
-  };
-}
-
-/**
- * The public API for a <Router> that uses window.location.hash.
- */
-
-var HashRouter =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(HashRouter, _React$Component);
-
-  function HashRouter() {
-    var _this;
-
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    _this = _React$Component.call.apply(_React$Component, [this].concat(args)) || this;
-    _this.history = Object(history__WEBPACK_IMPORTED_MODULE_3__["createHashHistory"])(_this.props);
-    return _this;
-  }
-
-  var _proto = HashRouter.prototype;
-
-  _proto.render = function render() {
-    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_router__WEBPACK_IMPORTED_MODULE_0__["Router"], {
-      history: this.history,
-      children: this.props.children
-    });
-  };
-
-  return HashRouter;
-}(react__WEBPACK_IMPORTED_MODULE_2___default.a.Component);
-
-if (true) {
-  HashRouter.propTypes = {
-    basename: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string,
-    children: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.node,
-    getUserConfirmation: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func,
-    hashType: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.oneOf(["hashbang", "noslash", "slash"])
-  };
-
-  HashRouter.prototype.componentDidMount = function () {
-     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_5__["default"])(!this.props.history, "<HashRouter> ignores the history prop. To use a custom history, " + "use `import { Router }` instead of `import { HashRouter as Router }`.") : undefined;
-  };
-}
-
-var resolveToLocation = function resolveToLocation(to, currentLocation) {
-  return typeof to === "function" ? to(currentLocation) : to;
-};
-var normalizeToLocation = function normalizeToLocation(to, currentLocation) {
-  return typeof to === "string" ? Object(history__WEBPACK_IMPORTED_MODULE_3__["createLocation"])(to, null, null, currentLocation) : to;
-};
-
-var forwardRefShim = function forwardRefShim(C) {
-  return C;
-};
-
-var forwardRef = react__WEBPACK_IMPORTED_MODULE_2___default.a.forwardRef;
-
-if (typeof forwardRef === "undefined") {
-  forwardRef = forwardRefShim;
-}
-
-function isModifiedEvent(event) {
-  return !!(event.metaKey || event.altKey || event.ctrlKey || event.shiftKey);
-}
-
-var LinkAnchor = forwardRef(function (_ref, forwardedRef) {
-  var innerRef = _ref.innerRef,
-      navigate = _ref.navigate,
-      _onClick = _ref.onClick,
-      rest = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref, ["innerRef", "navigate", "onClick"]);
-
-  var target = rest.target;
-
-  var props = Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_6__["default"])({}, rest, {
-    onClick: function onClick(event) {
-      try {
-        if (_onClick) _onClick(event);
-      } catch (ex) {
-        event.preventDefault();
-        throw ex;
-      }
-
-      if (!event.defaultPrevented && // onClick prevented default
-      event.button === 0 && ( // ignore everything but left clicks
-      !target || target === "_self") && // let browser handle "target=_blank" etc.
-      !isModifiedEvent(event) // ignore clicks with modifier keys
-      ) {
-          event.preventDefault();
-          navigate();
-        }
-    }
-  }); // React 15 compat
-
-
-  if (forwardRefShim !== forwardRef) {
-    props.ref = forwardedRef || innerRef;
-  } else {
-    props.ref = innerRef;
-  }
-  /* eslint-disable-next-line jsx-a11y/anchor-has-content */
-
-
-  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", props);
-});
-
-if (true) {
-  LinkAnchor.displayName = "LinkAnchor";
-}
-/**
- * The public API for rendering a history-aware <a>.
- */
-
-
-var Link = forwardRef(function (_ref2, forwardedRef) {
-  var _ref2$component = _ref2.component,
-      component = _ref2$component === void 0 ? LinkAnchor : _ref2$component,
-      replace = _ref2.replace,
-      to = _ref2.to,
-      innerRef = _ref2.innerRef,
-      rest = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref2, ["component", "replace", "to", "innerRef"]);
-
-  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_router__WEBPACK_IMPORTED_MODULE_0__["__RouterContext"].Consumer, null, function (context) {
-    !context ?  true ? Object(tiny_invariant__WEBPACK_IMPORTED_MODULE_8__["default"])(false, "You should not use <Link> outside a <Router>") : undefined : void 0;
-    var history = context.history;
-    var location = normalizeToLocation(resolveToLocation(to, context.location), context.location);
-    var href = location ? history.createHref(location) : "";
-
-    var props = Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_6__["default"])({}, rest, {
-      href: href,
-      navigate: function navigate() {
-        var location = resolveToLocation(to, context.location);
-        var method = replace ? history.replace : history.push;
-        method(location);
-      }
-    }); // React 15 compat
-
-
-    if (forwardRefShim !== forwardRef) {
-      props.ref = forwardedRef || innerRef;
-    } else {
-      props.innerRef = innerRef;
-    }
-
-    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(component, props);
-  });
-});
-
-if (true) {
-  var toType = prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.object, prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func]);
-  var refType = prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func, prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.shape({
-    current: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.any
-  })]);
-  Link.displayName = "Link";
-  Link.propTypes = {
-    innerRef: refType,
-    onClick: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func,
-    replace: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.bool,
-    target: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string,
-    to: toType.isRequired
-  };
-}
-
-var forwardRefShim$1 = function forwardRefShim(C) {
-  return C;
-};
-
-var forwardRef$1 = react__WEBPACK_IMPORTED_MODULE_2___default.a.forwardRef;
-
-if (typeof forwardRef$1 === "undefined") {
-  forwardRef$1 = forwardRefShim$1;
-}
-
-function joinClassnames() {
-  for (var _len = arguments.length, classnames = new Array(_len), _key = 0; _key < _len; _key++) {
-    classnames[_key] = arguments[_key];
-  }
-
-  return classnames.filter(function (i) {
-    return i;
-  }).join(" ");
-}
-/**
- * A <Link> wrapper that knows if it's "active" or not.
- */
-
-
-var NavLink = forwardRef$1(function (_ref, forwardedRef) {
-  var _ref$ariaCurrent = _ref["aria-current"],
-      ariaCurrent = _ref$ariaCurrent === void 0 ? "page" : _ref$ariaCurrent,
-      _ref$activeClassName = _ref.activeClassName,
-      activeClassName = _ref$activeClassName === void 0 ? "active" : _ref$activeClassName,
-      activeStyle = _ref.activeStyle,
-      classNameProp = _ref.className,
-      exact = _ref.exact,
-      isActiveProp = _ref.isActive,
-      locationProp = _ref.location,
-      sensitive = _ref.sensitive,
-      strict = _ref.strict,
-      styleProp = _ref.style,
-      to = _ref.to,
-      innerRef = _ref.innerRef,
-      rest = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref, ["aria-current", "activeClassName", "activeStyle", "className", "exact", "isActive", "location", "sensitive", "strict", "style", "to", "innerRef"]);
-
-  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_router__WEBPACK_IMPORTED_MODULE_0__["__RouterContext"].Consumer, null, function (context) {
-    !context ?  true ? Object(tiny_invariant__WEBPACK_IMPORTED_MODULE_8__["default"])(false, "You should not use <NavLink> outside a <Router>") : undefined : void 0;
-    var currentLocation = locationProp || context.location;
-    var toLocation = normalizeToLocation(resolveToLocation(to, currentLocation), currentLocation);
-    var path = toLocation.pathname; // Regex taken from: https://github.com/pillarjs/path-to-regexp/blob/master/index.js#L202
-
-    var escapedPath = path && path.replace(/([.+*?=^!:${}()[\]|/\\])/g, "\\$1");
-    var match = escapedPath ? Object(react_router__WEBPACK_IMPORTED_MODULE_0__["matchPath"])(currentLocation.pathname, {
-      path: escapedPath,
-      exact: exact,
-      sensitive: sensitive,
-      strict: strict
-    }) : null;
-    var isActive = !!(isActiveProp ? isActiveProp(match, currentLocation) : match);
-    var className = isActive ? joinClassnames(classNameProp, activeClassName) : classNameProp;
-    var style = isActive ? Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_6__["default"])({}, styleProp, {}, activeStyle) : styleProp;
-
-    var props = Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_6__["default"])({
-      "aria-current": isActive && ariaCurrent || null,
-      className: className,
-      style: style,
-      to: toLocation
-    }, rest); // React 15 compat
-
-
-    if (forwardRefShim$1 !== forwardRef$1) {
-      props.ref = forwardedRef || innerRef;
-    } else {
-      props.innerRef = innerRef;
-    }
-
-    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Link, props);
-  });
-});
-
-if (true) {
-  NavLink.displayName = "NavLink";
-  var ariaCurrentType = prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.oneOf(["page", "step", "location", "date", "time", "true"]);
-  NavLink.propTypes = Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_6__["default"])({}, Link.propTypes, {
-    "aria-current": ariaCurrentType,
-    activeClassName: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string,
-    activeStyle: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.object,
-    className: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string,
-    exact: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.bool,
-    isActive: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.func,
-    location: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.object,
-    sensitive: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.bool,
-    strict: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.bool,
-    style: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.object
-  });
-}
-
-
-//# sourceMappingURL=react-router-dom.js.map
-
-
-/***/ }),
-
-/***/ "./node_modules/react-router/esm/react-router.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/react-router/esm/react-router.js ***!
-  \*******************************************************/
-/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, __HistoryContext, __RouterContext, generatePath, matchPath, useHistory, useLocation, useParams, useRouteMatch, withRouter */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MemoryRouter", function() { return MemoryRouter; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Prompt", function() { return Prompt; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Redirect", function() { return Redirect; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return Route; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return Router; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StaticRouter", function() { return StaticRouter; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Switch", function() { return Switch; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__HistoryContext", function() { return historyContext; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__RouterContext", function() { return context; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "generatePath", function() { return generatePath; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "matchPath", function() { return matchPath; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "useHistory", function() { return useHistory; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "useLocation", function() { return useLocation; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "useParams", function() { return useParams; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "useRouteMatch", function() { return useRouteMatch; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "withRouter", function() { return withRouter; });
-/* harmony import */ var _babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inheritsLoose */ "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var history__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! history */ "./node_modules/history/esm/history.js");
-/* harmony import */ var tiny_warning__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! tiny-warning */ "./node_modules/tiny-warning/dist/tiny-warning.esm.js");
-/* harmony import */ var mini_create_react_context__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! mini-create-react-context */ "./node_modules/mini-create-react-context/dist/esm/index.js");
-/* harmony import */ var tiny_invariant__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! tiny-invariant */ "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js");
-/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
-/* harmony import */ var path_to_regexp__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! path-to-regexp */ "./node_modules/react-router/node_modules/path-to-regexp/index.js");
-/* harmony import */ var path_to_regexp__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(path_to_regexp__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var react_is__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
-/* harmony import */ var react_is__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_is__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
-/* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! hoist-non-react-statics */ "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js");
-/* harmony import */ var hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_11__);
-
-
-
-
-
-
-
-
-
-
-
-
-
-// TODO: Replace with React.createContext once we can assume React 16+
-
-var createNamedContext = function createNamedContext(name) {
-  var context = Object(mini_create_react_context__WEBPACK_IMPORTED_MODULE_5__["default"])();
-  context.displayName = name;
-  return context;
-};
-
-var historyContext =
-/*#__PURE__*/
-createNamedContext("Router-History");
-
-// TODO: Replace with React.createContext once we can assume React 16+
-
-var createNamedContext$1 = function createNamedContext(name) {
-  var context = Object(mini_create_react_context__WEBPACK_IMPORTED_MODULE_5__["default"])();
-  context.displayName = name;
-  return context;
-};
-
-var context =
-/*#__PURE__*/
-createNamedContext$1("Router");
-
-/**
- * The public API for putting history on context.
- */
-
-var Router =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(Router, _React$Component);
-
-  Router.computeRootMatch = function computeRootMatch(pathname) {
-    return {
-      path: "/",
-      url: "/",
-      params: {},
-      isExact: pathname === "/"
-    };
-  };
-
-  function Router(props) {
-    var _this;
-
-    _this = _React$Component.call(this, props) || this;
-    _this.state = {
-      location: props.history.location
-    }; // This is a bit of a hack. We have to start listening for location
-    // changes here in the constructor in case there are any <Redirect>s
-    // on the initial render. If there are, they will replace/push when
-    // they mount and since cDM fires in children before parents, we may
-    // get a new location before the <Router> is mounted.
-
-    _this._isMounted = false;
-    _this._pendingLocation = null;
-
-    if (!props.staticContext) {
-      _this.unlisten = props.history.listen(function (location) {
-        if (_this._isMounted) {
-          _this.setState({
-            location: location
-          });
-        } else {
-          _this._pendingLocation = location;
-        }
-      });
-    }
-
-    return _this;
-  }
-
-  var _proto = Router.prototype;
-
-  _proto.componentDidMount = function componentDidMount() {
-    this._isMounted = true;
-
-    if (this._pendingLocation) {
-      this.setState({
-        location: this._pendingLocation
-      });
-    }
-  };
-
-  _proto.componentWillUnmount = function componentWillUnmount() {
-    if (this.unlisten) this.unlisten();
-  };
-
-  _proto.render = function render() {
-    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(context.Provider, {
-      value: {
-        history: this.props.history,
-        location: this.state.location,
-        match: Router.computeRootMatch(this.state.location.pathname),
-        staticContext: this.props.staticContext
-      }
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(historyContext.Provider, {
-      children: this.props.children || null,
-      value: this.props.history
-    }));
-  };
-
-  return Router;
-}(react__WEBPACK_IMPORTED_MODULE_1___default.a.Component);
-
-if (true) {
-  Router.propTypes = {
-    children: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.node,
-    history: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object.isRequired,
-    staticContext: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object
-  };
-
-  Router.prototype.componentDidUpdate = function (prevProps) {
-     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_4__["default"])(prevProps.history === this.props.history, "You cannot change <Router history>") : undefined;
-  };
-}
-
-/**
- * The public API for a <Router> that stores location in memory.
- */
-
-var MemoryRouter =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(MemoryRouter, _React$Component);
-
-  function MemoryRouter() {
-    var _this;
-
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    _this = _React$Component.call.apply(_React$Component, [this].concat(args)) || this;
-    _this.history = Object(history__WEBPACK_IMPORTED_MODULE_3__["createMemoryHistory"])(_this.props);
-    return _this;
-  }
-
-  var _proto = MemoryRouter.prototype;
-
-  _proto.render = function render() {
-    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Router, {
-      history: this.history,
-      children: this.props.children
-    });
-  };
-
-  return MemoryRouter;
-}(react__WEBPACK_IMPORTED_MODULE_1___default.a.Component);
-
-if (true) {
-  MemoryRouter.propTypes = {
-    initialEntries: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.array,
-    initialIndex: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
-    getUserConfirmation: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func,
-    keyLength: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
-    children: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.node
-  };
-
-  MemoryRouter.prototype.componentDidMount = function () {
-     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_4__["default"])(!this.props.history, "<MemoryRouter> ignores the history prop. To use a custom history, " + "use `import { Router }` instead of `import { MemoryRouter as Router }`.") : undefined;
-  };
-}
-
-var Lifecycle =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(Lifecycle, _React$Component);
-
-  function Lifecycle() {
-    return _React$Component.apply(this, arguments) || this;
-  }
-
-  var _proto = Lifecycle.prototype;
-
-  _proto.componentDidMount = function componentDidMount() {
-    if (this.props.onMount) this.props.onMount.call(this, this);
-  };
-
-  _proto.componentDidUpdate = function componentDidUpdate(prevProps) {
-    if (this.props.onUpdate) this.props.onUpdate.call(this, this, prevProps);
-  };
-
-  _proto.componentWillUnmount = function componentWillUnmount() {
-    if (this.props.onUnmount) this.props.onUnmount.call(this, this);
-  };
-
-  _proto.render = function render() {
-    return null;
-  };
-
-  return Lifecycle;
-}(react__WEBPACK_IMPORTED_MODULE_1___default.a.Component);
-
-/**
- * The public API for prompting the user before navigating away from a screen.
- */
-
-function Prompt(_ref) {
-  var message = _ref.message,
-      _ref$when = _ref.when,
-      when = _ref$when === void 0 ? true : _ref$when;
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(context.Consumer, null, function (context) {
-    !context ?  true ? Object(tiny_invariant__WEBPACK_IMPORTED_MODULE_6__["default"])(false, "You should not use <Prompt> outside a <Router>") : undefined : void 0;
-    if (!when || context.staticContext) return null;
-    var method = context.history.block;
-    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Lifecycle, {
-      onMount: function onMount(self) {
-        self.release = method(message);
-      },
-      onUpdate: function onUpdate(self, prevProps) {
-        if (prevProps.message !== message) {
-          self.release();
-          self.release = method(message);
-        }
-      },
-      onUnmount: function onUnmount(self) {
-        self.release();
-      },
-      message: message
-    });
-  });
-}
-
-if (true) {
-  var messageType = prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func, prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string]);
-  Prompt.propTypes = {
-    when: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
-    message: messageType.isRequired
-  };
-}
-
-var cache = {};
-var cacheLimit = 10000;
-var cacheCount = 0;
-
-function compilePath(path) {
-  if (cache[path]) return cache[path];
-  var generator = path_to_regexp__WEBPACK_IMPORTED_MODULE_8___default.a.compile(path);
-
-  if (cacheCount < cacheLimit) {
-    cache[path] = generator;
-    cacheCount++;
-  }
-
-  return generator;
-}
-/**
- * Public API for generating a URL pathname from a path and parameters.
- */
-
-
-function generatePath(path, params) {
-  if (path === void 0) {
-    path = "/";
-  }
-
-  if (params === void 0) {
-    params = {};
-  }
-
-  return path === "/" ? path : compilePath(path)(params, {
-    pretty: true
-  });
-}
-
-/**
- * The public API for navigating programmatically with a component.
- */
-
-function Redirect(_ref) {
-  var computedMatch = _ref.computedMatch,
-      to = _ref.to,
-      _ref$push = _ref.push,
-      push = _ref$push === void 0 ? false : _ref$push;
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(context.Consumer, null, function (context) {
-    !context ?  true ? Object(tiny_invariant__WEBPACK_IMPORTED_MODULE_6__["default"])(false, "You should not use <Redirect> outside a <Router>") : undefined : void 0;
-    var history = context.history,
-        staticContext = context.staticContext;
-    var method = push ? history.push : history.replace;
-    var location = Object(history__WEBPACK_IMPORTED_MODULE_3__["createLocation"])(computedMatch ? typeof to === "string" ? generatePath(to, computedMatch.params) : Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_7__["default"])({}, to, {
-      pathname: generatePath(to.pathname, computedMatch.params)
-    }) : to); // When rendering in a static context,
-    // set the new location immediately.
-
-    if (staticContext) {
-      method(location);
-      return null;
-    }
-
-    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Lifecycle, {
-      onMount: function onMount() {
-        method(location);
-      },
-      onUpdate: function onUpdate(self, prevProps) {
-        var prevLocation = Object(history__WEBPACK_IMPORTED_MODULE_3__["createLocation"])(prevProps.to);
-
-        if (!Object(history__WEBPACK_IMPORTED_MODULE_3__["locationsAreEqual"])(prevLocation, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_7__["default"])({}, location, {
-          key: prevLocation.key
-        }))) {
-          method(location);
-        }
-      },
-      to: to
-    });
-  });
-}
-
-if (true) {
-  Redirect.propTypes = {
-    push: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
-    from: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string,
-    to: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object]).isRequired
-  };
-}
-
-var cache$1 = {};
-var cacheLimit$1 = 10000;
-var cacheCount$1 = 0;
-
-function compilePath$1(path, options) {
-  var cacheKey = "" + options.end + options.strict + options.sensitive;
-  var pathCache = cache$1[cacheKey] || (cache$1[cacheKey] = {});
-  if (pathCache[path]) return pathCache[path];
-  var keys = [];
-  var regexp = path_to_regexp__WEBPACK_IMPORTED_MODULE_8___default()(path, keys, options);
-  var result = {
-    regexp: regexp,
-    keys: keys
-  };
-
-  if (cacheCount$1 < cacheLimit$1) {
-    pathCache[path] = result;
-    cacheCount$1++;
-  }
-
-  return result;
-}
-/**
- * Public API for matching a URL pathname to a path.
- */
-
-
-function matchPath(pathname, options) {
-  if (options === void 0) {
-    options = {};
-  }
-
-  if (typeof options === "string" || Array.isArray(options)) {
-    options = {
-      path: options
-    };
-  }
-
-  var _options = options,
-      path = _options.path,
-      _options$exact = _options.exact,
-      exact = _options$exact === void 0 ? false : _options$exact,
-      _options$strict = _options.strict,
-      strict = _options$strict === void 0 ? false : _options$strict,
-      _options$sensitive = _options.sensitive,
-      sensitive = _options$sensitive === void 0 ? false : _options$sensitive;
-  var paths = [].concat(path);
-  return paths.reduce(function (matched, path) {
-    if (!path && path !== "") return null;
-    if (matched) return matched;
-
-    var _compilePath = compilePath$1(path, {
-      end: exact,
-      strict: strict,
-      sensitive: sensitive
-    }),
-        regexp = _compilePath.regexp,
-        keys = _compilePath.keys;
-
-    var match = regexp.exec(pathname);
-    if (!match) return null;
-    var url = match[0],
-        values = match.slice(1);
-    var isExact = pathname === url;
-    if (exact && !isExact) return null;
-    return {
-      path: path,
-      // the path used to match
-      url: path === "/" && url === "" ? "/" : url,
-      // the matched portion of the URL
-      isExact: isExact,
-      // whether or not we matched exactly
-      params: keys.reduce(function (memo, key, index) {
-        memo[key.name] = values[index];
-        return memo;
-      }, {})
-    };
-  }, null);
-}
-
-function isEmptyChildren(children) {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.Children.count(children) === 0;
-}
-
-function evalChildrenDev(children, props, path) {
-  var value = children(props);
-   true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_4__["default"])(value !== undefined, "You returned `undefined` from the `children` function of " + ("<Route" + (path ? " path=\"" + path + "\"" : "") + ">, but you ") + "should have returned a React element or `null`") : undefined;
-  return value || null;
-}
-/**
- * The public API for matching a single path and rendering.
- */
-
-
-var Route =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(Route, _React$Component);
-
-  function Route() {
-    return _React$Component.apply(this, arguments) || this;
-  }
-
-  var _proto = Route.prototype;
-
-  _proto.render = function render() {
-    var _this = this;
-
-    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(context.Consumer, null, function (context$1) {
-      !context$1 ?  true ? Object(tiny_invariant__WEBPACK_IMPORTED_MODULE_6__["default"])(false, "You should not use <Route> outside a <Router>") : undefined : void 0;
-      var location = _this.props.location || context$1.location;
-      var match = _this.props.computedMatch ? _this.props.computedMatch // <Switch> already computed the match for us
-      : _this.props.path ? matchPath(location.pathname, _this.props) : context$1.match;
-
-      var props = Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_7__["default"])({}, context$1, {
-        location: location,
-        match: match
-      });
-
-      var _this$props = _this.props,
-          children = _this$props.children,
-          component = _this$props.component,
-          render = _this$props.render; // Preact uses an empty array as children by
-      // default, so use null if that's the case.
-
-      if (Array.isArray(children) && children.length === 0) {
-        children = null;
-      }
-
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(context.Provider, {
-        value: props
-      }, props.match ? children ? typeof children === "function" ?  true ? evalChildrenDev(children, props, _this.props.path) : undefined : children : component ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(component, props) : render ? render(props) : null : typeof children === "function" ?  true ? evalChildrenDev(children, props, _this.props.path) : undefined : null);
-    });
-  };
-
-  return Route;
-}(react__WEBPACK_IMPORTED_MODULE_1___default.a.Component);
-
-if (true) {
-  Route.propTypes = {
-    children: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func, prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.node]),
-    component: function component(props, propName) {
-      if (props[propName] && !Object(react_is__WEBPACK_IMPORTED_MODULE_9__["isValidElementType"])(props[propName])) {
-        return new Error("Invalid prop 'component' supplied to 'Route': the prop is not a valid React component");
-      }
-    },
-    exact: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
-    location: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object,
-    path: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string)]),
-    render: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func,
-    sensitive: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
-    strict: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool
-  };
-
-  Route.prototype.componentDidMount = function () {
-     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_4__["default"])(!(this.props.children && !isEmptyChildren(this.props.children) && this.props.component), "You should not use <Route component> and <Route children> in the same route; <Route component> will be ignored") : undefined;
-     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_4__["default"])(!(this.props.children && !isEmptyChildren(this.props.children) && this.props.render), "You should not use <Route render> and <Route children> in the same route; <Route render> will be ignored") : undefined;
-     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_4__["default"])(!(this.props.component && this.props.render), "You should not use <Route component> and <Route render> in the same route; <Route render> will be ignored") : undefined;
-  };
-
-  Route.prototype.componentDidUpdate = function (prevProps) {
-     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_4__["default"])(!(this.props.location && !prevProps.location), '<Route> elements should not change from uncontrolled to controlled (or vice versa). You initially used no "location" prop and then provided one on a subsequent render.') : undefined;
-     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_4__["default"])(!(!this.props.location && prevProps.location), '<Route> elements should not change from controlled to uncontrolled (or vice versa). You provided a "location" prop initially but omitted it on a subsequent render.') : undefined;
-  };
-}
-
-function addLeadingSlash(path) {
-  return path.charAt(0) === "/" ? path : "/" + path;
-}
-
-function addBasename(basename, location) {
-  if (!basename) return location;
-  return Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_7__["default"])({}, location, {
-    pathname: addLeadingSlash(basename) + location.pathname
-  });
-}
-
-function stripBasename(basename, location) {
-  if (!basename) return location;
-  var base = addLeadingSlash(basename);
-  if (location.pathname.indexOf(base) !== 0) return location;
-  return Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_7__["default"])({}, location, {
-    pathname: location.pathname.substr(base.length)
-  });
-}
-
-function createURL(location) {
-  return typeof location === "string" ? location : Object(history__WEBPACK_IMPORTED_MODULE_3__["createPath"])(location);
-}
-
-function staticHandler(methodName) {
-  return function () {
-      true ? Object(tiny_invariant__WEBPACK_IMPORTED_MODULE_6__["default"])(false, "You cannot %s with <StaticRouter>", methodName) : undefined ;
-  };
-}
-
-function noop() {}
-/**
- * The public top-level API for a "static" <Router>, so-called because it
- * can't actually change the current location. Instead, it just records
- * location changes in a context object. Useful mainly in testing and
- * server-rendering scenarios.
- */
-
-
-var StaticRouter =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(StaticRouter, _React$Component);
-
-  function StaticRouter() {
-    var _this;
-
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    _this = _React$Component.call.apply(_React$Component, [this].concat(args)) || this;
-
-    _this.handlePush = function (location) {
-      return _this.navigateTo(location, "PUSH");
-    };
-
-    _this.handleReplace = function (location) {
-      return _this.navigateTo(location, "REPLACE");
-    };
-
-    _this.handleListen = function () {
-      return noop;
-    };
-
-    _this.handleBlock = function () {
-      return noop;
-    };
-
-    return _this;
-  }
-
-  var _proto = StaticRouter.prototype;
-
-  _proto.navigateTo = function navigateTo(location, action) {
-    var _this$props = this.props,
-        _this$props$basename = _this$props.basename,
-        basename = _this$props$basename === void 0 ? "" : _this$props$basename,
-        _this$props$context = _this$props.context,
-        context = _this$props$context === void 0 ? {} : _this$props$context;
-    context.action = action;
-    context.location = addBasename(basename, Object(history__WEBPACK_IMPORTED_MODULE_3__["createLocation"])(location));
-    context.url = createURL(context.location);
-  };
-
-  _proto.render = function render() {
-    var _this$props2 = this.props,
-        _this$props2$basename = _this$props2.basename,
-        basename = _this$props2$basename === void 0 ? "" : _this$props2$basename,
-        _this$props2$context = _this$props2.context,
-        context = _this$props2$context === void 0 ? {} : _this$props2$context,
-        _this$props2$location = _this$props2.location,
-        location = _this$props2$location === void 0 ? "/" : _this$props2$location,
-        rest = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_10__["default"])(_this$props2, ["basename", "context", "location"]);
-
-    var history = {
-      createHref: function createHref(path) {
-        return addLeadingSlash(basename + createURL(path));
-      },
-      action: "POP",
-      location: stripBasename(basename, Object(history__WEBPACK_IMPORTED_MODULE_3__["createLocation"])(location)),
-      push: this.handlePush,
-      replace: this.handleReplace,
-      go: staticHandler("go"),
-      goBack: staticHandler("goBack"),
-      goForward: staticHandler("goForward"),
-      listen: this.handleListen,
-      block: this.handleBlock
-    };
-    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Router, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_7__["default"])({}, rest, {
-      history: history,
-      staticContext: context
-    }));
-  };
-
-  return StaticRouter;
-}(react__WEBPACK_IMPORTED_MODULE_1___default.a.Component);
-
-if (true) {
-  StaticRouter.propTypes = {
-    basename: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string,
-    context: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object,
-    location: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object])
-  };
-
-  StaticRouter.prototype.componentDidMount = function () {
-     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_4__["default"])(!this.props.history, "<StaticRouter> ignores the history prop. To use a custom history, " + "use `import { Router }` instead of `import { StaticRouter as Router }`.") : undefined;
-  };
-}
-
-/**
- * The public API for rendering the first <Route> that matches.
- */
-
-var Switch =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(Switch, _React$Component);
-
-  function Switch() {
-    return _React$Component.apply(this, arguments) || this;
-  }
-
-  var _proto = Switch.prototype;
-
-  _proto.render = function render() {
-    var _this = this;
-
-    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(context.Consumer, null, function (context) {
-      !context ?  true ? Object(tiny_invariant__WEBPACK_IMPORTED_MODULE_6__["default"])(false, "You should not use <Switch> outside a <Router>") : undefined : void 0;
-      var location = _this.props.location || context.location;
-      var element, match; // We use React.Children.forEach instead of React.Children.toArray().find()
-      // here because toArray adds keys to all child elements and we do not want
-      // to trigger an unmount/remount for two <Route>s that render the same
-      // component at different URLs.
-
-      react__WEBPACK_IMPORTED_MODULE_1___default.a.Children.forEach(_this.props.children, function (child) {
-        if (match == null && react__WEBPACK_IMPORTED_MODULE_1___default.a.isValidElement(child)) {
-          element = child;
-          var path = child.props.path || child.props.from;
-          match = path ? matchPath(location.pathname, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_7__["default"])({}, child.props, {
-            path: path
-          })) : context.match;
-        }
-      });
-      return match ? react__WEBPACK_IMPORTED_MODULE_1___default.a.cloneElement(element, {
-        location: location,
-        computedMatch: match
-      }) : null;
-    });
-  };
-
-  return Switch;
-}(react__WEBPACK_IMPORTED_MODULE_1___default.a.Component);
-
-if (true) {
-  Switch.propTypes = {
-    children: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.node,
-    location: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object
-  };
-
-  Switch.prototype.componentDidUpdate = function (prevProps) {
-     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_4__["default"])(!(this.props.location && !prevProps.location), '<Switch> elements should not change from uncontrolled to controlled (or vice versa). You initially used no "location" prop and then provided one on a subsequent render.') : undefined;
-     true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_4__["default"])(!(!this.props.location && prevProps.location), '<Switch> elements should not change from controlled to uncontrolled (or vice versa). You provided a "location" prop initially but omitted it on a subsequent render.') : undefined;
-  };
-}
-
-/**
- * A public higher-order component to access the imperative API
- */
-
-function withRouter(Component) {
-  var displayName = "withRouter(" + (Component.displayName || Component.name) + ")";
-
-  var C = function C(props) {
-    var wrappedComponentRef = props.wrappedComponentRef,
-        remainingProps = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_10__["default"])(props, ["wrappedComponentRef"]);
-
-    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(context.Consumer, null, function (context) {
-      !context ?  true ? Object(tiny_invariant__WEBPACK_IMPORTED_MODULE_6__["default"])(false, "You should not use <" + displayName + " /> outside a <Router>") : undefined : void 0;
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_7__["default"])({}, remainingProps, context, {
-        ref: wrappedComponentRef
-      }));
-    });
-  };
-
-  C.displayName = displayName;
-  C.WrappedComponent = Component;
-
-  if (true) {
-    C.propTypes = {
-      wrappedComponentRef: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func, prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object])
-    };
-  }
-
-  return hoist_non_react_statics__WEBPACK_IMPORTED_MODULE_11___default()(C, Component);
-}
-
-var useContext = react__WEBPACK_IMPORTED_MODULE_1___default.a.useContext;
-function useHistory() {
-  if (true) {
-    !(typeof useContext === "function") ?  true ? Object(tiny_invariant__WEBPACK_IMPORTED_MODULE_6__["default"])(false, "You must use React >= 16.8 in order to use useHistory()") : undefined : void 0;
-  }
-
-  return useContext(historyContext);
-}
-function useLocation() {
-  if (true) {
-    !(typeof useContext === "function") ?  true ? Object(tiny_invariant__WEBPACK_IMPORTED_MODULE_6__["default"])(false, "You must use React >= 16.8 in order to use useLocation()") : undefined : void 0;
-  }
-
-  return useContext(context).location;
-}
-function useParams() {
-  if (true) {
-    !(typeof useContext === "function") ?  true ? Object(tiny_invariant__WEBPACK_IMPORTED_MODULE_6__["default"])(false, "You must use React >= 16.8 in order to use useParams()") : undefined : void 0;
-  }
-
-  var match = useContext(context).match;
-  return match ? match.params : {};
-}
-function useRouteMatch(path) {
-  if (true) {
-    !(typeof useContext === "function") ?  true ? Object(tiny_invariant__WEBPACK_IMPORTED_MODULE_6__["default"])(false, "You must use React >= 16.8 in order to use useRouteMatch()") : undefined : void 0;
-  }
-
-  var location = useLocation();
-  var match = useContext(context).match;
-  return path ? matchPath(location.pathname, path) : match;
-}
-
-if (true) {
-  if (typeof window !== "undefined") {
-    var global = window;
-    var key = "__react_router_build__";
-    var buildNames = {
-      cjs: "CommonJS",
-      esm: "ES modules",
-      umd: "UMD"
-    };
-
-    if (global[key] && global[key] !== "esm") {
-      var initialBuildName = buildNames[global[key]];
-      var secondaryBuildName = buildNames["esm"]; // TODO: Add link to article that explains in detail how to avoid
-      // loading 2 different builds.
-
-      throw new Error("You are loading the " + secondaryBuildName + " build of React Router " + ("on a page that is already running the " + initialBuildName + " ") + "build, so things won't work right.");
-    }
-
-    global[key] = "esm";
-  }
-}
-
-
-//# sourceMappingURL=react-router.js.map
-
-
-/***/ }),
-
-/***/ "./node_modules/react-router/node_modules/isarray/index.js":
-/*!*****************************************************************!*\
-  !*** ./node_modules/react-router/node_modules/isarray/index.js ***!
-  \*****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = Array.isArray || function (arr) {
-  return Object.prototype.toString.call(arr) == '[object Array]';
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/react-router/node_modules/path-to-regexp/index.js":
-/*!************************************************************************!*\
-  !*** ./node_modules/react-router/node_modules/path-to-regexp/index.js ***!
-  \************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var isarray = __webpack_require__(/*! isarray */ "./node_modules/react-router/node_modules/isarray/index.js")
-
-/**
- * Expose `pathToRegexp`.
- */
-module.exports = pathToRegexp
-module.exports.parse = parse
-module.exports.compile = compile
-module.exports.tokensToFunction = tokensToFunction
-module.exports.tokensToRegExp = tokensToRegExp
-
-/**
- * The main path matching regexp utility.
- *
- * @type {RegExp}
- */
-var PATH_REGEXP = new RegExp([
-  // Match escaped characters that would otherwise appear in future matches.
-  // This allows the user to escape special characters that won't transform.
-  '(\\\\.)',
-  // Match Express-style parameters and un-named parameters with a prefix
-  // and optional suffixes. Matches appear as:
-  //
-  // "/:test(\\d+)?" => ["/", "test", "\d+", undefined, "?", undefined]
-  // "/route(\\d+)"  => [undefined, undefined, undefined, "\d+", undefined, undefined]
-  // "/*"            => ["/", undefined, undefined, undefined, undefined, "*"]
-  '([\\/.])?(?:(?:\\:(\\w+)(?:\\(((?:\\\\.|[^\\\\()])+)\\))?|\\(((?:\\\\.|[^\\\\()])+)\\))([+*?])?|(\\*))'
-].join('|'), 'g')
-
-/**
- * Parse a string for the raw tokens.
- *
- * @param  {string}  str
- * @param  {Object=} options
- * @return {!Array}
- */
-function parse (str, options) {
-  var tokens = []
-  var key = 0
-  var index = 0
-  var path = ''
-  var defaultDelimiter = options && options.delimiter || '/'
-  var res
-
-  while ((res = PATH_REGEXP.exec(str)) != null) {
-    var m = res[0]
-    var escaped = res[1]
-    var offset = res.index
-    path += str.slice(index, offset)
-    index = offset + m.length
-
-    // Ignore already escaped sequences.
-    if (escaped) {
-      path += escaped[1]
-      continue
-    }
-
-    var next = str[index]
-    var prefix = res[2]
-    var name = res[3]
-    var capture = res[4]
-    var group = res[5]
-    var modifier = res[6]
-    var asterisk = res[7]
-
-    // Push the current path onto the tokens.
-    if (path) {
-      tokens.push(path)
-      path = ''
-    }
-
-    var partial = prefix != null && next != null && next !== prefix
-    var repeat = modifier === '+' || modifier === '*'
-    var optional = modifier === '?' || modifier === '*'
-    var delimiter = res[2] || defaultDelimiter
-    var pattern = capture || group
-
-    tokens.push({
-      name: name || key++,
-      prefix: prefix || '',
-      delimiter: delimiter,
-      optional: optional,
-      repeat: repeat,
-      partial: partial,
-      asterisk: !!asterisk,
-      pattern: pattern ? escapeGroup(pattern) : (asterisk ? '.*' : '[^' + escapeString(delimiter) + ']+?')
-    })
-  }
-
-  // Match any characters still remaining.
-  if (index < str.length) {
-    path += str.substr(index)
-  }
-
-  // If the path exists, push it onto the end.
-  if (path) {
-    tokens.push(path)
-  }
-
-  return tokens
-}
-
-/**
- * Compile a string to a template function for the path.
- *
- * @param  {string}             str
- * @param  {Object=}            options
- * @return {!function(Object=, Object=)}
- */
-function compile (str, options) {
-  return tokensToFunction(parse(str, options), options)
-}
-
-/**
- * Prettier encoding of URI path segments.
- *
- * @param  {string}
- * @return {string}
- */
-function encodeURIComponentPretty (str) {
-  return encodeURI(str).replace(/[\/?#]/g, function (c) {
-    return '%' + c.charCodeAt(0).toString(16).toUpperCase()
-  })
-}
-
-/**
- * Encode the asterisk parameter. Similar to `pretty`, but allows slashes.
- *
- * @param  {string}
- * @return {string}
- */
-function encodeAsterisk (str) {
-  return encodeURI(str).replace(/[?#]/g, function (c) {
-    return '%' + c.charCodeAt(0).toString(16).toUpperCase()
-  })
-}
-
-/**
- * Expose a method for transforming tokens into the path function.
- */
-function tokensToFunction (tokens, options) {
-  // Compile all the tokens into regexps.
-  var matches = new Array(tokens.length)
-
-  // Compile all the patterns before compilation.
-  for (var i = 0; i < tokens.length; i++) {
-    if (typeof tokens[i] === 'object') {
-      matches[i] = new RegExp('^(?:' + tokens[i].pattern + ')$', flags(options))
-    }
-  }
-
-  return function (obj, opts) {
-    var path = ''
-    var data = obj || {}
-    var options = opts || {}
-    var encode = options.pretty ? encodeURIComponentPretty : encodeURIComponent
-
-    for (var i = 0; i < tokens.length; i++) {
-      var token = tokens[i]
-
-      if (typeof token === 'string') {
-        path += token
-
-        continue
-      }
-
-      var value = data[token.name]
-      var segment
-
-      if (value == null) {
-        if (token.optional) {
-          // Prepend partial segment prefixes.
-          if (token.partial) {
-            path += token.prefix
-          }
-
-          continue
-        } else {
-          throw new TypeError('Expected "' + token.name + '" to be defined')
-        }
-      }
-
-      if (isarray(value)) {
-        if (!token.repeat) {
-          throw new TypeError('Expected "' + token.name + '" to not repeat, but received `' + JSON.stringify(value) + '`')
-        }
-
-        if (value.length === 0) {
-          if (token.optional) {
-            continue
-          } else {
-            throw new TypeError('Expected "' + token.name + '" to not be empty')
-          }
-        }
-
-        for (var j = 0; j < value.length; j++) {
-          segment = encode(value[j])
-
-          if (!matches[i].test(segment)) {
-            throw new TypeError('Expected all "' + token.name + '" to match "' + token.pattern + '", but received `' + JSON.stringify(segment) + '`')
-          }
-
-          path += (j === 0 ? token.prefix : token.delimiter) + segment
-        }
-
-        continue
-      }
-
-      segment = token.asterisk ? encodeAsterisk(value) : encode(value)
-
-      if (!matches[i].test(segment)) {
-        throw new TypeError('Expected "' + token.name + '" to match "' + token.pattern + '", but received "' + segment + '"')
-      }
-
-      path += token.prefix + segment
-    }
-
-    return path
-  }
-}
-
-/**
- * Escape a regular expression string.
- *
- * @param  {string} str
- * @return {string}
- */
-function escapeString (str) {
-  return str.replace(/([.+*?=^!:${}()[\]|\/\\])/g, '\\$1')
-}
-
-/**
- * Escape the capturing group by escaping special characters and meaning.
- *
- * @param  {string} group
- * @return {string}
- */
-function escapeGroup (group) {
-  return group.replace(/([=!:$\/()])/g, '\\$1')
-}
-
-/**
- * Attach the keys as a property of the regexp.
- *
- * @param  {!RegExp} re
- * @param  {Array}   keys
- * @return {!RegExp}
- */
-function attachKeys (re, keys) {
-  re.keys = keys
-  return re
-}
-
-/**
- * Get the flags for a regexp from the options.
- *
- * @param  {Object} options
- * @return {string}
- */
-function flags (options) {
-  return options && options.sensitive ? '' : 'i'
-}
-
-/**
- * Pull out keys from a regexp.
- *
- * @param  {!RegExp} path
- * @param  {!Array}  keys
- * @return {!RegExp}
- */
-function regexpToRegexp (path, keys) {
-  // Use a negative lookahead to match only capturing groups.
-  var groups = path.source.match(/\((?!\?)/g)
-
-  if (groups) {
-    for (var i = 0; i < groups.length; i++) {
-      keys.push({
-        name: i,
-        prefix: null,
-        delimiter: null,
-        optional: false,
-        repeat: false,
-        partial: false,
-        asterisk: false,
-        pattern: null
-      })
-    }
-  }
-
-  return attachKeys(path, keys)
-}
-
-/**
- * Transform an array into a regexp.
- *
- * @param  {!Array}  path
- * @param  {Array}   keys
- * @param  {!Object} options
- * @return {!RegExp}
- */
-function arrayToRegexp (path, keys, options) {
-  var parts = []
-
-  for (var i = 0; i < path.length; i++) {
-    parts.push(pathToRegexp(path[i], keys, options).source)
-  }
-
-  var regexp = new RegExp('(?:' + parts.join('|') + ')', flags(options))
-
-  return attachKeys(regexp, keys)
-}
-
-/**
- * Create a path regexp from string input.
- *
- * @param  {string}  path
- * @param  {!Array}  keys
- * @param  {!Object} options
- * @return {!RegExp}
- */
-function stringToRegexp (path, keys, options) {
-  return tokensToRegExp(parse(path, options), keys, options)
-}
-
-/**
- * Expose a function for taking tokens and returning a RegExp.
- *
- * @param  {!Array}          tokens
- * @param  {(Array|Object)=} keys
- * @param  {Object=}         options
- * @return {!RegExp}
- */
-function tokensToRegExp (tokens, keys, options) {
-  if (!isarray(keys)) {
-    options = /** @type {!Object} */ (keys || options)
-    keys = []
-  }
-
-  options = options || {}
-
-  var strict = options.strict
-  var end = options.end !== false
-  var route = ''
-
-  // Iterate over the tokens and create our regexp string.
-  for (var i = 0; i < tokens.length; i++) {
-    var token = tokens[i]
-
-    if (typeof token === 'string') {
-      route += escapeString(token)
-    } else {
-      var prefix = escapeString(token.prefix)
-      var capture = '(?:' + token.pattern + ')'
-
-      keys.push(token)
-
-      if (token.repeat) {
-        capture += '(?:' + prefix + capture + ')*'
-      }
-
-      if (token.optional) {
-        if (!token.partial) {
-          capture = '(?:' + prefix + '(' + capture + '))?'
-        } else {
-          capture = prefix + '(' + capture + ')?'
-        }
-      } else {
-        capture = prefix + '(' + capture + ')'
-      }
-
-      route += capture
-    }
-  }
-
-  var delimiter = escapeString(options.delimiter || '/')
-  var endsWithDelimiter = route.slice(-delimiter.length) === delimiter
-
-  // In non-strict mode we allow a slash at the end of match. If the path to
-  // match already ends with a slash, we remove it for consistency. The slash
-  // is valid at the end of a path match, not in the middle. This is important
-  // in non-ending mode, where "/test/" shouldn't match "/test//route".
-  if (!strict) {
-    route = (endsWithDelimiter ? route.slice(0, -delimiter.length) : route) + '(?:' + delimiter + '(?=$))?'
-  }
-
-  if (end) {
-    route += '$'
-  } else {
-    // In non-ending mode, we need the capturing groups to match as much as
-    // possible by using a positive lookahead to the end or next path segment.
-    route += strict && endsWithDelimiter ? '' : '(?=' + delimiter + '|$)'
-  }
-
-  return attachKeys(new RegExp('^' + route, flags(options)), keys)
-}
-
-/**
- * Normalize the given path string, returning a regular expression.
- *
- * An empty array can be passed in for the keys, which will hold the
- * placeholder key descriptions. For example, using `/user/:id`, `keys` will
- * contain `[{ name: 'id', delimiter: '/', optional: false, repeat: false }]`.
- *
- * @param  {(string|RegExp|Array)} path
- * @param  {(Array|Object)=}       keys
- * @param  {Object=}               options
- * @return {!RegExp}
- */
-function pathToRegexp (path, keys, options) {
-  if (!isarray(keys)) {
-    options = /** @type {!Object} */ (keys || options)
-    keys = []
-  }
-
-  options = options || {}
-
-  if (path instanceof RegExp) {
-    return regexpToRegexp(path, /** @type {!Array} */ (keys))
-  }
-
-  if (isarray(path)) {
-    return arrayToRegexp(/** @type {!Array} */ (path), /** @type {!Array} */ (keys), options)
-  }
-
-  return stringToRegexp(/** @type {string} */ (path), /** @type {!Array} */ (keys), options)
-}
-
 
 /***/ }),
 
@@ -86690,120 +82145,6 @@ module.exports = function shimFlags() {
 
 /***/ }),
 
-/***/ "./node_modules/resolve-pathname/esm/resolve-pathname.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/resolve-pathname/esm/resolve-pathname.js ***!
-  \***************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-function isAbsolute(pathname) {
-  return pathname.charAt(0) === '/';
-}
-
-// About 1.5x faster than the two-arg version of Array#splice()
-function spliceOne(list, index) {
-  for (var i = index, k = i + 1, n = list.length; k < n; i += 1, k += 1) {
-    list[i] = list[k];
-  }
-
-  list.pop();
-}
-
-// This implementation is based heavily on node's url.parse
-function resolvePathname(to, from) {
-  if (from === undefined) from = '';
-
-  var toParts = (to && to.split('/')) || [];
-  var fromParts = (from && from.split('/')) || [];
-
-  var isToAbs = to && isAbsolute(to);
-  var isFromAbs = from && isAbsolute(from);
-  var mustEndAbs = isToAbs || isFromAbs;
-
-  if (to && isAbsolute(to)) {
-    // to is absolute
-    fromParts = toParts;
-  } else if (toParts.length) {
-    // to is relative, drop the filename
-    fromParts.pop();
-    fromParts = fromParts.concat(toParts);
-  }
-
-  if (!fromParts.length) return '/';
-
-  var hasTrailingSlash;
-  if (fromParts.length) {
-    var last = fromParts[fromParts.length - 1];
-    hasTrailingSlash = last === '.' || last === '..' || last === '';
-  } else {
-    hasTrailingSlash = false;
-  }
-
-  var up = 0;
-  for (var i = fromParts.length; i >= 0; i--) {
-    var part = fromParts[i];
-
-    if (part === '.') {
-      spliceOne(fromParts, i);
-    } else if (part === '..') {
-      spliceOne(fromParts, i);
-      up++;
-    } else if (up) {
-      spliceOne(fromParts, i);
-      up--;
-    }
-  }
-
-  if (!mustEndAbs) for (; up--; up) fromParts.unshift('..');
-
-  if (
-    mustEndAbs &&
-    fromParts[0] !== '' &&
-    (!fromParts[0] || !isAbsolute(fromParts[0]))
-  )
-    fromParts.unshift('');
-
-  var result = fromParts.join('/');
-
-  if (hasTrailingSlash && result.substr(-1) !== '/') result += '/';
-
-  return result;
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (resolvePathname);
-
-
-/***/ }),
-
-/***/ "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/tiny-invariant/dist/tiny-invariant.esm.js ***!
-  \****************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-var isProduction = "development" === 'production';
-var prefix = 'Invariant failed';
-function invariant(condition, message) {
-    if (condition) {
-        return;
-    }
-    if (isProduction) {
-        throw new Error(prefix);
-    }
-    throw new Error(prefix + ": " + (message || ''));
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (invariant);
-
-
-/***/ }),
-
 /***/ "./node_modules/tiny-warning/dist/tiny-warning.esm.js":
 /*!************************************************************!*\
   !*** ./node_modules/tiny-warning/dist/tiny-warning.esm.js ***!
@@ -87609,55 +82950,6 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/value-equal/esm/value-equal.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/value-equal/esm/value-equal.js ***!
-  \*****************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-function valueOf(obj) {
-  return obj.valueOf ? obj.valueOf() : Object.prototype.valueOf.call(obj);
-}
-
-function valueEqual(a, b) {
-  // Test for strict equality first.
-  if (a === b) return true;
-
-  // Otherwise, if either of them == null they are not equal.
-  if (a == null || b == null) return false;
-
-  if (Array.isArray(a)) {
-    return (
-      Array.isArray(b) &&
-      a.length === b.length &&
-      a.every(function(item, index) {
-        return valueEqual(item, b[index]);
-      })
-    );
-  }
-
-  if (typeof a === 'object' || typeof b === 'object') {
-    var aValue = valueOf(a);
-    var bValue = valueOf(b);
-
-    if (aValue !== a || bValue !== b) return valueEqual(aValue, bValue);
-
-    return Object.keys(Object.assign({}, a, b)).every(function(key) {
-      return valueEqual(a[key], b[key]);
-    });
-  }
-
-  return false;
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (valueEqual);
-
-
-/***/ }),
-
 /***/ "./node_modules/warning/warning.js":
 /*!*****************************************!*\
   !*** ./node_modules/warning/warning.js ***!
@@ -87841,7 +83133,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\pages\\features\\gallery\\popup.js";
+    _jsxFileName = "C:\\Users\\Karim\\Documents\\GitHub\\PrimeTime\\client\\pages\\features\\gallery\\popup.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement;
 
@@ -88534,25 +83826,27 @@ var Popup = function Popup() {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return OrderScreen; });
-/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
-/* harmony import */ var _components_CheckoutSteps__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/CheckoutSteps */ "./components/CheckoutSteps.js");
-/* harmony import */ var _components_MessageBox__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/MessageBox */ "./components/MessageBox.js");
-/* harmony import */ var _containers_common_common_layout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../containers/common/common-layout */ "./containers/common/common-layout.js");
-/* harmony import */ var _paypal_react_paypal_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @paypal/react-paypal-js */ "./node_modules/@paypal/react-paypal-js/dist/esm/react-paypal-js.js");
-/* harmony import */ var _components_StripeContainer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../components/StripeContainer */ "./components/StripeContainer.js");
+/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js");
+/* harmony import */ var _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+/* harmony import */ var _components_CheckoutSteps__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../components/CheckoutSteps */ "./components/CheckoutSteps.js");
+/* harmony import */ var _components_MessageBox__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../components/MessageBox */ "./components/MessageBox.js");
+/* harmony import */ var _containers_common_common_layout__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../containers/common/common-layout */ "./containers/common/common-layout.js");
 /* harmony import */ var _utils_Store__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../utils/Store */ "./utils/Store.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-var _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\pages\\order\\[id].js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
+/* harmony import */ var _stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @stripe/react-stripe-js */ "./node_modules/@stripe/react-stripe-js/dist/react-stripe.umd.js");
+/* harmony import */ var _stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_11__);
+
+
+var _jsxFileName = "C:\\Users\\Karim\\Documents\\GitHub\\PrimeTime\\client\\pages\\order\\[id].js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 
 
 
@@ -88563,80 +83857,190 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
 
 
 
-
-
-
+var CARD_OPTIONS = {
+  iconStyle: "solid",
+  style: {
+    base: {
+      iconColor: "#c4f0ff",
+      color: "#000",
+      fontWeight: 500,
+      fontFamily: "Roboto, Open Sans, Segoe UI, sans-serif",
+      fontSize: "16px",
+      fontSmoothing: "antialiased",
+      ":-webkit-autofill": {
+        color: "#fce883"
+      },
+      "::placeholder": {
+        color: "#87bbfd"
+      }
+    },
+    invalid: {
+      iconColor: "#ffc7ee",
+      color: "#ffc7ee"
+    }
+  }
+};
 function OrderScreen() {
   var _this = this;
 
-  var _useContext = Object(react__WEBPACK_IMPORTED_MODULE_3__["useContext"])(_utils_Store__WEBPACK_IMPORTED_MODULE_10__["Store"]),
+  var _useContext = Object(react__WEBPACK_IMPORTED_MODULE_5__["useContext"])(_utils_Store__WEBPACK_IMPORTED_MODULE_10__["Store"]),
       state = _useContext.state;
 
   var cartItems = state.cart.cartItems,
       userInfo = state.userInfo;
-  var router = Object(next_router__WEBPACK_IMPORTED_MODULE_2__["useRouter"])();
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_5__["useState"])(false),
+      success = _useState[0],
+      setSuccess = _useState[1];
+
+  var stripe = Object(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_11__["useStripe"])();
+  var elements = Object(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_11__["useElements"])();
+  var c = 2.8;
+  console.log(c);
+  var router = Object(next_router__WEBPACK_IMPORTED_MODULE_4__["useRouter"])();
   var orderId = router.query.id;
   /* const {
      cart: { shippingAddress },
      
    } = state;*/
 
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(false),
-      showItem = _useState[0],
-      setShowItem = _useState[1];
+  var _useState2 = Object(react__WEBPACK_IMPORTED_MODULE_5__["useState"])(false),
+      showItem = _useState2[0],
+      setShowItem = _useState2[1];
 
-  var _useState2 = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])({}),
-      order = _useState2[0],
-      setOrder = _useState2[1];
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_5__["useState"])({}),
+      order = _useState3[0],
+      setOrder = _useState3[1];
 
-  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(),
-      taxPrice = _useState3[0],
-      SettaxPrice = _useState3[1];
+  var _useState4 = Object(react__WEBPACK_IMPORTED_MODULE_5__["useState"])(),
+      taxPrice = _useState4[0],
+      SettaxPrice = _useState4[1];
 
-  var _useState4 = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(),
-      paymentMethod = _useState4[0],
-      SetpaymentMethod = _useState4[1];
+  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_5__["useState"])(),
+      paymentMethod = _useState5[0],
+      SetpaymentMethod = _useState5[1];
 
-  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])({}),
-      shippingAddress = _useState5[0],
-      SetshippingAddress = _useState5[1];
+  var _useState6 = Object(react__WEBPACK_IMPORTED_MODULE_5__["useState"])({}),
+      shippingAddress = _useState6[0],
+      SetshippingAddress = _useState6[1];
 
-  var _useState6 = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])([]),
-      orderItems = _useState6[0],
-      SetorderItems = _useState6[1];
+  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_5__["useState"])([]),
+      orderItems = _useState7[0],
+      SetorderItems = _useState7[1];
 
-  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(),
-      totalPrice = _useState7[0],
-      SettotalPrice = _useState7[1];
+  var _useState8 = Object(react__WEBPACK_IMPORTED_MODULE_5__["useState"])(),
+      totalPrice = _useState8[0],
+      SettotalPrice = _useState8[1];
 
-  var _useState8 = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(),
-      itemsPrice = _useState8[0],
-      SetitemsPrice = _useState8[1];
+  var _useState9 = Object(react__WEBPACK_IMPORTED_MODULE_5__["useState"])(),
+      itemsPrice = _useState9[0],
+      SetitemsPrice = _useState9[1];
 
-  var _useState9 = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(),
-      shippingPrice = _useState9[0],
-      SetshippingPrice = _useState9[1];
+  var _useState10 = Object(react__WEBPACK_IMPORTED_MODULE_5__["useState"])(),
+      shippingPrice = _useState10[0],
+      SetshippingPrice = _useState10[1];
 
-  var _useState10 = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(),
-      isPaid = _useState10[0],
-      SetisPaid = _useState10[1];
+  var _useState11 = Object(react__WEBPACK_IMPORTED_MODULE_5__["useState"])(),
+      isPaid = _useState11[0],
+      SetisPaid = _useState11[1];
 
-  var _useState11 = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(),
-      isDelivered = _useState11[0],
-      SetisDelivered = _useState11[1];
+  var _useState12 = Object(react__WEBPACK_IMPORTED_MODULE_5__["useState"])(),
+      isDelivered = _useState12[0],
+      SetisDelivered = _useState12[1];
 
-  var _useState12 = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(),
-      deliveredAt = _useState12[0],
-      SetdeliveredAt = _useState12[1];
+  var _useState13 = Object(react__WEBPACK_IMPORTED_MODULE_5__["useState"])(),
+      deliveredAt = _useState13[0],
+      SetdeliveredAt = _useState13[1];
 
-  var _useState13 = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(),
-      paidAt = _useState13[0],
-      SetpaidAt = _useState13[1];
+  var _useState14 = Object(react__WEBPACK_IMPORTED_MODULE_5__["useState"])(),
+      paidAt = _useState14[0],
+      SetpaidAt = _useState14[1];
 
-  Object(react__WEBPACK_IMPORTED_MODULE_3__["useEffect"])(function () {
+  var update = /*#__PURE__*/function () {
+    var _ref = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])( /*#__PURE__*/_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+      var response;
+      return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+        while (1) {
+          switch (_context.prev = _context.next) {
+            case 0:
+              _context.next = 2;
+              return axios__WEBPACK_IMPORTED_MODULE_3___default.a.put("http://localhost:5000/orders/".concat(orderId, "/pay"), {});
+
+            case 2:
+              response = _context.sent;
+
+              if (response.data.success) {
+                console.log("paid");
+                setSuccess(true);
+              }
+
+            case 4:
+            case "end":
+              return _context.stop();
+          }
+        }
+      }, _callee);
+    }));
+
+    return function update() {
+      return _ref.apply(this, arguments);
+    };
+  }();
+
+  var handleSubmit = /*#__PURE__*/function () {
+    var _ref2 = Object(_babel_runtime_corejs2_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])( /*#__PURE__*/_babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee2(e) {
+      var _yield$stripe$createP, error, paymentMethod, id, response;
+
+      return _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee2$(_context2) {
+        while (1) {
+          switch (_context2.prev = _context2.next) {
+            case 0:
+              e.preventDefault();
+              _context2.next = 3;
+              return stripe.createPaymentMethod({
+                type: "card",
+                card: elements.getElement(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_11__["CardElement"])
+              });
+
+            case 3:
+              _yield$stripe$createP = _context2.sent;
+              error = _yield$stripe$createP.error;
+              paymentMethod = _yield$stripe$createP.paymentMethod;
+              console.log(totalPrice);
+              id = paymentMethod.id;
+              console.log(id);
+              _context2.next = 11;
+              return axios__WEBPACK_IMPORTED_MODULE_3___default.a.post("http://localhost:5000/orders/payment", {
+                amount: totalPrice * 1000,
+                id: id
+              });
+
+            case 11:
+              response = _context2.sent;
+              update();
+
+              if (response.data.success) {
+                console.log("Successful payment");
+                setSuccess(true);
+              }
+
+            case 14:
+            case "end":
+              return _context2.stop();
+          }
+        }
+      }, _callee2);
+    }));
+
+    return function handleSubmit(_x) {
+      return _ref2.apply(this, arguments);
+    };
+  }();
+
+  Object(react__WEBPACK_IMPORTED_MODULE_5__["useEffect"])(function () {
     var fetchOrder = function fetchOrder() {
       try {
-        axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("http://localhost:5000/orders/".concat(orderId), {
+        axios__WEBPACK_IMPORTED_MODULE_3___default.a.get("http://localhost:5000/orders/".concat(orderId), {
           headers: {
             authorization: "Bearer ".concat(userInfo.token)
           }
@@ -88665,228 +84069,219 @@ function OrderScreen() {
       fetchOrder();
     }
   }, [userInfo, orderId]);
-  return __jsx(_containers_common_common_layout__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  return __jsx(_containers_common_common_layout__WEBPACK_IMPORTED_MODULE_9__["default"], {
     title: "Order ".concat(orderId),
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92,
+      lineNumber: 157,
       columnNumber: 5
     }
-  }, __jsx(_components_CheckoutSteps__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, __jsx(_components_CheckoutSteps__WEBPACK_IMPORTED_MODULE_7__["default"], {
     activeStep: 3,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93,
+      lineNumber: 158,
       columnNumber: 7
     }
-  }), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
-    component: "h5",
-    variant: "h5",
+  }), __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94,
+      lineNumber: 160,
       columnNumber: 7
     }
-  }, "Order ", orderId), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 97,
-      columnNumber: 7
-    }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
     container: true,
     spacing: 1,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 161,
       columnNumber: 7
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
     item: true,
     md: 9,
     xs: 12,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99,
+      lineNumber: 162,
       columnNumber: 11
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Card"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100,
+      lineNumber: 163,
       columnNumber: 12
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["List"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["List"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101,
+      lineNumber: 164,
       columnNumber: 15
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102,
+      lineNumber: 165,
       columnNumber: 17
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
     component: "h3",
     variant: "h3",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103,
+      lineNumber: 166,
       columnNumber: 19
     }
-  }, "Shipping Address")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
+  }, "Shipping Address")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107,
+      lineNumber: 170,
       columnNumber: 17
     }
-  }, shippingAddress.fullName, ", ", shippingAddress.address, ",", ' ', shippingAddress.city, ", ", shippingAddress.postalCode, ",", ' ', shippingAddress.country), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
+  }, shippingAddress.fullName, ", ", shippingAddress.address, ",", ' ', shippingAddress.city, ", ", shippingAddress.postalCode, ",", ' ', shippingAddress.country), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112,
+      lineNumber: 175,
       columnNumber: 17
     }
-  }, "Status:", ' ', isDelivered ? "delivered at ".concat(deliveredAt) : 'not delivered'))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
+  }, "Status:", ' ', isDelivered ? "delivered at ".concat(deliveredAt) : 'not delivered'))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Card"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120,
+      lineNumber: 183,
       columnNumber: 13
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["List"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["List"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121,
+      lineNumber: 184,
       columnNumber: 15
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122,
+      lineNumber: 185,
       columnNumber: 17
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
     component: "h3",
     variant: "h3",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123,
+      lineNumber: 186,
       columnNumber: 19
     }
-  }, "Payment Method")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
+  }, "Payment Method")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127,
+      lineNumber: 190,
       columnNumber: 17
     }
-  }, paymentMethod), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
+  }, paymentMethod), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128,
+      lineNumber: 191,
       columnNumber: 17
     }
-  }, "Status: ", isPaid ? "paid at ".concat(paidAt) : 'not paid'))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
+  }, "Status: ", isPaid ? "paid at ".concat(paidAt) : 'not paid'))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Card"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133,
+      lineNumber: 196,
       columnNumber: 13
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["List"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["List"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134,
+      lineNumber: 197,
       columnNumber: 15
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135,
+      lineNumber: 198,
       columnNumber: 17
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
     component: "h2",
     variant: "h2",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136,
+      lineNumber: 199,
       columnNumber: 19
     }
-  }, "Order Items")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
+  }, "Order Items")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Card"], {
     className: "mb-3",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140,
+      lineNumber: 203,
       columnNumber: 17
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardBody"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardBody"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141,
+      lineNumber: 204,
       columnNumber: 13
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardTitle"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["CardTitle"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142,
+      lineNumber: 205,
       columnNumber: 15
     }
-  }, "Items"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["ListGroup"], {
+  }, "Items"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["ListGroup"], {
     variant: "flush",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143,
+      lineNumber: 206,
       columnNumber: 15
     }
   }, orderItems.map(function (item) {
-    return __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
+    return __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["ListItem"], {
       key: item._id,
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 145,
+        lineNumber: 208,
         columnNumber: 19
       }
-    }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Row"], {
+    }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Row"], {
       className: "align-items-center",
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 146,
+        lineNumber: 209,
         columnNumber: 21
       }
-    }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
+    }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
       md: 6,
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 147,
+        lineNumber: 210,
         columnNumber: 23
       }
     }, __jsx("img", {
@@ -88896,301 +84291,339 @@ function OrderScreen() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 148,
+        lineNumber: 211,
         columnNumber: 25
       }
-    }), ' '), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
+    }), ' '), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
       md: 3,
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 155,
+        lineNumber: 218,
         columnNumber: 23
       }
     }, __jsx("span", {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 156,
+        lineNumber: 219,
         columnNumber: 25
       }
-    }, item.quantity)), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
+    }, item.quantity)), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Col"], {
       md: 3,
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 158,
+        lineNumber: 221,
         columnNumber: 23
       }
     }, "$", item.price)));
-  }))))))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
+  }))))))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
     item: true,
     md: 3,
     xs: 12,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 170,
+      lineNumber: 233,
       columnNumber: 13
     }
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_6__["Card"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 171,
+      lineNumber: 234,
       columnNumber: 13
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["List"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["List"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172,
+      lineNumber: 235,
       columnNumber: 15
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 173,
+      lineNumber: 236,
       columnNumber: 17
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
     variant: "h3",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 174,
+      lineNumber: 237,
       columnNumber: 19
     }
-  }, "Order Summary")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
+  }, "Order Summary")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 176,
+      lineNumber: 239,
       columnNumber: 17
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
     container: true,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 177,
+      lineNumber: 240,
       columnNumber: 19
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
     item: true,
     xs: 6,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 178,
+      lineNumber: 241,
       columnNumber: 21
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179,
+      lineNumber: 242,
       columnNumber: 23
     }
-  }, "Items Price:")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
+  }, "Items Price:")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
     item: true,
     xs: 6,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 181,
+      lineNumber: 244,
       columnNumber: 21
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
     align: "right",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 182,
+      lineNumber: 245,
       columnNumber: 23
     }
-  }, "$", itemsPrice)))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
+  }, "$", itemsPrice)))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 186,
+      lineNumber: 249,
       columnNumber: 17
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
     container: true,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 187,
+      lineNumber: 250,
       columnNumber: 19
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
     item: true,
     xs: 6,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 188,
+      lineNumber: 251,
       columnNumber: 21
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 189,
+      lineNumber: 252,
       columnNumber: 23
     }
-  }, "Tax:")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
+  }, "Tax:")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
     item: true,
     xs: 6,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 191,
+      lineNumber: 254,
       columnNumber: 21
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
     align: "right",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 192,
+      lineNumber: 255,
       columnNumber: 23
     }
-  }, "$", taxPrice)))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
+  }, "$", taxPrice)))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 196,
+      lineNumber: 259,
       columnNumber: 17
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
     container: true,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 197,
+      lineNumber: 260,
       columnNumber: 19
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
     item: true,
     xs: 6,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 198,
+      lineNumber: 261,
       columnNumber: 21
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 199,
+      lineNumber: 262,
       columnNumber: 23
     }
-  }, "Shipping:")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
+  }, "Shipping:")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
     item: true,
     xs: 6,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 201,
+      lineNumber: 264,
       columnNumber: 21
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
     align: "right",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 202,
+      lineNumber: 265,
       columnNumber: 23
     }
-  }, "$", shippingPrice)))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
+  }, "$", shippingPrice)))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 206,
+      lineNumber: 269,
       columnNumber: 17
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
     container: true,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 207,
+      lineNumber: 270,
       columnNumber: 19
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
     item: true,
     xs: 6,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 208,
+      lineNumber: 271,
       columnNumber: 21
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 209,
+      lineNumber: 272,
       columnNumber: 23
     }
   }, __jsx("strong", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 210,
+      lineNumber: 273,
       columnNumber: 25
     }
-  }, "Total:"))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
+  }, "Total:"))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Grid"], {
     item: true,
     xs: 6,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 213,
+      lineNumber: 276,
       columnNumber: 21
     }
-  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
+  }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
     align: "right",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 214,
+      lineNumber: 277,
       columnNumber: 23
     }
   }, __jsx("strong", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 215,
+      lineNumber: 278,
       columnNumber: 25
     }
-  }, "$", totalPrice))))), showItem ? __jsx(_components_StripeContainer__WEBPACK_IMPORTED_MODULE_9__["default"], {
-    x: totalPrice,
+  }, "$", totalPrice))))), showItem ? __jsx(react__WEBPACK_IMPORTED_MODULE_5___default.a.Fragment, null, !success ? __jsx("form", {
+    onSubmit: handleSubmit,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 221,
-      columnNumber: 5
+      lineNumber: 286,
+      columnNumber: 9
     }
-  }) : __jsx(react__WEBPACK_IMPORTED_MODULE_3___default.a.Fragment, null, __jsx("h3", {
+  }, __jsx("fieldset", {
+    className: "FormGroup",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 224,
-      columnNumber: 6
+      lineNumber: 287,
+      columnNumber: 13
     }
-  }, "$", totalPrice), __jsx("button", {
+  }, __jsx("div", {
+    className: "FormRow",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 288,
+      columnNumber: 17
+    }
+  }, __jsx(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_11__["CardElement"], {
+    options: CARD_OPTIONS,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 289,
+      columnNumber: 21
+    }
+  }))), __jsx("button", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 292,
+      columnNumber: 13
+    }
+  }, "Pay")) : __jsx("div", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 295,
+      columnNumber: 8
+    }
+  }, __jsx("h2", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 296,
+      columnNumber: 12
+    }
+  }, "You just bought a sweet spatula congrats this is the best decision of you're life"))) : __jsx(react__WEBPACK_IMPORTED_MODULE_5___default.a.Fragment, null, __jsx("button", {
     onClick: function onClick() {
       return setShowItem(true);
     },
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 226,
+      lineNumber: 305,
       columnNumber: 6
     }
   }, "Go To pay "))))))));
@@ -89238,7 +84671,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\utils\\Store.js";
+var _jsxFileName = "C:\\Users\\Karim\\Documents\\GitHub\\PrimeTime\\client\\utils\\Store.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement;
 
 function ownKeys(object, enumerableOnly) { var keys = _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default()(object); if (_babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default.a) { var symbols = _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default()(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
@@ -89356,14 +84789,14 @@ function StoreProvider(props) {
 
 /***/ }),
 
-/***/ 8:
-/*!****************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Forder%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CKarim%5CDesktop%5CProject%5CPrimeTime%5Cclient%5Cpages%5Corder%5C%5Bid%5D.js ***!
-  \****************************************************************************************************************************************************************************/
+/***/ 14:
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Forder%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CKarim%5CDocuments%5CGitHub%5CPrimeTime%5Cclient%5Cpages%5Corder%5C%5Bid%5D.js ***!
+  \*****************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Forder%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CKarim%5CDesktop%5CProject%5CPrimeTime%5Cclient%5Cpages%5Corder%5C%5Bid%5D.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Forder%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CKarim%5CDesktop%5CProject%5CPrimeTime%5Cclient%5Cpages%5Corder%5C%5Bid%5D.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Forder%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CKarim%5CDocuments%5CGitHub%5CPrimeTime%5Cclient%5Cpages%5Corder%5C%5Bid%5D.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Forder%2F%5Bid%5D&absolutePagePath=C%3A%5CUsers%5CKarim%5CDocuments%5CGitHub%5CPrimeTime%5Cclient%5Cpages%5Corder%5C%5Bid%5D.js!./");
 
 
 /***/ }),
@@ -89379,5 +84812,5 @@ module.exports = dll_b0ae7f9d5a2cb9eeeb96;
 
 /***/ })
 
-},[[8,"static/runtime/webpack.js"]]]);
+},[[14,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=[id].js.map

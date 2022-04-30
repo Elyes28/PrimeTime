@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 10);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -109,7 +109,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! reactstrap */ "reactstrap");
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\components\\CheckoutSteps.js";
+var _jsxFileName = "C:\\Users\\Karim\\Documents\\GitHub\\PrimeTime\\client\\components\\CheckoutSteps.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -160,7 +160,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "reactstrap");
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\components\\MessageBox.js";
+var _jsxFileName = "C:\\Users\\Karim\\Documents\\GitHub\\PrimeTime\\client\\components\\MessageBox.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -174,200 +174,6 @@ function MessageBox(props) {
       columnNumber: 10
     }
   }, props.children);
-}
-
-/***/ }),
-
-/***/ "./components/PaymentForm.js":
-/*!***********************************!*\
-  !*** ./components/PaymentForm.js ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return PaymentForm; });
-/* harmony import */ var _stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @stripe/react-stripe-js */ "@stripe/react-stripe-js");
-/* harmony import */ var _stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "axios");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\components\\PaymentForm.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
-
-
-
-const CARD_OPTIONS = {
-  iconStyle: "solid",
-  style: {
-    base: {
-      iconColor: "#c4f0ff",
-      color: "#000",
-      fontWeight: 500,
-      fontFamily: "Roboto, Open Sans, Segoe UI, sans-serif",
-      fontSize: "16px",
-      fontSmoothing: "antialiased",
-      ":-webkit-autofill": {
-        color: "#fce883"
-      },
-      "::placeholder": {
-        color: "#87bbfd"
-      }
-    },
-    invalid: {
-      iconColor: "#ffc7ee",
-      color: "#ffc7ee"
-    }
-  }
-};
-function PaymentForm({
-  price
-}) {
-  const {
-    0: success,
-    1: setSuccess
-  } = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false);
-  const stripe = Object(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_0__["useStripe"])();
-  const elements = Object(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_0__["useElements"])();
-
-  const handleSubmit = async e => {
-    e.preventDefault();
-    const {
-      error,
-      paymentMethod
-    } = await stripe.createPaymentMethod({
-      type: "card",
-      card: elements.getElement(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_0__["CardElement"])
-    });
-
-    if (!error) {
-      try {
-        const {
-          id
-        } = paymentMethod;
-        console.log(id);
-        const response = await axios__WEBPACK_IMPORTED_MODULE_1___default.a.post("http://localhost:5000/orders/payment", {
-          amount: price * 100,
-          id
-        });
-
-        if (response.data.success) {
-          console.log("Successful payment");
-          setSuccess(true);
-        }
-      } catch (error) {
-        console.log("Error", error);
-      }
-    } else {
-      console.log(error.message);
-    }
-  };
-
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, !success ? __jsx("form", {
-    onSubmit: handleSubmit,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65,
-      columnNumber: 9
-    }
-  }, __jsx("fieldset", {
-    className: "FormGroup",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66,
-      columnNumber: 13
-    }
-  }, __jsx("div", {
-    className: "FormRow",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67,
-      columnNumber: 17
-    }
-  }, __jsx(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_0__["CardElement"], {
-    options: CARD_OPTIONS,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68,
-      columnNumber: 21
-    }
-  }))), __jsx("button", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71,
-      columnNumber: 13
-    }
-  }, "Pay")) : __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 74,
-      columnNumber: 8
-    }
-  }, __jsx("h2", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 75,
-      columnNumber: 12
-    }
-  }, "You just bought a sweet spatula congrats this is the best decision of you're life")));
-}
-
-/***/ }),
-
-/***/ "./components/StripeContainer.js":
-/*!***************************************!*\
-  !*** ./components/StripeContainer.js ***!
-  \***************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return StripeContainer; });
-/* harmony import */ var _stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @stripe/react-stripe-js */ "@stripe/react-stripe-js");
-/* harmony import */ var _stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _stripe_stripe_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @stripe/stripe-js */ "@stripe/stripe-js");
-/* harmony import */ var _stripe_stripe_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_stripe_stripe_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _PaymentForm__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./PaymentForm */ "./components/PaymentForm.js");
-var _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\components\\StripeContainer.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
-
-
-
-
-const PUBLIC_KEY = "pk_test_51KcqoWJoQcapggoAHWfJs23e0bQJXyu3rMs5OuwGqOg9e7keJgvuFLqH5EOztTS7P2FcuXCz8eBCLLuN38ZRuzY600J5tq8hep";
-const stripeTestPromise = Object(_stripe_stripe_js__WEBPACK_IMPORTED_MODULE_1__["loadStripe"])(PUBLIC_KEY);
-function StripeContainer({
-  x
-}) {
-  return __jsx(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_0__["Elements"], {
-    stripe: stripeTestPromise,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 3
-    }
-  }, __jsx(_PaymentForm__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    price: x,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 4
-    }
-  }));
 }
 
 /***/ }),
@@ -1025,7 +831,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "reactstrap");
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\containers\\common\\breadcrumb.js";
+var _jsxFileName = "C:\\Users\\Karim\\Documents\\GitHub\\PrimeTime\\client\\containers\\common\\breadcrumb.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1101,7 +907,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header */ "./containers/common/header.js");
 /* harmony import */ var _breadcrumb__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./breadcrumb */ "./containers/common/breadcrumb.js");
 /* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer */ "./containers/common/footer.js");
-var _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\containers\\common\\common-layout.js";
+var _jsxFileName = "C:\\Users\\Karim\\Documents\\GitHub\\PrimeTime\\client\\containers\\common\\common-layout.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1163,7 +969,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "reactstrap");
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\containers\\common\\footer.js";
+var _jsxFileName = "C:\\Users\\Karim\\Documents\\GitHub\\PrimeTime\\client\\containers\\common\\footer.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1599,7 +1405,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! reactstrap */ "reactstrap");
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\containers\\common\\header.js";
+var _jsxFileName = "C:\\Users\\Karim\\Documents\\GitHub\\PrimeTime\\client\\containers\\common\\header.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1977,7 +1783,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! reactstrap */ "reactstrap");
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _pages_features_gallery_popup__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../../pages/features/gallery/popup */ "./pages/features/gallery/popup.js");
-var _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\containers\\common\\nav.js";
+var _jsxFileName = "C:\\Users\\Karim\\Documents\\GitHub\\PrimeTime\\client\\containers\\common\\nav.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -4721,7 +4527,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\pages\\features\\gallery\\popup.js";
+var _jsxFileName = "C:\\Users\\Karim\\Documents\\GitHub\\PrimeTime\\client\\pages\\features\\gallery\\popup.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement;
 
 function ownKeys(object, enumerableOnly) { var keys = _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default()(object); if (_babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default.a) { var symbols = _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default()(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
@@ -5405,15 +5211,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_CheckoutSteps__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/CheckoutSteps */ "./components/CheckoutSteps.js");
 /* harmony import */ var _components_MessageBox__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../components/MessageBox */ "./components/MessageBox.js");
 /* harmony import */ var _containers_common_common_layout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../containers/common/common-layout */ "./containers/common/common-layout.js");
-/* harmony import */ var _paypal_react_paypal_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @paypal/react-paypal-js */ "@paypal/react-paypal-js");
-/* harmony import */ var _paypal_react_paypal_js__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_paypal_react_paypal_js__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _components_StripeContainer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../components/StripeContainer */ "./components/StripeContainer.js");
-/* harmony import */ var _utils_Store__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../utils/Store */ "./utils/Store.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-router-dom */ "react-router-dom");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(react_router_dom__WEBPACK_IMPORTED_MODULE_12__);
-var _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\pages\\order\\[id].js";
+/* harmony import */ var _utils_Store__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../utils/Store */ "./utils/Store.js");
+/* harmony import */ var _stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @stripe/react-stripe-js */ "@stripe/react-stripe-js");
+/* harmony import */ var _stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_9__);
+var _jsxFileName = "C:\\Users\\Karim\\Documents\\GitHub\\PrimeTime\\client\\pages\\order\\[id].js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
 
 
@@ -5425,19 +5226,47 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
 
 
 
-
-
-
+const CARD_OPTIONS = {
+  iconStyle: "solid",
+  style: {
+    base: {
+      iconColor: "#c4f0ff",
+      color: "#000",
+      fontWeight: 500,
+      fontFamily: "Roboto, Open Sans, Segoe UI, sans-serif",
+      fontSize: "16px",
+      fontSmoothing: "antialiased",
+      ":-webkit-autofill": {
+        color: "#fce883"
+      },
+      "::placeholder": {
+        color: "#87bbfd"
+      }
+    },
+    invalid: {
+      iconColor: "#ffc7ee",
+      color: "#ffc7ee"
+    }
+  }
+};
 function OrderScreen() {
   const {
     state
-  } = Object(react__WEBPACK_IMPORTED_MODULE_3__["useContext"])(_utils_Store__WEBPACK_IMPORTED_MODULE_10__["Store"]);
+  } = Object(react__WEBPACK_IMPORTED_MODULE_3__["useContext"])(_utils_Store__WEBPACK_IMPORTED_MODULE_8__["Store"]);
   const {
     cart: {
       cartItems
     },
     userInfo
   } = state;
+  const {
+    0: success,
+    1: setSuccess
+  } = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])(false);
+  const stripe = Object(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_9__["useStripe"])();
+  const elements = Object(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_9__["useElements"])();
+  var c = 2.8;
+  console.log(c);
   const router = Object(next_router__WEBPACK_IMPORTED_MODULE_2__["useRouter"])();
   const {
     id: orderId
@@ -5499,6 +5328,42 @@ function OrderScreen() {
     0: paidAt,
     1: SetpaidAt
   } = Object(react__WEBPACK_IMPORTED_MODULE_3__["useState"])();
+
+  const update = async () => {
+    const response = await axios__WEBPACK_IMPORTED_MODULE_1___default.a.put(`http://localhost:5000/orders/${orderId}/pay`, {});
+
+    if (response.data.success) {
+      console.log("paid");
+      setSuccess(true);
+    }
+  };
+
+  const handleSubmit = async e => {
+    e.preventDefault();
+    const {
+      error,
+      paymentMethod
+    } = await stripe.createPaymentMethod({
+      type: "card",
+      card: elements.getElement(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_9__["CardElement"])
+    });
+    console.log(totalPrice);
+    const {
+      id
+    } = paymentMethod;
+    console.log(id);
+    const response = await axios__WEBPACK_IMPORTED_MODULE_1___default.a.post("http://localhost:5000/orders/payment", {
+      amount: totalPrice * 1000,
+      id
+    });
+    update();
+
+    if (response.data.success) {
+      console.log("Successful payment");
+      setSuccess(true);
+    }
+  };
+
   Object(react__WEBPACK_IMPORTED_MODULE_3__["useEffect"])(() => {
     const fetchOrder = () => {
       try {
@@ -5536,7 +5401,7 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92,
+      lineNumber: 157,
       columnNumber: 5
     }
   }, __jsx(_components_CheckoutSteps__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -5544,23 +5409,14 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93,
+      lineNumber: 158,
       columnNumber: 7
     }
-  }), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
-    component: "h5",
-    variant: "h5",
+  }), __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94,
-      columnNumber: 7
-    }
-  }, "Order ", orderId), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 97,
+      lineNumber: 160,
       columnNumber: 7
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
@@ -5569,7 +5425,7 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 161,
       columnNumber: 7
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
@@ -5579,28 +5435,28 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99,
+      lineNumber: 162,
       columnNumber: 11
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100,
+      lineNumber: 163,
       columnNumber: 12
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["List"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101,
+      lineNumber: 164,
       columnNumber: 15
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102,
+      lineNumber: 165,
       columnNumber: 17
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
@@ -5609,42 +5465,42 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103,
+      lineNumber: 166,
       columnNumber: 19
     }
   }, "Shipping Address")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107,
+      lineNumber: 170,
       columnNumber: 17
     }
   }, shippingAddress.fullName, ", ", shippingAddress.address, ",", ' ', shippingAddress.city, ", ", shippingAddress.postalCode, ",", ' ', shippingAddress.country), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112,
+      lineNumber: 175,
       columnNumber: 17
     }
   }, "Status:", ' ', isDelivered ? `delivered at ${deliveredAt}` : 'not delivered'))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120,
+      lineNumber: 183,
       columnNumber: 13
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["List"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121,
+      lineNumber: 184,
       columnNumber: 15
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122,
+      lineNumber: 185,
       columnNumber: 17
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
@@ -5653,42 +5509,42 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123,
+      lineNumber: 186,
       columnNumber: 19
     }
   }, "Payment Method")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127,
+      lineNumber: 190,
       columnNumber: 17
     }
   }, paymentMethod), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128,
+      lineNumber: 191,
       columnNumber: 17
     }
   }, "Status: ", isPaid ? `paid at ${paidAt}` : 'not paid'))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133,
+      lineNumber: 196,
       columnNumber: 13
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["List"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134,
+      lineNumber: 197,
       columnNumber: 15
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135,
+      lineNumber: 198,
       columnNumber: 17
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
@@ -5697,7 +5553,7 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136,
+      lineNumber: 199,
       columnNumber: 19
     }
   }, "Order Items")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
@@ -5705,21 +5561,21 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140,
+      lineNumber: 203,
       columnNumber: 17
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardBody"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141,
+      lineNumber: 204,
       columnNumber: 13
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["CardTitle"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142,
+      lineNumber: 205,
       columnNumber: 15
     }
   }, "Items"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["ListGroup"], {
@@ -5727,7 +5583,7 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143,
+      lineNumber: 206,
       columnNumber: 15
     }
   }, orderItems.map(item => __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
@@ -5735,7 +5591,7 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145,
+      lineNumber: 208,
       columnNumber: 19
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Row"], {
@@ -5743,7 +5599,7 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146,
+      lineNumber: 209,
       columnNumber: 21
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
@@ -5751,7 +5607,7 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 147,
+      lineNumber: 210,
       columnNumber: 23
     }
   }, __jsx("img", {
@@ -5761,7 +5617,7 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148,
+      lineNumber: 211,
       columnNumber: 25
     }
   }), ' '), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
@@ -5769,14 +5625,14 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 155,
+      lineNumber: 218,
       columnNumber: 23
     }
   }, __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 156,
+      lineNumber: 219,
       columnNumber: 25
     }
   }, item.quantity)), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Col"], {
@@ -5784,7 +5640,7 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 158,
+      lineNumber: 221,
       columnNumber: 23
     }
   }, "$", item.price)))))))))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
@@ -5794,28 +5650,28 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 170,
+      lineNumber: 233,
       columnNumber: 13
     }
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Card"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 171,
+      lineNumber: 234,
       columnNumber: 13
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["List"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172,
+      lineNumber: 235,
       columnNumber: 15
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 173,
+      lineNumber: 236,
       columnNumber: 17
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
@@ -5823,14 +5679,14 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 174,
+      lineNumber: 237,
       columnNumber: 19
     }
   }, "Order Summary")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 176,
+      lineNumber: 239,
       columnNumber: 17
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
@@ -5838,7 +5694,7 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 177,
+      lineNumber: 240,
       columnNumber: 19
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
@@ -5847,14 +5703,14 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 178,
+      lineNumber: 241,
       columnNumber: 21
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179,
+      lineNumber: 242,
       columnNumber: 23
     }
   }, "Items Price:")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
@@ -5863,7 +5719,7 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 181,
+      lineNumber: 244,
       columnNumber: 21
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
@@ -5871,14 +5727,14 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 182,
+      lineNumber: 245,
       columnNumber: 23
     }
   }, "$", itemsPrice)))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 186,
+      lineNumber: 249,
       columnNumber: 17
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
@@ -5886,7 +5742,7 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 187,
+      lineNumber: 250,
       columnNumber: 19
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
@@ -5895,14 +5751,14 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 188,
+      lineNumber: 251,
       columnNumber: 21
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 189,
+      lineNumber: 252,
       columnNumber: 23
     }
   }, "Tax:")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
@@ -5911,7 +5767,7 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 191,
+      lineNumber: 254,
       columnNumber: 21
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
@@ -5919,14 +5775,14 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 192,
+      lineNumber: 255,
       columnNumber: 23
     }
   }, "$", taxPrice)))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 196,
+      lineNumber: 259,
       columnNumber: 17
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
@@ -5934,7 +5790,7 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 197,
+      lineNumber: 260,
       columnNumber: 19
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
@@ -5943,14 +5799,14 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 198,
+      lineNumber: 261,
       columnNumber: 21
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 199,
+      lineNumber: 262,
       columnNumber: 23
     }
   }, "Shipping:")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
@@ -5959,7 +5815,7 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 201,
+      lineNumber: 264,
       columnNumber: 21
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
@@ -5967,14 +5823,14 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 202,
+      lineNumber: 265,
       columnNumber: 23
     }
   }, "$", shippingPrice)))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ListItem"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 206,
+      lineNumber: 269,
       columnNumber: 17
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
@@ -5982,7 +5838,7 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 207,
+      lineNumber: 270,
       columnNumber: 19
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
@@ -5991,21 +5847,21 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 208,
+      lineNumber: 271,
       columnNumber: 21
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 209,
+      lineNumber: 272,
       columnNumber: 23
     }
   }, __jsx("strong", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 210,
+      lineNumber: 273,
       columnNumber: 25
     }
   }, "Total:"))), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Grid"], {
@@ -6014,7 +5870,7 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 213,
+      lineNumber: 276,
       columnNumber: 21
     }
   }, __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
@@ -6022,37 +5878,75 @@ function OrderScreen() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 214,
+      lineNumber: 277,
       columnNumber: 23
     }
   }, __jsx("strong", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 215,
+      lineNumber: 278,
       columnNumber: 25
     }
-  }, "$", totalPrice))))), showItem ? __jsx(_components_StripeContainer__WEBPACK_IMPORTED_MODULE_9__["default"], {
-    x: totalPrice,
+  }, "$", totalPrice))))), showItem ? __jsx(react__WEBPACK_IMPORTED_MODULE_3___default.a.Fragment, null, !success ? __jsx("form", {
+    onSubmit: handleSubmit,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 221,
-      columnNumber: 5
+      lineNumber: 286,
+      columnNumber: 9
     }
-  }) : __jsx(react__WEBPACK_IMPORTED_MODULE_3___default.a.Fragment, null, __jsx("h3", {
+  }, __jsx("fieldset", {
+    className: "FormGroup",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 224,
-      columnNumber: 6
+      lineNumber: 287,
+      columnNumber: 13
     }
-  }, "$", totalPrice), __jsx("button", {
+  }, __jsx("div", {
+    className: "FormRow",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 288,
+      columnNumber: 17
+    }
+  }, __jsx(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_9__["CardElement"], {
+    options: CARD_OPTIONS,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 289,
+      columnNumber: 21
+    }
+  }))), __jsx("button", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 292,
+      columnNumber: 13
+    }
+  }, "Pay")) : __jsx("div", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 295,
+      columnNumber: 8
+    }
+  }, __jsx("h2", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 296,
+      columnNumber: 12
+    }
+  }, "You just bought a sweet spatula congrats this is the best decision of you're life"))) : __jsx(react__WEBPACK_IMPORTED_MODULE_3___default.a.Fragment, null, __jsx("button", {
     onClick: () => setShowItem(true),
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 226,
+      lineNumber: 305,
       columnNumber: 6
     }
   }, "Go To pay "))))))));
@@ -6098,7 +5992,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\utils\\Store.js";
+var _jsxFileName = "C:\\Users\\Karim\\Documents\\GitHub\\PrimeTime\\client\\utils\\Store.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
 
 function ownKeys(object, enumerableOnly) { var keys = _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default()(object); if (_babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default.a) { var symbols = _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default()(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
@@ -6209,14 +6103,14 @@ function StoreProvider(props) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 10:
 /*!***********************************!*\
   !*** multi ./pages/order/[id].js ***!
   \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Karim\Desktop\Project\PrimeTime\client\pages\order\[id].js */"./pages/order/[id].js");
+module.exports = __webpack_require__(/*! C:\Users\Karim\Documents\GitHub\PrimeTime\client\pages\order\[id].js */"./pages/order/[id].js");
 
 
 /***/ }),
@@ -6232,17 +6126,6 @@ module.exports = require("@material-ui/core");
 
 /***/ }),
 
-/***/ "@paypal/react-paypal-js":
-/*!******************************************!*\
-  !*** external "@paypal/react-paypal-js" ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("@paypal/react-paypal-js");
-
-/***/ }),
-
 /***/ "@stripe/react-stripe-js":
 /*!******************************************!*\
   !*** external "@stripe/react-stripe-js" ***!
@@ -6251,17 +6134,6 @@ module.exports = require("@paypal/react-paypal-js");
 /***/ (function(module, exports) {
 
 module.exports = require("@stripe/react-stripe-js");
-
-/***/ }),
-
-/***/ "@stripe/stripe-js":
-/*!************************************!*\
-  !*** external "@stripe/stripe-js" ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("@stripe/stripe-js");
 
 /***/ }),
 
@@ -6460,17 +6332,6 @@ module.exports = require("prop-types-exact");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
-
-/***/ }),
-
-/***/ "react-router-dom":
-/*!***********************************!*\
-  !*** external "react-router-dom" ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-router-dom");
 
 /***/ }),
 

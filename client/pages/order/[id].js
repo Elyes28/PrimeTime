@@ -6,18 +6,40 @@ import { Card, CardBody, CardText, CardTitle, Col, ListGroup, Row, Table } from 
 import CheckoutSteps from '../../components/CheckoutSteps';
 import MessageBox from '../../components/MessageBox';
 import CommonLayout from '../../containers/common/common-layout';
-import { PayPalButtons, usePayPalScriptReducer } from '@paypal/react-paypal-js'
-import StripeContainer from '../../components/StripeContainer';
 
+ 
 import { Store } from '../../utils/Store';
-import NextLink from 'next/link';
-import { Link } from 'react-router-dom';
 
+import { CardElement, useElements, useStripe } from '@stripe/react-stripe-js';
 
+const CARD_OPTIONS = {
+	iconStyle: "solid",
+	style: {
+		base: {
+			iconColor: "#c4f0ff",
+			color: "#000",
+			fontWeight: 500,
+			fontFamily: "Roboto, Open Sans, Segoe UI, sans-serif",
+			fontSize: "16px",
+			fontSmoothing: "antialiased",
+			":-webkit-autofill": { color: "#fce883" },
+			"::placeholder": { color: "#87bbfd" }
+		},
+		invalid: {
+			iconColor: "#ffc7ee",
+			color: "#ffc7ee"
+		}
+	}
+}
 
 export default function OrderScreen() {
   const { state } = useContext(Store);
   const {cart: {cartItems}, userInfo } = state;
+  const [success, setSuccess ] = useState(false)
+  const stripe = useStripe()
+  const elements = useElements()
+  var c=2.8;
+  console.log(c);
 
   const router = useRouter();
     const { id: orderId } = router.query
@@ -41,6 +63,48 @@ export default function OrderScreen() {
     const [isDelivered,SetisDelivered]=useState();
     const [deliveredAt,SetdeliveredAt]=useState();
     const [paidAt,SetpaidAt]=useState();
+
+
+
+
+
+    const update = async () => {
+      const response = await Axios.put(`http://localhost:5000/orders/${orderId}/pay`, {
+         
+      }) 
+      
+      if(response.data.success) {
+          console.log("paid")
+          setSuccess(true)
+      }
+
+  }
+  const handleSubmit = async (e) => {
+      e.preventDefault()
+      const {error, paymentMethod} = await stripe.createPaymentMethod({
+          type: "card",
+          card: elements.getElement(CardElement)
+      })
+
+
+   
+       console.log(totalPrice);
+          const {id} = paymentMethod
+          console.log(id)
+          const response = await Axios.post("http://localhost:5000/orders/payment", {
+              amount: totalPrice*1000,
+              id
+          })
+          update();
+
+          if(response.data.success) {
+              console.log("Successful payment")
+              setSuccess(true)
+          }
+
+      
+  
+}
     
     
     
@@ -217,7 +281,23 @@ export default function OrderScreen() {
                   </Grid>
                 </ListItem>
                 {showItem ? (
-				<StripeContainer x={totalPrice} y={orderId} />
+				<>
+        {!success ? 
+        <form onSubmit={handleSubmit}>
+            <fieldset className="FormGroup">
+                <div className="FormRow">
+                    <CardElement options={CARD_OPTIONS}/>
+                </div>
+            </fieldset>
+            <button>Pay</button>
+        </form>
+        :
+       <div>
+           <h2>You just bought a sweet spatula congrats this is the best decision of you're life</h2>
+       </div> 
+        }
+            
+        </>
 			) : (
 				<>
 					

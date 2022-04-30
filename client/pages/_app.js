@@ -4,7 +4,16 @@ import Head from 'next/head';
 import NProgress from 'nprogress';
 import getConfig from 'next/config'
 import { ToastContainer } from 'react-toastify';
-import { PayPalScriptProvider } from '@paypal/react-paypal-js';
+
+import { Elements } from "@stripe/react-stripe-js"
+import { loadStripe } from "@stripe/stripe-js"
+
+
+ 
+
+ 
+const stripeTestPromise = loadStripe(PUBLIC_KEY)
+ 
 
 import 'bootstrap-scss';
 import '../public/assets/scss/flaticon.scss';
@@ -95,9 +104,9 @@ export default function MyApp({ Component, pageProps, graphql }) {
     <div>
       <MyFunctionComponent>
       <StoreProvider>
-      <PayPalScriptProvider deferLoading={true}>
+      <Elements stripe={stripeTestPromise}>
         <Component {...pageProps} />
-        </PayPalScriptProvider>
+      </Elements>
         </StoreProvider>
         <Customizer />
       </MyFunctionComponent>

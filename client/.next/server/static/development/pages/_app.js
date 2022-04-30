@@ -104,7 +104,7 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\containers\\customizer.js";
+var _jsxFileName = "C:\\Users\\Karim\\Documents\\GitHub\\PrimeTime\\client\\containers\\customizer.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -399,26 +399,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_config__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_config__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var react_toastify__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-toastify */ "react-toastify");
 /* harmony import */ var react_toastify__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_toastify__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _paypal_react_paypal_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @paypal/react-paypal-js */ "@paypal/react-paypal-js");
-/* harmony import */ var _paypal_react_paypal_js__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_paypal_react_paypal_js__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var bootstrap_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! bootstrap-scss */ "./node_modules/bootstrap-scss/bootstrap.scss");
-/* harmony import */ var bootstrap_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(bootstrap_scss__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _public_assets_scss_flaticon_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../public/assets/scss/flaticon.scss */ "./public/assets/scss/flaticon.scss");
-/* harmony import */ var _public_assets_scss_flaticon_scss__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_public_assets_scss_flaticon_scss__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _public_assets_scss_font_awesome_scss__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../public/assets/scss/font-awesome.scss */ "./public/assets/scss/font-awesome.scss");
-/* harmony import */ var _public_assets_scss_font_awesome_scss__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_public_assets_scss_font_awesome_scss__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _public_assets_scss_color_1_scss__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../public/assets/scss/color-1.scss */ "./public/assets/scss/color-1.scss");
-/* harmony import */ var _public_assets_scss_color_1_scss__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_public_assets_scss_color_1_scss__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _public_assets_scss_themify_scss__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../public/assets/scss/themify.scss */ "./public/assets/scss/themify.scss");
-/* harmony import */ var _public_assets_scss_themify_scss__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_public_assets_scss_themify_scss__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _public_assets_scss_slick_scss__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../public/assets/scss/slick.scss */ "./public/assets/scss/slick.scss");
-/* harmony import */ var _public_assets_scss_slick_scss__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_public_assets_scss_slick_scss__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _public_assets_scss_slick_theme_scss__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../public/assets/scss/slick-theme.scss */ "./public/assets/scss/slick-theme.scss");
-/* harmony import */ var _public_assets_scss_slick_theme_scss__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_public_assets_scss_slick_theme_scss__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _containers_customizer__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../containers/customizer */ "./containers/customizer.js");
-/* harmony import */ var _utils_Store__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../utils/Store */ "./utils/Store.js");
+/* harmony import */ var _stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @stripe/react-stripe-js */ "@stripe/react-stripe-js");
+/* harmony import */ var _stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _stripe_stripe_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @stripe/stripe-js */ "@stripe/stripe-js");
+/* harmony import */ var _stripe_stripe_js__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_stripe_stripe_js__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var bootstrap_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! bootstrap-scss */ "./node_modules/bootstrap-scss/bootstrap.scss");
+/* harmony import */ var bootstrap_scss__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(bootstrap_scss__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _public_assets_scss_flaticon_scss__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../public/assets/scss/flaticon.scss */ "./public/assets/scss/flaticon.scss");
+/* harmony import */ var _public_assets_scss_flaticon_scss__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_public_assets_scss_flaticon_scss__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _public_assets_scss_font_awesome_scss__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../public/assets/scss/font-awesome.scss */ "./public/assets/scss/font-awesome.scss");
+/* harmony import */ var _public_assets_scss_font_awesome_scss__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_public_assets_scss_font_awesome_scss__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _public_assets_scss_color_1_scss__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../public/assets/scss/color-1.scss */ "./public/assets/scss/color-1.scss");
+/* harmony import */ var _public_assets_scss_color_1_scss__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_public_assets_scss_color_1_scss__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _public_assets_scss_themify_scss__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../public/assets/scss/themify.scss */ "./public/assets/scss/themify.scss");
+/* harmony import */ var _public_assets_scss_themify_scss__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_public_assets_scss_themify_scss__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _public_assets_scss_slick_scss__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../public/assets/scss/slick.scss */ "./public/assets/scss/slick.scss");
+/* harmony import */ var _public_assets_scss_slick_scss__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_public_assets_scss_slick_scss__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _public_assets_scss_slick_theme_scss__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../public/assets/scss/slick-theme.scss */ "./public/assets/scss/slick-theme.scss");
+/* harmony import */ var _public_assets_scss_slick_theme_scss__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_public_assets_scss_slick_theme_scss__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _containers_customizer__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../containers/customizer */ "./containers/customizer.js");
+/* harmony import */ var _utils_Store__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../utils/Store */ "./utils/Store.js");
 
-var _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\pages\\_app.js";
+var _jsxFileName = "C:\\Users\\Karim\\Documents\\GitHub\\PrimeTime\\client\\pages\\_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -427,6 +429,9 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
+
+const PUBLIC_KEY = "pk_test_51KcqoWJoQcapggoAHWfJs23e0bQJXyu3rMs5OuwGqOg9e7keJgvuFLqH5EOztTS7P2FcuXCz8eBCLLuN38ZRuzY600J5tq8hep";
+const stripeTestPromise = Object(_stripe_stripe_js__WEBPACK_IMPORTED_MODULE_8__["loadStripe"])(PUBLIC_KEY);
 
 
 
@@ -494,14 +499,14 @@ function MyFunctionComponent({
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68,
+      lineNumber: 78,
       columnNumber: 7
     }
   }, __jsx("title", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69,
+      lineNumber: 79,
       columnNumber: 9
     }
   }, "Unice")), loader && __jsx("div", {
@@ -509,7 +514,7 @@ function MyFunctionComponent({
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
+      lineNumber: 82,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -517,70 +522,70 @@ function MyFunctionComponent({
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 83,
       columnNumber: 11
     }
   }, __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 84,
       columnNumber: 13
     }
   }), __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
+      lineNumber: 85,
       columnNumber: 13
     }
   }), __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76,
+      lineNumber: 86,
       columnNumber: 13
     }
   }), __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77,
+      lineNumber: 87,
       columnNumber: 13
     }
   }), __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78,
+      lineNumber: 88,
       columnNumber: 13
     }
   }), __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79,
+      lineNumber: 89,
       columnNumber: 13
     }
   }), __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80,
+      lineNumber: 90,
       columnNumber: 13
     }
   }), __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81,
+      lineNumber: 91,
       columnNumber: 13
     }
   }), __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82,
+      lineNumber: 92,
       columnNumber: 13
     }
   }))), __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, children), __jsx("div", {
@@ -594,14 +599,14 @@ function MyFunctionComponent({
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 96,
       columnNumber: 7
     }
   }, __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87,
+      lineNumber: 97,
       columnNumber: 9
     }
   }, __jsx("i", {
@@ -609,7 +614,7 @@ function MyFunctionComponent({
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87,
+      lineNumber: 97,
       columnNumber: 14
     }
   }))));
@@ -624,50 +629,50 @@ function MyApp({
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 105,
       columnNumber: 5
     }
   }, __jsx(MyFunctionComponent, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 106,
       columnNumber: 7
     }
-  }, __jsx(_utils_Store__WEBPACK_IMPORTED_MODULE_16__["StoreProvider"], {
+  }, __jsx(_utils_Store__WEBPACK_IMPORTED_MODULE_17__["StoreProvider"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97,
+      lineNumber: 107,
       columnNumber: 7
     }
-  }, __jsx(_paypal_react_paypal_js__WEBPACK_IMPORTED_MODULE_7__["PayPalScriptProvider"], {
-    deferLoading: true,
+  }, __jsx(_stripe_react_stripe_js__WEBPACK_IMPORTED_MODULE_7__["Elements"], {
+    stripe: stripeTestPromise,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 108,
       columnNumber: 7
     }
   }, __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99,
+      lineNumber: 109,
       columnNumber: 9
     }
-  })))), __jsx(_containers_customizer__WEBPACK_IMPORTED_MODULE_15__["default"], {
+  })))), __jsx(_containers_customizer__WEBPACK_IMPORTED_MODULE_16__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102,
+      lineNumber: 112,
       columnNumber: 9
     }
   })), __jsx(react_toastify__WEBPACK_IMPORTED_MODULE_6__["ToastContainer"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104,
+      lineNumber: 114,
       columnNumber: 7
     }
   }));
@@ -779,7 +784,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\Karim\\Desktop\\Project\\PrimeTime\\client\\utils\\Store.js";
+var _jsxFileName = "C:\\Users\\Karim\\Documents\\GitHub\\PrimeTime\\client\\utils\\Store.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
 
 function ownKeys(object, enumerableOnly) { var keys = _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default()(object); if (_babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default.a) { var symbols = _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default()(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
@@ -902,14 +907,25 @@ module.exports = __webpack_require__(/*! private-next-pages/_app.js */"./pages/_
 
 /***/ }),
 
-/***/ "@paypal/react-paypal-js":
+/***/ "@stripe/react-stripe-js":
 /*!******************************************!*\
-  !*** external "@paypal/react-paypal-js" ***!
+  !*** external "@stripe/react-stripe-js" ***!
   \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("@paypal/react-paypal-js");
+module.exports = require("@stripe/react-stripe-js");
+
+/***/ }),
+
+/***/ "@stripe/stripe-js":
+/*!************************************!*\
+  !*** external "@stripe/stripe-js" ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@stripe/stripe-js");
 
 /***/ }),
 

@@ -2,7 +2,7 @@ import express from 'express';
 const router= express.Router();
  
 import stripe from "stripe";
-var stripe1 = stripe('sk_test_51KcqoWJoQcapggoAcqRgLXQyc3pYB9OK94khZLmfnQe0LxzQCh5t7dsmBfJQaO88qtqM1QChc0R4RS8Pf9yv8u9f00G3hBY3ci');
+ 
 import Order from '../models/order.js';
 import cors from 'cors';
 
